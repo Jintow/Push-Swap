@@ -6,7 +6,7 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/03 17:50:46 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/04 14:13:52 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/04 20:38:37 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,5 +52,20 @@ void	ft_lstadd_back(t_list **lst, t_list *new)
         temp = temp->next;
     temp->next = new;
     new->next = NULL;
+}
+
+unsigned int lst_size(t_list *lst)
+{
+	unsigned int i;
+	
+	if (!lst)
+		return (0);
+	i = 0;
+	while (lst)
+	{
+		lst = lst->next;
+		i++;
+	}
+	return (i);
 }
 
