@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   push_swap.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
+/*   By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/03 11:26:22 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/04 20:46:13 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/05 19:00:32 by jlitaudo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,26 +14,31 @@
 
 # define PUSH_SWAP_H
 
-#include <stdlib.h>
-#include <stdio.h>
-#include "ft_printf.h"
+# include <stdio.h>
+# include "libft.h"
+# include "ft_printf.h"
 
-typedef struct s_list
+typedef struct s_tab
 {
-    int				*nbr;
-    struct s_list	*next;
-}t_list;
+	int		*tab;
+	size_t	size;
+}t_tab;
 
-void	rev_rotate(t_list **list);
-void	rotate(t_list **list);
-void	push(t_list **list1, t_list **list2);
-void	swap(t_list **list);
-void	ft_lstadd_front(t_list **lst, t_list *new);
-void	ft_lstadd_back(t_list **lst, t_list *new);
-void	ft_lstdelone(t_list *lst, void (*del)(void *));
-void	ft_lstiter(t_list *lst, void (*f)(void *));
-t_list	*ft_lstlast(t_list *lst);
-t_list	*ft_lstnew(int   nbr);
-unsigned int	ft_atoi_base(char *str);
-unsigned int lst_size(t_list *lst);
+typedef struct s_listi
+{
+	int				nbr;
+	struct s_listi	*next;
+}t_listi;
+
+void	rev_rotate(t_listi **list);
+void	rotate(t_listi **list);
+void	push(t_listi **list1, t_listi **list2);
+void	swap(t_listi **list);
+void	ft_lstadd_front_loc(t_listi **lst, t_listi *new);
+void	ft_lstadd_back_loc(t_listi **lst, t_listi *new);
+void	sort_merge(t_tab *tab);
+int		*make_tab(char **str_tab, size_t size);
+t_listi	*ft_lstlast_loc(t_listi *lst);
+t_listi	*ft_lstnew_loc(int nbr);
+size_t	lst_size_loc(t_listi *lst);
 #endif

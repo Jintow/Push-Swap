@@ -3,65 +3,71 @@
 /*                                                        :::      ::::::::   */
 /*   chain_list_functions.c                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
+/*   By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/03 17:50:46 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/04 20:38:37 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/05 13:03:41 by jlitaudo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
-t_list	*ft_lstnew(int nbr)
+t_listi	*ft_lstnew_loc(int nbr)
 {
-    t_list	*new;
+	t_listi	*new;
 
-    new = malloc(sizeof(t_list *));
-    new->nbr = malloc(sizeof(int));
-    new->nbr[0] = nbr;
-    new->next = NULL;
-    return (new);
+	new = malloc(sizeof(t_listi *));
+	new->nbr = nbr;
+	new->next = NULL;
+	return (new);
 }
 
-void	ft_lstadd_front(t_list **lst, t_list *new)
+void	ft_lstadd_front_loc(t_listi **lst, t_listi *new)
 {
-    if (!new)
-        return;
-    if (!lst || !(*lst))
-    {
-        *lst = new;
-        return;
-    }
-    new->next = *lst;
-    *lst = new;
+	if (!lst)
+	{
+		if (new)
+			lst = &new;
+		return ;
+	}
+	new->next = *lst;
+	*lst = new;
 }
 
-void	ft_lstadd_back(t_list **lst, t_list *new)
+void	ft_lstadd_back_loc(t_listi **lst, t_listi *new)
 {
-    t_list	*temp;
-    
-    if (!new)
-        return;
-    if (!lst || !(*lst))
-    {
-        *lst = new;
-        return;
-    }
-    temp = *lst;
-    while (temp->next)
-        temp = temp->next;
-    temp->next = new;
-    new->next = NULL;
+	t_listi	*p_lst;
+
+	if (!lst)
+	{
+		if (new)
+			lst = &new;
+		return ;
+	}
+	if (!(*lst))
+	{
+		if (new)
+			*lst = new;
+		return ;
+	}
+	if (new)
+	{
+		p_lst = *lst;
+		while (p_lst->next)
+			p_lst = p_lst->next;
+		p_lst->next = new;
+		new->next = NULL;
+	}
 }
 
-unsigned int lst_size(t_list *lst)
+size_t	lst_size_loc(t_listi *lst)
 {
-	unsigned int i;
-	
+	size_t	i;
+
 	if (!lst)
 		return (0);
-	i = 0;
-	while (lst)
+	i = 1;
+	while (lst->next)
 	{
 		lst = lst->next;
 		i++;
@@ -69,3 +75,11 @@ unsigned int lst_size(t_list *lst)
 	return (i);
 }
 
+t_listi	*ft_lstlast_loc(t_listi *lst)
+{
+	if (!lst)
+		return (NULL);
+	while (lst->next)
+		lst = lst->next;
+	return (lst);
+}

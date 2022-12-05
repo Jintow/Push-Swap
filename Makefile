@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+         #
+#    By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/12/01 13:00:31 by jlitaudo          #+#    #+#              #
-#    Updated: 2022/12/04 20:25:43 by Teiki            ###   ########.fr        #
+#    Updated: 2022/12/05 15:33:55 by jlitaudo         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -18,20 +18,15 @@
 NAME		:= Push-Swap
 
 HEAD_DIR	:=	headers/
-LIST_HEAD	:=	push_swap.h ft_printf.h
+LIST_HEAD	:=	push_swap.h
 HEAD		:= $(addprefix $(HEAD_DIR), $(LIST_HEAD))
 
 SRC_DIR		:=	src/
-LIST_SRC	:=	push_swap.c chain_list_functions.c swap_push_rot.c \
-				\
-				utils/ft_printf.c utils/print_pointer.c utils/print_putchar.c utils/print_putnbr.c\
-				utils/print_putnbr_hex_cap.c utils/print_putnbr_hex_low.c utils/print_putnbr_unsigned.c\
-				utils/print_putstr.c utils/ft_strlen.c  utils/ft_strcmp.c utils/ft_atoi_base.c utils/ft_strupcase.c \
-				utils/ft_itoa.c utils/ft_atof.c
-SRC			:= $(addprefix $(SRC_DIR), $(LIST_SRC))
+LIST_SRC	:=	push_swap.c swap_push_rot.c chain_list_functions.c merge_sort.c
+SRC			:=	$(addprefix $(SRC_DIR), $(LIST_SRC))
 
-LIBX_DIR	:=
-LIBX		:=
+LIBX_DIR	:=	Libft/
+LIBX		:=	libft.a
 
 OBJ_DIR		:= obj/
 LIST_OBJ 	:= ${LIST_SRC:.c=.o}
@@ -40,7 +35,8 @@ OBJ			:= $(addprefix $(OBJ_DIR), $(LIST_OBJ))
 
 # Compiler options
 CC 			:= cc
-FLAG 		:= #-Wall -Wextra -Werror
+FLAG 		:= -Wall -Wextra -Werror
+FLAG_LIB	:= -I ./Libft/headers -L ./Libft/libft.a
 NORM		:= norminette -R -CheckDefine
 
 # define standard colors
@@ -66,28 +62,39 @@ all:		${NAME}
 $(OBJ_DIR)%.o: $(SRC_DIR)%.c $(HEAD)
 			@mkdir -p $(@D)
 			@echo "$(_GREEN)compiling: $<$(_END)"
-			@${CC} ${FLAG} -I $(HEAD_DIR) -c $< -o $@
+			@${CC} ${FLAG} -I $(HEAD_DIR) -I ./Libft/headers -c $< -o $@
 
-$(NAME): 	${OBJ} $(LIBX_DIR)$(LIBX) $(HEAD)
+$(NAME): 	 $(LIBX_DIR)$(LIBX) ${OBJ} $(HEAD)
 			@echo "$(_BOLD)$(_BLUE)compiling: $@$(_END)"
-			@${CC} -o ${NAME} ${OBJ} $(LIBX_DIR)${LIBX}  -framework CoreFoundation
-			@echo "$(_BOLD)$(_WHITE)$@ SUCCESFULLY CREATED$(_END)"
+			@${CC} -o ${NAME} ${OBJ} $(LIBX_DIR)${LIBX} $(FlAG_LIB) -framework CoreFoundation
+			@echo "$(_BOLD)$(_WHITE)$@ SUCCESSFULLY CREATED$(_END)"
 
 $(LIBX_DIR)$(LIBX) :
-			@echo "$(_BOLD)$(_PURPLE)compiling: $@$(_END)"
+			@echo "$(_BOLD)$(_PURPLE) Compilation of $(LIBX) begin $(_END)"
 			@make -C $(LIBX_DIR)
+			@echo
 
 norm:		$(NORM) $(SRC)
 
 push:		$(NAME)
 			@./$(NAME) 0 5 454 2135 1235 45578 4523
 clean:
-			rm -rf ${OBJ_DIR}
+			@make clean -C $(LIBX_DIR)
+			@rm -rf ${OBJ_DIR}
+			@echo "$(_RED)directory $(OBJ_DIR) deleted$(_END)"
 
 fclean: 	clean
-			rm -f ${NAME}
-#make clean -C $(LIBX_DIR)
+			@rm -f ${NAME}
+			@echo "$(_RED)$(_BOLD)$(NAME) deleted$(_END)"
+
+fcleanall:	clean
+			@make fclean -C $(LIBX_DIR)
+			@echo
+			@rm -f ${NAME}
+			@echo "$(_RED)$(_BOLD)$(NAME) deleted$(_END)"
 
 re: 		fclean all
 
-.PHONY:		all clean fclean re bonus
+reall:		fcleanall all
+
+.PHONY:		all clean fclean fcleanall re reall
