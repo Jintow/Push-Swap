@@ -6,14 +6,14 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/03 11:23:19 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/07 11:58:15 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/07 15:34:34 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
 void	print_listi(t_listi *la, t_listi *lb);
-void	pivot(t_listi **la, t_listi **lb, t_tab *tab, int i_piv);
+void	pivot(t_listi **la, t_listi **lb, int i_piv);
 
 int	main(int argc, char **argv)
 {
@@ -57,15 +57,17 @@ int	main(int argc, char **argv)
 		ft_printf("%d ", tab.tab_pivot[i]);
 	ft_printf("\n %d\n\n", tab.size_pivot);
 	add_infolst(&la, &tab);
-	print_listi(la, lb);
+	//print_listi(la, lb);
 	//AFFICHAGE DES LISTES MODIFIES PAR LE TAB DES PIVOTS
-	i = -1;
-	while (++i < (int)tab.size_pivot)
-	{
-		pivot(&la, &lb, &tab, i);
-		ft_printf("\n===\nPIVOT\n===\n");
-		print_listi(la, lb);
-	}
+	pivot(&la, &lb, 7);
+	print_listi(la, lb);
+	// i = -1;
+	// while (++i < (int)tab.size_pivot)
+	// {
+	// 	pivot(&la, &lb, tab.size_pivot - i);
+	// 	ft_printf("\n===\nPIVOT\n===\n");
+	// }
+	// print_listi(la, lb);
 	// free(tab.tab);
 	// free(tab.tab_pivot);
     return (0);
@@ -73,37 +75,76 @@ int	main(int argc, char **argv)
 /* Peut etre pas oblige de passer avec atoi mais plutot utiliser
 strcmp -> permettrait de gerer a la fois les chars et les entiers*/
 
-void	pivot(t_listi **la, t_listi **lb, t_tab *tab, int i_piv)
+int	find_max(t_listi *la, int piv)
 {
-	int			pivot;
+	int	max;
+	
+	max = 0;
+	while (la)
+	{
+		if (la->piv == piv && la->pos > max)
+			max = la->pos;
+		la = la->next;
+	}
+	return (max);
+}
+
+int	no_more_piv(t_listi	*lst, int piv)
+{
+	while (lst)
+	{
+		if (lst->piv == piv)
+			return (0);
+		lst = lst->next;
+	}
+	return (1);
+}
+
+void	pivot(t_listi **la, t_listi **lb, int i_piv)
+{
 	static unsigned int	i;
 	int			j;
-	size_t		lst_size;
+	int			k;
+	int			max;
+	int			lst_size;
 
-	if (!la)
+	if (!(*la))
 		return ;
-	pivot = tab->tab_pivot[i_piv];
-	lst_size = lst_size_loc(*la);
+	lst_size = (int)lst_size_loc(*la);
+	max =  find_max(*la, i_piv);
 	j = 0;
-	while (lst_size-- != 0)
+	k = 0;
+	while (lst_size-- > 0)
 	{
-		if ((*la)->nbr > pivot)
+		if ((*lb) && (*lb)->next && (*lb)->pos < (*lb)->next->pos)
+			{
+				if ((*la)->nbr > (*la)->next->nbr)
+					double_swap(la, lb);
+				else 
+					swap(lb);
+				i++;
+				k++;
+			}
+		if ((*la)->piv == i_piv)
 			push(lb, la);
-		else if ((*la)->nbr == pivot)
-		{
-			push(lb, la);
-			rotate(lb);
-			j++;
-		}
 		else
-			rotate(la);
+		{
+			if ((*lb) && (*lb)->piv == i_piv && (*lb)->pos > max / 2)
+			{
+				j++;
+				rotate(la);
+				rotate(lb);
+			// 	double_rotate(lb, la);
+			}
+			else
+				rotate(la);
+		}
 		i++;
-		if (lst_size_loc(*la) == 2)
+		//print_listi(*la, *lb);
+		if (lst_size_loc(*la) == 2 || no_more_piv(*la, i_piv))
 			break;
 	}
-	while (j--)
-		rev_rotate(lb);
-	ft_printf("\n\napres pivot (%d) (ci-dessous) : nb op tot: %d\n",pivot, i);
+	ft_printf("\n\napres pivot (%d) (ci-dessous) : nb op tot: %d, double_rot :%d, double swap :%d\n",i_piv, i, j, k);
 }
 
 void	print_listi(t_listi *la, t_listi *lb)

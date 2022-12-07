@@ -6,7 +6,7 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/05 15:02:18 by jlitaudo          #+#    #+#             */
-/*   Updated: 2022/12/07 12:01:32 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/07 12:25:27 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -115,9 +115,9 @@ void	add_infolst(t_listi **list, t_tab *tab)
 
 	lst = *list;
 	k = -1;
-	// while (++k < (int)tab->size_pivot + 2)
-	// 	ft_printf("%d(%d') ", tab->tab_pivot_ind[k], k);
-	// ft_printf("\n\n");
+	while (++k < (int)tab->size_pivot + 2)
+		ft_printf("%d(%d') ", tab->tab_pivot_ind[k], k);
+	ft_printf("\n\n");
 	while (lst)
 	{
 		i = 0;

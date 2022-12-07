@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   swap_push_rot.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+        */
+/*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/04 14:03:33 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/05 13:03:41 by jlitaudo         ###   ########.fr       */
+/*   Updated: 2022/12/07 15:26:30 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,30 @@ void	swap(t_listi **list)
 	first->next = second->next;
 	second->next = first;
 	*list = second;
+}
+
+void	double_swap(t_listi **la, t_listi **lb)
+{
+	t_listi	*first;
+	t_listi	*second;
+
+	if ((*la) && (*la)->next)
+	{
+		first = *la;
+		second = first->next;
+		first->next = second->next;
+		second->next = first;
+		*la = second;
+	}
+	if ((*lb) || (*lb)->next)
+	{
+		first = *lb;
+		second = first->next;
+		first->next = second->next;
+		second->next = first;
+		*lb = second;
+	}
+	ft_printf("sss\n");
 }
 
 void	push(t_listi **list1, t_listi **list2)
@@ -57,6 +81,25 @@ void	rotate(t_listi **list)
 	*list = second;
 }
 
+void	double_rotate(t_listi **la, t_listi **lb)
+{
+	t_listi	*second;
+
+	if ((*la) && (*la)->next)
+	{
+		second = (*la)->next;
+		ft_lstadd_back_loc(la, *la);
+		*la = second;
+	}
+	if ((*lb) && (*lb)->next)
+	{
+		second = (*la)->next;
+		ft_lstadd_back_loc(lb, *lb);
+		*lb = second;
+	}
+	ft_printf("rr\n");
+}
+
 void	rev_rotate(t_listi **list)
 {
 	t_listi	*last;
@@ -71,4 +114,44 @@ void	rev_rotate(t_listi **list)
 	temp->next = NULL;
 	last->next = *list;
 	*list = last;
+}
+
+void	double_rev_rotate2(t_listi **lb)
+{
+	t_listi	*last;
+	t_listi	*temp;
+	
+	if ((*lb) && !(*lb)->next)
+	{
+		temp = *lb;
+		while (temp->next->next)
+		{
+			temp = temp->next;
+			last = temp->next;
+			temp->next = NULL;
+			last->next = *lb;
+			*lb = last;
+		}
+	}
+	ft_printf("rrr\n");
+}
+
+void	double_rev_rotate(t_listi **la, t_listi **lb)
+{
+	t_listi	*last;
+	t_listi	*temp;
+
+	if ((*la) && (*la)->next)
+	{
+		temp = *la;
+		while (temp->next->next)
+		{
+			temp = temp->next;
+			last = temp->next;
+			temp->next = NULL;
+			last->next = *la;
+			*la = last;
+		}
+	}
+	double_rev_rotate2(lb);
 }
