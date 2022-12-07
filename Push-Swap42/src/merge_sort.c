@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   merge_sort.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+        */
+/*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/05 15:02:18 by jlitaudo          #+#    #+#             */
-/*   Updated: 2022/12/06 19:54:08 by jlitaudo         ###   ########.fr       */
+/*   Updated: 2022/12/07 01:42:30 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -78,29 +78,64 @@ void	make_tab_piv(t_tab	*tab)
 {
 	size_t	size_pivot;
 	size_t	size_temp;
-	size_t	size_prev;
 
-	size_temp = tab->size / 2;
+	size_temp = (tab->size + 1) / 2;
 	size_pivot = 0;
 	ft_printf("%d\n", tab->size - size_temp);
 	while (tab->size - size_temp >= 2)
 	{
-		size_temp = size_temp + (tab->size - size_temp) / 2;
+		size_temp = size_temp + (tab->size - size_temp + 1) / 2;
 		size_pivot++;
 		ft_printf("%d\n", tab->size - size_temp);
 	}
 	tab->tab_pivot = malloc(sizeof(int) * size_pivot);
+	tab->tab_pivot_ind = malloc(sizeof(int) * (size_pivot + 2));
 	tab->size_pivot = size_pivot;
-	size_temp = tab->size / 2;
+	size_temp = (tab->size + 1) / 2;
 	size_pivot = 0;
-	size_prev = size_temp;
+	tab->tab_pivot_ind[0] = 0;
 	while (tab->size - size_temp >= 2)
 	{
-		tab->tab_pivot[size_pivot++] = tab->tab[size_temp - 1];
+		tab->tab_pivot[size_pivot] = tab->tab[size_temp - 1];
+		tab->tab_pivot_ind[++size_pivot] = size_temp - 1;
 		ft_printf("\n pivot %d(N%d) = %d\n", size_pivot, size_temp, tab->tab[size_temp - 1]);
-		size_prev = size_temp;
-		size_temp = size_temp + (tab->size - size_temp) / 2;
+		size_temp = size_temp + (tab->size - size_temp + 1) / 2;
 	}
+	tab->tab_pivot_ind[size_pivot + 1] = tab->size - 1;
 	// if (tab->size == 4 || tab->size == 5)
 	// 	tab->tab_pivot[0] = tab->tab[tab->size - 3];
+}
+
+void	add_infolst(t_listi **list, t_tab *tab)
+{
+	t_listi *lst;
+	int		i;
+	int		j;
+
+	lst = *list;
+	while (lst)
+	{
+		i = 0;
+		while (tab->tab[i] != lst->nbr)
+			i++;
+		j = 0;
+		while (tab->tab_pivot_ind[j] < i)
+			j++;
+		if (i == 0)
+		{
+			lst->piv = 0;
+			lst->pos = 0;
+		}
+		else
+		{
+			if (lst->nbr == tab->tab_pivot[j - 1])
+				lst->pos = -1;
+			else if ((j - 1 != tab->size_pivot + 2) && (i + 1 == tab->tab_pivot_ind[j]))
+				lst->pos = -2;
+			else
+				lst->pos = i - tab->tab_pivot_ind[j - 1];
+			lst->piv = j - 1;
+		}
+		lst = lst->next;
+	}
 }
