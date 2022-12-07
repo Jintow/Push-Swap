@@ -6,13 +6,13 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/04 14:03:33 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/07 15:42:34 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/07 16:17:45 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
-void	swap(t_listi **list)
+void	swap(t_listi **list, char c)
 {
 	t_listi	*first;
 	t_listi	*second;
@@ -24,6 +24,10 @@ void	swap(t_listi **list)
 	first->next = second->next;
 	second->next = first;
 	*list = second;
+	if (c == 'a')
+		ft_printf("sa\n");
+	else
+		ft_printf("sb\n");
 }
 
 void	double_swap(t_listi **la, t_listi **lb)
@@ -50,7 +54,7 @@ void	double_swap(t_listi **la, t_listi **lb)
 	ft_printf("sss\n");
 }
 
-void	push(t_listi **list1, t_listi **list2)
+void	push(t_listi **list1, t_listi **list2, char c)
 {
 	t_listi	*temp;
 
@@ -68,9 +72,13 @@ void	push(t_listi **list1, t_listi **list2)
 		ft_lstadd_front_loc(list1, *list2);
 		*list2 = temp;
 	}
+	if (c == 'a')
+		ft_printf("pa\n");
+	else
+		ft_printf("pb\n");
 }
 
-void	rotate(t_listi **list)
+void	rotate(t_listi **list, char c)
 {
 	t_listi	*second;
 
@@ -79,6 +87,10 @@ void	rotate(t_listi **list)
 	second = (*list)->next;
 	ft_lstadd_back_loc(list, *list);
 	*list = second;
+	if (c == 'a')
+		ft_printf("ra\n");
+	else
+		ft_printf("rb\n");
 }
 
 void	double_rotate(t_listi **la, t_listi **lb)
@@ -100,7 +112,7 @@ void	double_rotate(t_listi **la, t_listi **lb)
 	ft_printf("rr\n");
 }
 
-void	rev_rotate(t_listi **list)
+void	rev_rotate(t_listi **list, char c)
 {
 	t_listi	*last;
 	t_listi	*temp;
@@ -114,6 +126,10 @@ void	rev_rotate(t_listi **list)
 	temp->next = NULL;
 	last->next = *list;
 	*list = last;
+	if (c == 'a')
+		ft_printf("rra\n");
+	else
+		ft_printf("rrb\n");
 }
 
 void	double_rev_rotate2(t_listi **lb)

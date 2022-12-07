@@ -6,7 +6,7 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/03 11:23:19 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/07 15:43:29 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/07 15:57:06 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -97,6 +97,7 @@ int	no_more_piv(t_listi	*lst, int piv)
 			return (0);
 		lst = lst->next;
 	}
+	ft_printf("INCROYABLE");
 	return (1);
 }
 
@@ -121,12 +122,12 @@ void	pivot(t_listi **la, t_listi **lb, int i_piv)
 				if ((*la)->nbr > (*la)->next->nbr)
 					double_swap(la, lb);
 				else 
-					swap(lb);
+					swap(lb, 'b');
 				i++;
 				k++;
 			}
 		if ((*la)->piv == i_piv)
-			push(lb, la);
+			push(lb, la, 'b');
 		else
 		{
 			if ((*lb) && (*lb)->pos > max / 2)
@@ -135,13 +136,14 @@ void	pivot(t_listi **la, t_listi **lb, int i_piv)
 				double_rotate(la, lb);
 			}
 			else
-				rotate(la);
+				rotate(la, 'a');
 		}
 		i++;
 		//print_listi(*la, *lb);
 		if (lst_size_loc(*la) == 2 || no_more_piv(*la, i_piv))
 			break;
 	}
+	ft_printf("\n%d : lst_size", lst_size);
 	ft_printf("\n\napres pivot (%d) (ci-dessous) : nb op tot: %d, double_rot :%d, double swap :%d\n",i_piv, i, j, k);
 }
 

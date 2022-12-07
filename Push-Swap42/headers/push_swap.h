@@ -6,7 +6,7 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/03 11:26:22 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/07 13:39:47 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/07 15:56:52 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,12 +50,12 @@ typedef struct s_listi
 
 // }t_listsmpl;
 
-void	rev_rotate(t_listi **list);
+void	rev_rotate(t_listi **list, char c);
 void	double_rev_rotate(t_listi **la, t_listi **lb);
-void	rotate(t_listi **list);
+void	rotate(t_listi **list, char c);
 void	double_rotate(t_listi **la, t_listi **lb);
-void	push(t_listi **list1, t_listi **list2);
-void	swap(t_listi **list);
+void	push(t_listi **list1, t_listi **list2, char c);
+void	swap(t_listi **list, char c);
 void	double_swap(t_listi **la, t_listi **lb);
 void	ft_lstadd_front_loc(t_listi **lst, t_listi *new);
 void	ft_lstadd_back_loc(t_listi **lst, t_listi *new);
