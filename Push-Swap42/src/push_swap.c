@@ -6,7 +6,7 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/03 11:23:19 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/07 15:34:34 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/07 15:43:29 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -129,12 +129,10 @@ void	pivot(t_listi **la, t_listi **lb, int i_piv)
 			push(lb, la);
 		else
 		{
-			if ((*lb) && (*lb)->piv == i_piv && (*lb)->pos > max / 2)
+			if ((*lb) && (*lb)->pos > max / 2)
 			{
 				j++;
-				rotate(la);
-				rotate(lb);
-			// 	double_rotate(lb, la);
+				double_rotate(la, lb);
 			}
 			else
 				rotate(la);

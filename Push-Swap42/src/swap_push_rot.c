@@ -6,7 +6,7 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/04 14:03:33 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/07 15:26:30 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/07 15:42:34 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -93,7 +93,7 @@ void	double_rotate(t_listi **la, t_listi **lb)
 	}
 	if ((*lb) && (*lb)->next)
 	{
-		second = (*la)->next;
+		second = (*lb)->next;
 		ft_lstadd_back_loc(lb, *lb);
 		*lb = second;
 	}
