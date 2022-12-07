@@ -6,7 +6,7 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/03 11:23:19 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/07 10:20:35 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/07 11:58:15 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,15 +59,15 @@ int	main(int argc, char **argv)
 	add_infolst(&la, &tab);
 	print_listi(la, lb);
 	//AFFICHAGE DES LISTES MODIFIES PAR LE TAB DES PIVOTS
-	// i = -1;
-	// while (++i < (int)tab.size_pivot)
-	// {
-	// 	pivot(&la, &lb, &tab, i);
-	// 	ft_printf("\n===\nPIVOT\n===\n");
-	// 	print_listi(la, lb);
-	// }
-	free(tab.tab);
-	free(tab.tab_pivot);
+	i = -1;
+	while (++i < (int)tab.size_pivot)
+	{
+		pivot(&la, &lb, &tab, i);
+		ft_printf("\n===\nPIVOT\n===\n");
+		print_listi(la, lb);
+	}
+	// free(tab.tab);
+	// free(tab.tab_pivot);
     return (0);
 }
 /* Peut etre pas oblige de passer avec atoi mais plutot utiliser
@@ -112,18 +112,20 @@ void	print_listi(t_listi *la, t_listi *lb)
 	{
 		if (la)
 		{
-			ft_printf("%d ([%d][%d])", la->nbr, la->piv, la->pos);
+			ft_printf("%d\t([%d][%d])", la->nbr, la->piv, la->pos);
 			la = la->next;
 		}
-		ft_printf("\t\t");
+		else
+			ft_printf("\t\t");
 		if (lb)
 		{
-			ft_printf("%d, ([%d][%d])", lb->nbr, lb->piv, lb->pos);
+			ft_printf("\t");
+			ft_printf("%d\t([%d][%d])", lb->nbr, lb->piv, lb->pos);
 			lb = lb->next;
 		}
 		ft_printf("\n");
 	}
-	ft_printf("---------\t---------\n    a    \t    b    \n");
+	ft_printf("-----------------\t------------------\n\ta\t\t\tb\t\n");
 }
 
 	
