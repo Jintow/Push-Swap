@@ -6,7 +6,7 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/04 14:03:33 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/07 16:17:45 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/07 17:05:25 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -137,17 +137,15 @@ void	double_rev_rotate2(t_listi **lb)
 	t_listi	*last;
 	t_listi	*temp;
 	
-	if ((*lb) && !(*lb)->next)
+	if ((*lb) && (*lb)->next)
 	{
 		temp = *lb;
 		while (temp->next->next)
-		{
 			temp = temp->next;
-			last = temp->next;
-			temp->next = NULL;
-			last->next = *lb;
-			*lb = last;
-		}
+		last = temp->next;
+		temp->next = NULL;
+		last->next = *lb;
+		*lb = last;
 	}
 	ft_printf("rrr\n");
 }
@@ -161,13 +159,11 @@ void	double_rev_rotate(t_listi **la, t_listi **lb)
 	{
 		temp = *la;
 		while (temp->next->next)
-		{
 			temp = temp->next;
-			last = temp->next;
-			temp->next = NULL;
-			last->next = *la;
-			*la = last;
-		}
+		last = temp->next;
+		temp->next = NULL;
+		last->next = *la;
+		*la = last;
 	}
 	double_rev_rotate2(lb);
 }

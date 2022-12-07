@@ -6,7 +6,7 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/03 11:23:19 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/07 15:57:06 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/07 17:10:48 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 
 void	print_listi(t_listi *la, t_listi *lb);
 void	pivot(t_listi **la, t_listi **lb, int i_piv);
+void	pivot2(t_listi **la, t_listi **lb, int i_piv);
 
 int	main(int argc, char **argv)
 {
@@ -60,6 +61,7 @@ int	main(int argc, char **argv)
 	//print_listi(la, lb);
 	//AFFICHAGE DES LISTES MODIFIES PAR LE TAB DES PIVOTS
 	pivot(&la, &lb, 7);
+	pivot2(&la, &lb, 6);
 	print_listi(la, lb);
 	// i = -1;
 	// while (++i < (int)tab.size_pivot)
@@ -120,10 +122,12 @@ void	pivot(t_listi **la, t_listi **lb, int i_piv)
 		if ((*lb) && (*lb)->next && (*lb)->pos < (*lb)->next->pos)
 			{
 				if ((*la)->nbr > (*la)->next->nbr)
+				{
 					double_swap(la, lb);
+					i++;
+				}
 				else 
 					swap(lb, 'b');
-				i++;
 				k++;
 			}
 		if ((*la)->piv == i_piv)
@@ -145,6 +149,76 @@ void	pivot(t_listi **la, t_listi **lb, int i_piv)
 	}
 	ft_printf("\n%d : lst_size", lst_size);
 	ft_printf("\n\napres pivot (%d) (ci-dessous) : nb op tot: %d, double_rot :%d, double swap :%d\n",i_piv, i, j, k);
+}
+
+void	pivot2(t_listi **la, t_listi **lb, int i_piv)
+{
+	static unsigned int	i;
+	static	int			j;
+	static	int			k;
+	static	int			l;
+	int			max;
+	int			lst_size;
+
+	if (!(*la))
+		return ;
+	lst_size = (int)lst_size_loc(*la);
+	max =  find_max(*la, i_piv);
+	while (lst_size-- > 0)
+	{
+		if ((*lb) && (*lb)->next && (*lb)->pos > (*lb)->next->pos)
+		{
+			if ((*la)->nbr > (*la)->next->nbr)
+			{
+				double_swap(la, lb);
+				k++;
+			}
+			else 
+				swap(lb, 'b');
+			i++;
+		}
+		if ((*la)->piv == i_piv)
+			push(lb, la, 'b');
+		else
+		{
+			if ((*lb) && (*lb)->pos < max / 2)
+			{
+				j++;
+				double_rotate(la, lb);
+			}
+			else
+				rotate(la, 'a');
+		}
+		i++;
+		//print_listi(*la, *lb);
+		if (lst_size_loc(*la) == 2 || no_more_piv(*la, i_piv))
+			break;
+	}
+	ft_printf("\n%d : lst_size", lst_size);
+	while (ft_lstlast_loc(*lb)->piv == i_piv)
+	{
+		//ft_printf("OK\n");
+		if ((*lb) && (*lb)->next && (*lb)->pos > (*lb)->next->pos)
+		{
+			if ((*la)->nbr < (*la)->next->nbr)
+			{
+				double_swap(la, lb);
+				k++;
+			}
+			else 
+				swap(lb, 'b');
+			i++;
+		}
+		// if (ft_lstlast_loc(*la)->piv == i_piv - 1)
+		// {
+		double_rev_rotate(la, lb);
+		l++;
+		// }
+		// else
+		//rev_rotate(lb, 'b');
+		// i++;
+	}
+	ft_printf("\n\napres pivot (%d) (ci-dessous) : nb op tot: %d, double_rot :%d, double swap :%d, double rev_rot : %d, max :%d\n",i_piv, i, j, k, l, max);
 }
 
 void	print_listi(t_listi *la, t_listi *lb)
