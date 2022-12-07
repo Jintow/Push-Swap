@@ -6,7 +6,7 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/03 11:23:19 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/07 01:03:20 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/07 10:20:35 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,11 +39,11 @@ int	main(int argc, char **argv)
 	// while (i < (int)size)
 	// 	ft_printf("%d ", tab.tab[i++]);
 	// ft_printf("\n\n");
-	//AFFCIHAGE DU TABLEAU TRIE INVERSE
+	//AFFCIHAGE DU TABLEAU TRIE inverse, mais indices bon ordre
 	sort_merge(&tab);
 	i = -1;
 	while (++i < (int)size)
-		ft_printf("%d(%d') ", tab.tab[i], i  + 1);
+		ft_printf("%d(%d') ", tab.tab[size - i - 1], size - i);
 	ft_printf("\n\n");
 	i = -1;
 	//AFFICHAGE DU TABLEAU DES PIVOTS
