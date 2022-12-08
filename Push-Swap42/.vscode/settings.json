@@ -1,5 +1,17 @@
 {
 	"files.associations": {
 		"ostream": "c"
-	}
+	},
+	"codam-norminette-3.displayErrorName": true
+	
+}
+{
+    "codam-norminette-3.command": "norminette", // command that the highlighter executes to get the norm errors
+    "codam-norminette-3.fileregex": "\\.[ch]$", // regex that matches the files you want to norm check
+    // "codam-norminette-3.ignoreErrors": [ // do not highlight these norm errors
+        // "WRONG_SCOPE_COMMENT",
+        // "LINE_TOO_LONG"
+    // ],
+    "codam-norminette-3.highlight-color": "rgba(255, 0, 0, 0.2)", // highlight norm errors in custom color. Can be in rgba, hex, or vscode.ThemeColor format.
+    "codam-norminette-3.displayErrorName": false // display name of error on hover
 }
