@@ -6,7 +6,7 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/03 11:26:22 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/08 15:23:36 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/08 16:13:23 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -68,6 +68,7 @@ void	add_infolst(t_listi **list, t_tab *tab);
 void	print_listi(t_listi *la, t_listi *lb);
 int		*make_tab(char **str_tab, size_t size);
 int		no_more_piv(t_listi	*lst, int piv);
+int		test_swap_la(t_listi **la);
 t_listi	*ft_lstlast_loc(t_listi *lst);
 t_listi	*ft_lstnew_loc(int nbr);
 size_t	lst_size_loc(t_listi *lst);
