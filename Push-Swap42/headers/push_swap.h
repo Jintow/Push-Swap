@@ -6,7 +6,7 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/03 11:26:22 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/07 15:56:52 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/08 00:45:13 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ typedef struct s_listi
 	struct s_listi	*next;
 	int				nbr;
 	int				piv;
-	int				ind_max;
+	int				low_piv;
 	int				pos;
 }t_listi;
 

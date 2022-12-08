@@ -6,7 +6,7 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/03 11:23:19 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/08 00:06:50 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/08 01:55:56 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 void	print_listi(t_listi *la, t_listi *lb);
 void	pivot(t_listi **la, t_listi **lb, int i_piv);
 void	pivot2(t_listi **la, t_listi **lb, int i_piv);
+void	split_categ(t_listi **lst, int max_piv);
 
 int	main(int argc, char **argv)
 {
@@ -60,13 +61,22 @@ int	main(int argc, char **argv)
 	add_infolst(&la, &tab);
 	//print_listi(la, lb);
 	//AFFICHAGE DES LISTES MODIFIES PAR LE TAB DES PIVOTS
+	split_categ(&la, 7);
 	pivot(&la, &lb, 7);
 	pivot2(&la, &lb, 6);
+	pivot2(&la, &lb, 5);
+	pivot2(&la, &lb, 4);
+	pivot2(&la, &lb, 3);
+	pivot2(&la, &lb, 2);
 	print_listi(la, lb);
-	// i = -1;
-	// while (++i < (int)tab.size_pivot)
+	i = 7;
+	// while (i > 0)
 	// {
-	// 	pivot(&la, &lb, tab.size_pivot - i);
+	// 	if ( i == 7)
+	// 		pivot(&la, &lb, tab.size_pivot - i);
+	// 	else
+	// 		pivot2(&la, &lb, i);
+	// 	i--;
 	// 	ft_printf("\n===\nPIVOT\n===\n");
 	// }
 	// print_listi(la, lb);
@@ -108,20 +118,18 @@ void	pivot(t_listi **la, t_listi **lb, int i_piv)
 	static unsigned int	i;
 	int			j;
 	int			k;
-	int			max;
 	int			lst_size;
 
 	if (!(*la))
 		return ;
 	lst_size = (int)lst_size_loc(*la);
-	max =  find_max(*la, i_piv);
 	j = 0;
 	k = 0;
 	while (lst_size-- > 0)
 	{
-		if ((*lb) && (*lb)->next && (*lb)->pos < (*lb)->next->pos)
+		if ((*lb) && (*lb)->next && (*lb)->nbr < (*lb)->next->nbr)
 			{
-				if ((*la)->nbr > (*la)->next->nbr)
+				if ((*la)->nbr > (*la)->next->nbr && (*la)->low_piv != (*la)->next->low_piv)
 				{
 					double_swap(la, lb);
 					k++;
@@ -133,7 +141,7 @@ void	pivot(t_listi **la, t_listi **lb, int i_piv)
 		if ((*la)->piv == i_piv)
 		{
 			push(lb, la, 'b');
-			if ((*la)->pos > max / 2 && (*la)->piv == i_piv && (*lb)->pos > max / 2)
+			if ((*la)->low_piv == 1 && (*la)->piv == i_piv && (*lb)->low_piv == 1)
 			{
 				rotate(lb, 'b');
 				i++;
@@ -141,7 +149,7 @@ void	pivot(t_listi **la, t_listi **lb, int i_piv)
 		}
 		else
 		{
-			if ((*lb) && (*lb)->pos > max / 2)
+			if ((*lb) && (*lb)->low_piv == 1 && (*lb)->piv == i_piv)
 			{
 				j++;
 				double_rotate(la, lb);
@@ -154,13 +162,13 @@ void	pivot(t_listi **la, t_listi **lb, int i_piv)
 		if (lst_size_loc(*la) == 2 || no_more_piv(*la, i_piv))
 			break;
 	}
-	if ((*lb) && (*lb)->pos > max / 2)
+	if ((*lb) && (*lb)->low_piv == 1)
 	{
 		i++;
-		double_rotate(la, lb);
+		rotate(lb, 'b');
 	}
 	ft_printf("\n%d : lst_size", lst_size);
-	ft_printf("\n\napres pivot (%d) (ci-dessous) : nb op tot: %d, double_rot :%d, double swap :%d, max : %d\n",i_piv, i, j, k, max / 2);
+	ft_printf("\n\napres pivot (%d) (ci-dessous) : nb op tot: %d, double_rot :%d, double swap :%d\n",i_piv, i, j, k);
 }
 
 
@@ -171,18 +179,16 @@ void	pivot2(t_listi **la, t_listi **lb, int i_piv)
 	static	int			j;
 	static	int			k;
 	static	int			l;
-	int			max;
 	int			lst_size;
 
 	if (!(*la))
 		return ;
 	lst_size = (int)lst_size_loc(*la);
-	max =  find_max(*la, i_piv);
 	while (lst_size-- > 0)
 	{
-		if ((*lb) && (*lb)->next && (*lb)->pos > (*lb)->next->pos)
+		if ((*lb) && (*lb)->next && (*lb)->nbr > (*lb)->next->nbr)
 		{
-			if ((*la)->nbr > (*la)->next->nbr)
+			if ((*la)->nbr > (*la)->next->nbr && (*la)->low_piv != (*la)->next->low_piv)
 			{
 				double_swap(la, lb);
 				k++;
@@ -194,7 +200,7 @@ void	pivot2(t_listi **la, t_listi **lb, int i_piv)
 		if ((*la)->piv == i_piv)
 		{
 			push(lb, la, 'b');
-			if ((*la)->pos > max / 2 && (*la)->piv == i_piv && (*lb)->pos > max / 2)
+			if ((*la)->piv == i_piv && (*la)->next->piv == i_piv && (*lb)->low_piv == 0)
 			{
 				rotate(lb, 'b');
 				i++;
@@ -202,7 +208,7 @@ void	pivot2(t_listi **la, t_listi **lb, int i_piv)
 		}
 		else
 		{
-			if ((*lb) && (*lb)->pos < max / 2)
+			if ((*lb) && (*lb)->low_piv == 0 && (*lb)->piv == i_piv)
 			{
 				j++;
 				double_rotate(la, lb);
@@ -216,10 +222,10 @@ void	pivot2(t_listi **la, t_listi **lb, int i_piv)
 			break;
 	}
 	ft_printf("\n%d : lst_size\n", lst_size);
-	while (ft_lstlast_loc(*lb)->piv == i_piv)
+	while (ft_lstlast_loc(*lb)->low_piv == 0)
 	{
 		//ft_printf("OK\n");
-		if ((*lb) && (*lb)->next && (*lb)->pos > (*lb)->next->pos)
+		if ((*lb) && (*lb)->next && (*lb)->nbr > (*lb)->next->nbr)
 		{
 			if ((*la)->nbr < (*la)->next->nbr)
 			{
@@ -239,7 +245,35 @@ void	pivot2(t_listi **la, t_listi **lb, int i_piv)
 		//rev_rotate(lb, 'b');
 		// i++;
 	}
-	ft_printf("\n\napres pivot (%d) (ci-dessous) : nb op tot: %d, double_rot :%d, double swap :%d, double rev_rot : %d, max / 2:%d\n",i_piv, i, j, k, l, max / 2);
+	ft_printf("\n\napres pivot (%d) (ci-dessous) : nb op tot: %d, double_rot :%d, double swap :%d, double rev_rot : %d\n",i_piv, i, j, k, l);
+}
+
+void	split_categ(t_listi **lst, int max_piv)
+{
+	int		pos_max;
+	t_listi	*temp;
+	
+	while (max_piv >= 0)
+	{
+		pos_max = find_max(*lst, max_piv);
+		pos_max /= 2;
+		temp = *lst;
+		while (temp)
+		{
+			if (temp->piv == max_piv)
+			{
+				if (temp->pos > pos_max)
+				{
+					temp->pos -= pos_max;
+					temp->low_piv = 1;
+				}
+				else
+					temp->low_piv = 0;
+			}
+			temp = temp->next;
+		}
+		max_piv--;
+	}
 }
 
 void	print_listi(t_listi *la, t_listi *lb)
@@ -248,7 +282,7 @@ void	print_listi(t_listi *la, t_listi *lb)
 	{
 		if (la)
 		{
-			ft_printf("%d\t([%d][%d])", la->nbr, la->piv, la->pos);
+			ft_printf("%d\t([%d][%d][%d])", la->nbr, la->piv, la->low_piv, la->pos);
 			la = la->next;
 		}
 		else
@@ -256,7 +290,7 @@ void	print_listi(t_listi *la, t_listi *lb)
 		if (lb)
 		{
 			ft_printf("\t");
-			ft_printf("%d\t([%d][%d])", lb->nbr, lb->piv, lb->pos);
+			ft_printf("%d\t([%d][%d][%d])", lb->nbr, lb->piv, lb->low_piv, lb->pos);
 			lb = lb->next;
 		}
 		ft_printf("\n");
