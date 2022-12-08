@@ -6,7 +6,7 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/05 15:02:18 by jlitaudo          #+#    #+#             */
-/*   Updated: 2022/12/07 12:25:27 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/08 15:15:49 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -72,73 +72,4 @@ void	merge_tab(t_tab *tab_g, t_tab *tab_d, t_tab *tab_tot)
 		tab_tot->tab[k++] = tab_g->tab[i++];
 	free(tab_g->tab);
 	free(tab_d->tab);
-}
-
-void	make_tab_piv(t_tab	*tab)
-{
-	size_t	size_pivot;
-	size_t	size_temp;
-
-	size_temp = (tab->size + 1) / 2;
-	size_pivot = 0;
-	ft_printf("%d\n", tab->size - size_temp);
-	while (tab->size - size_temp >= 2)
-	{
-		size_temp = size_temp + (tab->size - size_temp + 1) / 2;
-		size_pivot++;
-		ft_printf("%d\n", tab->size - size_temp);
-	}
-	tab->tab_pivot = malloc(sizeof(int) * size_pivot);
-	tab->tab_pivot_ind = malloc(sizeof(int) * (size_pivot + 2));
-	tab->size_pivot = size_pivot;
-	size_temp = (tab->size + 1) / 2;
-	size_pivot = 0;
-	tab->tab_pivot_ind[0] = 0;
-	while (tab->size - size_temp >= 2)
-	{
-		tab->tab_pivot[size_pivot++] = tab->tab[tab->size - size_temp];
-		tab->tab_pivot_ind[tab->size_pivot + 1 - size_pivot] = tab->size - size_temp;
-		ft_printf("\n pivot %d(N%d) = %d\n", size_pivot, tab->size - size_temp + 1, tab->tab[tab->size - size_temp]);
-		size_temp = size_temp + (tab->size - size_temp + 1) / 2;
-	}
-	tab->tab_pivot_ind[size_pivot + 1] = tab->size - 1;
-	// if (tab->size == 4 || tab->size == 5)
-	// 	tab->tab_pivot[0] = tab->tab[tab->size - 3];
-}
-
-void	add_infolst(t_listi **list, t_tab *tab)
-{
-	t_listi *lst;
-	int		i;
-	int		j;
-	int		k;
-
-	lst = *list;
-	k = -1;
-	while (++k < (int)tab->size_pivot + 2)
-		ft_printf("%d(%d') ", tab->tab_pivot_ind[k], k);
-	ft_printf("\n\n");
-	while (lst)
-	{
-		i = 0;
-		while (tab->tab[i] != lst->nbr)
-			i++;
-		j = 0;
-		while (tab->tab_pivot_ind[j] < i)
-			j++;
-		if (tab->tab_pivot_ind[j] == i && j != tab->size_pivot + 1)
-			j++;
-		//ft_printf("nb : %d, i : %d, j : %d\n ", lst->nbr, i ,j);
-		if (i == 0)
-		{
-			lst->piv = 0;
-			lst->pos = 0;
-		}
-		else
-		{
-			lst->pos = i - tab->tab_pivot_ind[j - 1];
-			lst->piv = j - 1;
-		}
-		lst = lst->next;
-	}
 }

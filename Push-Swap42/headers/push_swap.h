@@ -6,7 +6,7 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/03 11:26:22 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/08 00:45:13 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/08 15:23:36 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,10 +59,15 @@ void	swap(t_listi **list, char c);
 void	double_swap(t_listi **la, t_listi **lb);
 void	ft_lstadd_front_loc(t_listi **lst, t_listi *new);
 void	ft_lstadd_back_loc(t_listi **lst, t_listi *new);
+void	pivot(t_listi **la, t_listi **lb, int i_piv);
+void	pivot2(t_listi **la, t_listi **lb, int i_piv);
 void	sort_merge(t_tab *tab);
-int		*make_tab(char **str_tab, size_t size);
 void	make_tab_piv(t_tab	*tab);
+void	split_categ(t_listi **lst, int max_piv);
 void	add_infolst(t_listi **list, t_tab *tab);
+void	print_listi(t_listi *la, t_listi *lb);
+int		*make_tab(char **str_tab, size_t size);
+int		no_more_piv(t_listi	*lst, int piv);
 t_listi	*ft_lstlast_loc(t_listi *lst);
 t_listi	*ft_lstnew_loc(int nbr);
 size_t	lst_size_loc(t_listi *lst);
