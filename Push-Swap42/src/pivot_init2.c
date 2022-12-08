@@ -6,7 +6,7 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/08 14:43:21 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/08 16:13:52 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/08 23:41:15 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ void	pivot2(t_listi **la, t_listi **lb, int i_piv)
 	lst_size = (int)lst_size_loc(*la);
 	while (lst_size-- > 0)
 	{
-		i += test_swap2(la, lb, i_piv);
+		// i += test_swap2(la, lb, i_piv);
 		i += test_rot_push2(la, lb, i_piv);
 		i++;
 		if (lst_size_loc(*la) == 2 || no_more_piv(*la, i_piv))
@@ -50,11 +50,11 @@ int	test_swap2(t_listi **la, t_listi **lb, int i_piv)
 			swap(lb, 'b');
 		i++;
 	}
-	if (test_swap_la(la))
-	{
-		swap(la, 'a');
-		i++;
-	}
+	// if (test_swap_la(la))
+	// {
+	// 	swap(la, 'a');
+	// 	i++;
+	// }
 	return (i);
 }
 
@@ -89,14 +89,14 @@ int	test_rev_rot(t_listi **la, t_listi **lb, int i_piv)
 	i = 0;	
 	while (ft_lstlast_loc(*lb)->low_piv == 0)
 	{
-		if ((*lb) && (*lb)->next && (*lb)->nbr > (*lb)->next->nbr)
-		{
-			if (test_swap_la(la))
-				double_swap(la, lb);
-			else 
-				swap(lb, 'b');
-			i++;
-		}
+		// if ((*lb) && (*lb)->next && (*lb)->nbr > (*lb)->next->nbr)
+		// {
+		// 	if (test_swap_la(la))
+		// 		double_swap(la, lb);
+		// 	else 
+		// 		swap(lb, 'b');
+		// 	i++;
+		// }
 		double_rev_rotate(la, lb);
 		i++;
 	}
@@ -106,9 +106,9 @@ int	test_rev_rot(t_listi **la, t_listi **lb, int i_piv)
 int	test_swap_la(t_listi **la)
 {
 	if (((*la)->next->nbr > (*la)->nbr && (*la)->piv == (*la)->next->piv && \
-		(*la)->next->low_piv == (*la)->low_piv && (*la)->low_piv == 0) || \
+		(*la)->next->low_piv == (*la)->low_piv && (*la)->low_piv == 1) || \
 		((*la)->next->nbr < (*la)->nbr && (*la)->piv == (*la)->next->piv && \
-		(*la)->next->low_piv == (*la)->low_piv && (*la)->low_piv == 1))
+		(*la)->next->low_piv == (*la)->low_piv && (*la)->low_piv == 0))
 		return (1);
 	return (0);
 }
