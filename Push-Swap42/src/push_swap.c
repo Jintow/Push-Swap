@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   push_swap.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+        */
+/*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/03 11:23:19 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/09 20:12:37 by jlitaudo         ###   ########.fr       */
+/*   Updated: 2022/12/09 23:09:53 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,16 +32,18 @@ int	main(int argc, char **argv)
 	if (argc == 2)
 	{
 		tab_nb = ft_split((argv[1]), ' ');
-		// while (tab_nb[i])
-		// 	ft_printf("%s ", tab_nb[i++]);
+		size = size_tab((void **)tab_nb);
+		tab.tab = make_tab(tab_nb, size);
 		while (tab_nb[i])
-			ft_lstadd_back_loc(&la, ft_lstnew_loc(atoi(tab_nb[i++])));
+			ft_lstadd_back_loc(&la, ft_lstnew_loc(ft_atoi(tab_nb[i++])));
 	}
 	else
+	{
+		size = size_tab((void **)&argv[1]);
+		tab.tab = make_tab(&argv[1], size);
 		while (argv[++i])
 			ft_lstadd_back_loc(&la, ft_lstnew_loc(ft_atoi(argv[i])));
-	size = size_tab((void **)&argv[1]);
-	tab.tab = make_tab(&argv[1], size);
+	}
 	tab.size = size;
 	//AFFCIHAGE DU TABLEAU TRIE inverse, mais indices bon ordre
 	sort_merge(&tab);
@@ -56,9 +58,9 @@ int	main(int argc, char **argv)
 	i = tab.size_pivot;
 	while (i > 0)
 	{
-		if (i == 1)
-			if (check_sorted(la))
-				break;
+		// if (i == 1)
+		// 	if (check_sorted(la))
+		// 		break;
 		if ( i == tab.size_pivot)
 			pivot(&la, &lb, i);
 		else

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   algo_sorting.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+        */
+/*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/08 23:55:36 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/09 20:17:56 by jlitaudo         ###   ########.fr       */
+/*   Updated: 2022/12/10 00:27:24 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,10 +19,11 @@ void	left_sorting(t_listi **la, t_listi **lb, int i_piv, int low_piv)
 {
 	if (*lb == NULL)
 	{
+		ft_printf("\n");
 		print_listi(*la, *lb);
 		exit(0);
 	}
-	ft_printf("\npiv : %d, low_piv : %d", i_piv, low_piv);
+	ft_printf("\npiv : %d, low_piv : %d\n", i_piv, low_piv);
 	init_sorting(lb, la, i_piv, low_piv);
 	if (no_more_low_piv(*lb, i_piv, low_piv) && low_piv < 1)
 		left_sorting(la, lb, i_piv, low_piv + 1);
@@ -33,7 +34,7 @@ void	left_sorting(t_listi **la, t_listi **lb, int i_piv, int low_piv)
 		split_categ_sorting(lb, i_piv, low_piv, count_elem(lb, i_piv, low_piv));
 		count_elem(lb, i_piv, low_piv);
 		pivot_left(la, lb, i_piv, low_piv - 1);
-		ft_printf("nb_elem_categ%d\n", (*la)->nb_elem_categ);
+		// ft_printf("nb_elem_categ%d\n", (*la)->nb_elem_categ);
 		// right_sorting(la, lb, i_piv, low_piv - 1);
 	}
 }
@@ -42,16 +43,11 @@ void	left_sorting(t_listi **la, t_listi **lb, int i_piv, int low_piv)
 // {
 // 	int	count;
 
+// 	init_sorting_la(la, i_piv, low_piv);
 // // mettre ici un check s'il reste des elem en fin de liste;
-// 	if (check_sorted(la, low_piv))
-// 		left_sorting(la, lb, i_piv, low_piv + 1);
-// 	re_index_la(la);
 // 	count = count_elem(la, i_piv, low_piv);
-// 	if (count <= 3)
-// 	{
-// 		init_sorting_la(la, lb, low_piv);
+// 	if (no_more_low_piv(*la, i_piv, low_piv))
 // 		left_sorting(la, lb, i_piv, low_piv + 1);
-// 	}
 // 	else
 // 	{
 // 		split_categ_sorting(la, i_piv, low_piv, count);
@@ -104,6 +100,7 @@ void	pivot_left(t_listi **la, t_listi **lb, int piv, int low_piv)
 		}
 		else
 		{
+			(*la)->low_piv -= 1;
 			push(la, lb, 'a');
 			if ((*la)->nbr > (*la)->next->nbr && (*la)->nb_elem_categ <= 8)
 			{

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   push_swap.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+        */
+/*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/03 11:26:22 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/09 19:24:02 by jlitaudo         ###   ########.fr       */
+/*   Updated: 2022/12/09 23:25:42 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -69,8 +69,7 @@ void	add_infolst(t_listi **list, t_tab *tab);
 void	init_sorting(t_listi **lst_from, t_listi **lst_to, int piv, int low_piv);
 void	left_sorting(t_listi **la, t_listi **lb, int i_piv, int low_piv);
 void	print_listi(t_listi *la, t_listi *lb);
-void	check_andput_zero(t_listi **lst, int low_piv);
-void	check_andput_one(t_listi **lst, int low_piv);
+void	check_andput_nb(t_listi **lst, int low_piv, int nb);
 void	sort_three_lb(t_listi **la, t_listi **lb);
 int		count_elem(t_listi	**lst, int piv, int low_piv);
 int		*make_tab(char **str_tab, size_t size);
