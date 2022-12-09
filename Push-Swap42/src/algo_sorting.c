@@ -6,7 +6,7 @@
 /*   By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/08 23:55:36 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/09 20:02:30 by jlitaudo         ###   ########.fr       */
+/*   Updated: 2022/12/09 20:17:56 by jlitaudo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,8 +17,6 @@ void	pivot_left(t_listi **la, t_listi **lb, int piv, int low_piv);
 
 void	left_sorting(t_listi **la, t_listi **lb, int i_piv, int low_piv)
 {
-	int	count;
-
 	if (*lb == NULL)
 	{
 		print_listi(*la, *lb);
@@ -30,26 +28,12 @@ void	left_sorting(t_listi **la, t_listi **lb, int i_piv, int low_piv)
 		left_sorting(la, lb, i_piv, low_piv + 1);
 	else if (no_more_piv(*lb, i_piv))
 		left_sorting(la, lb, i_piv + 1, 0);
-
-	count = count_elem(lb, i_piv, low_piv);
-	if (count <= 3)
-	{
-		if (count > 0)
-		{
-			sort_three_lb(la, lb);
-		}
-		// if (low_piv < 1)
-		// 	right_sorting(la, lb, i_piv, low_piv + 1); //+ possibilites de double rev_rot
-		// else if (*lb)
-		// 	left_sorting(la, lb, i_piv + 1, 0);
-		// else
-		// 	exit (0);
-	}
 	else
 	{
-		split_categ_sorting(lb, i_piv, low_piv, count);
+		split_categ_sorting(lb, i_piv, low_piv, count_elem(lb, i_piv, low_piv));
 		count_elem(lb, i_piv, low_piv);
 		pivot_left(la, lb, i_piv, low_piv - 1);
+		ft_printf("nb_elem_categ%d\n", (*la)->nb_elem_categ);
 		// right_sorting(la, lb, i_piv, low_piv - 1);
 	}
 }
@@ -76,20 +60,6 @@ void	left_sorting(t_listi **la, t_listi **lb, int i_piv, int low_piv)
 // 	}
 // }
 
-// int	find_max_low_categ(t_listi *lst, int piv, int low_piv)
-// {
-// 	int	max;
-	
-// 	max = 0;
-// 	while (la)
-// 	{
-// 		if (la->piv == piv && la->pos > max)
-// 			max = la->pos;
-// 		la = la->next;
-// 	}
-// 	return (max);
-// }
-
 void	split_categ_sorting(t_listi **lst, int piv, int low_piv, int max)
 {
 	int		pos_max;
@@ -101,10 +71,20 @@ void	split_categ_sorting(t_listi **lst, int piv, int low_piv, int max)
 	temp = *lst;
 	while (temp && temp->low_piv == low_piv)
 	{
-		if (temp->pos < pos_max)
-			temp->low_piv -= 1;
+		if (max % 2 == 0)
+		{
+			if (temp->pos <= pos_max)
+				temp->low_piv -= 1;
+			else
+				temp->pos -= pos_max;
+		}
 		else
-			temp->pos -= pos_max;
+		{
+			if (temp->pos < pos_max)
+				temp->low_piv -= 1;
+			else
+				temp->pos -= pos_max;
+		}
 		temp = temp->next;
 	}
 }

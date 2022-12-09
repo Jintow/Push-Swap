@@ -6,7 +6,7 @@
 /*   By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/03 11:23:19 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/09 15:31:22 by jlitaudo         ###   ########.fr       */
+/*   Updated: 2022/12/09 20:12:37 by jlitaudo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -66,7 +66,7 @@ int	main(int argc, char **argv)
 		i--;
 		ft_printf("\n===\nPIVOT\n===\n");
 	}
-	print_listi(la, lb);
+	// print_listi(la, lb);
 	left_sorting(&la, &lb, 1, 0);
 	ft_printf("\n\n");
 	print_listi(la, lb);
