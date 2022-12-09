@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   pivot_init.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
+/*   By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/08 14:11:43 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/08 23:41:13 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/09 15:51:34 by jlitaudo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 
 int	test_rot_push(t_listi **la, t_listi **lb, int i_piv);
 int	test_swap(t_listi **la, t_listi **lb, int i_piv);
+int	cond_swap_la(t_listi **la, int i_piv);
 
 void	pivot(t_listi **la, t_listi **lb, int i_piv)
 {
@@ -25,7 +26,7 @@ void	pivot(t_listi **la, t_listi **lb, int i_piv)
 	lst_size = (int)lst_size_loc(*la);
 	while (lst_size-- > 0)
 	{
-		// i += test_swap(la, lb, i_piv);
+		i += test_swap(la, lb, i_piv);
 		i += test_rot_push(la, lb, i_piv);
 		i++;
 		//print_listi(*la, *lb);
@@ -42,30 +43,22 @@ void	pivot(t_listi **la, t_listi **lb, int i_piv)
 
 int	test_swap(t_listi **la, t_listi **lb, int i_piv)
 {
-	int i;
-
-	i = 0;
-	if ((*lb) && (*lb)->next && (*lb)->nbr > (*lb)->next->nbr && (*lb)->low_piv == (*lb)->next->low_piv)
+	if ((*lb) && (*lb)->next && (*lb)->nbr < (*lb)->next->nbr && \
+		(*lb)->low_piv == (*lb)->next->low_piv)
 	{	
-		if (test_swap_la(la))
+		if (cond_swap_la(la, i_piv))
+		{
 			double_swap(la, lb);
-		else 
-			swap(lb, 'b');
-	
-		i++;
+			return (1);
+		}
 	}
-	// if (test_swap_la(la))
-	// {
-	// 	swap(la, 'a');
-	// 	i++;
-	// }
-	return (i);
+	return (0);
 }
 
 int	test_rot_push(t_listi **la, t_listi **lb, int i_piv)
 {
 	int	i;
-	
+
 	i = 0;
 	if ((*la)->piv == i_piv)
 	{
@@ -86,13 +79,23 @@ int	test_rot_push(t_listi **la, t_listi **lb, int i_piv)
 	return (i);
 }
 
-int	no_more_piv(t_listi	*lst, int piv)
+int	cond_swap_la(t_listi **la, int i_piv)
 {
-	while (lst)
-	{
-		if (lst->piv == piv)
-			return (0);
-		lst = lst->next;
-	}
-	return (1);
+	if (((*la)->next->nbr < (*la)->nbr && (*la)->piv == (*la)->next->piv && \
+		(*la)->next->low_piv == (*la)->low_piv && (*la)->low_piv == 1 && \
+		(*la)->piv == i_piv) || \
+		((*la)->next->nbr > (*la)->nbr && (*la)->piv == (*la)->next->piv && \
+		(*la)->next->low_piv == (*la)->low_piv))
+		return (1);
+	return (0);
 }
+
+/*
+Function that check if la can be swapped : 
+If la < la next both of la and la->next belong 
+to the same pivot category, the same low categoryexcept the current piot categ 
+and low categ 1 (because low categ 1 will be rotated, so we want to keep the ß
+smallest downside the biggest).
+For all other cases, we want to wswap only if they belong to the same pivot 
+categ and low_categ.
+*/

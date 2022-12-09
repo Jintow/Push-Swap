@@ -6,7 +6,7 @@
 /*   By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/03 17:50:46 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/05 13:03:41 by jlitaudo         ###   ########.fr       */
+/*   Updated: 2022/12/09 15:35:46 by jlitaudo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,9 @@ t_listi	*ft_lstnew_loc(int nbr)
 {
 	t_listi	*new;
 
-	new = malloc(sizeof(t_listi *));
+	new = malloc(sizeof(t_listi));
+	if (!new)
+		return (NULL);
 	new->nbr = nbr;
 	new->next = NULL;
 	return (new);

@@ -3,10 +3,11 @@ import string
 import re
 
 res = []
-length = 500
+length = 120
 
 for i in range(length):
     i = random.randint(-1000, 1000)
-    res.append(str(i))
+    if str(i) not in res :
+        res.append(str(i))
 
 print(" ".join(res))

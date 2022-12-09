@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   merge_sort.c                                       :+:      :+:    :+:   */
+/*   make_sort_tab.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
+/*   By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/05 15:02:18 by jlitaudo          #+#    #+#             */
-/*   Updated: 2022/12/08 15:15:49 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/09 10:37:08 by jlitaudo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,7 +61,7 @@ void	merge_tab(t_tab *tab_g, t_tab *tab_d, t_tab *tab_tot)
 	k = 0;
 	while (i < tab_g->size && j < tab_d->size)
 	{
-		if (tab_g->tab[i] <= tab_d->tab[j])
+		if (tab_g->tab[i] >= tab_d->tab[j])
 			tab_tot->tab[k++] = tab_g->tab[i++];
 		else
 			tab_tot->tab[k++] = tab_d->tab[j++];
