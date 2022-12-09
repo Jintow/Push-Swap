@@ -6,16 +6,18 @@
 /*   By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/09 11:27:03 by jlitaudo          #+#    #+#             */
-/*   Updated: 2022/12/09 17:08:51 by jlitaudo         ###   ########.fr       */
+/*   Updated: 2022/12/09 19:27:55 by jlitaudo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
-void	init_sorting(t_listi **lst_from, t_listi **lst_to, int low_piv)
+void	init_sorting(t_listi **lst_from, t_listi **lst_to, int piv, int low_piv)
 {
 	t_listi	*temp;
 
+	if (no_more_low_piv(*lst_from, piv, low_piv))
+		return ;
 	check_andput_one(lst_from, low_piv);
 	check_andput_zero(lst_from, low_piv);
 	temp = *lst_from;
@@ -23,18 +25,21 @@ void	init_sorting(t_listi **lst_from, t_listi **lst_to, int low_piv)
 	{
 		push(lst_to, lst_from, 'a');
 		check_andput_zero(lst_from, low_piv);
-		init_sorting(lst_from, lst_to, low_piv);
+		init_sorting(lst_from, lst_to, piv, low_piv);
 	}
 	else if (temp && temp->next && temp->next->pos == 0)
 	{
 		swap(lst_from, 'b');
 		push(lst_to, lst_from, 'a');
 		check_andput_zero(lst_from, low_piv);
-		init_sorting(lst_from, lst_to, low_piv);
+		init_sorting(lst_from, lst_to, piv, low_piv);
 	}
 	else if (temp && temp->next && temp->next->next && temp->next->next->pos == 0 \
 		&& (temp->pos == 1 || temp->next->pos == 1))
+	{
 		sort_three_lb(lst_to, lst_from);
+		init_sorting(lst_from, lst_to, piv, low_piv);
+	}
 }
 
 int	count_elem(t_listi	**lst, int piv, int low_piv)

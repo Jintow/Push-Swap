@@ -6,7 +6,7 @@
 /*   By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/08 14:43:21 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/09 15:51:11 by jlitaudo         ###   ########.fr       */
+/*   Updated: 2022/12/09 19:07:20 by jlitaudo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -98,7 +98,7 @@ int	test_rev_rot(t_listi **la, t_listi **lb, int i_piv)
 			else if (i_piv <= 2)
 			{
 				swap(lb, 'b');
-				return (1);
+				i++;
 			}
 		}
 		if (i_piv == 1 && (ft_lstlast_loc(*la))->pos == 0)

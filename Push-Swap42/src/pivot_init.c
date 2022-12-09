@@ -6,7 +6,7 @@
 /*   By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/08 14:11:43 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/09 15:51:34 by jlitaudo         ###   ########.fr       */
+/*   Updated: 2022/12/09 19:07:58 by jlitaudo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ int	cond_swap_la(t_listi **la, int i_piv);
 void	pivot(t_listi **la, t_listi **lb, int i_piv)
 {
 	static unsigned int	i;
-	int			lst_size;
+	int					lst_size;
 
 	if (!(*la))
 		return ;
@@ -29,9 +29,8 @@ void	pivot(t_listi **la, t_listi **lb, int i_piv)
 		i += test_swap(la, lb, i_piv);
 		i += test_rot_push(la, lb, i_piv);
 		i++;
-		//print_listi(*la, *lb);
 		if (lst_size_loc(*la) == 2 || no_more_piv(*la, i_piv))
-			break;
+			break ;
 	}
 	if ((*lb) && (*lb)->low_piv == 1)
 	{

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   info_preparation.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
+/*   By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/08 15:14:32 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/08 15:27:29 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/09 19:07:37 by jlitaudo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,8 +40,6 @@ void	make_tab_piv(t_tab	*tab)
 		size_temp = size_temp + (tab->size - size_temp + 1) / 2;
 	}
 	tab->tab_pivot_ind[size_pivot + 1] = tab->size - 1;
-	// if (tab->size == 4 || tab->size == 5)
-	// 	tab->tab_pivot[0] = tab->tab[tab->size - 3];
 }
 
 void	add_infolst(t_listi **list, t_tab *tab)

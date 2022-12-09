@@ -6,7 +6,7 @@
 /*   By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/03 11:26:22 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/09 16:05:07 by jlitaudo         ###   ########.fr       */
+/*   Updated: 2022/12/09 19:24:02 by jlitaudo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -66,7 +66,7 @@ void	sort_merge(t_tab *tab);
 void	make_tab_piv(t_tab	*tab);
 void	split_categ(t_listi **lst, int max_piv);
 void	add_infolst(t_listi **list, t_tab *tab);
-void	init_sorting(t_listi **lst_from, t_listi **lst_to, int low_piv);
+void	init_sorting(t_listi **lst_from, t_listi **lst_to, int piv, int low_piv);
 void	left_sorting(t_listi **la, t_listi **lb, int i_piv, int low_piv);
 void	print_listi(t_listi *la, t_listi *lb);
 void	check_andput_zero(t_listi **lst, int low_piv);
