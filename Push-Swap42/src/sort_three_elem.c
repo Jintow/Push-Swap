@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   sort_three_elem.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+        */
+/*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/09 13:06:33 by jlitaudo          #+#    #+#             */
-/*   Updated: 2022/12/09 16:04:33 by jlitaudo         ###   ########.fr       */
+/*   Updated: 2022/12/10 11:58:43 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,24 +39,24 @@ void	sort_three_lb(t_listi **la, t_listi **lb)
 	}
 }
 
-void	sort_three_la(t_listi **la, t_listi **lb) // peut-etre inutile finalement
-{
-	t_listi	*temp;
+// void	sort_three_la(t_listi **la, t_listi **lb) // peut-etre inutile finalement
+// {
+// 	t_listi	*temp;
 	
-	temp = *la;
-	if (temp->next->pos == 1)
-	{
-		swap(la, 'a');
-		rotate(la, 'a');
-		swap(la, 'a');
-		rev_rotate(la, 'a');
-		swap(la, 'a');
-	}
-	else
-	{
-		swap(la, 'a');
-		rotate(la, 'a');
-		swap(la, 'b');
-		rev_rotate(la, 'b');
-	}
-}
+// 	temp = *la;
+// 	if (temp->next->pos == 1)
+// 	{
+// 		swap(la, 'a');
+// 		rotate(la, 'a');
+// 		swap(la, 'a');
+// 		rev_rotate(la, 'a');
+// 		swap(la, 'a');
+// 	}
+// 	else
+// 	{
+// 		swap(la, 'a');
+// 		rotate(la, 'a');
+// 		swap(la, 'b');
+// 		rev_rotate(la, 'b');
+// 	}
+// }

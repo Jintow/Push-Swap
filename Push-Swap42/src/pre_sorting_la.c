@@ -6,18 +6,21 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/09 18:19:40 by jlitaudo          #+#    #+#             */
-/*   Updated: 2022/12/10 00:36:31 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/10 12:00:20 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
-void int	cond_swap_lb(t_listi **lb, int piv, int low_piv);
+
+int		cond_swap_lb(t_listi **lb, int piv, int low_piv);
+void	sort_three_la(t_listi **la, t_listi **lb, int piv, int low_piv);
+void	re_index_la(t_listi **la, int low_piv);
 
 void	init_sorting_la(t_listi **la, t_listi **lb, int piv, int low_piv)
 {
 	int		count;
 
-	re_index_la(la);
+	re_index_la(la, low_piv);
 	count = count_elem(la, piv, low_piv); //faire attention a la fonction -> peut etre revoir son fonctionnement
 	if (count > 3)
 		return ;
@@ -29,12 +32,10 @@ void	init_sorting_la(t_listi **la, t_listi **lb, int piv, int low_piv)
 			swap(la, 'a');
 	}
 	else if (count == 3)
-		sort_three(la, lb, piv, low_piv);
-	check_and_pull_back(la, lb, piv, low_piv); //penser aux precedentes categs
-	init_sorting_la(la, lb, piv, low_piv);
+		sort_three_la(la, lb, piv, low_piv);
 }
 
-void	sort_three(t_listi **la, t_listi **lb, int piv, int low_piv)
+void	sort_three_la(t_listi **la, t_listi **lb, int piv, int low_piv)
 {
 	if ((*la)->next->pos == 0)
 	{
@@ -45,13 +46,13 @@ void	sort_three(t_listi **la, t_listi **lb, int piv, int low_piv)
 				double_swap(la, lb);
 		}
 		if (cond_swap_lb(lb, piv, low_piv) && (*lb)->next->pos <= 2)
-				swap(lb, 'b');
+			swap(lb, 'b');
 		double_rev_rotate(la, lb);
 	}
 	else
 	{
 		if ((*lb)->pos < (*lb)->next->pos)
-				double_swap(la, lb);
+			double_swap(la, lb);
 		else
 			swap(la, 'a');
 		sort_three_la(la, lb, piv, low_piv);
@@ -80,7 +81,7 @@ void	re_index_la(t_listi **la, int low_piv)
 		return ;
 }
 
-int	cond_swap_lb(t_listi **lb, int piv, int low_piv)
+int	cond_swap_lb(t_listi **lb, int piv, int low_piv)  // aurais pu etre simplifiee avec seulement une comparaison des nombres
 {
 	if ((*lb)->pos < (*lb)->next->pos && (*lb)->low_piv == \
 				(*lb)->next->low_piv && (*lb)->piv == ((*lb)->next->piv))

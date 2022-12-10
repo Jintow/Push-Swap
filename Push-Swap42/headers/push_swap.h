@@ -6,7 +6,7 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/03 11:26:22 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/09 23:25:42 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/10 11:57:31 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -71,6 +71,7 @@ void	left_sorting(t_listi **la, t_listi **lb, int i_piv, int low_piv);
 void	print_listi(t_listi *la, t_listi *lb);
 void	check_andput_nb(t_listi **lst, int low_piv, int nb);
 void	sort_three_lb(t_listi **la, t_listi **lb);
+void	init_sorting_la(t_listi **la, t_listi **lb, int piv, int low_piv);
 int		count_elem(t_listi	**lst, int piv, int low_piv);
 int		*make_tab(char **str_tab, size_t size);
 int		no_more_piv(t_listi	*lst, int piv);

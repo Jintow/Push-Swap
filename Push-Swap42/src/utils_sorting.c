@@ -6,7 +6,7 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/09 11:27:03 by jlitaudo          #+#    #+#             */
-/*   Updated: 2022/12/09 23:27:16 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/10 00:44:03 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,14 +25,14 @@ void	init_sorting(t_listi **lst_from, t_listi **lst_to, int piv, int low_piv)
 	if (temp && temp->pos == 0)
 	{
 		push(lst_to, lst_from, 'a');
-		check_andput_zero(lst_from, low_piv);
+		check_andput_nb(lst_from, low_piv, 0);
 		init_sorting(lst_from, lst_to, piv, low_piv);
 	}
 	else if (temp && temp->next && temp->next->pos == 0)
 	{
 		swap(lst_from, 'b');
 		push(lst_to, lst_from, 'a');
-		check_andput_zero(lst_from, low_piv);
+		check_andput_nb(lst_from, low_piv, 0);
 		init_sorting(lst_from, lst_to, piv, low_piv);
 	}
 	else if (temp && temp->next && temp->next->next && temp->next->next->pos == 0 \
