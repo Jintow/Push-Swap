@@ -6,7 +6,7 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/09 18:19:40 by jlitaudo          #+#    #+#             */
-/*   Updated: 2022/12/10 12:00:20 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/10 13:38:26 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,17 +22,17 @@ void	init_sorting_la(t_listi **la, t_listi **lb, int piv, int low_piv)
 
 	re_index_la(la, low_piv);
 	count = count_elem(la, piv, low_piv); //faire attention a la fonction -> peut etre revoir son fonctionnement
-	if (count > 3)
+	if (count > 3 || count == 0)
 		return ;
-	else if (count == 2)
-	{
-		if ((*lb)->pos < (*lb)->next->pos)
-			double_swap(la, lb);
-		else
-			swap(la, 'a');
-	}
-	else if (count == 3)
-		sort_three_la(la, lb, piv, low_piv);
+	// else if (count == 2)
+	// {
+	// 	if ((*lb)->pos < (*lb)->next->pos)
+	// 		double_swap(la, lb);
+	// 	else
+	// 		swap(la, 'a');
+	// }
+	// else if (count == 3)
+	// 	sort_three_la(la, lb, piv, low_piv);
 }
 
 void	sort_three_la(t_listi **la, t_listi **lb, int piv, int low_piv)
@@ -66,9 +66,10 @@ void	re_index_la(t_listi **la, int low_piv)
 	temp = *la;
 	while (temp->next->low_piv == low_piv)
 		temp = temp->next;
-	if (temp->pos == 0)
+	if (temp->pos == 0 && temp->low_piv == low_piv)
 	{
-		temp->low_piv = 2;
+		temp->low_piv -= 1;
+		temp->piv -= 1;
 		temp = *la;
 		while (temp->low_piv == low_piv)
 		{

@@ -6,7 +6,7 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/03 11:23:19 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/09 23:09:53 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/10 12:08:03 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -71,7 +71,7 @@ int	main(int argc, char **argv)
 	// print_listi(la, lb);
 	left_sorting(&la, &lb, 1, 0);
 	ft_printf("\n\n");
-	print_listi(la, lb);
+	// print_listi(la, lb);
 	// free(tab.tab);
 	// free(tab.tab_pivot);
     return (0);

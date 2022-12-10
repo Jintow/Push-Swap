@@ -6,7 +6,7 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/09 11:27:03 by jlitaudo          #+#    #+#             */
-/*   Updated: 2022/12/10 00:44:03 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/10 14:49:03 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,21 +18,20 @@ void	init_sorting(t_listi **lst_from, t_listi **lst_to, int piv, int low_piv)
 
 	if (no_more_low_piv(*lst_from, piv, low_piv))
 		return ;
-	check_andput_nb(lst_from, low_piv, 2);
 	check_andput_nb(lst_from, low_piv, 1);
 	check_andput_nb(lst_from, low_piv, 0);
 	temp = *lst_from;
 	if (temp && temp->pos == 0)
 	{
 		push(lst_to, lst_from, 'a');
-		check_andput_nb(lst_from, low_piv, 0);
+		(*lst_to)->low_piv -= 20;
 		init_sorting(lst_from, lst_to, piv, low_piv);
 	}
 	else if (temp && temp->next && temp->next->pos == 0)
 	{
 		swap(lst_from, 'b');
 		push(lst_to, lst_from, 'a');
-		check_andput_nb(lst_from, low_piv, 0);
+		(*lst_to)->low_piv -= 20;
 		init_sorting(lst_from, lst_to, piv, low_piv);
 	}
 	else if (temp && temp->next && temp->next->next && temp->next->next->pos == 0 \
@@ -52,7 +51,7 @@ int	count_elem(t_listi	**lst, int piv, int low_piv)
 	i = 0;
 	j = 0;
 	temp = *lst;
-	while (temp && temp->piv == piv && temp->low_piv <= low_piv)
+	while (temp && temp->piv == piv && temp->low_piv >= low_piv - 1 && temp->low_piv <= low_piv)
 	{
 		if (temp->low_piv == low_piv - 1)
 			i++;

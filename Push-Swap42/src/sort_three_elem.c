@@ -6,7 +6,7 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/09 13:06:33 by jlitaudo          #+#    #+#             */
-/*   Updated: 2022/12/10 11:58:43 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/10 14:49:15 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,9 +23,11 @@ void	sort_three_lb(t_listi **la, t_listi **lb)
 		swap(lb, 'b');
 		push(la, lb, 'a');
 		push(la, lb, 'a');
+		(*la)->low_piv -= 20;
+		(*la)->pos = 0;
 		rev_rotate(lb, 'b');
-		if ((*lb)->pos == 2)
-			push(la, lb, 'a');
+		// if ((*lb)->pos == 2)
+		// 	push(la, lb, 'a');
 	}
 	else
 	{
@@ -34,8 +36,10 @@ void	sort_three_lb(t_listi **la, t_listi **lb)
 		push(la, lb, 'a');
 		rev_rotate(lb, 'b');
 		push(la, lb, 'a');
-		if ((*lb)->pos == 2)
-			push(la, lb, 'a');
+		(*la)->low_piv -= 20;
+		(*la)->pos = 0;
+		// if ((*lb)->pos == 2)
+		// 	push(la, lb, 'a');
 	}
 }
 
