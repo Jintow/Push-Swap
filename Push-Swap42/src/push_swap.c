@@ -6,7 +6,7 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/03 11:23:19 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/10 12:08:03 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/11 00:25:30 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,33 +45,24 @@ int	main(int argc, char **argv)
 			ft_lstadd_back_loc(&la, ft_lstnew_loc(ft_atoi(argv[i])));
 	}
 	tab.size = size;
-	//AFFCIHAGE DU TABLEAU TRIE inverse, mais indices bon ordre
 	sort_merge(&tab);
 	i = -1;
-	while (++i < (int)size)
-		ft_printf("%d(%d') ", tab.tab[size - i - 1], size - i);
-	ft_printf("\n\n");
+	// while (++i < (int)size)
+	// 	ft_printf("%d(%d') ", tab.tab[size - i - 1], size - i);
 	make_tab_piv(&tab);
 	add_infolst(&la, &tab);
-	//AFFICHAGE DES LISTES MODIFIES PAR LE TAB DES PIVOTS
 	split_categ(&la, tab.size_pivot);
 	i = tab.size_pivot;
 	while (i > 0)
 	{
-		// if (i == 1)
-		// 	if (check_sorted(la))
-		// 		break;
 		if ( i == tab.size_pivot)
 			pivot(&la, &lb, i);
 		else
 			pivot2(&la, &lb, i);
 		i--;
-		ft_printf("\n===\nPIVOT\n===\n");
 	}
-	// print_listi(la, lb);
+	ft_printf("BEGINNING SORTING");
 	left_sorting(&la, &lb, 1, 0);
-	ft_printf("\n\n");
-	// print_listi(la, lb);
 	// free(tab.tab);
 	// free(tab.tab_pivot);
     return (0);

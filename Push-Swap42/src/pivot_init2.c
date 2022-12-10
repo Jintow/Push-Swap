@@ -6,7 +6,7 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/08 14:43:21 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/09 23:10:55 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/11 00:28:00 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,15 +27,15 @@ void	pivot2(t_listi **la, t_listi **lb, int i_piv)
 	lst_size = (int)lst_size_loc(*la);
 	while (lst_size-- > 0)
 	{
-		i += test_swap2(la, lb, i_piv);
+		// i += test_swap2(la, lb, i_piv);
 		i += test_rot_push2(la, lb, i_piv);
 		i++;
 		if (lst_size_loc(*la) == 2 || no_more_piv(*la, i_piv))
 			break ;
 	}
 	i += test_rev_rot(la, lb, i_piv);
-	ft_printf("\n%d : lst_size\n", lst_size);
-	ft_printf("\n\napres pivot (%d) (ci-dessous) : nb op tot: %d\n",i_piv, i);
+	// ft_printf("\n%d : lst_size\n", lst_size);
+	// ft_printf("\n\napres pivot (%d) (ci-dessous) : nb op tot: %d\n",i_piv, i);
 }
 
 int	test_swap2(t_listi **la, t_listi **lb, int i_piv)
@@ -90,12 +90,12 @@ int	test_rev_rot(t_listi **la, t_listi **lb, int i_piv)
 	{
 		if ((*lb) && (*lb)->next && (*lb)->nbr < (*lb)->next->nbr)
 		{
-			if (cond_swap_la2(la))
+			if (cond_swap_la2(la)  && i_piv <= 2)
 			{
 				double_swap(la, lb);
 				i++;
 			}
-			else if (i_piv <= 2)
+			else if (i_piv <= 1)
 			{
 				swap(lb, 'b');
 				i++;

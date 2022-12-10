@@ -3,10 +3,10 @@ import string
 import re
 
 res = []
-length = 103
+length = 100
 
 for i in range(length):
-    i = random.randint(-1000, 1000)
+    i = random.randint(-10000, 10000)
     if str(i) not in res :
         res.append(str(i))
 

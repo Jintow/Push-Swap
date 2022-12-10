@@ -6,7 +6,7 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/09 18:19:40 by jlitaudo          #+#    #+#             */
-/*   Updated: 2022/12/10 22:56:16 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/10 23:32:36 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,7 +39,7 @@ void	sort_three_la(t_listi **la, t_listi **lb, int piv, int low_piv)
 {
 	if ((*la)->next->pos == 0)
 	{
-		ft_printf("\nTHREE SORT!!\n");
+		// ft_printf("\nTHREE SORT!!\n");
 		double_rotate(la, lb);
 		if ((*la)->nbr > (*la)->next->nbr)
 		{

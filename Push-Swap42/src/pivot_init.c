@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   pivot_init.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+        */
+/*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/08 14:11:43 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/09 19:07:58 by jlitaudo         ###   ########.fr       */
+/*   Updated: 2022/12/10 23:41:51 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ void	pivot(t_listi **la, t_listi **lb, int i_piv)
 	lst_size = (int)lst_size_loc(*la);
 	while (lst_size-- > 0)
 	{
-		i += test_swap(la, lb, i_piv);
+		// i += test_swap(la, lb, i_piv);
 		i += test_rot_push(la, lb, i_piv);
 		i++;
 		if (lst_size_loc(*la) == 2 || no_more_piv(*la, i_piv))
@@ -37,7 +37,7 @@ void	pivot(t_listi **la, t_listi **lb, int i_piv)
 		i++;
 		rotate(lb, 'b');
 	}
-	ft_printf("\n\napres pivot (%d) (ci-dessous) : nb op tot: %d\n",i_piv, i);
+	// ft_printf("\n\napres pivot (%d) (ci-dessous) : nb op tot: %d\n",i_piv, i);
 }
 
 int	test_swap(t_listi **la, t_listi **lb, int i_piv)

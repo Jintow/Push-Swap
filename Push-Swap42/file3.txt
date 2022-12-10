@@ -1,0 +1,658 @@
+ra
+ra
+ra
+pb
+rr
+pb
+ra
+pb
+rr
+ra
+ra
+ra
+pb
+rb
+pb
+ra
+pb
+rb
+pb
+ra
+ra
+pb
+pb
+rr
+pb
+ra
+ra
+pb
+rr
+pb
+rb
+pb
+pb
+rr
+ra
+pb
+pb
+pb
+pb
+pb
+rb
+pb
+rb
+pb
+ra
+pb
+pb
+rr
+ra
+ra
+ra
+ra
+ra
+ra
+pb
+rb
+pb
+rr
+ra
+ra
+pb
+pb
+ra
+pb
+pb
+ra
+ra
+ra
+ra
+pb
+rb
+pb
+rr
+pb
+ra
+ra
+pb
+pb
+rr
+ra
+ra
+pb
+rb
+pb
+ra
+pb
+ra
+pb
+rr
+pb
+rr
+pb
+rb
+pb
+rr
+pb
+pb
+rr
+pb
+rr
+pb
+pb
+pb
+rb
+pb
+rr
+pb
+ra
+pb
+pb
+rb
+pb
+pb
+rr
+ra
+pb
+rr
+ra
+ra
+ra
+pb
+pb
+rr
+ra
+pb
+rb
+pb
+rb
+pb
+ra
+pb
+rr
+ra
+pb
+rb
+pb
+rr
+ra
+ra
+ra
+ra
+pb
+rb
+pb
+ra
+pb
+rb
+pb
+ra
+pb
+pb
+rb
+pb
+pb
+pb
+ra
+ra
+pb
+rb
+pb
+pb
+ra
+pb
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+ra
+pb
+rb
+pb
+rr
+pb
+rb
+pb
+ra
+pb
+ra
+pb
+pb
+pb
+rb
+pb
+rr
+ra
+pb
+ra
+ra
+ra
+ra
+ra
+pb
+ra
+pb
+rrr
+rrr
+rrr
+rrr
+rrr
+ra
+pb
+ra
+pb
+ra
+ra
+pb
+rr
+pb
+rb
+pb
+rb
+pb
+rrr
+rrr
+rrr
+pb
+rb
+pb
+ra
+ra
+ra
+pb
+rrb
+BEGINNING SORTINGsb
+pa
+pa
+pa
+pa
+pa
+pa
+rb
+sb
+pa
+pa
+rrb
+pa
+rb
+pa
+pa
+sa
+rb
+rb
+pa
+sss
+rrb
+rrb
+pa
+rrb
+pa
+pa
+pa
+pa
+rb
+rb
+pa
+sa
+rrb
+sb
+rrb
+pa
+pa
+pa
+pa
+rr
+pa
+rr
+rb
+pa
+pa
+rb
+rb
+rb
+pa
+rr
+pa
+sss
+rr
+sa
+rrr
+rrr
+rrr
+sss
+rrr
+sss
+rr
+sss
+rrr
+rrb
+rrb
+rrb
+pa
+rrb
+rb
+pa
+rb
+pa
+sss
+pa
+sa
+rrb
+sb
+rrb
+sb
+pa
+sb
+pa
+pa
+rb
+rb
+rb
+rb
+pa
+ra
+pa
+pa
+pa
+ra
+pa
+sss
+pa
+rr
+rr
+sa
+rrr
+rrr
+rrr
+rrr
+rrb
+rrb
+pa
+rb
+pa
+sss
+pa
+sa
+rr
+sa
+rrr
+rrb
+sb
+pa
+sb
+pa
+pa
+rb
+pa
+pa
+sss
+pa
+rb
+rb
+pa
+pa
+rr
+rr
+pa
+ra
+pa
+rb
+rb
+pa
+ra
+pa
+pa
+rb
+rb
+rb
+pa
+rr
+pa
+rr
+ra
+pb
+ra
+ra
+pb
+pb
+rb
+sb
+pa
+rrb
+pa
+pa
+rra
+rra
+sa
+rra
+sa
+rr
+sss
+rrr
+rrr
+rrr
+sss
+rrr
+rrr
+rrr
+rrr
+sss
+ra
+pb
+ra
+pb
+ra
+pb
+sb
+pa
+pa
+pa
+rrr
+rrr
+sss
+rrr
+sss
+rrb
+rrb
+rrb
+pa
+rr
+rb
+pa
+rb
+rb
+pa
+sss
+pa
+pa
+ra
+ra
+pa
+sa
+rrr
+rrr
+rrr
+sss
+rrb
+pa
+rb
+rb
+rb
+pa
+rb
+pa
+sss
+rr
+sa
+rrr
+rrb
+rrb
+rrb
+sb
+rrb
+pa
+pa
+sb
+pa
+pa
+pa
+rr
+rb
+pa
+rr
+pa
+pa
+pa
+rr
+ra
+ra
+pa
+rb
+rb
+pa
+rb
+pa
+sss
+pa
+rb
+rb
+rb
+rb
+rb
+pa
+pa
+rr
+pa
+sss
+ra
+ra
+rra
+rra
+rrr
+rrr
+rrr
+rrr
+rrr
+sss
+rrr
+ra
+ra
+ra
+sa
+pb
+pa
+rrr
+rrr
+rrr
+sa
+rr
+sss
+rrr
+pa
+rb
+pa
+pa
+rr
+rb
+rb
+rb
+pa
+sa
+pa
+rr
+pa
+rr
+rr
+sss
+rrr
+rrr
+rrr
+rrr
+rb
+rb
+rb
+rb
+pa
+pa
+sa
+pa
+sa
+rr
+sss
+rrr
+pa
+sb
+pa
+pa
+pa
+
+-9731	([5][-19][0])
+-9426	([5][-19][0])
+-9371	([5][-19][0])
+-8559	([5][-19][0])
+-8349	([-5][-21][0])
+-7700	([-5][-21][0])
+-7669	([-5][-21][0])
+-7614	([-5][-20][0])
+-6902	([-5][-20][0])
+-6892	([-5][-20][0])
+-6790	([-5][-21][0])
+-6676	([-5][-21][0])
+-6589	([-5][-21][0])
+-6386	([-5][-20][0])
+-6195	([-5][-20][0])
+-6060	([-5][-20][0])
+-5608	([5][-22][0])
+-5575	([-5][-21][0])
+-5347	([-5][-20][0])
+-4929	([-5][-21][0])
+-4821	([-5][-21][0])
+-4307	([5][-4][0])
+-4749	([5][-1][0])
+-4438	([5][-2][1])
+-4541	([5][-2][2])
+-4036	([5][-20][0])
+-3796	([5][-20][0])
+-3792	([5][-20][0])
+-3633	([5][-20][0])
+-3628	([-5][-22][0])
+-2864	([-5][-22][0])
+-2785	([-5][-22][0])
+-2717	([-5][-21][0])
+-2576	([-5][-21][0])
+-2444	([-5][-21][0])
+-2149	([-5][-22][0])
+-1977	([-5][-22][0])
+-1911	([-5][-22][0])
+-1760	([-5][-21][0])
+-1446	([-5][-21][0])
+-1336	([-5][-21][0])
+-1334	([5][-22][0])
+-1240	([5][-22][0])
+-1153	([5][-22][0])
+-753	([-5][-22][0])
+-448	([-5][-22][0])
+11	([-5][-22][0])
+184	([5][-23][0])
+390	([5][-23][0])
+398	([5][-3][0])
+1013	([4][-19][0])
+1071	([4][-19][0])
+1477	([4][-19][0])
+1635	([-6][-21][0])
+1761	([-6][-21][0])
+2031	([-6][-21][0])
+2285	([-6][-20][0])
+2777	([-6][-20][0])
+3134	([-6][-20][0])
+3154	([-6][-21][0])
+3286	([-6][-21][0])
+3341	([-6][-21][0])
+3433	([4][-20][0])
+3452	([4][-20][0])
+3722	([4][-20][0])
+3829	([-6][-22][0])
+3905	([-6][-22][0])
+4127	([-6][-22][0])
+4390	([4][-20][0])
+4677	([-6][-21][0])
+4851	([-6][-21][0])
+5321	([-6][-21][0])
+5446	([-6][-22][0])
+5549	([-6][-22][0])
+5866	([-6][-22][0])
+5897	([3][-19][0])
+5922	([3][-19][0])
+6039	([3][-19][0])
+6339	([-7][-21][0])
+6529	([-7][-21][0])
+6644	([3][-19][0])
+7085	([3][-20][0])
+7177	([3][-20][1])
+7885	([3][-20][0])
+8038	([-7][-22][0])
+8165	([-7][-22][0])
+8215	([-7][-22][0])
+8273	([2][-19][0])
+8424	([2][-19][0])
+8543	([2][1][0])
+8860	([2][-20][0])
+9009	([2][-20][0])
+9480	([2][-20][0])
+9659	([1][-19][0])
+9751	([1][-20][0])
+9828	([1][-20][0])
+9884	([0][1][1])
+9951	([0][0][1])
+9977	([0][0][0])
+-----------------	------------------
+	a			b	

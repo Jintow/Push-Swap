@@ -6,7 +6,7 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/08 23:55:36 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/10 23:25:17 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/11 00:44:33 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,6 +32,7 @@ void	left_sorting(t_listi **la, t_listi **lb, int i_piv, int low_piv)
 	}
 	check_and_pull_back_b(la, lb, i_piv, low_piv);
 	init_sorting(lb, la, i_piv, low_piv);
+	// print_listi(*la, *lb);
 	count = count_elem(lb, i_piv, low_piv);
 	if (low_piv > 1)
 		left_sorting(la, lb, i_piv + 1, 0);
@@ -82,7 +83,6 @@ void	right_sorting(t_listi **la, t_listi **lb, int i_piv, int low_piv)
 		pivot_right(la, lb, i_piv, low_piv - 1); //+possibilites de double rev_rot, a priori non!
 		left_sorting(la, lb, i_piv, low_piv - 2); // attention aux conditions particulieres dans la;
 		// print_listi(*la, *lb);
-		exit(0);
 	}
 }
 
@@ -113,13 +113,13 @@ void	pivot_left(t_listi **la, t_listi **lb, int piv, int low_piv)
 				break ;
 			else
 				rotate(lb, 'b');
-			if ((*la)->nbr > (*la)->next->nbr)
-			{
-				if ((*lb)->nbr < (*lb)->next->nbr)
-					double_swap(la, lb);
-				else if ((*la)->nb_elem_categ <= 8)
-					swap(la, 'a');
-			}
+			// if ((*la)->nbr > (*la)->next->nbr)
+			// {
+			// 	if ((*lb)->nbr < (*lb)->next->nbr)
+			// 		double_swap(la, lb);
+			// 	else if ((*la)->nb_elem_categ <= 8)
+			// 		swap(la, 'a');
+			// }
 		}
 		else
 		{
@@ -164,6 +164,8 @@ void	check_and_pull_back(t_listi **la, t_listi **lb, int piv, int low_piv)
 {
 	t_listi	*temp;
 
+	if (!(*la) || !(*lb))
+		return ;
 	while (ft_lstlast_loc(*la)->low_piv == low_piv && \
 		ft_lstlast_loc(*la)->piv == piv)
 	{
@@ -187,7 +189,7 @@ void	check_and_pull_back_b(t_listi **la, t_listi **lb, int piv, int low_piv)
 	int 	i;
 	t_listi	*temp;
 
-	if (!(*lb))
+	if (!(*lb) || !(*la))
 		return ;
 	temp = *lb;
 	while (temp && temp->low_piv == low_piv)
@@ -212,12 +214,28 @@ void	check_and_pull_back_b(t_listi **la, t_listi **lb, int piv, int low_piv)
 
 void	pivot_right(t_listi **la, t_listi **lb, int piv, int low_piv)
 {
-	while ((*la)->low_piv <= low_piv + 1 && (*la)->piv == piv)
+	while ((*la)->low_piv <= low_piv + 1 && (*la)->piv == piv && (*la)->low_piv >= low_piv)
 	{
 		if ((*la)->low_piv == low_piv + 1)
 			rotate(la, 'a');
+		else if (((*la)->next->next->pos == 0 || (*la)->next->pos == 0) && (*la)->pos == 0)
+		{
+			if ((*lb)->nbr < (*lb)->next->nbr)
+				double_swap(la, lb);
+			else if ((*la)->next->next->pos == 0)
+				swap(la, 'a');
+			while ((*lb)->low_piv == low_piv)
+			{
+				(*lb)->low_piv -= 1;
+				(*lb) = (*lb)->next;
+			}
+			if ((*la)->low_piv == low_piv)
+				(*la)->low_piv--;
+
+		}
 		else
 			push(lb, la, 'b');
 		// init_sorting_la(la, lb, piv, low_piv);
 	}
+	// print_listi(*la, *lb);
 }

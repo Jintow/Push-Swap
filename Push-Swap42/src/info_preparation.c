@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   info_preparation.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+        */
+/*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/08 15:14:32 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/09 19:07:37 by jlitaudo         ###   ########.fr       */
+/*   Updated: 2022/12/11 00:20:37 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,7 @@ void	make_tab_piv(t_tab	*tab)
 	{
 		tab->tab_pivot[size_pivot++] = tab->tab[tab->size - size_temp];
 		tab->tab_pivot_ind[tab->size_pivot + 1 - size_pivot] = tab->size - size_temp;
-		ft_printf("\n pivot %d(N%d) = %d\n", size_pivot, tab->size - size_temp + 1, tab->tab[tab->size - size_temp]);
+		// ft_printf("\n pivot %d(N%d) = %d\n", size_pivot, tab->size - size_temp + 1, tab->tab[tab->size - size_temp]);
 		size_temp = size_temp + (tab->size - size_temp + 1) / 2;
 	}
 	tab->tab_pivot_ind[size_pivot + 1] = tab->size - 1;
@@ -50,10 +50,6 @@ void	add_infolst(t_listi **list, t_tab *tab)
 	int		k;
 
 	lst = *list;
-	k = -1;
-	while (++k < (int)tab->size_pivot + 2)
-		ft_printf("%d(%d') ", tab->tab_pivot_ind[k], k);
-	ft_printf("\n\n");
 	while (lst)
 	{
 		i = 0;

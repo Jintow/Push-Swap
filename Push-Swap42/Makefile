@@ -6,7 +6,7 @@
 #    By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/12/01 13:00:31 by jlitaudo          #+#    #+#              #
-#    Updated: 2022/12/10 20:48:25 by Teiki            ###   ########.fr        #
+#    Updated: 2022/12/10 23:37:59 by Teiki            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -68,7 +68,7 @@ $(OBJ_DIR)%.o: $(SRC_DIR)%.c $(HEAD)
 
 $(NAME): 	 $(LIBX_DIR)$(LIBX) ${OBJ} $(HEAD)
 			@echo "$(_BOLD)$(_BLUE)compiling: $@$(_END)"
-			@${CC} -o ${NAME} ${OBJ} $(LIBX_DIR)${LIBX} $(LIBX_DIR)libmlx.a $(FlAG_LIB) -fsanitize=address
+			@${CC} -o ${NAME} ${OBJ} $(LIBX_DIR)${LIBX} $(LIBX_DIR)libmlx.a $(FlAG_LIB) -fsanitize=address -g3
 			@echo "$(_BOLD)$(_WHITE)$@ SUCCESSFULLY CREATED$(_END)"
 
 $(LIBX_DIR)$(LIBX) :
