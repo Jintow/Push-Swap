@@ -1,0 +1,166 @@
+-990(98') -906(97') -878(96') -873(95') -846(94') -828(93') -817(92') -814(91') -734(90') -727(89') -722(88') -710(87') -670(86') -651(85') -645(84') -629(83') -616(82') -596(81') -560(80') -558(79') -536(78') -502(77') -494(76') -492(75') -491(74') -488(73') -471(72') -436(71') -430(70') -426(69') -410(68') -396(67') -394(66') -356(65') -300(64') -259(63') -236(62') -232(61') -197(60') -196(59') -153(58') -148(57') -119(56') -113(55') -87(54') -86(53') -41(52') 11(51') 22(50') 83(49') 92(48') 111(47') 121(46') 127(45') 130(44') 132(43') 181(42') 187(41') 228(40') 254(39') 295(38') 309(37') 320(36') 368(35') 402(34') 418(33') 488(32') 491(31') 513(30') 516(29') 538(28') 556(27') 630(26') 635(25') 643(24') 663(23') 672(22') 684(21') 737(20') 753(19') 798(18') 809(17') 821(16') 822(15') 842(14') 843(13') 844(12') 848(11') 863(10') 876(9') 907(8') 915(7') 931(6') 951(5') 968(4') 986(3') 2448(2') 24167(1') 
+
+
+ pivot 1(N50) = 22
+
+ pivot 2(N25) = 635
+
+ pivot 3(N13) = 843
+
+ pivot 4(N7) = 915
+
+ pivot 5(N4) = 968
+0(0') 3(1') 6(2') 12(3') 24(4') 49(5') 97(6') 
+
+pb rr rr pb pb rr ra ra ra ra ra ra pb rr pb rr ra ra ra ra pb ra ra pb rb pb ra ra ra pb rb pb rb pb rr pb ra ra ra sss pb pb ra ra ra pb rr ra pb pb pb rr ra pb ra pb rr ra pb ra pb rr pb rb pb sss pb rb pb rb pb sss pb pb sss pb pb pb rb pb pb rr pb rb pb rb pb rb pb rb pb ra pb pb sss pb rb pb rr ra pb rb pb ra ra ra pb pb ra ra ra ra pb ra pb 
+
+apres pivot (5) (ci-dessous) : nb op tot: 116
+
+===
+PIVOT
+===
+ra ra pb pb pb rr ra ra sss pb pb pb rr pb sss pb pb rb pb rb pb rr pb pb ra ra ra sss pb rb pb rr ra pb ra pb ra pb rb pb ra pb rb pb rb pb rb pb ra ra ra pb rr ra ra ra sss ra ra pb rrr rrr rrr rrr rrr rrr sss rrr rrr rrr rrr sss rrr sss rrr 
+0 : lst_size
+
+
+apres pivot (4) (ci-dessous) : nb op tot: 75
+
+===
+PIVOT
+===
+ra pb pb pb rr ra ra ra ra ra pb pb ra pb rb pb rr pb ra pb rr pb pb rr pb rrr rrr rrr rrr rrr 
+0 : lst_size
+
+
+apres pivot (3) (ci-dessous) : nb op tot: 105
+
+===
+PIVOT
+===
+sb ra ra ra pb rr pb pb ra pb sb pb rb pb rrr sb rrr 
+1 : lst_size
+
+
+apres pivot (2) (ci-dessous) : nb op tot: 122
+
+===
+PIVOT
+===
+sss ra ra pb pb rb pb rrb 
+1 : lst_size
+
+
+apres pivot (1) (ci-dessous) : nb op tot: 130
+
+===
+PIVOT
+===
+sb pa pa pa pa sb pa pa pa sb pa pa pa rb rb rb pa sa pa sa rrb rrb pa rrb pa pa rb rb pa pa pa sa rrb rrb pa pa pa rb pa rb rb pa rr pa rr pa sss pa sa pa rr 
+THREE SORT!!
+rr sss rrr rrr rrr sa rrr sss 
+THREE SORT!!
+rr sa rrr rrb rrb rrb pa rb rb pa sss pa sa rrb sb rrb sb pa pa sb pa pa sb pa rb rb rb pa rb pa pa pa rr ra pa rrr rrr rrb rrb rrb pa pa rb rb pa sa 
+THREE SORT!!
+rr sss rrr rrb sb rrb pa pa pa rb rb rb pa pa pa rr rr rr rb pa pa rb pa rr rb pa rb rb rb pa ra pa sss pa pa pa ra ra pb ra pb ra pb sb pa sb pa pa rra rra rra rrr rrr sss rrr rrr rrr rrr ra pb pb ra ra pa pa rrr rrr rrr rrb rrb rrb rrb rb pa pa sss rr rr rb rb pa pa pa rr pa rrr rrr sa rrr rrb rrb rrb pa pa rb pa rb rb pa sa rrb rrb pa rrb sb pa pa pa pa rr rb pa ra pa rb rb pa sss rb rb pa ra pa pa rb rb pa rr rb rb pa pa rr pa rr sss ra pb pb ra pb ra pb pb pb pa pa pa pa sb pa pa rra rra rra rrr rrr rrr rrr sss rrr sss rrr sss ra pb pb pb ra ra sb pa sb pa pa rrr rrr rrr sa 
+THREE SORT!!
+rr sss rrr pa rr rb pa rb rb pa rr pa ra pa sa pa rrr rrr sa rrr sss pa rb pa rb rb pa sa pa pa pa 
+-990	([5][-19][0])
+-906	([5][-19][0])
+-878	([5][-19][0])
+-873	([-5][-21][0])
+-846	([-5][-21][0])
+-828	([5][-19][0])
+-817	([-5][-20][0])
+-814	([-5][-20][0])
+-734	([-5][-20][0])
+-727	([-5][-21][0])
+-722	([-5][-21][0])
+-710	([-5][-21][0])
+-670	([-5][-20][0])
+-651	([-5][-20][0])
+-645	([-5][-20][0])
+-629	([5][-21][0])
+-616	([5][-21][0])
+-596	([5][-21][0])
+-560	([-5][-21][0])
+-558	([-5][-21][0])
+-536	([-5][-21][0])
+-502	([5][-22][0])
+-494	([5][-22][0])
+-492	([5][-22][0])
+-491	([5][-40][0])
+-488	([5][-40][0])
+-471	([5][-40][0])
+-436	([-5][-22][0])
+-430	([-5][-22][0])
+-426	([5][-20][0])
+-410	([5][-20][0])
+-396	([-5][-21][0])
+-394	([-5][-21][0])
+-356	([-5][-21][0])
+-300	([-5][-22][0])
+-259	([-5][-22][0])
+-236	([-5][-22][0])
+-232	([-5][-21][0])
+-197	([-5][-21][0])
+-196	([-5][-21][0])
+-153	([5][-22][0])
+-148	([5][-22][0])
+-119	([-5][-21][0])
+-113	([-5][-22][0])
+-87	([-5][-22][0])
+-86	([-5][-22][0])
+-41	([5][-23][0])
+11	([5][-23][0])
+22	([5][-23][0])
+83	([4][-19][0])
+92	([4][-19][0])
+111	([4][-19][0])
+121	([-6][-21][0])
+127	([-6][-21][0])
+130	([-6][-21][0])
+132	([-6][-20][0])
+181	([-6][-20][0])
+187	([-6][-21][0])
+228	([-6][-21][0])
+254	([-6][-21][0])
+295	([4][-19][0])
+309	([4][-20][0])
+320	([4][-20][0])
+368	([4][-20][0])
+402	([4][-20][0])
+418	([-6][-22][0])
+488	([-6][-22][0])
+491	([-6][-22][0])
+513	([-6][-21][0])
+516	([-6][-21][0])
+538	([-6][-21][0])
+556	([-6][-22][0])
+630	([-6][-22][0])
+635	([-6][-22][0])
+643	([3][-19][0])
+663	([3][-19][0])
+672	([3][-19][0])
+684	([-7][-21][0])
+737	([-7][-21][0])
+753	([-7][-21][0])
+798	([3][-20][0])
+809	([3][-20][1])
+821	([3][-20][0])
+822	([-7][-22][0])
+842	([-7][-22][0])
+843	([-7][-22][0])
+844	([2][-19][0])
+848	([2][-19][0])
+863	([2][-19][0])
+876	([2][-20][0])
+907	([2][-20][0])
+915	([2][-20][0])
+931	([1][-19][0])
+951	([1][-20][0])
+968	([1][-20][0])
+986	([0][1][1])
+2448	([0][0][1])
+24167	([0][0][0])
+-----------------	------------------
+	a			b	
