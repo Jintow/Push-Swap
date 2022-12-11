@@ -6,7 +6,7 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/08 23:55:36 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/11 14:56:22 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/11 18:21:10 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,11 +32,6 @@ void	left_sorting(t_listi **la, t_listi **lb, int i_piv, int low_piv)
 	}
 	check_and_pull_back_b(la, lb, i_piv, low_piv);
 	init_sorting(la, lb, i_piv, low_piv);
-	// if (i_piv == 5)
-	// {
-	// 	ft_printf("POST INIT B\n");
-	// 	// print_listi(*la, *lb);
-	// }
 	count = count_elem(lb, i_piv, low_piv);
 	if (low_piv > 1)
 		left_sorting(la, lb, i_piv + 1, 0);
@@ -78,7 +73,7 @@ void	right_sorting(t_listi **la, t_listi **lb, int i_piv, int low_piv)
 	{
 		// ft_printf("\nPULLBACK\n");
 		check_and_pull_back(la, lb, i_piv, low_piv + 1);
-		re_index_la(la, low_piv);
+		re_index_la(la, low_piv + 1);
 		// print_listi(*la, *lb);
 		right_sorting(la, lb, i_piv, low_piv + 1);
 	}
@@ -97,21 +92,6 @@ void	right_sorting(t_listi **la, t_listi **lb, int i_piv, int low_piv)
 		// print_listi(*la, *lb);
 	}
 }
-
-// void	split_categ_sorting(t_listi **lst, int piv, int low_piv, int max)
-// {
-// 	t_listi	*temp;
-
-// 	temp = *lst;
-// 	while (temp && temp->low_piv == low_piv)
-// 	{
-// 		if (temp->pos < max / 2)
-// 			temp->low_piv -= 1;
-// 		else
-// 			temp->pos -= max / 2;
-// 		temp = temp->next;
-// 	}
-// }
 
 void	split_categ_sorting(t_listi **lst, int piv, int low_piv, int max)
 {
@@ -217,19 +197,6 @@ void	pivot_left(t_listi **la, t_listi **lb, int piv, int low_piv)
 	//  	print_listi(*la, *lb);
 }
 
-void	split_low_piv(t_listi *lst)
-{
-	if (lst->nb_elem_categ <= 3)
-	{
-		lst->low_piv -= 1;
-		return ;
-	}
-	if (lst->pos > lst->nb_elem_categ / 2 - (1 - (lst->nb_elem_categ % 2)))
-		lst->pos -= lst->nb_elem_categ / 2;
-	else
-		lst->low_piv -= 1;
-}
-
 void	check_and_pull_back(t_listi **la, t_listi **lb, int piv, int low_piv)
 {
 	t_listi	*temp;
@@ -277,7 +244,7 @@ void	check_and_pull_back_b(t_listi **la, t_listi **lb, int piv, int low_piv)
 			push(la, lb, 'a');
 			i++;
 		}
-		else if ((*lb)->nbr < (*lb)->next->nbr && (*lb)->nb_elem_categ <= 5)
+		else if ((*lb)->nbr < (*lb)->next->nbr && (*lb)->nb_elem_categ <= 4)
 			swap(lb, 'b');
 	}
 }

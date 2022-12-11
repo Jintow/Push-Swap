@@ -1,0 +1,23107 @@
+diff --git a/Push-Swap42/Push-Swap2 b/Push-Swap42/Push-Swap2
+index 7942a05..99dc95c 100755
+Binary files a/Push-Swap42/Push-Swap2 and b/Push-Swap42/Push-Swap2 differ
+diff --git a/Push-Swap42/file b/Push-Swap42/file
+deleted file mode 100644
+index 2fa051e..0000000
+--- a/Push-Swap42/file
++++ /dev/null
+@@ -1,4563 +0,0 @@
+-pb
+-ra
+-ra
+-pb
+-rb
+-pb
+-pb
+-ra
+-pb
+-rr
+-ra
+-pb
+-rr
+-pb
+-rb
+-pb
+-pb
+-rb
+-pb
+-rr
+-pb
+-ra
+-pb
+-rr
+-pb
+-rr
+-ra
+-pb
+-ra
+-pb
+-ra
+-pb
+-rb
+-pb
+-pb
+-ra
+-pb
+-pb
+-ra
+-ra
+-ra
+-pb
+-ra
+-ra
+-pb
+-pb
+-rr
+-ra
+-ra
+-ra
+-pb
+-ra
+-ra
+-ra
+-ra
+-ra
+-pb
+-pb
+-ra
+-ra
+-ra
+-pb
+-rr
+-pb
+-rr
+-pb
+-rr
+-pb
+-ra
+-ra
+-ra
+-pb
+-ra
+-pb
+-rr
+-ra
+-pb
+-pb
+-rb
+-pb
+-rr
+-ra
+-pb
+-pb
+-rb
+-pb
+-rr
+-ra
+-pb
+-rr
+-pb
+-rb
+-pb
+-pb
+-pb
+-rb
+-pb
+-rr
+-ra
+-pb
+-rb
+-pb
+-rb
+-pb
+-rb
+-pb
+-ra
+-ra
+-ra
+-ra
+-ra
+-pb
+-ra
+-pb
+-rr
+-pb
+-ra
+-ra
+-ra
+-pb
+-ra
+-pb
+-rb
+-pb
+-rr
+-ra
+-ra
+-ra
+-pb
+-ra
+-pb
+-ra
+-ra
+-pb
+-rb
+-pb
+-rb
+-pb
+-pb
+-pb
+-rr
+-ra
+-ra
+-pb
+-ra
+-pb
+-rr
+-pb
+-rr
+-pb
+-rr
+-pb
+-pb
+-ra
+-ra
+-ra
+-pb
+-ra
+-pb
+-rb
+-pb
+-ra
+-pb
+-rr
+-ra
+-pb
+-ra
+-ra
+-ra
+-pb
+-rb
+-pb
+-ra
+-ra
+-ra
+-pb
+-pb
+-pb
+-ra
+-ra
+-ra
+-pb
+-rb
+-pb
+-rb
+-pb
+-rb
+-pb
+-ra
+-ra
+-ra
+-ra
+-ra
+-ra
+-ra
+-pb
+-pb
+-pb
+-rr
+-pb
+-ra
+-ra
+-ra
+-ra
+-ra
+-pb
+-pb
+-ra
+-pb
+-pb
+-rb
+-pb
+-ra
+-ra
+-ra
+-ra
+-ra
+-ra
+-pb
+-ra
+-pb
+-pb
+-ra
+-ra
+-pb
+-rb
+-pb
+-rr
+-pb
+-pb
+-ra
+-pb
+-rb
+-pb
+-rr
+-ra
+-pb
+-pb
+-rb
+-pb
+-rb
+-pb
+-pb
+-pb
+-ra
+-ra
+-pb
+-ra
+-pb
+-rb
+-pb
+-rb
+-pb
+-rb
+-pb
+-pb
+-rr
+-ra
+-ra
+-ra
+-ra
+-pb
+-pb
+-ra
+-ra
+-pb
+-pb
+-rr
+-ra
+-ra
+-ra
+-pb
+-rb
+-pb
+-ra
+-pb
+-rb
+-pb
+-ra
+-ra
+-ra
+-ra
+-pb
+-ra
+-pb
+-pb
+-pb
+-rb
+-pb
+-pb
+-pb
+-rr
+-pb
+-rb
+-pb
+-rr
+-pb
+-rr
+-pb
+-rb
+-pb
+-rb
+-pb
+-rb
+-pb
+-rb
+-pb
+-ra
+-pb
+-pb
+-ra
+-ra
+-ra
+-ra
+-pb
+-rr
+-pb
+-rr
+-ra
+-ra
+-ra
+-pb
+-ra
+-ra
+-pb
+-rr
+-ra
+-ra
+-pb
+-pb
+-ra
+-ra
+-pb
+-rb
+-pb
+-pb
+-rb
+-pb
+-ra
+-pb
+-rr
+-pb
+-ra
+-pb
+-rb
+-pb
+-rr
+-pb
+-rb
+-pb
+-ra
+-ra
+-pb
+-rr
+-pb
+-ra
+-pb
+-ra
+-ra
+-ra
+-pb
+-rb
+-pb
+-rr
+-ra
+-pb
+-rr
+-ra
+-ra
+-ra
+-ra
+-pb
+-ra
+-pb
+-rb
+-pb
+-rb
+-pb
+-rr
+-ra
+-pb
+-pb
+-rr
+-pb
+-pb
+-ra
+-ra
+-pb
+-rb
+-pb
+-rb
+-pb
+-rb
+-pb
+-pb
+-ra
+-ra
+-ra
+-pb
+-rr
+-pb
+-rr
+-ra
+-ra
+-ra
+-ra
+-pb
+-rb
+-pb
+-rr
+-pb
+-rb
+-pb
+-rr
+-pb
+-pb
+-rr
+-pb
+-ra
+-pb
+-ra
+-ra
+-ra
+-pb
+-pb
+-rb
+-pb
+-rb
+-pb
+-rr
+-ra
+-ra
+-ra
+-pb
+-rr
+-ra
+-pb
+-rb
+-pb
+-ra
+-pb
+-pb
+-ra
+-pb
+-ra
+-ra
+-pb
+-pb
+-rb
+-pb
+-rr
+-pb
+-rb
+-pb
+-pb
+-ra
+-pb
+-ra
+-ra
+-pb
+-rb
+-pb
+-rr
+-pb
+-pb
+-rb
+-pb
+-rb
+-pb
+-rr
+-ra
+-pb
+-ra
+-pb
+-pb
+-pb
+-ra
+-pb
+-pb
+-ra
+-pb
+-rr
+-pb
+-rb
+-pb
+-ra
+-ra
+-pb
+-rb
+-pb
+-rr
+-pb
+-ra
+-ra
+-ra
+-ra
+-ra
+-ra
+-ra
+-pb
+-ra
+-pb
+-ra
+-pb
+-ra
+-ra
+-ra
+-ra
+-ra
+-ra
+-pb
+-pb
+-pb
+-pb
+-rr
+-pb
+-rb
+-pb
+-pb
+-pb
+-rb
+-pb
+-ra
+-pb
+-rr
+-ra
+-pb
+-rr
+-pb
+-rr
+-pb
+-pb
+-rb
+-pb
+-rr
+-pb
+-ra
+-pb
+-rb
+-pb
+-pb
+-rb
+-pb
+-rr
+-pb
+-rb
+-pb
+-pb
+-rb
+-pb
+-rb
+-pb
+-rb
+-pb
+-rr
+-pb
+-pb
+-ra
+-ra
+-ra
+-pb
+-rr
+-pb
+-pb
+-pb
+-ra
+-pb
+-pb
+-rr
+-pb
+-rr
+-ra
+-pb
+-rr
+-pb
+-rr
+-pb
+-rb
+-pb
+-ra
+-ra
+-ra
+-pb
+-pb
+-rb
+-pb
+-rr
+-pb
+-pb
+-ra
+-pb
+-ra
+-ra
+-ra
+-ra
+-ra
+-ra
+-ra
+-pb
+-rr
+-pb
+-ra
+-pb
+-pb
+-rr
+-pb
+-rr
+-pb
+-rb
+-pb
+-pb
+-rb
+-pb
+-pb
+-pb
+-ra
+-ra
+-ra
+-ra
+-ra
+-pb
+-ra
+-ra
+-ra
+-ra
+-pb
+-pb
+-rr
+-pb
+-rb
+-pb
+-rr
+-pb
+-rr
+-pb
+-pb
+-rr
+-ra
+-pb
+-rb
+-pb
+-ra
+-ra
+-pb
+-rb
+-pb
+-rr
+-pb
+-rr
+-ra
+-pb
+-pb
+-rb
+-pb
+-rr
+-ra
+-pb
+-rr
+-ra
+-ra
+-pb
+-pb
+-ra
+-pb
+-rr
+-pb
+-rr
+-pb
+-rb
+-pb
+-rr
+-pb
+-ra
+-pb
+-ra
+-pb
+-ra
+-pb
+-rb
+-pb
+-rb
+-pb
+-pb
+-pb
+-rr
+-ra
+-ra
+-pb
+-ra
+-ra
+-pb
+-rr
+-ra
+-pb
+-ra
+-pb
+-pb
+-pb
+-rb
+-pb
+-rb
+-pb
+-rb
+-pb
+-rr
+-ra
+-pb
+-ra
+-pb
+-rb
+-pb
+-rb
+-pb
+-pb
+-rr
+-pb
+-pb
+-rr
+-pb
+-ra
+-pb
+-ra
+-ra
+-ra
+-pb
+-ra
+-pb
+-pb
+-rr
+-ra
+-pb
+-rb
+-pb
+-rb
+-pb
+-rb
+-pb
+-pb
+-ra
+-pb
+-pb
+-rb
+-pb
+-rb
+-pb
+-pb
+-rr
+-pb
+-pb
+-ra
+-pb
+-pb
+-ra
+-ra
+-pb
+-rb
+-pb
+-ra
+-ra
+-ra
+-ra
+-ra
+-ra
+-pb
+-pb
+-rb
+-pb
+-rr
+-pb
+-pb
+-rb
+-pb
+-rr
+-pb
+-ra
+-pb
+-pb
+-ra
+-pb
+-rb
+-pb
+-rr
+-pb
+-rr
+-ra
+-pb
+-pb
+-pb
+-rr
+-pb
+-rr
+-pb
+-ra
+-ra
+-ra
+-pb
+-pb
+-rr
+-ra
+-ra
+-ra
+-ra
+-pb
+-pb
+-ra
+-ra
+-pb
+-rr
+-ra
+-ra
+-pb
+-ra
+-ra
+-pb
+-rb
+-pb
+-rr
+-pb
+-rr
+-pb
+-ra
+-pb
+-ra
+-ra
+-ra
+-pb
+-ra
+-ra
+-ra
+-ra
+-pb
+-rb
+-pb
+-pb
+-pb
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-ra
+-pb
+-ra
+-pb
+-rb
+-pb
+-pb
+-ra
+-ra
+-ra
+-pb
+-rr
+-pb
+-pb
+-pb
+-pb
+-rr
+-ra
+-ra
+-pb
+-rb
+-pb
+-rb
+-pb
+-rr
+-pb
+-rb
+-pb
+-ra
+-ra
+-ra
+-ra
+-ra
+-pb
+-ra
+-pb
+-ra
+-pb
+-ra
+-ra
+-pb
+-ra
+-ra
+-ra
+-ra
+-ra
+-ra
+-pb
+-ra
+-pb
+-ra
+-ra
+-pb
+-pb
+-rb
+-pb
+-ra
+-ra
+-ra
+-ra
+-pb
+-rb
+-pb
+-pb
+-pb
+-rr
+-pb
+-ra
+-ra
+-pb
+-rr
+-ra
+-pb
+-rr
+-pb
+-rr
+-ra
+-pb
+-pb
+-rb
+-pb
+-rb
+-pb
+-rb
+-pb
+-rr
+-pb
+-rb
+-pb
+-rb
+-pb
+-rb
+-pb
+-pb
+-rr
+-pb
+-ra
+-ra
+-ra
+-pb
+-ra
+-ra
+-pb
+-pb
+-ra
+-pb
+-ra
+-ra
+-pb
+-pb
+-pb
+-rr
+-ra
+-ra
+-ra
+-pb
+-rr
+-ra
+-pb
+-rr
+-ra
+-ra
+-pb
+-rb
+-pb
+-rr
+-pb
+-rr
+-pb
+-pb
+-pb
+-rb
+-pb
+-pb
+-pb
+-rr
+-pb
+-rb
+-pb
+-rb
+-pb
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-pb
+-pb
+-pb
+-pb
+-rb
+-pb
+-pb
+-ra
+-pb
+-rr
+-ra
+-ra
+-pb
+-rb
+-pb
+-rb
+-pb
+-ra
+-pb
+-pb
+-ra
+-pb
+-ra
+-pb
+-rb
+-pb
+-ra
+-ra
+-pb
+-pb
+-ra
+-ra
+-ra
+-ra
+-pb
+-pb
+-rb
+-pb
+-rr
+-ra
+-ra
+-pb
+-rr
+-pb
+-rr
+-ra
+-ra
+-pb
+-rr
+-ra
+-ra
+-ra
+-ra
+-pb
+-ra
+-pb
+-rr
+-pb
+-rb
+-pb
+-rb
+-pb
+-rb
+-pb
+-pb
+-rr
+-ra
+-ra
+-pb
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-pb
+-pb
+-ra
+-pb
+-pb
+-rb
+-pb
+-ra
+-pb
+-rb
+-pb
+-rb
+-pb
+-rr
+-ra
+-ra
+-ra
+-pb
+-ra
+-pb
+-rr
+-pb
+-rr
+-pb
+-rr
+-ra
+-pb
+-pb
+-ra
+-pb
+-pb
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-pb
+-rr
+-pb
+-pb
+-rb
+-pb
+-rr
+-ra
+-ra
+-pb
+-pb
+-rb
+-pb
+-ra
+-ra
+-ra
+-pb
+-rrr
+-rrr
+-rrr
+-rrr
+-pb
+-rb
+-pb
+-rr
+-ra
+-ra
+-pb
+-rb
+-pb
+-rrb
+-rrb
+-sss
+-rrb
+-BEGINNING SORTINGsb
+-pa
+-pa
+-sb
+-pa
+-pa
+-sb
+-pa
+-sb
+-pa
+-sb
+-pa
+-pa
+-pa
+-sb
+-pa
+-sb
+-pa
+-pa
+-pa
+-pa
+-sss
+-ra
+-ra
+-pa
+-pa
+-rr
+-rb
+-pa
+-rrr
+-rrr
+-sa
+-rra
+-sa
+-rb
+-sb
+-pa
+-rrb
+-pa
+-pa
+-rb
+-pa
+-rr
+-pa
+-rb
+-pa
+-pa
+-ra
+-ra
+-pa
+-sa
+-rrr
+-rrr
+-rrr
+-sa
+-pa
+-pa
+-pa
+-pa
+-pa
+-pa
+-sss
+-pa
+-sss
+-rr
+-rr
+-rr
+-pa
+-sss
+-pa
+-rb
+-rb
+-pa
+-ra
+-pa
+-sa
+-pa
+-sss
+-pa
+-rr
+-pb
+-rb
+-pb
+-ra
+-pb
+-rb
+-pa
+-rrr
+-rrb
+-sb
+-pa
+-pa
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-pb
+-pb
+-rb
+-rb
+-pb
+-ra
+-ra
+-pa
+-rrr
+-rrr
+-sa
+-pa
+-pa
+-rrb
+-sb
+-pa
+-pa
+-rb
+-rb
+-pa
+-ra
+-pa
+-rrr
+-rrb
+-pa
+-pa
+-pa
+-rr
+-rb
+-pa
+-rr
+-rb
+-pa
+-pa
+-sss
+-pa
+-sa
+-pa
+-pa
+-rr
+-pa
+-pa
+-sa
+-ra
+-ra
+-pa
+-sss
+-pb
+-rb
+-pb
+-pb
+-rr
+-ra
+-pa
+-rrr
+-rrr
+-sss
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-sa
+-rrr
+-sss
+-rrr
+-sa
+-pb
+-pb
+-rr
+-rb
+-pb
+-ra
+-pa
+-rrr
+-rrr
+-sa
+-pa
+-pa
+-pa
+-pa
+-rb
+-sb
+-pa
+-rrb
+-pa
+-pa
+-rb
+-rb
+-pa
+-pa
+-ra
+-ra
+-pa
+-pa
+-rr
+-pa
+-pa
+-rr
+-ra
+-pa
+-rb
+-rb
+-pa
+-ra
+-pa
+-pa
+-pa
+-ra
+-ra
+-pa
+-rb
+-pa
+-pa
+-ra
+-pa
+-pa
+-pa
+-rr
+-pa
+-rb
+-pa
+-rr
+-rb
+-pa
+-pa
+-pb
+-rb
+-pb
+-pb
+-rb
+-pb
+-ra
+-ra
+-pb
+-pb
+-rb
+-rb
+-pb
+-sb
+-ra
+-pa
+-pa
+-pa
+-rrr
+-rrr
+-sa
+-rrr
+-rrb
+-rb
+-sb
+-pa
+-rrb
+-pa
+-sb
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-pb
+-rb
+-pb
+-pb
+-sss
+-pb
+-rr
+-pb
+-rb
+-pb
+-sb
+-ra
+-ra
+-pb
+-rr
+-pa
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-rrr
+-sa
+-pa
+-sb
+-pa
+-pa
+-pa
+-pa
+-rr
+-pa
+-rr
+-pa
+-rb
+-pa
+-sa
+-pa
+-rb
+-pa
+-pa
+-sa
+-ra
+-ra
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-pb
+-pb
+-rb
+-rb
+-pb
+-ra
+-pa
+-rrr
+-rrb
+-pa
+-pa
+-pa
+-rb
+-sb
+-pa
+-rrb
+-pa
+-pa
+-pa
+-pa
+-rb
+-pa
+-rb
+-rb
+-rb
+-pa
+-pa
+-ra
+-ra
+-pa
+-pa
+-pa
+-pa
+-rr
+-pa
+-pa
+-rr
+-rr
+-rb
+-rb
+-rb
+-pa
+-pa
+-pa
+-ra
+-ra
+-pa
+-pa
+-pa
+-rr
+-ra
+-pa
+-pa
+-pa
+-ra
+-ra
+-ra
+-pb
+-rb
+-pb
+-pb
+-pb
+-rr
+-pb
+-pb
+-sb
+-rb
+-rb
+-pb
+-sb
+-pa
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-sa
+-rrb
+-sb
+-pa
+-sb
+-pa
+-sb
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-pb
+-pb
+-rr
+-rb
+-pb
+-pb
+-rb
+-pb
+-sss
+-pb
+-rb
+-pb
+-sb
+-ra
+-ra
+-pa
+-sb
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-sa
+-rrb
+-pa
+-rr
+-rb
+-pa
+-rrr
+-rrb
+-pa
+-pa
+-rrb
+-pa
+-rb
+-pa
+-rr
+-pa
+-pa
+-rr
+-pa
+-ra
+-pa
+-pa
+-sa
+-rrr
+-rrr
+-sa
+-rrr
+-sss
+-pa
+-rb
+-sb
+-pa
+-rrb
+-sb
+-pa
+-pa
+-pa
+-rr
+-pa
+-pa
+-pa
+-ra
+-pa
+-pa
+-pa
+-pa
+-rr
+-rr
+-rb
+-pa
+-rr
+-rb
+-pa
+-rb
+-pa
+-pa
+-pa
+-ra
+-ra
+-pa
+-pa
+-pa
+-pa
+-ra
+-ra
+-pa
+-rb
+-rb
+-pa
+-pa
+-rb
+-pa
+-ra
+-pa
+-rb
+-pa
+-pa
+-pa
+-pa
+-ra
+-ra
+-ra
+-pa
+-pa
+-rb
+-pa
+-rr
+-pa
+-ra
+-pa
+-pa
+-pa
+-ra
+-pa
+-rb
+-rb
+-pa
+-rr
+-pa
+-ra
+-pa
+-pa
+-pa
+-rr
+-ra
+-pa
+-rb
+-rb
+-pa
+-rb
+-rb
+-pa
+-ra
+-ra
+-pb
+-pb
+-pb
+-rr
+-pb
+-pb
+-rr
+-pb
+-pb
+-rr
+-pb
+-ra
+-pb
+-rb
+-pb
+-pb
+-rb
+-pb
+-ra
+-pb
+-rr
+-pb
+-rb
+-sb
+-pa
+-rb
+-sb
+-pa
+-rrb
+-rb
+-pa
+-rr
+-pa
+-ra
+-pa
+-rrr
+-rrr
+-sa
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-pb
+-rr
+-pb
+-rb
+-pb
+-ra
+-pb
+-sb
+-pb
+-rb
+-pa
+-pa
+-rrr
+-rrr
+-sa
+-rrb
+-pa
+-pa
+-pa
+-pa
+-rr
+-rb
+-pa
+-rb
+-pa
+-ra
+-pa
+-sa
+-rrr
+-rrr
+-rrb
+-sb
+-pa
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-pb
+-rb
+-pb
+-pb
+-pb
+-rr
+-rb
+-pb
+-ra
+-pb
+-pb
+-rb
+-pb
+-pb
+-rr
+-pb
+-pb
+-ra
+-ra
+-pb
+-rr
+-ra
+-pb
+-rb
+-pb
+-sb
+-pa
+-rb
+-rb
+-pa
+-pa
+-sss
+-pa
+-pa
+-ra
+-ra
+-rrr
+-rrr
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-pb
+-pb
+-pb
+-rr
+-rb
+-pb
+-pb
+-rr
+-pa
+-pa
+-rrr
+-rrr
+-sss
+-rrb
+-sb
+-pa
+-pa
+-pa
+-pa
+-rr
+-rb
+-rb
+-pa
+-pa
+-ra
+-pa
+-sa
+-rrr
+-rrr
+-rrb
+-sb
+-pa
+-pa
+-pa
+-pa
+-pa
+-rr
+-rr
+-rb
+-rb
+-pa
+-ra
+-pa
+-pa
+-pa
+-pa
+-rb
+-pa
+-pa
+-rr
+-pa
+-pa
+-ra
+-ra
+-pa
+-rb
+-pa
+-ra
+-pa
+-ra
+-pb
+-pb
+-pb
+-pb
+-sss
+-pb
+-rr
+-rb
+-rb
+-pa
+-pa
+-rrr
+-rrr
+-rrb
+-pa
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-pb
+-pb
+-rb
+-rb
+-pb
+-pb
+-rr
+-pb
+-sb
+-ra
+-pa
+-pa
+-rrr
+-rrr
+-sss
+-rrb
+-sb
+-pa
+-pa
+-pa
+-pa
+-pa
+-rb
+-pa
+-pa
+-sss
+-ra
+-ra
+-pa
+-rrr
+-rra
+-pa
+-pa
+-pa
+-pa
+-pa
+-rb
+-pa
+-ra
+-pa
+-pa
+-rr
+-pa
+-ra
+-pa
+-pa
+-rr
+-pa
+-pa
+-ra
+-pa
+-pa
+-pa
+-rr
+-rr
+-rb
+-pa
+-rb
+-rb
+-rb
+-pa
+-rr
+-pa
+-rr
+-rb
+-pa
+-ra
+-pa
+-pa
+-rb
+-pa
+-rr
+-pa
+-ra
+-pa
+-pa
+-rb
+-pa
+-pa
+-rb
+-rb
+-pa
+-rr
+-pa
+-ra
+-pa
+-pa
+-ra
+-pa
+-pa
+-pa
+-ra
+-pa
+-pa
+-pa
+-pa
+-rr
+-rr
+-rb
+-pa
+-pa
+-pa
+-pa
+-ra
+-ra
+-ra
+-ra
+-pb
+-rr
+-pb
+-pb
+-pb
+-pb
+-pb
+-rb
+-rb
+-pb
+-ra
+-ra
+-pb
+-pb
+-rr
+-rb
+-pb
+-pb
+-pb
+-rr
+-pb
+-rr
+-rb
+-pa
+-ra
+-pa
+-pa
+-ra
+-pa
+-sa
+-rrr
+-rra
+-sb
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-ra
+-pb
+-pb
+-rr
+-pb
+-sss
+-pb
+-pb
+-rb
+-rb
+-pa
+-pa
+-rrr
+-rrr
+-rrb
+-pa
+-pa
+-pa
+-rb
+-rb
+-pa
+-rb
+-pa
+-ra
+-pa
+-sa
+-pa
+-ra
+-rrr
+-rrr
+-sa
+-rrb
+-sb
+-pa
+-sb
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-ra
+-pb
+-rr
+-pb
+-rr
+-ra
+-pb
+-pb
+-pb
+-ra
+-pb
+-pb
+-pb
+-rb
+-rb
+-pb
+-ra
+-ra
+-pb
+-rb
+-pb
+-pb
+-pb
+-pb
+-rb
+-rb
+-rb
+-sb
+-pa
+-rrb
+-pa
+-pa
+-pa
+-rr
+-ra
+-pa
+-rrr
+-rra
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-pb
+-pb
+-rr
+-rb
+-pb
+-ra
+-pb
+-rb
+-pb
+-sb
+-pa
+-pa
+-rrr
+-rrr
+-rrb
+-rb
+-sb
+-pa
+-rrb
+-pa
+-pa
+-rb
+-sb
+-pa
+-rrb
+-sb
+-pa
+-rb
+-rb
+-pa
+-ra
+-pa
+-pa
+-ra
+-rrr
+-rrr
+-sss
+-pa
+-pa
+-pa
+-pa
+-rb
+-pa
+-ra
+-pa
+-pa
+-ra
+-pa
+-pa
+-pa
+-rb
+-pa
+-pa
+-pa
+-pa
+-rr
+-rr
+-rr
+-ra
+-pa
+-pa
+-rr
+-pb
+-pb
+-rb
+-pb
+-pb
+-rr
+-ra
+-pa
+-pa
+-rrr
+-rrr
+-sa
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rra
+-pb
+-pb
+-pb
+-sb
+-rb
+-rb
+-rb
+-pb
+-pb
+-ra
+-ra
+-pa
+-pa
+-rrr
+-rrr
+-sa
+-rrb
+-pa
+-pa
+-pa
+-sb
+-pa
+-pa
+-rr
+-rb
+-pa
+-pa
+-ra
+-pa
+-rrr
+-rrr
+-sb
+-pa
+-pa
+-pa
+-ra
+-pa
+-rb
+-pa
+-ra
+-pa
+-pa
+-rb
+-pa
+-rr
+-pa
+-pa
+-pa
+-ra
+-ra
+-pa
+-pa
+-pa
+-pa
+-rr
+-pa
+-rr
+-pa
+-pa
+-pa
+-pa
+-rr
+-rr
+-rb
+-pa
+-ra
+-pa
+-rb
+-pa
+-pa
+-rb
+-rb
+-pa
+-pa
+-ra
+-pa
+-pa
+-pa
+-pa
+-rr
+-rr
+-rr
+-pa
+-pa
+-rr
+-rb
+-pa
+-rb
+-pa
+-rr
+-pa
+-pa
+-pa
+-pa
+-rr
+-ra
+-pa
+-pa
+-pa
+-rr
+-rb
+-pa
+-pa
+-ra
+-pa
+-pa
+-pa
+-pa
+-rb
+-pa
+-rr
+-rb
+-pa
+-pa
+-ra
+-pa
+-pa
+-pa
+-pa
+-pa
+-pa
+-rr
+-ra
+-pa
+-pa
+-pa
+-ra
+-ra
+-pa
+-rb
+-rb
+-rb
+-pa
+-pa
+-rr
+-pa
+-rr
+-rr
+-pa
+-rr
+-pa
+-ra
+-pa
+-rb
+-rb
+-pa
+-rb
+-pa
+-ra
+-pa
+-pa
+-pa
+-pa
+-pa
+-rr
+-pa
+-pa
+-ra
+-pa
+-pa
+-pa
+-pa
+-pa
+-rr
+-rr
+-rr
+-pa
+-pa
+-rr
+-pa
+-ra
+-ra
+-ra
+-pa
+-rb
+-rb
+-pa
+-ra
+-pa
+-ra
+-pb
+-rr
+-ra
+-pb
+-pb
+-rb
+-pb
+-pb
+-rr
+-ra
+-pb
+-pb
+-pb
+-ra
+-pb
+-pb
+-rb
+-rb
+-pb
+-pb
+-pb
+-pb
+-rr
+-pb
+-rb
+-rb
+-pb
+-pb
+-pb
+-rr
+-pb
+-rb
+-pb
+-pb
+-pb
+-rr
+-pb
+-rb
+-pb
+-ra
+-pb
+-pb
+-pb
+-pb
+-rr
+-rr
+-ra
+-ra
+-pa
+-rb
+-rb
+-pa
+-sa
+-pa
+-rr
+-pa
+-rr
+-pa
+-pa
+-sa
+-pa
+-rr
+-pa
+-pa
+-sss
+-ra
+-ra
+-pb
+-rb
+-pb
+-pb
+-rr
+-pa
+-rrr
+-rrb
+-sb
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-sa
+-rrr
+-sss
+-rrr
+-sb
+-pa
+-rb
+-sb
+-pa
+-rrb
+-rb
+-sb
+-pa
+-rrb
+-sb
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-pb
+-pb
+-pb
+-rb
+-pb
+-sb
+-ra
+-pb
+-pb
+-pb
+-sss
+-pb
+-sb
+-rr
+-rr
+-rr
+-pb
+-rb
+-pa
+-pa
+-sb
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-rrr
+-sa
+-rr
+-sa
+-rrr
+-rrb
+-sb
+-pa
+-rb
+-sb
+-pa
+-rrb
+-sb
+-pa
+-sb
+-pa
+-pa
+-pa
+-rr
+-pa
+-rb
+-pa
+-rr
+-pa
+-pa
+-rr
+-rr
+-pa
+-pa
+-sss
+-pa
+-sa
+-pa
+-ra
+-pb
+-rb
+-pb
+-ra
+-pb
+-rb
+-pa
+-rrr
+-rrb
+-sb
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-rrr
+-sa
+-rrr
+-sss
+-pb
+-pb
+-rb
+-rb
+-pb
+-ra
+-pa
+-rrr
+-rrb
+-pa
+-pa
+-pa
+-pa
+-rb
+-sb
+-pa
+-rrb
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-pb
+-rr
+-pb
+-rr
+-pb
+-ra
+-ra
+-pb
+-rb
+-pb
+-ra
+-pb
+-rr
+-pb
+-rr
+-pb
+-pb
+-pb
+-pb
+-pb
+-rr
+-ra
+-ra
+-pb
+-pb
+-rb
+-rb
+-pb
+-pb
+-pb
+-rr
+-ra
+-pb
+-pb
+-pb
+-pb
+-pb
+-rr
+-pb
+-rb
+-rb
+-pb
+-pb
+-pb
+-rb
+-pb
+-pb
+-rr
+-pa
+-pa
+-pa
+-sa
+-ra
+-ra
+-ra
+-pa
+-pa
+-rr
+-rb
+-pa
+-rb
+-rb
+-pa
+-rr
+-pa
+-sa
+-pa
+-sa
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-pb
+-pb
+-rb
+-rb
+-pb
+-ra
+-pa
+-rrr
+-rrb
+-pa
+-pa
+-rb
+-pa
+-rr
+-pa
+-ra
+-pa
+-rrr
+-rrr
+-sa
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-pb
+-rr
+-ra
+-pb
+-rb
+-pb
+-ra
+-pb
+-pb
+-sb
+-pb
+-rr
+-pb
+-pb
+-rr
+-rb
+-pb
+-sb
+-pa
+-pa
+-pa
+-pa
+-rrr
+-rrr
+-sa
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-pb
+-pb
+-rb
+-rb
+-pb
+-ra
+-ra
+-pa
+-rrr
+-rrr
+-pa
+-pa
+-pa
+-rb
+-sb
+-pa
+-rrb
+-rb
+-sb
+-pa
+-rrb
+-pa
+-pa
+-rb
+-rb
+-rb
+-pa
+-rb
+-pa
+-pa
+-sss
+-ra
+-ra
+-pa
+-sa
+-pa
+-rr
+-pa
+-pa
+-ra
+-ra
+-pa
+-sa
+-pa
+-pb
+-pb
+-rb
+-rb
+-pb
+-ra
+-pa
+-rrr
+-rrb
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-sb
+-pa
+-rb
+-sb
+-pa
+-rrb
+-sb
+-pa
+-sb
+-pa
+-pa
+-pa
+-pa
+-pa
+-pa
+-rr
+-rr
+-ra
+-ra
+-pa
+-pa
+-pa
+-rr
+-pa
+-rr
+-pa
+-pa
+-pa
+-pa
+-rr
+-ra
+-ra
+-pa
+-rb
+-pa
+-rb
+-pa
+-pa
+-pa
+-pa
+-pa
+-rr
+-ra
+-pa
+-rb
+-pa
+-rr
+-pa
+-pa
+-rb
+-pa
+-ra
+-pa
+-rb
+-pa
+-rb
+-rb
+-pa
+-ra
+-pa
+-ra
+-pb
+-pb
+-pb
+-pb
+-sss
+-rr
+-rr
+-pb
+-rr
+-rb
+-pb
+-pb
+-pb
+-rr
+-pb
+-sb
+-pa
+-pa
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-sa
+-rrr
+-sss
+-rrr
+-sss
+-pb
+-rb
+-pb
+-ra
+-ra
+-pb
+-rb
+-pa
+-rrr
+-rrr
+-sb
+-pa
+-pa
+-pa
+-pa
+-rb
+-sb
+-pa
+-rrb
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-pb
+-pb
+-pb
+-rb
+-pb
+-pb
+-rb
+-pb
+-ra
+-ra
+-ra
+-ra
+-ra
+-pb
+-pb
+-pb
+-rb
+-rb
+-rb
+-pa
+-pa
+-pa
+-pa
+-rrr
+-rrr
+-sa
+-rrr
+-sa
+-rrr
+-sss
+-rrr
+-sss
+-pb
+-rr
+-pb
+-rb
+-pb
+-ra
+-pa
+-rrr
+-rrr
+-sss
+-pa
+-pa
+-pa
+-pa
+-pa
+-pa
+-pa
+-pa
+-ra
+-pa
+-rb
+-pa
+-rr
+-pa
+-pa
+-sss
+-rb
+-rb
+-pa
+-rr
+-pa
+-sa
+-pa
+-pa
+-ra
+-ra
+-pb
+-rb
+-pb
+-pb
+-rr
+-pa
+-rrr
+-rrb
+-sb
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-sa
+-rrr
+-sa
+-rrr
+-pb
+-pb
+-rr
+-rb
+-pb
+-ra
+-pa
+-rrr
+-rrr
+-sa
+-pa
+-pa
+-sb
+-pa
+-pa
+-rb
+-sb
+-pa
+-rrb
+-pa
+-pa
+-pa
+-rr
+-rb
+-pa
+-rb
+-pa
+-rr
+-pa
+-rb
+-rb
+-rb
+-rb
+-pa
+-pa
+-pa
+-rr
+-rr
+-pa
+-rb
+-pa
+-pa
+-ra
+-pa
+-pa
+-rb
+-rb
+-rb
+-rb
+-pa
+-ra
+-pa
+-rb
+-pa
+-rr
+-rb
+-pa
+-rr
+-pa
+-pa
+-ra
+-ra
+-pa
+-pa
+-rb
+-rb
+-pa
+-rr
+-rb
+-pa
+-pa
+-ra
+-pa
+-pa
+-pa
+-rr
+-rb
+-pa
+-ra
+-pa
+-pa
+-pa
+-pa
+-pa
+-pa
+-pa
+-ra
+-pa
+-pa
+-rb
+-rb
+-pa
+-pa
+-rr
+-pa
+-rr
+-pa
+-pa
+-pa
+-rr
+-rr
+-rr
+-pa
+-rr
+-pa
+-pa
+-ra
+-ra
+-ra
+-pa
+-rb
+-pa
+-pa
+-pa
+-pa
+-ra
+-ra
+-pa
+-pa
+-pa
+-ra
+-ra
+-pa
+-pa
+-rb
+-pa
+-pa
+-pa
+-pa
+-pa
+-ra
+-pa
+-rb
+-pa
+-rb
+-pa
+-pa
+-rr
+-pa
+-rb
+-pa
+-ra
+-pa
+-pa
+-pa
+-rb
+-pa
+-pa
+-pa
+-ra
+-ra
+-ra
+-pa
+-pa
+-pa
+-pa
+-pa
+-pa
+-rr
+-pa
+-ra
+-ra
+-ra
+-ra
+-ra
+-pa
+-pa
+-pa
+-pa
+-rr
+-rr
+-pb
+-rb
+-pb
+-pb
+-ra
+-pb
+-ra
+-pb
+-rb
+-pb
+-pb
+-rr
+-ra
+-pb
+-ra
+-pb
+-pb
+-pb
+-pb
+-pb
+-rb
+-rb
+-rb
+-rb
+-rb
+-pb
+-ra
+-pb
+-pb
+-rb
+-rb
+-pb
+-ra
+-ra
+-pb
+-ra
+-ra
+-pb
+-rb
+-pb
+-pb
+-rr
+-ra
+-pb
+-pb
+-rb
+-pb
+-ra
+-pb
+-rb
+-pb
+-ra
+-pb
+-pa
+-rr
+-pa
+-rb
+-pa
+-sa
+-pa
+-rr
+-rb
+-pa
+-pa
+-sss
+-ra
+-ra
+-pa
+-sss
+-pa
+-sa
+-pb
+-rr
+-pb
+-pb
+-rb
+-pa
+-rrr
+-rrb
+-sb
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-sa
+-rrr
+-sa
+-pb
+-rr
+-pb
+-pb
+-rb
+-pa
+-rrr
+-rrb
+-sb
+-pa
+-pa
+-pa
+-pa
+-rr
+-rr
+-pa
+-rrr
+-rrr
+-sb
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-ra
+-pb
+-pb
+-rb
+-pb
+-sss
+-pb
+-pb
+-rr
+-pb
+-sss
+-pb
+-rr
+-rr
+-rb
+-pb
+-sss
+-ra
+-pb
+-sb
+-pa
+-rb
+-sb
+-pa
+-rrb
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-sa
+-rrr
+-sa
+-rrr
+-sss
+-pb
+-rr
+-pb
+-rb
+-pb
+-ra
+-pa
+-rrr
+-rrr
+-sb
+-pa
+-pa
+-pa
+-sb
+-pa
+-sb
+-pa
+-pa
+-pa
+-sb
+-pa
+-pa
+-rb
+-pa
+-ra
+-pa
+-sa
+-pa
+-pa
+-ra
+-ra
+-pa
+-sss
+-rb
+-rb
+-pa
+-sss
+-rb
+-rb
+-pa
+-ra
+-pb
+-rr
+-pb
+-pb
+-rb
+-pa
+-rrr
+-rrb
+-sb
+-pa
+-pa
+-rrr
+-rrr
+-sa
+-rrr
+-sss
+-rrr
+-sa
+-rrb
+-sb
+-pa
+-pa
+-pa
+-sb
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-ra
+-pb
+-pb
+-rb
+-rb
+-pb
+-pb
+-rr
+-ra
+-pb
+-pb
+-ra
+-ra
+-pb
+-pb
+-pb
+-rb
+-pb
+-pb
+-pb
+-pb
+-pb
+-rr
+-ra
+-pb
+-rr
+-ra
+-pb
+-ra
+-pb
+-pb
+-rr
+-ra
+-pb
+-pb
+-rb
+-rb
+-pb
+-pb
+-rb
+-pb
+-ra
+-pb
+-pb
+-rr
+-pb
+-pb
+-pb
+-rb
+-rb
+-rb
+-pa
+-rb
+-rb
+-pa
+-pa
+-rr
+-pa
+-pa
+-rr
+-pa
+-rr
+-pa
+-ra
+-pa
+-sa
+-pa
+-ra
+-pb
+-rb
+-pb
+-pb
+-rr
+-pa
+-rrr
+-rrb
+-sb
+-pa
+-pa
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-pb
+-rb
+-pb
+-pb
+-rr
+-ra
+-pa
+-rrr
+-rrr
+-sss
+-pa
+-pa
+-pa
+-rb
+-rb
+-pa
+-ra
+-pa
+-rrr
+-rrb
+-sb
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-ra
+-pb
+-rr
+-ra
+-pb
+-pb
+-pb
+-sb
+-rr
+-rb
+-rb
+-pb
+-pb
+-pb
+-pb
+-rb
+-pb
+-sb
+-ra
+-pa
+-pa
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-rrr
+-sa
+-pb
+-pb
+-rr
+-rb
+-pb
+-ra
+-pa
+-rrr
+-rrr
+-pa
+-pa
+-pa
+-pa
+-rb
+-sb
+-pa
+-rrb
+-pa
+-pa
+-pa
+-pa
+-sss
+-pa
+-sss
+-pa
+-rr
+-pa
+-rr
+-rb
+-rb
+-pa
+-pa
+-rr
+-pa
+-pa
+-ra
+-ra
+-pb
+-pb
+-rb
+-rb
+-pb
+-ra
+-pa
+-rrr
+-rrb
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sa
+-pb
+-rb
+-pb
+-ra
+-ra
+-pb
+-rb
+-pa
+-rrr
+-rrr
+-sb
+-pa
+-pa
+-pa
+-pa
+-pa
+-pa
+-pa
+-rb
+-pa
+-rr
+-pa
+-pa
+-pa
+-rb
+-pa
+-pa
+-pa
+-rb
+-pa
+-rr
+-pa
+-ra
+-pa
+-pa
+-pa
+-pa
+-pa
+-rr
+-rr
+-rr
+-rr
+-rb
+-pa
+-pa
+-ra
+-pa
+-pa
+-rr
+-pa
+-rr
+-pa
+-pa
+-ra
+-pa
+-rb
+-pa
+-pa
+-pa
+-pa
+-pa
+-pa
+-rr
+-rr
+-rr
+-ra
+-pb
+-rr
+-pb
+-rb
+-pb
+-pb
+-pb
+-sb
+-rr
+-rb
+-pb
+-pb
+-rb
+-pb
+-ra
+-pb
+-sb
+-ra
+-pa
+-sb
+-pa
+-sb
+-pa
+-pa
+-rrr
+-rrr
+-sa
+-rrr
+-sa
+-rrr
+-sss
+-rrr
+-sa
+-pb
+-rb
+-pb
+-pb
+-rr
+-ra
+-pa
+-rrr
+-rrr
+-sb
+-pa
+-pa
+-pa
+-pa
+-pa
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-pb
+-pb
+-sss
+-pb
+-rr
+-pb
+-rr
+-pb
+-ra
+-pb
+-pb
+-sss
+-pb
+-rr
+-rb
+-rb
+-pb
+-sb
+-pa
+-sb
+-pa
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-rrr
+-rrb
+-sb
+-pa
+-sb
+-pa
+-pa
+-pa
+-pa
+-rb
+-pa
+-pa
+-pa
+-ra
+-ra
+-pa
+-pa
+-rr
+-pa
+-rr
+-rb
+-rb
+-pa
+-sa
+-pa
+-sa
+-pa
+-rr
+-pb
+-rb
+-pb
+-ra
+-pb
+-rb
+-pa
+-rrr
+-rrb
+-sb
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-rrr
+-sa
+-rrr
+-sss
+-pb
+-rr
+-pb
+-pb
+-rb
+-pa
+-rrr
+-rrb
+-sb
+-pa
+-pa
+-pa
+-pa
+-sb
+-pa
+-pa
+-pa
+-
+--9874	([7][-19][0][5])
+--9854	([7][-19][0][5])
+--9848	([7][-19][0][5])
+--9840	([7][-19][0][5])
+--9769	([7][-19][0][5])
+--9744	([7][-20][0][2])
+--9737	([7][-20][0][1])
+--9701	([-3][-21][0][1])
+--9666	([7][-22][0][1])
+--9659	([-3][-20][0][5])
+--9637	([7][-21][0][2])
+--9594	([7][-21][0][1])
+--9562	([-3][-22][0][1])
+--9542	([7][-23][0][1])
+--9495	([7][-20][0][4])
+--9482	([7][-20][0][4])
+--9460	([7][-20][0][5])
+--9445	([7][-20][0][4])
+--9269	([7][-20][0][4])
+--9264	([-3][-21][0][4])
+--9245	([-3][-21][0][4])
+--9236	([-3][-21][0][4])
+--9222	([-3][-21][0][4])
+--9193	([7][-22][0][4])
+--9148	([7][-22][0][4])
+--9147	([7][-22][0][4])
+--9139	([7][-22][0][4])
+--9104	([-3][-20][0][14])
+--9087	([7][-21][0][5])
+--9066	([7][-21][0][5])
+--9005	([7][-21][0][5])
+--8976	([7][-21][0][5])
+--8948	([7][-21][0][5])
+--8893	([7][-22][0][2])
+--8855	([7][-22][0][2])
+--8842	([-3][-23][0][2])
+--8820	([-3][-23][0][2])
+--8802	([7][-24][0][1])
+--8796	([7][-23][0][4])
+--8754	([7][-23][0][4])
+--8710	([7][-23][0][4])
+--8693	([7][-23][0][4])
+--8668	([7][-20][0][5])
+--8648	([7][-20][0][5])
+--8640	([7][-20][0][5])
+--8631	([7][-20][0][5])
+--8616	([7][-20][0][5])
+--8609	([7][-21][0][2])
+--8493	([7][-21][0][2])
+--8488	([-3][-22][0][2])
+--8461	([-3][-22][0][2])
+--8453	([7][-23][0][1])
+--8439	([7][-22][0][1])
+--8437	([7][-22][0][2])
+--8409	([-3][-23][0][1])
+--8396	([7][-24][0][1])
+--8374	([7][-21][0][5])
+--8369	([7][-21][0][5])
+--8345	([7][-1][0][5])
+--8222	([7][-21][0][5])
+--8218	([7][-21][0][5])
+--8215	([7][-22][0][2])
+--8151	([7][-22][0][2])
+--8110	([-3][-23][0][2])
+--8100	([-3][-23][0][2])
+--8097	([7][-24][0][1])
+--8054	([7][-23][0][4])
+--8012	([7][-23][0][4])
+--7934	([7][-23][0][4])
+--7898	([7][-23][0][4])
+--7833	([7][-22][0][2])
+--7789	([7][-22][0][1])
+--7750	([-3][-23][0][1])
+--7736	([-3][-24][0][1])
+--7732	([7][-22][0][5])
+--7731	([7][-23][0][2])
+--7702	([7][-23][0][2])
+--7675	([-3][-24][0][2])
+--7619	([-3][-24][0][2])
+--7447	([7][-25][0][1])
+--7398	([7][-24][0][2])
+--7364	([7][-24][0][1])
+--7261	([-3][-25][0][1])
+--7237	([7][-26][0][1])
+--7229	([7][-21][0][4])
+--7221	([7][-21][0][4])
+--7121	([7][-21][0][4])
+--7111	([7][-21][0][5])
+--7102	([7][-21][0][4])
+--7096	([-3][-22][0][4])
+--7090	([-3][-22][0][4])
+--7028	([-3][-22][0][4])
+--7025	([-3][-22][0][4])
+--7009	([7][-23][0][2])
+--7004	([7][-23][0][1])
+--6808	([-3][-24][0][1])
+--6728	([7][-25][0][1])
+--6682	([7][-21][0][14])
+--6644	([7][-22][0][5])
+--6638	([7][-22][0][5])
+--6584	([7][-22][0][5])
+--6463	([7][-22][0][5])
+--6456	([7][-22][0][5])
+--6429	([7][-23][0][2])
+--6341	([7][-23][0][2])
+--6329	([-3][-24][0][2])
+--6327	([-3][-24][0][2])
+--6273	([7][-25][0][1])
+--6199	([7][-24][0][4])
+--5994	([7][-24][0][4])
+--5988	([7][-4][0][4])
+--5981	([7][-24][0][4])
+--5945	([7][-23][0][2])
+--5944	([7][-23][0][2])
+--5926	([-3][-24][0][2])
+--5923	([-3][-24][0][2])
+--5783	([-3][-25][0][1])
+--5764	([7][-24][0][2])
+--5735	([7][-24][0][1])
+--5731	([-3][-25][0][1])
+--5659	([7][-26][0][1])
+--5613	([7][-25][0][2])
+--5568	([7][-25][0][1])
+--5508	([-3][-26][0][1])
+--5501	([7][-27][0][1])
+--5474	([7][-20][0][5])
+--5436	([7][-20][0][5])
+--5360	([7][0][0][5])
+--5343	([7][-20][0][5])
+--5317	([7][-20][0][5])
+--5227	([7][-21][0][2])
+--5207	([7][-21][0][2])
+--5155	([-3][-22][0][2])
+--5143	([-3][-22][0][2])
+--5134	([7][-23][0][1])
+--5124	([7][-22][0][2])
+--5112	([7][-22][0][1])
+--5027	([-3][-23][0][1])
+--5012	([7][-24][0][1])
+--4968	([7][-21][0][5])
+--4954	([7][-21][0][5])
+--4810	([7][-21][0][5])
+--4808	([7][-21][0][5])
+--4797	([7][-21][0][5])
+--4755	([7][-22][0][2])
+--4753	([7][-22][0][2])
+--4749	([-3][-23][0][2])
+--4710	([-3][-23][0][2])
+--4666	([7][-24][0][1])
+--4504	([7][-23][0][4])
+--4471	([7][-23][0][4])
+--4435	([7][-23][0][4])
+--4413	([7][-23][0][4])
+--4408	([7][-22][0][5])
+--4368	([7][-22][0][5])
+--4311	([7][-2][0][5])
+--4285	([7][-22][0][5])
+--4270	([7][-22][0][5])
+--4186	([7][-23][0][2])
+--4105	([7][-23][0][2])
+--4058	([-3][-24][0][2])
+--4026	([-3][-24][0][2])
+--3923	([7][-25][0][1])
+--3889	([7][-24][0][4])
+--3750	([7][-24][0][4])
+--3685	([7][-24][0][4])
+--3625	([7][-24][0][4])
+--3608	([7][-21][0][5])
+--3504	([7][-21][0][5])
+--3468	([7][-21][0][5])
+--3457	([7][-1][0][5])
+--3439	([7][-21][0][5])
+--3389	([-3][-22][0][5])
+--3372	([-3][-22][0][5])
+--3335	([-3][-22][0][5])
+--3327	([-3][-22][0][5])
+--3267	([-3][-22][0][5])
+--3256	([7][-23][0][1])
+--3210	([7][-23][0][2])
+--3098	([-3][-24][0][1])
+--2976	([7][-25][0][1])
+--2971	([7][-22][0][5])
+--2970	([7][-22][0][5])
+--2964	([7][-2][0][5])
+--2957	([7][-2][0][5])
+--2919	([7][-22][0][5])
+--2909	([7][-23][0][2])
+--2881	([7][-23][0][2])
+--2843	([-3][-24][0][2])
+--2837	([-3][-24][0][2])
+--2806	([7][-25][0][1])
+--2788	([7][-24][0][4])
+--2763	([7][-24][0][4])
+--2730	([7][-24][0][4])
+--2614	([7][-24][0][4])
+--2561	([7][-23][0][2])
+--2503	([7][-23][0][2])
+--2489	([-3][-24][0][2])
+--2483	([-3][-24][0][2])
+--2468	([-3][-25][0][1])
+--2306	([7][-24][0][1])
+--2303	([7][-24][0][2])
+--2295	([-3][-25][0][1])
+--2251	([7][-26][0][1])
+--2228	([-3][-24][0][5])
+--2207	([-3][-25][0][4])
+--2188	([-3][-25][0][4])
+--2175	([-3][-25][0][4])
+--2169	([-3][-25][0][4])
+--2165	([7][-22][0][5])
+--2097	([7][-22][0][5])
+--2095	([7][-2][0][5])
+--2071	([7][-22][0][5])
+--2034	([7][-22][0][5])
+--2022	([7][-23][0][1])
+--1912	([7][-23][0][2])
+--1893	([-3][-24][0][1])
+--1868	([7][-25][0][1])
+--1836	([-3][-23][0][5])
+--1780	([7][-24][0][2])
+--1773	([7][-24][0][1])
+--1759	([-3][-25][0][1])
+--1722	([7][-26][0][1])
+--1683	([7][-23][0][5])
+--1604	([7][-23][0][4])
+--1596	([7][-23][0][4])
+--1573	([7][-3][0][4])
+--1536	([7][-23][0][4])
+--1519	([-3][-24][0][3])
+--1504	([-3][-24][0][3])
+--1499	([-3][-24][0][3])
+--1481	([-3][-24][0][4])
+--1425	([7][-25][0][4])
+--1344	([7][-25][0][4])
+--1228	([7][-25][0][4])
+--1174	([7][-25][0][4])
+--1129	([-3][-23][0][14])
+--1113	([7][-24][0][5])
+--1078	([7][-24][0][5])
+--1031	([7][-4][0][5])
+--988	([7][-4][0][5])
+--979	([7][-24][0][5])
+--955	([-3][-25][0][5])
+--946	([-3][-25][0][5])
+--914	([-3][-25][0][5])
+--902	([-3][-25][0][5])
+--891	([-3][-25][0][5])
+--888	([7][-26][0][2])
+--884	([7][-26][0][1])
+--858	([-3][-27][0][1])
+--840	([7][-28][0][1])
+--831	([6][-19][0][2])
+--817	([6][-19][0][2])
+--781	([-4][-20][0][2])
+--767	([-4][-20][0][2])
+--654	([-4][-21][0][2])
+--636	([-4][-21][0][2])
+--628	([6][-19][0][7])
+--627	([6][-20][0][2])
+--617	([6][-20][0][2])
+--612	([6][-20][0][3])
+--611	([-4][-21][0][2])
+--532	([-4][-21][0][2])
+--489	([6][-22][0][2])
+--450	([6][-22][0][2])
+--350	([6][-21][0][2])
+--311	([6][-21][0][2])
+--310	([-4][-22][0][2])
+--287	([-4][-22][0][2])
+--286	([6][-23][0][2])
+--235	([6][-23][0][2])
+--201	([6][-19][0][21])
+--156	([6][-20][0][2])
+--107	([6][-20][0][2])
+--78	([-4][-21][0][2])
+--76	([-4][-21][0][2])
+--42	([-4][-22][0][1])
+--25	([6][-20][0][7])
+-20	([6][0][0][7])
+-36	([6][-21][0][2])
+-84	([6][-21][0][3])
+-95	([6][-1][0][2])
+-140	([-4][-22][0][2])
+-190	([-4][-22][0][2])
+-221	([6][-23][0][2])
+-227	([6][-23][0][2])
+-241	([6][-22][0][2])
+-419	([6][-22][0][2])
+-445	([-4][-23][0][2])
+-478	([-4][-23][0][2])
+-484	([-4][-24][0][1])
+-500	([6][-22][0][7])
+-621	([6][-2][0][7])
+-706	([6][-21][0][3])
+-736	([6][-21][0][2])
+-824	([6][-21][0][2])
+-835	([-4][-22][0][2])
+-860	([-4][-22][0][2])
+-966	([-4][-23][0][2])
+-1032	([-4][-23][0][2])
+-1059	([6][-22][0][2])
+-1084	([6][-22][0][2])
+-1114	([6][-22][0][3])
+-1141	([-4][-23][0][2])
+-1233	([-4][-23][0][2])
+-1360	([6][-24][0][2])
+-1374	([6][-24][0][2])
+-1449	([6][-23][0][2])
+-1541	([6][-23][0][2])
+-1542	([-4][-24][0][2])
+-1629	([-4][-24][0][2])
+-1687	([-4][-25][0][2])
+-1899	([-4][-25][0][2])
+-1903	([6][-20][0][2])
+-1906	([6][-20][0][2])
+-1950	([-4][-21][0][2])
+-1954	([-4][-21][0][2])
+-1960	([-4][-22][0][1])
+-1999	([6][-20][0][7])
+-2037	([6][-20][0][7])
+-2046	([6][-21][0][2])
+-2102	([6][-21][0][3])
+-2112	([6][-21][0][2])
+-2128	([-4][-22][0][2])
+-2166	([-4][-22][0][2])
+-2258	([6][-23][0][2])
+-2285	([6][-23][0][2])
+-2315	([6][-22][0][2])
+-2331	([6][-22][0][2])
+-2435	([6][-22][0][3])
+-2449	([-4][-23][0][2])
+-2542	([-4][-23][0][2])
+-2622	([6][-24][0][2])
+-2623	([6][-24][0][2])
+-2634	([6][-21][0][2])
+-2651	([6][-21][0][3])
+-2690	([6][-21][0][2])
+-2746	([-4][-22][0][2])
+-2796	([-4][-22][0][2])
+-2807	([-4][-23][0][2])
+-2841	([-4][-23][0][2])
+-2978	([6][-22][0][2])
+-2979	([6][-22][0][3])
+-3015	([6][-22][0][2])
+-3138	([-4][-23][0][2])
+-3197	([-4][-23][0][2])
+-3253	([6][-24][0][2])
+-3466	([6][-24][0][2])
+-3482	([6][-23][0][2])
+-3487	([6][-23][0][2])
+-3509	([-4][-24][0][2])
+-3516	([-4][-24][0][2])
+-3522	([-4][-25][0][2])
+-3577	([-4][-25][0][2])
+-3642	([6][-23][0][7])
+-3644	([6][-22][0][2])
+-3651	([6][-22][0][3])
+-3680	([6][-22][0][2])
+-3690	([-4][-23][0][2])
+-3735	([-4][-23][0][2])
+-3778	([-4][-24][0][2])
+-3793	([-4][-24][0][2])
+-3799	([6][-23][0][2])
+-3808	([6][-23][0][2])
+-3886	([6][-23][0][3])
+-3926	([-4][-24][0][2])
+-3955	([-4][-24][0][2])
+-3959	([6][-25][0][2])
+-4040	([6][-25][0][2])
+-4216	([6][-24][0][2])
+-4285	([6][-24][0][2])
+-4345	([-4][-25][0][2])
+-4370	([-4][-25][0][2])
+-4471	([-4][-26][0][1])
+-4510	([6][-4][0][7])
+-4540	([6][-24][0][7])
+-4570	([5][-19][0][4])
+-4585	([5][-19][0][4])
+-4625	([5][1][0][4])
+-4672	([5][-19][0][4])
+-4681	([-5][-20][0][3])
+-4834	([-5][-20][0][3])
+-4861	([-5][-20][0][3])
+-4911	([-5][-21][0][3])
+-4913	([-5][-21][0][3])
+-5069	([-5][-21][0][3])
+-5076	([5][-19][0][11])
+-5111	([5][-20][0][1])
+-5118	([5][-20][0][2])
+-5201	([-5][-21][0][1])
+-5221	([-5][-22][0][1])
+-5223	([-5][-21][0][3])
+-5241	([-5][-21][0][3])
+-5312	([-5][-21][0][3])
+-5313	([5][-22][0][3])
+-5321	([5][-22][0][3])
+-5386	([5][-22][0][3])
+-5490	([5][-21][0][4])
+-5517	([5][-21][0][3])
+-5557	([5][-21][0][3])
+-5727	([5][-21][0][3])
+-5740	([-5][-22][0][3])
+-5747	([-5][-22][0][3])
+-5772	([-5][-22][0][3])
+-5792	([5][-23][0][3])
+-5811	([5][-23][0][3])
+-5831	([5][-23][0][3])
+-5837	([5][-20][0][4])
+-6010	([5][-20][0][4])
+-6044	([5][0][0][4])
+-6161	([5][-20][0][4])
+-6285	([5][-21][0][1])
+-6323	([5][-21][0][2])
+-6416	([-5][-22][0][1])
+-6430	([5][-23][0][1])
+-6432	([-5][-22][0][3])
+-6490	([-5][-22][0][3])
+-6498	([-5][-22][0][3])
+-6557	([5][-21][0][4])
+-6630	([5][-21][0][4])
+-6639	([5][-21][0][4])
+-6759	([5][-21][0][4])
+-6814	([-5][-22][0][4])
+-6834	([-5][-22][0][4])
+-6844	([-5][-22][0][4])
+-6965	([-5][-22][0][4])
+-6994	([5][-23][0][3])
+-7041	([5][-23][0][3])
+-7042	([5][-23][0][3])
+-7051	([5][-22][0][3])
+-7158	([5][-22][0][3])
+-7163	([5][-22][0][4])
+-7212	([5][-2][0][3])
+-7233	([-5][-23][0][3])
+-7243	([-5][-23][0][3])
+-7263	([-5][-23][0][3])
+-7286	([5][-24][0][3])
+-7346	([5][-24][0][3])
+-7358	([5][-24][0][3])
+-7367	([4][-19][0][5])
+-7493	([4][-19][0][5])
+-7497	([4][1][0][5])
+-7531	([4][-19][0][5])
+-7550	([4][-19][0][5])
+-7584	([4][-20][0][2])
+-7616	([4][-20][0][2])
+-7641	([-6][-21][0][2])
+-7752	([-6][-21][0][2])
+-7772	([4][-22][0][1])
+-7797	([4][-21][0][2])
+-7811	([4][-21][0][2])
+-7815	([-6][-22][0][2])
+-7843	([-6][-22][0][2])
+-7859	([4][-23][0][1])
+-7872	([4][-20][0][1])
+-7985	([4][-20][0][2])
+-8030	([-6][-21][0][1])
+-8049	([-6][-22][0][1])
+-8066	([4][-20][0][6])
+-8080	([4][-20][0][5])
+-8084	([4][-21][0][2])
+-8147	([4][-21][0][2])
+-8194	([-6][-22][0][2])
+-8284	([-6][-22][0][2])
+-8300	([4][-23][0][1])
+-8553	([4][-22][0][2])
+-8570	([4][-22][0][1])
+-8632	([-6][-23][0][1])
+-8660	([4][-24][0][1])
+-8749	([-6][-22][0][5])
+-8791	([3][-19][0][3])
+-8867	([3][-19][0][3])
+-8905	([3][-19][0][3])
+-8958	([-7][-20][0][3])
+-8971	([-7][-20][0][3])
+-8985	([-7][-20][0][3])
+-9010	([-7][-21][0][2])
+-9178	([-7][-21][0][2])
+-9190	([3][-20][0][3])
+-9197	([3][-20][0][3])
+-9214	([3][0][0][3])
+-9225	([-7][-21][0][3])
+-9238	([-7][-21][0][3])
+-9242	([-7][-21][0][3])
+-9283	([-7][-22][0][2])
+-9285	([-7][-22][0][2])
+-9338	([2][-19][0][0])
+-9364	([2][-19][0][0])
+-9403	([2][-19][0][0])
+-9526	([2][-19][0][0])
+-9528	([2][-20][0][0])
+-9568	([2][-20][0][0])
+-9599	([2][-20][0][0])
+-9604	([2][-20][0][0])
+-9665	([1][-20][0][0])
+-9703	([1][-20][0][0])
+-9870	([1][-20][0][0])
+-9895	([1][-20][0][0])
+-9912	([0][0][2][0])
+-9915	([0][0][1][0])
+-9975	([0][0][0][0])
+------------------	------------------
+-	a			b	
+diff --git a/Push-Swap42/file.txt b/Push-Swap42/file.txt
+deleted file mode 100644
+index 2ff4d8e..0000000
+--- a/Push-Swap42/file.txt
++++ /dev/null
+@@ -1,652 +0,0 @@
+-ra
+-pb
+-rr
+-rr
+-pb
+-ra
+-ra
+-ra
+-ra
+-pb
+-pb
+-ra
+-ra
+-ra
+-pb
+-pb
+-ra
+-ra
+-ra
+-ra
+-ra
+-pb
+-rr
+-ra
+-pb
+-pb
+-rb
+-pb
+-rr
+-ra
+-pb
+-pb
+-rb
+-pb
+-ra
+-pb
+-pb
+-rr
+-ra
+-pb
+-rr
+-pb
+-rr
+-ra
+-pb
+-pb
+-pb
+-ra
+-ra
+-ra
+-pb
+-rb
+-pb
+-pb
+-rb
+-pb
+-rr
+-pb
+-rr
+-ra
+-ra
+-ra
+-pb
+-pb
+-rb
+-pb
+-rr
+-ra
+-ra
+-pb
+-pb
+-rr
+-pb
+-rr
+-pb
+-rr
+-pb
+-rr
+-ra
+-pb
+-rb
+-pb
+-pb
+-pb
+-ra
+-pb
+-rr
+-pb
+-rr
+-pb
+-pb
+-pb
+-rr
+-ra
+-ra
+-pb
+-pb
+-rb
+-pb
+-ra
+-pb
+-ra
+-pb
+-rb
+-pb
+-rr
+-pb
+-pb
+-pb
+-ra
+-ra
+-ra
+-ra
+-pb
+-pb
+-rr
+-pb
+-rb
+-pb
+-pb
+-ra
+-pb
+-rb
+-pb
+-pb
+-ra
+-pb
+-rr
+-pb
+-rr
+-ra
+-ra
+-ra
+-ra
+-ra
+-pb
+-ra
+-ra
+-pb
+-rb
+-pb
+-pb
+-rr
+-pb
+-rr
+-pb
+-rb
+-pb
+-rb
+-pb
+-pb
+-rr
+-pb
+-rr
+-ra
+-ra
+-ra
+-pb
+-ra
+-pb
+-ra
+-pb
+-rb
+-pb
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-ra
+-pb
+-rb
+-pb
+-pb
+-rr
+-pb
+-pb
+-ra
+-ra
+-pb
+-rr
+-pb
+-ra
+-ra
+-ra
+-pb
+-rr
+-pb
+-rb
+-pb
+-rb
+-pb
+-rb
+-pb
+-ra
+-ra
+-ra
+-pb
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-ra
+-ra
+-pb
+-rb
+-pb
+-rb
+-pb
+-ra
+-pb
+-rr
+-pb
+-ra
+-pb
+-rrr
+-rrr
+-sss
+-rrr
+-pb
+-ra
+-ra
+-ra
+-pb
+-rb
+-pb
+-rrr
+-BEGINNING SORTINGpa
+-pa
+-pa
+-pa
+-pa
+-pa
+-pa
+-pa
+-pa
+-pa
+-rb
+-sb
+-pa
+-pa
+-rrb
+-pa
+-pa
+-sb
+-pa
+-pa
+-pa
+-pa
+-rb
+-rb
+-pa
+-sa
+-rr
+-sa
+-rrr
+-rrb
+-sb
+-rrb
+-pa
+-pa
+-pa
+-sb
+-pa
+-rb
+-pa
+-pa
+-sa
+-ra
+-ra
+-pa
+-pa
+-pa
+-rr
+-pa
+-sss
+-rr
+-sa
+-rrr
+-rrr
+-rrr
+-rra
+-pa
+-rb
+-pa
+-sss
+-rb
+-rb
+-pa
+-sa
+-rr
+-sa
+-rrr
+-rrb
+-rrb
+-pa
+-rrb
+-pa
+-pa
+-pa
+-pa
+-pa
+-sss
+-pa
+-sss
+-rr
+-rr
+-rr
+-rb
+-pa
+-pa
+-sss
+-rr
+-sa
+-rrr
+-rrr
+-rrr
+-sa
+-rrr
+-rrb
+-rb
+-rb
+-pa
+-pa
+-pa
+-sa
+-rrb
+-sb
+-rrb
+-sb
+-pa
+-pa
+-pa
+-rb
+-pa
+-ra
+-pa
+-rb
+-rb
+-pa
+-pa
+-sss
+-ra
+-ra
+-pa
+-sss
+-pa
+-rr
+-pa
+-rb
+-rb
+-rb
+-pa
+-pa
+-rr
+-pa
+-rb
+-rb
+-pa
+-rr
+-rb
+-pa
+-pb
+-ra
+-pb
+-pb
+-ra
+-ra
+-sb
+-pa
+-sb
+-pa
+-pa
+-rra
+-rra
+-rra
+-sa
+-rr
+-sa
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-rrr
+-sss
+-ra
+-pb
+-ra
+-pb
+-pb
+-ra
+-sb
+-pa
+-pa
+-pa
+-rrr
+-rrr
+-sa
+-rrr
+-rrb
+-rrb
+-rrb
+-pa
+-pa
+-ra
+-pa
+-rb
+-rb
+-rb
+-rb
+-rb
+-pa
+-pa
+-ra
+-ra
+-pa
+-sa
+-pa
+-sa
+-rrr
+-rrr
+-rrr
+-sss
+-rr
+-sa
+-rrr
+-rrb
+-rrb
+-pa
+-pa
+-rb
+-rb
+-rb
+-pa
+-sss
+-rrb
+-rrb
+-sb
+-rrb
+-pa
+-pa
+-pa
+-rb
+-rb
+-pa
+-pa
+-rr
+-pa
+-pa
+-ra
+-pa
+-rb
+-pa
+-rb
+-rb
+-pa
+-rr
+-pa
+-ra
+-pa
+-sss
+-rb
+-rb
+-rb
+-rb
+-rb
+-rb
+-pa
+-ra
+-pa
+-pa
+-rr
+-pb
+-ra
+-pb
+-ra
+-pa
+-pa
+-rra
+-rra
+-rrr
+-rrr
+-sss
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-ra
+-pb
+-ra
+-pb
+-ra
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-pa
+-pa
+-sss
+-ra
+-ra
+-pa
+-pa
+-rr
+-rb
+-rb
+-pa
+-rb
+-rb
+-pa
+-sss
+-rr
+-sss
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-sb
+-pa
+-pa
+-rb
+-pa
+-sss
+-rb
+-rb
+-pa
+-sa
+-pa
+-pa
+-pa
+-
+--9843	([5][-19][0])
+--9686	([5][-19][0])
+--9571	([5][-19][0])
+--9425	([-5][-21][0])
+--9315	([-5][-21][0])
+--9290	([-5][-21][0])
+--9284	([5][-19][0])
+--8875	([-5][-20][0])
+--8464	([-5][-20][0])
+--8427	([-5][-20][0])
+--8262	([-5][-21][0])
+--8161	([-5][-21][0])
+--8092	([-5][-21][0])
+--7887	([-5][-20][0])
+--7675	([-5][-20][0])
+--7643	([-5][-20][0])
+--7635	([5][-21][0])
+--7435	([5][-21][0])
+--7415	([-5][-20][0])
+--7259	([-5][-21][0])
+--7078	([-5][-21][0])
+--6816	([5][-22][0])
+--6813	([5][-22][0])
+--6793	([-5][-21][0])
+--6408	([-5][-21][0])
+--6305	([5][-20][0])
+--6095	([5][-20][0])
+--5751	([5][-20][0])
+--5437	([-5][-22][0])
+--5320	([-5][-22][0])
+--4874	([5][-20][0])
+--4778	([-5][-21][0])
+--4717	([-5][-21][0])
+--4681	([-5][-21][0])
+--4666	([-5][-22][0])
+--4171	([-5][-22][0])
+--4018	([-5][-22][0])
+--3505	([5][-20][0])
+--3273	([-5][-21][0])
+--3003	([-5][-21][0])
+--2681	([-5][-21][0])
+--2561	([5][-22][0])
+--2106	([5][-22][0])
+--1699	([5][-22][0])
+--1570	([-5][-22][0])
+--1493	([-5][-22][0])
+--1442	([-5][-22][0])
+--1386	([5][-23][0])
+--1291	([5][-23][0])
+--1281	([5][-23][0])
+--1143	([4][-19][0])
+--1141	([4][-19][0])
+--1125	([4][-19][0])
+--929	([-6][-21][0])
+--882	([-6][-21][0])
+--791	([-6][-21][0])
+--522	([-6][-20][0])
+--285	([-6][-20][0])
+--210	([-6][-20][0])
+-25	([-6][-21][0])
+-547	([-6][-21][0])
+-624	([-6][-21][0])
+-927	([4][-20][0])
+-1050	([4][-20][1])
+-1136	([4][-20][0])
+-1167	([-6][-22][0])
+-1358	([-6][-22][0])
+-1364	([-6][-22][0])
+-1579	([-6][-21][0])
+-1915	([-6][-21][0])
+-1986	([-6][-21][0])
+-2035	([-6][-22][0])
+-2332	([-6][-22][0])
+-2339	([-6][-22][0])
+-2743	([4][-20][0])
+-3461	([3][-19][0])
+-3888	([3][-19][0])
+-3994	([3][-19][0])
+-4069	([-7][-21][0])
+-4450	([-7][-21][0])
+-4905	([-7][-21][0])
+-6267	([3][-20][0])
+-6416	([3][-20][0])
+-6743	([3][-20][0])
+-6855	([3][-20][0])
+-6990	([3][-20][0])
+-7125	([3][0][0])
+-7312	([3][-20][0])
+-7998	([2][-19][0])
+-8354	([2][-19][0])
+-8390	([2][-19][0])
+-8403	([2][-20][0])
+-8428	([2][-20][0])
+-8521	([2][-20][0])
+-8546	([1][-19][0])
+-8548	([1][-20][0])
+-8779	([1][-20][0])
+-9846	([0][0][1])
+-9261	([0][1][1])
+-9974	([0][0][0])
+------------------	------------------
+-	a			b	
+diff --git a/Push-Swap42/file100 b/Push-Swap42/file100
+index 4137ef5..6c83854 100644
+--- a/Push-Swap42/file100
++++ b/Push-Swap42/file100
+@@ -1,57 +1,78 @@
+ ra
++ra
++pb
+ pb
+ ra
+ ra
++pb
++pb
++rr
++pb
++rb
++pb
++rb
++pb
+ ra
++pb
++rr
++pb
+ ra
+ pb
++rr
+ ra
++pb
+ ra
+ ra
+ ra
+-pb
+-rr
+ ra
+ ra
+ pb
+-ra
++pb
+ ra
+ pb
+ rb
+ pb
++ra
+ pb
+-rb
+ pb
++ra
+ pb
+-rr
++rb
+ pb
+ pb
+ rb
+ pb
+-rr
++rb
+ pb
+ ra
+-ra
+ pb
++ra
++ra
+ pb
++ra
+ pb
+ ra
+ ra
+ pb
+-rr
++ra
++pb
++rb
+ pb
+ rr
+ pb
++ra
++pb
+ rr
+ ra
+ ra
+ ra
+-pb
+-pb
++ra
++ra
+ ra
+ pb
+ pb
+-rr
++rb
++pb
+ pb
+ rb
+ pb
+@@ -61,35 +82,24 @@ rb
+ pb
+ rr
+ ra
+-pb
+-pb
+-rb
+-pb
+ ra
+ pb
+-rb
+-pb
+ rr
+ pb
+ rr
+-pb
+-pb
+-ra
+-ra
+ ra
+ pb
+ rb
+ pb
+ ra
+ pb
+-ra
+-pb
+-rb
+ pb
+ rb
+ pb
+ ra
+ pb
++rb
++pb
+ ra
+ ra
+ pb
+@@ -97,77 +107,63 @@ rr
+ ra
+ ra
+ pb
+-pb
+-pb
+-rb
++ra
++ra
+ pb
+ rb
+ pb
+-rr
+-ra
+ ra
+ ra
+ pb
++ra
+ pb
+ pb
+ rr
+ ra
+ pb
++ra
++pb
+ rb
+ pb
++rb
+ pb
+ pb
+ ra
+ pb
+-rb
+-pb
+-ra
++rr
+ ra
+ pb
+-rb
+ pb
+-ra
+-ra
+-ra
+ pb
+-rb
+ pb
+-rb
+ pb
+ rr
+ ra
+-pb
+-ra
+-ra
+ ra
+ ra
+-ra
+-pb
+-rb
+-pb
+-rb
+-pb
+ pb
+-rb
++rr
+ pb
+ rb
+ pb
++rr
+ ra
+ pb
++rr
+ pb
+ ra
+ ra
+ ra
+-ra
++pb
+ pb
+ rb
+ pb
+ ra
+ pb
+ rr
+-ra
+ pb
+-rrr
++rb
++pb
+ rrr
+ rrr
+ rrr
+@@ -181,7 +177,8 @@ rrr
+ rrr
+ rrr
+ pb
+-rb
++ra
++ra
+ pb
+ rr
+ ra
+@@ -190,23 +187,23 @@ pb
+ rb
+ pb
+ pb
++rb
+ pb
+-rr
+-pb
+-rr
+ ra
+ ra
+ pb
+ ra
+-ra
+ pb
+-rr
+-ra
+-ra
+ pb
++rb
+ pb
+ rb
+ pb
++rr
++pb
++ra
++ra
++ra
+ pb
+ rrr
+ rrr
+@@ -214,453 +211,468 @@ rrr
+ rrr
+ rrr
+ rrr
+-rrr
+-ra
+-ra
+ pb
+-rr
++ra
+ pb
+-rr
++rb
+ pb
+-rr
++ra
++ra
++ra
++ra
+ pb
++rb
+ pb
++rb
+ pb
+ rrr
+ rrr
+-sss
+ rrr
+-ra
+ pb
+-rb
++rr
++ra
+ pb
+ rr
+ pb
+-rrb
+-rrb
+-BEGINNING SORTINGsb
+-pa
++rrr
++sb
++rrr
++BEGINNING SORTINGpa
+ pa
+ pa
+ sb
+ pa
+-sb
+ pa
+ pa
++rb
++sb
+ pa
++rrb
+ pa
+ pa
+ pa
+ rb
+ rb
+ pa
+-rb
+ pa
+-sa
++rr
++ra
+ pa
+ sss
+-rr
+-sa
++rrr
+ rrr
+ rrb
++sb
+ pa
+-rrb
+-rrb
+ pa
+ pa
+ pa
+-sb
++rb
+ pa
+-sb
++rr
+ pa
++ra
+ pa
++sa
++rrr
++rrr
+ pa
+ pa
+-rb
++pa
++rr
++pa
++ra
+ pa
+ rb
+ pa
++sss
++pa
+ rr
+ pa
+ sa
++pa
++pa
++rr
++pb
++pb
+ rb
+ rb
+-pa
++pb
+ ra
+ pa
++rrr
++rrb
++pa
++pa
++rrr
++rrr
++rrr
+ sss
++rrr
++pb
++pb
+ rb
+ rb
+-pa
++pb
+ ra
+-rrr
+-rrr
++pa
+ rrr
+ rrb
+-rrb
+ pa
+-rrb
+-rrb
+-rb
+-rb
+ pa
+ pa
++rr
++rb
+ pa
+-rrb
+-sb
+-rrb
+-sb
++ra
+ pa
+-sb
++rrr
++rrr
+ pa
+ pa
+ rb
+ pa
++ra
+ pa
+-rr
++pa
++pa
++ra
++ra
+ pa
+ rb
+ rb
+ rb
+ pa
++sa
++pa
+ pa
+-sss
+ ra
++pb
++pb
++rb
++rb
++pb
+ ra
+ pa
+-sa
+-rr
+-sss
++rrr
++rrb
++pa
++pa
+ rrr
+ rrr
++sss
+ rrr
++sss
+ rrr
+-rrb
+-rrb
++sb
+ pa
+-rb
+ sb
+ pa
+ pa
+-rrb
+ pa
+-sb
+ pa
++rb
+ pa
+ pa
+ ra
+ pa
++pa
++rr
+ rb
+ rb
+ rb
+ pa
+-rr
+ rb
+ rb
+ pa
++ra
+ pa
+ pa
+-rr
+-rb
+-rb
++ra
+ pa
+ pa
+-rb
+-rb
+-rb
+ pa
+ pa
++rr
+ ra
+ ra
+ pa
+ pa
++rb
++pa
++ra
++ra
++pb
++pb
+ rr
+ pb
++rr
+ pb
+-ra
++rb
+ pb
+-ra
+-ra
+-sb
+-pa
+ sb
+ pa
+ pa
+-rra
+-rra
+-sa
+-rra
+-sa
+-rr
++rrr
++rrr
+ sss
+ rrr
++pa
++pa
++pa
++rrr
++rrr
+ rrr
+ rrr
+-sss
+ rrr
+-sss
+ rrr
+-sss
+ rrr
+-sss
+ rrr
+ pb
+-ra
+-ra
++pb
++rr
+ ra
+ pb
++rb
+ pb
+-sb
+-pa
++ra
++pb
++rb
+ pa
+ pa
+ rrr
+ rrr
++sss
+ rrr
+-rrb
+-rrb
+-rrb
+-rrb
++sb
++pa
++sb
+ pa
+-ra
+ pa
++rrb
+ rb
+ rb
+ pa
++ra
+ pa
+-rr
+ pa
+-sa
++ra
++pa
++sss
+ pa
+ rr
+-rr
++pa
+ sss
++rr
++sa
+ rrr
+ rrr
+ rrr
+ sa
+ rrr
+-rrb
+-sb
++sa
+ pa
+-rb
+-rb
+-rb
+ pa
+ pa
+ pa
+-sa
+-rrb
+-rrb
++rb
++rb
+ pa
+-rrb
++ra
+ pa
+ pa
+ rb
+-rb
+-rb
++pa
++ra
+ pa
+ rb
+ pa
+ ra
+ pa
+-rb
+-rb
+-rb
+ pa
+ rb
+-rb
+ pa
+-rr
+ pa
+ pa
+-sss
+-rb
+-rb
+-pa
+ pa
+-sss
+-ra
+-ra
++rr
++rr
++rr
+ pa
+ pa
++rr
+ pa
+ rr
++pb
++pb
+ rr
+ pb
+-ra
++rb
+ pb
+ ra
+ ra
+ pb
+-sb
+-pa
+-sb
++rb
+ pa
+ pa
+-rra
+-rra
+-rra
+-sss
+-rr
++rrr
++rrr
+ sss
+ rrr
++pa
++pa
++pa
++rrr
++rrr
+ rrr
+ rrr
+ rrr
+ rrr
+ rrr
+-sss
+ rrr
+-sss
+-ra
+ ra
+ pb
+ pb
+-ra
+ pb
+-rb
++rr
++rr
++pb
+ sb
++pb
++rb
+ pa
+ pa
+-rrb
+-pa
+ rrr
+ rrr
+-sa
++sss
+ rrr
+-rb
+-pa
+-rr
+ pa
+-rr
+-rb
+ pa
+-rr
+ pa
+ pa
+ rb
++rb
+ pa
+-rrr
+-rrr
+-sa
+-rrr
+ sss
+ pa
+-rb
+-rb
+ pa
+-sss
+-rb
+-rb
++rr
++ra
+ pa
+-rb
+-rb
++sa
+ pa
++rr
++rr
++sss
++rrr
++rrr
++rrr
++sss
++rrr
++sa
+ pa
+-sb
+ pa
+ pa
+ 
+--9718	([5][-19][0])
+--9712	([5][-19][0])
+--9622	([-5][-21][0])
+--9613	([-5][-21][0])
+--9527	([-5][-21][0])
+--9112	([-5][-21][0])
+--8720	([-5][-21][0])
+--8661	([-5][-20][0])
+--8509	([-5][-20][0])
+--8479	([-5][-20][0])
+--8454	([-5][-21][0])
+--8329	([-5][-21][0])
+--8094	([-5][-21][0])
+--7929	([-5][-20][0])
+--7778	([-5][-20][0])
+--7539	([-5][-20][0])
+--7400	([5][-21][0])
+--7135	([5][-21][0])
+--7043	([5][-1][0])
+--6853	([-5][-21][0])
+--6472	([-5][-21][0])
+--6417	([-5][-21][0])
+--6286	([5][-22][0])
+--6264	([5][-22][0])
+--6172	([5][-22][0])
+--5875	([5][-20][0])
+--5296	([5][-20][1])
+--4752	([5][-20][0])
+--3857	([-5][-22][0])
+--3482	([-5][-22][0])
+--3372	([-5][-22][0])
+--3220	([5][-20][0])
+--3115	([-5][-21][0])
+--2924	([-5][-21][0])
+--2664	([-5][-21][0])
+--2572	([-5][-22][0])
+--2465	([-5][-22][0])
+--2407	([-5][-22][0])
+--2005	([-5][-21][0])
+--1940	([-5][-21][0])
+--1479	([-5][-21][0])
+--847	([5][-22][0])
+--813	([5][-22][0])
+--407	([5][-22][0])
+--374	([-5][-22][0])
+--343	([-5][-22][0])
+--173	([-5][-22][0])
+--132	([5][-23][0])
+-29	([5][-23][0])
+-78	([5][-23][0])
+-726	([4][-19][0])
+-811	([4][-19][0])
+-970	([4][-19][0])
+-1077	([4][-19][0])
+-1142	([4][1][0])
+-1301	([4][-19][0])
+-1533	([-6][-20][0])
+-3274	([-6][-20][0])
+-3294	([-6][-20][0])
+-3526	([-6][-21][0])
+-3712	([-6][-21][0])
+-3829	([-6][-21][0])
+-4070	([4][-20][0])
+-4157	([4][-20][0])
+-4160	([4][-20][0])
+-4373	([-6][-22][0])
+-4436	([-6][-22][0])
+-4564	([-6][-22][0])
+-4607	([4][-20][0])
+-4714	([-6][-21][0])
+-5020	([-6][-21][0])
+-5149	([-6][-21][0])
+-5515	([-6][-22][0])
+-5671	([-6][-22][0])
+-6218	([-6][-22][0])
+-6914	([3][-19][0])
+-7165	([3][-19][0])
+-7408	([3][-19][0])
+-7624	([3][-19][0])
+-7660	([3][-19][0])
+-7798	([3][-19][0])
+-7982	([3][-20][0])
+-7999	([3][-20][1])
+-8011	([3][-20][0])
+-8152	([-7][-22][0])
+-8256	([-7][-22][0])
+-8331	([-7][-22][0])
+-8787	([3][-20][0])
+-8807	([2][-19][0])
+-8812	([2][-19][0])
+-8826	([2][-19][0])
+-9126	([2][-20][0])
+-9362	([2][-20][0])
+-9430	([2][-20][0])
+-9455	([1][-19][0])
+-9622	([1][-20][0])
+-9665	([1][-20][0])
+-9716	([0][0][1])
+-9666	([0][1][1])
+-9895	([0][0][0])
++-9913	([5][-19][0][3])
++-9780	([5][-19][0][3])
++-9757	([5][-19][0][3])
++-9534	([-5][-20][0][3])
++-9414	([-5][-20][0][3])
++-9208	([-5][-20][0][3])
++-9090	([-5][-21][0][3])
++-8970	([-5][-21][0][3])
++-8895	([-5][-21][0][3])
++-8445	([5][-20][0][3])
++-8342	([5][-20][0][3])
++-8331	([5][-20][0][3])
++-8281	([-5][-21][0][3])
++-8030	([-5][-21][0][3])
++-7940	([-5][-21][0][3])
++-7894	([5][-22][0][2])
++-7842	([5][-22][0][2])
++-7671	([5][-21][0][3])
++-7104	([5][-21][0][3])
++-7095	([5][-21][0][3])
++-7031	([-5][-22][0][3])
++-7013	([-5][-22][0][3])
++-6679	([-5][-22][0][3])
++-6114	([5][-23][0][2])
++-5953	([5][-23][0][2])
++-5563	([5][-20][0][3])
++-5301	([5][-20][0][3])
++-4926	([5][-20][0][3])
++-4823	([-5][-21][0][3])
++-4712	([-5][-21][0][3])
++-4623	([-5][-21][0][3])
++-4157	([-5][-22][0][3])
++-4098	([-5][-22][0][3])
++-3965	([-5][-22][0][3])
++-3573	([5][-21][0][3])
++-3452	([5][-21][0][3])
++-2644	([5][-21][0][3])
++-2557	([-5][-22][0][3])
++-2109	([-5][-22][0][3])
++-1690	([-5][-22][0][3])
++-1567	([5][-23][0][2])
++-1538	([5][-23][0][2])
++-1073	([5][-22][0][3])
++-965	([5][-22][0][3])
++-964	([5][-22][0][3])
++-691	([-5][-23][0][3])
++-648	([-5][-23][0][3])
++-212	([-5][-23][0][3])
++-83	([5][-24][0][2])
++263	([5][-24][0][2])
++514	([4][-19][0][4])
++557	([4][-19][0][4])
++895	([4][-19][0][4])
++1012	([4][-19][0][4])
++1126	([-6][-20][0][4])
++1245	([-6][-20][0][4])
++1392	([-6][-20][0][4])
++1417	([-6][-20][0][4])
++1508	([4][-21][0][1])
++1591	([4][-21][0][2])
++1791	([-6][-22][0][1])
++2000	([4][-23][0][1])
++2271	([4][-20][0][2])
++2299	([4][-20][0][2])
++2377	([-6][-21][0][2])
++2499	([-6][-21][0][2])
++2655	([-6][-22][0][1])
++2678	([4][-21][0][1])
++3324	([4][-21][0][2])
++3502	([-6][-22][0][1])
++4330	([4][-23][0][1])
++4364	([4][-22][0][1])
++4439	([4][-22][0][2])
++4709	([-6][-23][0][1])
++4734	([4][-24][0][1])
++5124	([3][-19][0][2])
++5548	([3][-19][0][2])
++5573	([-7][-20][0][2])
++5635	([-7][-20][0][2])
++5689	([-7][-21][0][2])
++6285	([-7][-21][0][2])
++6288	([3][-20][0][2])
++6319	([3][-20][0][3])
++6459	([3][-20][0][2])
++6494	([-7][-21][0][2])
++6600	([-7][-21][0][2])
++7473	([-7][-22][0][2])
++7524	([-7][-22][0][2])
++7605	([2][-19][0][0])
++8043	([2][-19][0][0])
++8429	([2][1][0][0])
++8441	([2][-20][0][0])
++8643	([2][-20][0][0])
++8686	([2][-20][0][0])
++8742	([1][-20][0][0])
++8918	([1][-20][0][0])
++9304	([1][-20][0][0])
++9335	([0][0][2][0])
++9821	([0][0][1][0])
++9942	([0][0][0][0])
+ -----------------	------------------
+ 	a			b	
+diff --git a/Push-Swap42/file102 b/Push-Swap42/file102
+deleted file mode 100644
+index c466521..0000000
+--- a/Push-Swap42/file102
++++ /dev/null
+@@ -1,776 +0,0 @@
+-ra
+-pb
+-ra
+-ra
+-ra
+-ra
+-pb
+-ra
+-ra
+-ra
+-ra
+-pb
+-rr
+-ra
+-ra
+-pb
+-ra
+-ra
+-pb
+-rb
+-pb
+-pb
+-rb
+-pb
+-pb
+-rr
+-pb
+-pb
+-rb
+-pb
+-rr
+-pb
+-ra
+-ra
+-pb
+-pb
+-pb
+-ra
+-ra
+-pb
+-rr
+-pb
+-rr
+-pb
+-rr
+-ra
+-ra
+-ra
+-pb
+-pb
+-ra
+-pb
+-pb
+-rr
+-pb
+-rb
+-pb
+-rb
+-pb
+-rb
+-pb
+-rr
+-ra
+-pb
+-pb
+-rb
+-pb
+-ra
+-pb
+-rb
+-pb
+-rr
+-pb
+-rr
+-pb
+-pb
+-ra
+-ra
+-ra
+-pb
+-rb
+-pb
+-ra
+-pb
+-ra
+-pb
+-rb
+-pb
+-rb
+-pb
+-ra
+-pb
+-ra
+-ra
+-pb
+-rr
+-ra
+-ra
+-pb
+-pb
+-pb
+-rb
+-pb
+-rb
+-pb
+-rr
+-ra
+-ra
+-ra
+-pb
+-pb
+-pb
+-rr
+-ra
+-pb
+-rb
+-pb
+-pb
+-pb
+-ra
+-pb
+-rb
+-pb
+-ra
+-ra
+-pb
+-rb
+-pb
+-ra
+-ra
+-ra
+-pb
+-rb
+-pb
+-rb
+-pb
+-rr
+-ra
+-pb
+-ra
+-ra
+-ra
+-ra
+-ra
+-pb
+-rb
+-pb
+-rb
+-pb
+-pb
+-rb
+-pb
+-rb
+-pb
+-ra
+-pb
+-pb
+-ra
+-ra
+-ra
+-ra
+-pb
+-rb
+-pb
+-ra
+-pb
+-rr
+-ra
+-pb
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-pb
+-rb
+-pb
+-rr
+-ra
+-ra
+-pb
+-rb
+-pb
+-pb
+-pb
+-rr
+-pb
+-rr
+-ra
+-ra
+-pb
+-ra
+-ra
+-pb
+-rr
+-ra
+-ra
+-pb
+-pb
+-rb
+-pb
+-pb
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-ra
+-ra
+-pb
+-rr
+-pb
+-rr
+-pb
+-rr
+-pb
+-pb
+-pb
+-rrr
+-rrr
+-sss
+-rrr
+-ra
+-pb
+-rb
+-pb
+-rr
+-pb
+-rrb
+-rrb
+-BEGINNING SORTINGsb
+-pa
+-pa
+-pa
+-sb
+-pa
+-sb
+-pa
+-pa
+-pa
+-pa
+-pa
+-pa
+-
+-
+-PiVOT Sorting B, piv : 3, low_piv : 0, nb_elem_categ: 			6, count : 6, nv count : 6
+-8787	([3][-20][0])	7999	([3][0][4])
+-8807	([2][-19][0])	7982	([3][0][5])
+-8812	([2][-19][0])	8152	([3][0][2])
+-8826	([2][-19][0])	8011	([3][0][3])
+-9126	([2][-20][0])	8256	([3][0][1])
+-9362	([2][-20][0])	8331	([3][0][0])
+-9430	([2][-20][0])	7408	([3][1][4])
+-9455	([1][-19][0])	7798	([3][1][1])
+-9622	([1][-20][0])	7660	([3][1][2])
+-9665	([1][-20][0])	7624	([3][1][3])
+-9716	([0][0][1])	7165	([3][1][5])
+-9666	([0][1][1])	6914	([3][1][6])
+-9895	([0][0][0])	4070	([4][0][12])
+-			5515	([4][0][2])
+-			4157	([4][0][11])
+-			4714	([4][0][5])
+-			4607	([4][0][6])
+-			6218	([4][0][0])
+-			4564	([4][0][7])
+-			4436	([4][0][8])
+-			5020	([4][0][4])
+-			5671	([4][0][1])
+-			4160	([4][0][10])
+-			4373	([4][0][9])
+-			5149	([4][0][3])
+-			1301	([4][1][7])
+-			3712	([4][1][2])
+-			1533	([4][1][6])
+-			970	([4][1][10])
+-			3526	([4][1][3])
+-			1077	([4][1][9])
+-			1142	([4][1][8])
+-			726	([4][1][12])
+-			3274	([4][1][5])
+-			3294	([4][1][4])
+-			811	([4][1][11])
+-			3829	([4][1][1])
+-			-374	([5][0][5])
+-			-847	([5][0][8])
+-			-3115	([5][0][17])
+-			-2465	([5][0][13])
+-			-5296	([5][0][23])
+-			-1940	([5][0][10])
+-			-3220	([5][0][18])
+-			-2572	([5][0][14])
+-			-2664	([5][0][15])
+-			-343	([5][0][4])
+-			-132	([5][0][2])
+-			-1479	([5][0][9])
+-			-4752	([5][0][22])
+-			-2407	([5][0][12])
+-			-5875	([5][0][24])
+-			-173	([5][0][3])
+-			78	([5][0][0])
+-			-3372	([5][0][19])
+-			-3482	([5][0][20])
+-			-3857	([5][0][21])
+-			-813	([5][0][7])
+-			-407	([5][0][6])
+-			29	([5][0][1])
+-			-2005	([5][0][11])
+-			-2924	([5][0][16])
+-			-8094	([5][1][13])
+-			-8329	([5][1][14])
+-			-8454	([5][1][15])
+-			-6286	([5][1][3])
+-			-9712	([5][1][24])
+-			-7539	([5][1][10])
+-			-6472	([5][1][5])
+-			-8720	([5][1][19])
+-			-9622	([5][1][23])
+-			-8509	([5][1][17])
+-			-6853	([5][1][6])
+-			-9613	([5][1][22])
+-			-9527	([5][1][21])
+-			-7043	([5][1][7])
+-			-9718	([5][1][25])
+-			-6417	([5][1][4])
+-			-6172	([5][1][1])
+-			-8661	([5][1][18])
+-			-8479	([5][1][16])
+-			-7929	([5][1][12])
+-			-7135	([5][1][8])
+-			-7400	([5][1][9])
+-			-6264	([5][1][2])
+-			-7778	([5][1][11])
+-			-9112	([5][1][20])
+------------------	------------------
+-	a			b	
+-rb
+-rb
+-pa
+-pa
+-ra
+-ra
+-pa
+-pa
+-sss
+-8256	([3][-2][1])	7798	([3][1][1])
+-8331	([3][-2][0])	7408	([3][1][4])
+-8787	([3][-20][0])	7660	([3][1][2])
+-8807	([2][-19][0])	7624	([3][1][3])
+-8812	([2][-19][0])	7165	([3][1][5])
+-8826	([2][-19][0])	6914	([3][1][6])
+-9126	([2][-20][0])	4070	([4][0][12])
+-9362	([2][-20][0])	5515	([4][0][2])
+-9430	([2][-20][0])	4157	([4][0][11])
+-9455	([1][-19][0])	4714	([4][0][5])
+-9622	([1][-20][0])	4607	([4][0][6])
+-9665	([1][-20][0])	6218	([4][0][0])
+-9716	([0][0][1])	4564	([4][0][7])
+-9666	([0][1][1])	4436	([4][0][8])
+-9895	([0][0][0])	5020	([4][0][4])
+-8011	([3][-1][1])	5671	([4][0][1])
+-8152	([3][-1][0])	4160	([4][0][10])
+-			4373	([4][0][9])
+-			5149	([4][0][3])
+-			1301	([4][1][7])
+-			3712	([4][1][2])
+-			1533	([4][1][6])
+-			970	([4][1][10])
+-			3526	([4][1][3])
+-			1077	([4][1][9])
+-			1142	([4][1][8])
+-			726	([4][1][12])
+-			3274	([4][1][5])
+-			3294	([4][1][4])
+-			811	([4][1][11])
+-			3829	([4][1][1])
+-			-374	([5][0][5])
+-			-847	([5][0][8])
+-			-3115	([5][0][17])
+-			-2465	([5][0][13])
+-			-5296	([5][0][23])
+-			-1940	([5][0][10])
+-			-3220	([5][0][18])
+-			-2572	([5][0][14])
+-			-2664	([5][0][15])
+-			-343	([5][0][4])
+-			-132	([5][0][2])
+-			-1479	([5][0][9])
+-			-4752	([5][0][22])
+-			-2407	([5][0][12])
+-			-5875	([5][0][24])
+-			-173	([5][0][3])
+-			78	([5][0][0])
+-			-3372	([5][0][19])
+-			-3482	([5][0][20])
+-			-3857	([5][0][21])
+-			-813	([5][0][7])
+-			-407	([5][0][6])
+-			29	([5][0][1])
+-			-2005	([5][0][11])
+-			-2924	([5][0][16])
+-			-8094	([5][1][13])
+-			-8329	([5][1][14])
+-			-8454	([5][1][15])
+-			-6286	([5][1][3])
+-			-9712	([5][1][24])
+-			-7539	([5][1][10])
+-			-6472	([5][1][5])
+-			-8720	([5][1][19])
+-			-9622	([5][1][23])
+-			-8509	([5][1][17])
+-			-6853	([5][1][6])
+-			-9613	([5][1][22])
+-			-9527	([5][1][21])
+-			-7043	([5][1][7])
+-			-9718	([5][1][25])
+-			-6417	([5][1][4])
+-			-6172	([5][1][1])
+-			-8661	([5][1][18])
+-			-8479	([5][1][16])
+-			-7929	([5][1][12])
+-			-7135	([5][1][8])
+-			-7400	([5][1][9])
+-			-6264	([5][1][2])
+-			-7778	([5][1][11])
+-			-9112	([5][1][20])
+-			7999	([3][0][0])
+-			7982	([3][0][1])
+------------------	------------------
+-	a			b	
+-rrr
+-rrr
+-pa
+-pa
+-pa
+-sb
+-pa
+-sb
+-pa
+-pa
+-pa
+-pa
+-
+-
+-PiVOT Sorting B, piv : 4, low_piv : 0, nb_elem_categ: 			13, count : 13, nv count : 13
+-6914	([3][-19][0])	4070	([4][0][12])
+-7165	([3][-19][0])	5515	([4][0][2])
+-7408	([3][-19][0])	4157	([4][0][11])
+-7624	([3][-19][0])	4714	([4][0][5])
+-7660	([3][-19][0])	4607	([4][0][6])
+-7798	([3][-19][0])	6218	([4][0][0])
+-7982	([3][-20][0])	4564	([4][0][7])
+-7999	([3][-20][0])	4436	([4][0][8])
+-8011	([-7][-21][0])	5020	([4][0][4])
+-8152	([-7][-21][0])	5671	([4][0][1])
+-8256	([-7][-22][0])	4160	([4][0][10])
+-8331	([-7][-22][0])	4373	([4][0][9])
+-8787	([3][-20][0])	5149	([4][0][3])
+-8807	([2][-19][0])	1301	([4][1][7])
+-8812	([2][-19][0])	3712	([4][1][2])
+-8826	([2][-19][0])	1533	([4][1][6])
+-9126	([2][-20][0])	970	([4][1][10])
+-9362	([2][-20][0])	3526	([4][1][3])
+-9430	([2][-20][0])	1077	([4][1][9])
+-9455	([1][-19][0])	1142	([4][1][8])
+-9622	([1][-20][0])	726	([4][1][12])
+-9665	([1][-20][0])	3274	([4][1][5])
+-9716	([0][0][1])	3294	([4][1][4])
+-9666	([0][1][1])	811	([4][1][11])
+-9895	([0][0][0])	3829	([4][1][1])
+-			-374	([5][0][5])
+-			-847	([5][0][8])
+-			-3115	([5][0][17])
+-			-2465	([5][0][13])
+-			-5296	([5][0][23])
+-			-1940	([5][0][10])
+-			-3220	([5][0][18])
+-			-2572	([5][0][14])
+-			-2664	([5][0][15])
+-			-343	([5][0][4])
+-			-132	([5][0][2])
+-			-1479	([5][0][9])
+-			-4752	([5][0][22])
+-			-2407	([5][0][12])
+-			-5875	([5][0][24])
+-			-173	([5][0][3])
+-			78	([5][0][0])
+-			-3372	([5][0][19])
+-			-3482	([5][0][20])
+-			-3857	([5][0][21])
+-			-813	([5][0][7])
+-			-407	([5][0][6])
+-			29	([5][0][1])
+-			-2005	([5][0][11])
+-			-2924	([5][0][16])
+-			-8094	([5][1][13])
+-			-8329	([5][1][14])
+-			-8454	([5][1][15])
+-			-6286	([5][1][3])
+-			-9712	([5][1][24])
+-			-7539	([5][1][10])
+-			-6472	([5][1][5])
+-			-8720	([5][1][19])
+-			-9622	([5][1][23])
+-			-8509	([5][1][17])
+-			-6853	([5][1][6])
+-			-9613	([5][1][22])
+-			-9527	([5][1][21])
+-			-7043	([5][1][7])
+-			-9718	([5][1][25])
+-			-6417	([5][1][4])
+-			-6172	([5][1][1])
+-			-8661	([5][1][18])
+-			-8479	([5][1][16])
+-			-7929	([5][1][12])
+-			-7135	([5][1][8])
+-			-7400	([5][1][9])
+-			-6264	([5][1][2])
+-			-7778	([5][1][11])
+-			-9112	([5][1][20])
+------------------	------------------
+-	a			b	
+-rb
+-pa
+-rb
+-pa
+-pa
+-ra
+-ra
+-pa
+-sa
+-pa
+-rr
+-pa
+-ra
+-pa
+-sss
+-rb
+-rb
+-pa
+-5149	([4][-2][3])	1301	([4][1][7])
+-5515	([4][-2][2])	3712	([4][1][2])
+-5671	([4][-2][1])	1533	([4][1][6])
+-6218	([4][-2][0])	970	([4][1][10])
+-6914	([3][-19][0])	3526	([4][1][3])
+-7165	([3][-19][0])	1077	([4][1][9])
+-7408	([3][-19][0])	1142	([4][1][8])
+-7624	([3][-19][0])	726	([4][1][12])
+-7660	([3][-19][0])	3274	([4][1][5])
+-7798	([3][-19][0])	3294	([4][1][4])
+-7982	([3][-20][0])	811	([4][1][11])
+-7999	([3][-20][0])	3829	([4][1][1])
+-8011	([-7][-21][0])	-374	([5][0][5])
+-8152	([-7][-21][0])	-847	([5][0][8])
+-8256	([-7][-22][0])	-3115	([5][0][17])
+-8331	([-7][-22][0])	-2465	([5][0][13])
+-8787	([3][-20][0])	-5296	([5][0][23])
+-8807	([2][-19][0])	-1940	([5][0][10])
+-8812	([2][-19][0])	-3220	([5][0][18])
+-8826	([2][-19][0])	-2572	([5][0][14])
+-9126	([2][-20][0])	-2664	([5][0][15])
+-9362	([2][-20][0])	-343	([5][0][4])
+-9430	([2][-20][0])	-132	([5][0][2])
+-9455	([1][-19][0])	-1479	([5][0][9])
+-9622	([1][-20][0])	-4752	([5][0][22])
+-9665	([1][-20][0])	-2407	([5][0][12])
+-9716	([0][0][1])	-5875	([5][0][24])
+-9666	([0][1][1])	-173	([5][0][3])
+-9895	([0][0][0])	78	([5][0][0])
+-4607	([4][-1][2])	-3372	([5][0][19])
+-4714	([4][-1][1])	-3482	([5][0][20])
+-4564	([4][-1][3])	-3857	([5][0][21])
+-5020	([4][-1][0])	-813	([5][0][7])
+-			-407	([5][0][6])
+-			29	([5][0][1])
+-			-2005	([5][0][11])
+-			-2924	([5][0][16])
+-			-8094	([5][1][13])
+-			-8329	([5][1][14])
+-			-8454	([5][1][15])
+-			-6286	([5][1][3])
+-			-9712	([5][1][24])
+-			-7539	([5][1][10])
+-			-6472	([5][1][5])
+-			-8720	([5][1][19])
+-			-9622	([5][1][23])
+-			-8509	([5][1][17])
+-			-6853	([5][1][6])
+-			-9613	([5][1][22])
+-			-9527	([5][1][21])
+-			-7043	([5][1][7])
+-			-9718	([5][1][25])
+-			-6417	([5][1][4])
+-			-6172	([5][1][1])
+-			-8661	([5][1][18])
+-			-8479	([5][1][16])
+-			-7929	([5][1][12])
+-			-7135	([5][1][8])
+-			-7400	([5][1][9])
+-			-6264	([5][1][2])
+-			-7778	([5][1][11])
+-			-9112	([5][1][20])
+-			4070	([4][0][4])
+-			4157	([4][0][3])
+-			4436	([4][0][0])
+-			4373	([4][0][1])
+-			4160	([4][0][2])
+------------------	------------------
+-	a			b	
+-rrr
+-rrr
+-rrr
+-sa
+-rrr
+-sss
+-rrb
+-sb
+-pa
+-rb
+-sb
+-pa
+-rrb
+-rb
+-sb
+-pa
+-rrb
+-sb
+-pa
+-pa
+-
+-
+-PiVOT Sorting B, piv : 4, low_piv : 1, nb_elem_categ: 			12, count : 12, nv count : 12
+-4070	([4][-20][0])	1301	([4][1][6])
+-4157	([4][-20][0])	3712	([4][1][1])
+-4160	([4][0][0])	1533	([4][1][5])
+-4373	([4][0][0])	970	([4][1][9])
+-4436	([4][-20][0])	3526	([4][1][2])
+-4564	([-6][-21][0])	1077	([4][1][8])
+-4607	([-6][-21][0])	1142	([4][1][7])
+-4714	([-6][-21][0])	726	([4][1][11])
+-5020	([-6][-21][0])	3274	([4][1][4])
+-5149	([-6][-22][0])	3294	([4][1][3])
+-5515	([-6][-22][0])	811	([4][1][10])
+-5671	([-6][-22][0])	3829	([4][1][0])
+-6218	([-6][-22][0])	-374	([5][0][5])
+-6914	([3][-19][0])	-847	([5][0][8])
+-7165	([3][-19][0])	-3115	([5][0][17])
+-7408	([3][-19][0])	-2465	([5][0][13])
+-7624	([3][-19][0])	-5296	([5][0][23])
+-7660	([3][-19][0])	-1940	([5][0][10])
+-7798	([3][-19][0])	-3220	([5][0][18])
+-7982	([3][-20][0])	-2572	([5][0][14])
+-7999	([3][-20][0])	-2664	([5][0][15])
+-8011	([-7][-21][0])	-343	([5][0][4])
+-8152	([-7][-21][0])	-132	([5][0][2])
+-8256	([-7][-22][0])	-1479	([5][0][9])
+-8331	([-7][-22][0])	-4752	([5][0][22])
+-8787	([3][-20][0])	-2407	([5][0][12])
+-8807	([2][-19][0])	-5875	([5][0][24])
+-8812	([2][-19][0])	-173	([5][0][3])
+-8826	([2][-19][0])	78	([5][0][0])
+-9126	([2][-20][0])	-3372	([5][0][19])
+-9362	([2][-20][0])	-3482	([5][0][20])
+-9430	([2][-20][0])	-3857	([5][0][21])
+-9455	([1][-19][0])	-813	([5][0][7])
+-9622	([1][-20][0])	-407	([5][0][6])
+-9665	([1][-20][0])	29	([5][0][1])
+-9716	([0][0][1])	-2005	([5][0][11])
+-9666	([0][1][1])	-2924	([5][0][16])
+-9895	([0][0][0])	-8094	([5][1][13])
+-			-8329	([5][1][14])
+-			-8454	([5][1][15])
+-			-6286	([5][1][3])
+-			-9712	([5][1][24])
+-			-7539	([5][1][10])
+-			-6472	([5][1][5])
+-			-8720	([5][1][19])
+-			-9622	([5][1][23])
+-			-8509	([5][1][17])
+-			-6853	([5][1][6])
+-			-9613	([5][1][22])
+-			-9527	([5][1][21])
+-			-7043	([5][1][7])
+-			-9718	([5][1][25])
+-			-6417	([5][1][4])
+-			-6172	([5][1][1])
+-			-8661	([5][1][18])
+-			-8479	([5][1][16])
+-			-7929	([5][1][12])
+-			-7135	([5][1][8])
+-			-7400	([5][1][9])
+-			-6264	([5][1][2])
+-			-7778	([5][1][11])
+-			-9112	([5][1][20])
+------------------	------------------
+-	a			b	
+-pa
+-ra
+-pa
+-pa
+-rr
+-pa
+-rb
+-pa
+-rr
+-pa
+-ra
+-pa
+-rb
+-pa
+-sa
+-3294	([4][-1][3])	-374	([5][0][5])
+-3829	([4][-1][0])	-847	([5][0][8])
+-3526	([4][-1][2])	-3115	([5][0][17])
+-3712	([4][-1][1])	-2465	([5][0][13])
+-4070	([4][-20][0])	-5296	([5][0][23])
+-4157	([4][-20][0])	-1940	([5][0][10])
+-4160	([4][0][0])	-3220	([5][0][18])
+-4373	([4][0][0])	-2572	([5][0][14])
+-4436	([4][-20][0])	-2664	([5][0][15])
+-4564	([-6][-21][0])	-343	([5][0][4])
+-4607	([-6][-21][0])	-132	([5][0][2])
+-4714	([-6][-21][0])	-1479	([5][0][9])
+-5020	([-6][-21][0])	-4752	([5][0][22])
+-5149	([-6][-22][0])	-2407	([5][0][12])
+-5515	([-6][-22][0])	-5875	([5][0][24])
+-5671	([-6][-22][0])	-173	([5][0][3])
+-6218	([-6][-22][0])	78	([5][0][0])
+-6914	([3][-19][0])	-3372	([5][0][19])
+-7165	([3][-19][0])	-3482	([5][0][20])
+-7408	([3][-19][0])	-3857	([5][0][21])
+-7624	([3][-19][0])	-813	([5][0][7])
+-7660	([3][-19][0])	-407	([5][0][6])
+-7798	([3][-19][0])	29	([5][0][1])
+-7982	([3][-20][0])	-2005	([5][0][11])
+-7999	([3][-20][0])	-2924	([5][0][16])
+-8011	([-7][-21][0])	-8094	([5][1][13])
+-8152	([-7][-21][0])	-8329	([5][1][14])
+-8256	([-7][-22][0])	-8454	([5][1][15])
+-8331	([-7][-22][0])	-6286	([5][1][3])
+-8787	([3][-20][0])	-9712	([5][1][24])
+-8807	([2][-19][0])	-7539	([5][1][10])
+-8812	([2][-19][0])	-6472	([5][1][5])
+-8826	([2][-19][0])	-8720	([5][1][19])
+-9126	([2][-20][0])	-9622	([5][1][23])
+-9362	([2][-20][0])	-8509	([5][1][17])
+-9430	([2][-20][0])	-6853	([5][1][6])
+-9455	([1][-19][0])	-9613	([5][1][22])
+-9622	([1][-20][0])	-9527	([5][1][21])
+-9665	([1][-20][0])	-7043	([5][1][7])
+-9716	([0][0][1])	-9718	([5][1][25])
+-9666	([0][1][1])	-6417	([5][1][4])
+-9895	([0][0][0])	-6172	([5][1][1])
+-1301	([4][0][2])	-8661	([5][1][18])
+-1533	([4][0][1])	-8479	([5][1][16])
+-1142	([4][0][3])	-7929	([5][1][12])
+-3274	([4][0][0])	-7135	([5][1][8])
+-			-7400	([5][1][9])
+-			-6264	([5][1][2])
+-			-7778	([5][1][11])
+-			-9112	([5][1][20])
+-			970	([4][1][1])
+-			1077	([4][1][0])
+-			726	([4][1][3])
+-			811	([4][1][2])
+------------------	------------------
+-	a			b	
+diff --git a/Push-Swap42/file103 b/Push-Swap42/file103
+deleted file mode 100644
+index ec4120c..0000000
+--- a/Push-Swap42/file103
++++ /dev/null
+@@ -1,656 +0,0 @@
+-ra
+-pb
+-ra
+-ra
+-ra
+-ra
+-pb
+-ra
+-ra
+-ra
+-ra
+-pb
+-rr
+-ra
+-ra
+-pb
+-ra
+-ra
+-pb
+-rb
+-pb
+-pb
+-rb
+-pb
+-pb
+-rr
+-pb
+-pb
+-rb
+-pb
+-rr
+-pb
+-ra
+-ra
+-pb
+-pb
+-pb
+-ra
+-ra
+-pb
+-rr
+-pb
+-rr
+-pb
+-rr
+-ra
+-ra
+-ra
+-pb
+-pb
+-ra
+-pb
+-pb
+-rr
+-pb
+-rb
+-pb
+-rb
+-pb
+-rb
+-pb
+-rr
+-ra
+-pb
+-pb
+-rb
+-pb
+-ra
+-pb
+-rb
+-pb
+-rr
+-pb
+-rr
+-pb
+-pb
+-ra
+-ra
+-ra
+-pb
+-rb
+-pb
+-ra
+-pb
+-ra
+-pb
+-rb
+-pb
+-rb
+-pb
+-ra
+-pb
+-ra
+-ra
+-pb
+-rr
+-ra
+-ra
+-pb
+-pb
+-pb
+-rb
+-pb
+-rb
+-pb
+-rr
+-ra
+-ra
+-ra
+-pb
+-pb
+-pb
+-rr
+-ra
+-pb
+-rb
+-pb
+-pb
+-pb
+-ra
+-pb
+-rb
+-pb
+-ra
+-ra
+-pb
+-rb
+-pb
+-ra
+-ra
+-ra
+-pb
+-rb
+-pb
+-rb
+-pb
+-rr
+-ra
+-pb
+-ra
+-ra
+-ra
+-ra
+-ra
+-pb
+-rb
+-pb
+-rb
+-pb
+-pb
+-rb
+-pb
+-rb
+-pb
+-ra
+-pb
+-pb
+-ra
+-ra
+-ra
+-ra
+-pb
+-rb
+-pb
+-ra
+-pb
+-rr
+-ra
+-pb
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-pb
+-rb
+-pb
+-rr
+-ra
+-ra
+-pb
+-rb
+-pb
+-pb
+-pb
+-rr
+-pb
+-rr
+-ra
+-ra
+-pb
+-ra
+-ra
+-pb
+-rr
+-ra
+-ra
+-pb
+-pb
+-rb
+-pb
+-pb
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-ra
+-ra
+-pb
+-rr
+-pb
+-rr
+-pb
+-rr
+-pb
+-pb
+-pb
+-rrr
+-rrr
+-sss
+-rrr
+-ra
+-pb
+-rb
+-pb
+-rr
+-pb
+-rrb
+-rrb
+-BEGINNING SORTINGsss
+-pa
+-pa
+-pa
+-sb
+-pa
+-sb
+-pa
+-pa
+-pa
+-pa
+-pa
+-pa
+-rb
+-rb
+-pa
+-pa
+-ra
+-ra
+-pa
+-pa
+-sss
+-rrr
+-rrr
+-pa
+-pa
+-pa
+-sb
+-pa
+-sb
+-pa
+-pa
+-pa
+-pa
+-rb
+-pa
+-rb
+-pa
+-pa
+-ra
+-ra
+-pa
+-sa
+-pa
+-rr
+-pa
+-ra
+-pa
+-sss
+-rb
+-rb
+-pa
+-rrr
+-rrr
+-rrr
+-sa
+-rrr
+-sss
+-rrb
+-sb
+-pa
+-rb
+-sb
+-pa
+-rrb
+-rb
+-sb
+-pa
+-rrb
+-sb
+-pa
+-pa
+-pa
+-ra
+-pa
+-pa
+-rr
+-pa
+-rb
+-pa
+-rr
+-pa
+-ra
+-pa
+-rb
+-pa
+-sa
+-pb
+-rb
+-pb
+-pb
+-rr
+-pa
+-rrr
+-rrb
+-sb
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-sa
+-rrr
+-sss
+-pa
+-pa
+-sb
+-pa
+-pa
+-pa
+-pa
+-rr
+-pa
+-rr
+-pa
+-rr
+-pa
+-pa
+-ra
+-ra
+-pa
+-pa
+-pa
+-rr
+-pa
+-rr
+-pa
+-pa
+-rb
+-rb
+-rb
+-pa
+-pa
+-pa
+-pa
+-rr
+-pb
+-pb
+-pb
+-sss
+-rr
+-rb
+-pb
+-ra
+-ra
+-pb
+-rb
+-pa
+-pa
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-pa
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-pb
+-pb
+-rr
+-pb
+-pb
+-rb
+-rb
+-pb
+-sb
+-ra
+-ra
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-sa
+-rr
+-sss
+-rrr
+-pa
+-sb
+-pa
+-pa
+-rrb
+-pa
+-rb
+-pa
+-rb
+-rb
+-pa
+-pa
+-pa
+-ra
+-ra
+-ra
+-pa
+-sa
+-rr
+-sss
+-rrr
+-rrr
+-rrr
+-rrr
+-sb
+-pa
+-pa
+-pa
+-pa
+-pa
+-pa
+-ra
+-ra
+-ra
+-pa
+-rb
+-pa
+-ra
+-pa
+-rb
+-rb
+-rb
+-pa
+-rb
+-rb
+-pa
+-rb
+-pa
+-pa
+-rb
+-pa
+-pa
+-ra
+-ra
+-pa
+-pa
+-ra
+-pa
+-pa
+-rr
+-pb
+-pb
+-rb
+-pb
+-ra
+-pb
+-pb
+-rr
+-rr
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-sss
+-pa
+-sb
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-pb
+-pb
+-sb
+-rr
+-rb
+-pb
+-ra
+-pb
+-rb
+-pb
+-ra
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-pa
+-pa
+-pa
+-rb
+-sb
+-pa
+-rrb
+-pa
+-rb
+-pa
+-pa
+-sss
+-ra
+-ra
+-pa
+-sss
+-pa
+-rr
+-rrr
+-rrr
+-rrr
+-sb
+-pa
+-pa
+-pa
+-
+--9718	([5][-19][0][3])
+--9712	([5][-19][0][3])
+--9622	([5][-19][0][3])
+--9613	([-5][-20][0][3])
+--9527	([-5][-20][0][3])
+--9112	([-5][-20][0][3])
+--8720	([-5][-21][0][2])
+--8661	([-5][-21][0][2])
+--8509	([5][1][0][9])
+--8479	([5][-20][0][3])
+--8454	([5][-20][0][3])
+--8329	([5][-20][0][3])
+--8094	([-5][-21][0][3])
+--7929	([-5][-21][0][3])
+--7778	([-5][-21][0][3])
+--7539	([5][-22][0][2])
+--7400	([5][-22][0][2])
+--7135	([5][-21][0][3])
+--7043	([5][-21][0][3])
+--6853	([5][-21][0][3])
+--6472	([-5][-22][0][3])
+--6417	([-5][-22][0][3])
+--6286	([-5][-22][0][3])
+--6264	([5][-23][0][2])
+--6172	([5][-23][0][2])
+--5875	([5][-20][0][3])
+--5296	([5][-20][0][3])
+--4752	([5][-20][0][3])
+--3857	([-5][-21][0][3])
+--3482	([-5][-21][0][3])
+--3372	([-5][-21][0][3])
+--3220	([-5][-22][0][3])
+--3115	([-5][-22][0][3])
+--2924	([-5][-22][0][3])
+--2664	([5][-21][0][3])
+--2572	([5][-21][0][3])
+--2465	([5][-21][0][3])
+--2407	([-5][-22][0][3])
+--2005	([-5][-22][0][3])
+--1940	([-5][-22][0][3])
+--1479	([5][-23][0][2])
+--847	([5][-23][0][2])
+--813	([5][-22][0][3])
+--407	([5][-22][0][3])
+--374	([5][-22][0][3])
+--343	([-5][-23][0][3])
+--173	([-5][-23][0][3])
+--132	([-5][-23][0][3])
+-29	([5][-24][0][2])
+-78	([5][-24][0][2])
+-726	([4][-19][0][4])
+-811	([4][-19][0][4])
+-970	([4][-19][0][4])
+-1077	([4][-19][0][4])
+-1142	([-6][-20][0][4])
+-1301	([-6][-20][0][4])
+-1533	([-6][-20][0][4])
+-3274	([-6][-20][0][4])
+-3294	([4][-21][0][2])
+-3526	([4][-21][0][1])
+-3712	([-6][-22][0][1])
+-3829	([4][-23][0][1])
+-4070	([4][-20][0][5])
+-4157	([4][-20][0][4])
+-4160	([4][0][0][4])
+-4373	([4][0][0][4])
+-4436	([4][-20][0][4])
+-4564	([-6][-21][0][4])
+-4607	([-6][-21][0][4])
+-4714	([-6][-21][0][4])
+-5020	([-6][-21][0][4])
+-5149	([-6][-22][0][4])
+-5515	([-6][-22][0][4])
+-5671	([-6][-22][0][4])
+-6218	([-6][-22][0][4])
+-6914	([3][-19][0][6])
+-7165	([3][-19][0][6])
+-7408	([3][-19][0][6])
+-7624	([3][-19][0][6])
+-7660	([3][-19][0][6])
+-7798	([3][-19][0][6])
+-7982	([3][-20][0][2])
+-7999	([3][-20][0][2])
+-8011	([-7][-21][0][2])
+-8152	([-7][-21][0][2])
+-8256	([-7][-22][0][2])
+-8331	([-7][-22][0][2])
+-8787	([3][-20][0][0])
+-8807	([2][-19][0][0])
+-8812	([2][-19][0][0])
+-8826	([2][-19][0][0])
+-9126	([2][-20][0][0])
+-9362	([2][-20][0][0])
+-9430	([2][-20][0][0])
+-9455	([1][-20][0][0])
+-9622	([1][-20][0][0])
+-9665	([1][-20][0][0])
+-9666	([0][-1582301168][2][1781358157])
+-9716	([0][0][1][0])
+-9895	([0][0][0][0])
+------------------	------------------
+-	a			b	
+diff --git a/Push-Swap42/file2.txt b/Push-Swap42/file2.txt
+deleted file mode 100644
+index ee604be..0000000
+--- a/Push-Swap42/file2.txt
++++ /dev/null
+@@ -1,632 +0,0 @@
+-ra
+-ra
+-pb
+-ra
+-ra
+-pb
+-pb
+-pb
+-rr
+-pb
+-rb
+-pb
+-pb
+-pb
+-pb
+-pb
+-rr
+-pb
+-pb
+-rb
+-pb
+-pb
+-rr
+-pb
+-pb
+-pb
+-pb
+-rr
+-ra
+-ra
+-pb
+-rb
+-pb
+-pb
+-ra
+-ra
+-pb
+-rr
+-ra
+-pb
+-rb
+-pb
+-rb
+-pb
+-ra
+-pb
+-ra
+-pb
+-rr
+-pb
+-ra
+-pb
+-rb
+-pb
+-rb
+-pb
+-pb
+-ra
+-pb
+-ra
+-pb
+-rr
+-ra
+-ra
+-ra
+-pb
+-pb
+-rr
+-ra
+-ra
+-ra
+-pb
+-pb
+-rb
+-pb
+-rr
+-pb
+-rr
+-pb
+-ra
+-ra
+-pb
+-rr
+-pb
+-pb
+-rr
+-ra
+-ra
+-ra
+-pb
+-rr
+-ra
+-ra
+-ra
+-pb
+-rr
+-ra
+-ra
+-ra
+-ra
+-ra
+-pb
+-rb
+-pb
+-ra
+-pb
+-rr
+-pb
+-rb
+-pb
+-rr
+-pb
+-rr
+-pb
+-rb
+-pb
+-rb
+-pb
+-pb
+-ra
+-pb
+-pb
+-rr
+-ra
+-ra
+-ra
+-ra
+-ra
+-ra
+-pb
+-rb
+-pb
+-ra
+-pb
+-ra
+-pb
+-pb
+-ra
+-pb
+-rr
+-pb
+-rr
+-ra
+-pb
+-rb
+-pb
+-pb
+-rb
+-pb
+-ra
+-pb
+-rb
+-pb
+-rb
+-pb
+-ra
+-ra
+-ra
+-pb
+-ra
+-ra
+-pb
+-pb
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-pb
+-pb
+-pb
+-rr
+-ra
+-ra
+-ra
+-pb
+-ra
+-pb
+-pb
+-rr
+-pb
+-ra
+-ra
+-ra
+-ra
+-pb
+-rb
+-pb
+-rr
+-ra
+-pb
+-pb
+-rb
+-pb
+-rb
+-pb
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-pb
+-ra
+-ra
+-pb
+-ra
+-ra
+-pb
+-ra
+-pb
+-rb
+-pb
+-rr
+-pb
+-rrr
+-rrr
+-ra
+-pb
+-rb
+-pb
+-rr
+-ra
+-pb
+-rrr
+-rrr
+-BEGINNING SORTINGsb
+-pa
+-pa
+-pa
+-sb
+-pa
+-pa
+-pa
+-pa
+-pa
+-pa
+-rb
+-sb
+-pa
+-pa
+-rrb
+-rb
+-rb
+-rb
+-pa
+-pa
+-sa
+-rrb
+-rrb
+-pa
+-rrb
+-sb
+-pa
+-pa
+-rb
+-sb
+-pa
+-rrb
+-pa
+-rb
+-rb
+-pa
+-pa
+-sss
+-rrb
+-pa
+-rrb
+-pa
+-pa
+-rb
+-pa
+-rb
+-rb
+-pa
+-ra
+-pa
+-sa
+-pa
+-rr
+-pa
+-rr
+-rb
+-pa
+-rrr
+-rrr
+-sa
+-rrr
+-sss
+-rrb
+-pa
+-rrb
+-rrb
+-pa
+-pa
+-pa
+-sb
+-pa
+-pa
+-rb
+-pa
+-rr
+-rb
+-rb
+-pa
+-pa
+-sss
+-ra
+-ra
+-pa
+-rb
+-pa
+-rb
+-pa
+-sss
+-rrr
+-rrr
+-rrr
+-sa
+-rrb
+-rrb
+-pa
+-rrb
+-sb
+-pa
+-sb
+-pa
+-pa
+-sb
+-pa
+-pa
+-pa
+-pa
+-rr
+-pa
+-pa
+-pa
+-rr
+-rr
+-rr
+-pa
+-pa
+-ra
+-pa
+-sss
+-pa
+-sss
+-pa
+-rb
+-rb
+-rb
+-pa
+-rb
+-rb
+-rb
+-rb
+-pa
+-sss
+-pa
+-rr
+-ra
+-pb
+-pb
+-ra
+-pb
+-ra
+-sb
+-pa
+-pa
+-pa
+-rra
+-rra
+-rra
+-sa
+-rrr
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-rrr
+-ra
+-pb
+-ra
+-sa
+-ra
+-sa
+-rrr
+-rrr
+-sa
+-rrr
+-rrb
+-rrb
+-rrb
+-rb
+-pa
+-ra
+-pa
+-pa
+-ra
+-pa
+-sss
+-pa
+-sss
+-pa
+-rr
+-rrr
+-rrr
+-rra
+-sss
+-pa
+-rb
+-pa
+-sa
+-pa
+-sa
+-rrb
+-sb
+-pa
+-pa
+-pa
+-pa
+-pa
+-rr
+-rb
+-rb
+-pa
+-ra
+-pa
+-pa
+-rr
+-pa
+-ra
+-pa
+-sss
+-rb
+-rb
+-rb
+-rb
+-pa
+-pa
+-sss
+-pa
+-pa
+-rr
+-pa
+-rr
+-ra
+-pb
+-pb
+-ra
+-sa
+-ra
+-sa
+-rra
+-rra
+-sa
+-rra
+-sa
+-rr
+-sss
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-rrr
+-sss
+-rrr
+-rrr
+-pb
+-ra
+-pb
+-pb
+-ra
+-ra
+-pa
+-sb
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-sa
+-rr
+-sss
+-rrr
+-rb
+-rb
+-rb
+-rb
+-rb
+-pa
+-pa
+-rr
+-rb
+-pa
+-sss
+-pa
+-sss
+-pa
+-pa
+-rr
+-rr
+-rrr
+-rrr
+-rrr
+-sss
+-pa
+-pa
+-rb
+-rb
+-pa
+-rb
+-pa
+-sss
+-rr
+-sa
+-rrr
+-rb
+-sb
+-pa
+-rrb
+-pa
+-pa
+-
+--9944	([5][-19][0])
+--9544	([5][-19][0])
+--8976	([5][1][0])
+--8668	([-5][-21][0])
+--8661	([-5][-21][0])
+--8608	([-5][-21][0])
+--8237	([5][-19][0])
+--7924	([-5][-20][0])
+--7367	([-5][-20][0])
+--6538	([-5][-20][0])
+--6452	([-5][-21][0])
+--6219	([-5][-21][0])
+--5992	([-5][-21][0])
+--5671	([-5][-20][0])
+--5406	([-5][-20][0])
+--5361	([-5][-20][0])
+--5161	([5][-21][0])
+--4515	([5][-21][0])
+--4442	([5][-21][0])
+--4437	([-5][-21][0])
+--4193	([-5][-21][0])
+--3670	([-5][-21][0])
+--3265	([5][-20][0])
+--3303	([-5][-22][0])
+--2917	([5][-20][0])
+--2901	([5][-20][0])
+--2538	([-5][-22][0])
+--2289	([-5][-22][0])
+--2282	([-5][-22][0])
+--2245	([-5][-21][0])
+--2041	([-5][-21][0])
+--1964	([-5][-21][0])
+--1697	([-5][-22][0])
+--1640	([-5][-22][0])
+--1633	([-5][-22][0])
+--1582	([-5][-21][0])
+--1454	([-5][-21][0])
+--1274	([-5][-21][0])
+--487	([-5][-21][0])
+--614	([-5][-22][0])
+--262	([-5][-22][0])
+--70	([-5][-22][0])
+-17	([-5][-22][0])
+-443	([5][-23][0])
+-652	([5][-23][0])
+-709	([5][-23][0])
+-1083	([5][-20][0])
+-1210	([4][-19][0])
+-1229	([4][-19][0])
+-1248	([4][-19][0])
+-1533	([4][-19][0])
+-1609	([4][-19][0])
+-1622	([4][-19][0])
+-1639	([-6][-20][0])
+-1789	([-6][-20][0])
+-1948	([-6][-20][0])
+-2436	([-6][-21][0])
+-2570	([-6][-21][0])
+-2735	([-6][-21][0])
+-2884	([4][-20][0])
+-2886	([4][-20][0])
+-3121	([4][-20][0])
+-3324	([4][-20][0])
+-3464	([4][-20][1])
+-3917	([4][-20][0])
+-4243	([-6][-21][0])
+-4244	([-6][-21][0])
+-4301	([-6][-21][0])
+-4354	([-6][-22][0])
+-4726	([-6][-22][0])
+-4796	([-6][-22][0])
+-4842	([4][-20][0])
+-4968	([3][-19][1])
+-5229	([3][-19][0])
+-5478	([-7][-21][0])
+-5536	([-7][-21][0])
+-5567	([3][-19][0])
+-6060	([3][1][0])
+-6065	([3][-20][0])
+-6083	([3][-20][0])
+-6391	([3][-20][0])
+-6999	([-7][-22][0])
+-7193	([-7][-22][0])
+-7303	([3][-20][0])
+-7530	([3][0][0])
+-7631	([2][-19][0])
+-7663	([2][-19][0])
+-7755	([2][-19][0])
+-7814	([2][-20][0])
+-7918	([2][-20][0])
+-8072	([2][-20][0])
+-8443	([1][-19][0])
+-8485	([1][-20][0])
+-8627	([1][-20][0])
+-8972	([0][1][1])
+-9081	([0][0][1])
+-9707	([0][0][0])
+------------------	------------------
+-	a			b	
+diff --git a/Push-Swap42/file3.txt b/Push-Swap42/file3.txt
+deleted file mode 100644
+index 3eced6d..0000000
+--- a/Push-Swap42/file3.txt
++++ /dev/null
+@@ -1,658 +0,0 @@
+-ra
+-ra
+-ra
+-pb
+-rr
+-pb
+-ra
+-pb
+-rr
+-ra
+-ra
+-ra
+-pb
+-rb
+-pb
+-ra
+-pb
+-rb
+-pb
+-ra
+-ra
+-pb
+-pb
+-rr
+-pb
+-ra
+-ra
+-pb
+-rr
+-pb
+-rb
+-pb
+-pb
+-rr
+-ra
+-pb
+-pb
+-pb
+-pb
+-pb
+-rb
+-pb
+-rb
+-pb
+-ra
+-pb
+-pb
+-rr
+-ra
+-ra
+-ra
+-ra
+-ra
+-ra
+-pb
+-rb
+-pb
+-rr
+-ra
+-ra
+-pb
+-pb
+-ra
+-pb
+-pb
+-ra
+-ra
+-ra
+-ra
+-pb
+-rb
+-pb
+-rr
+-pb
+-ra
+-ra
+-pb
+-pb
+-rr
+-ra
+-ra
+-pb
+-rb
+-pb
+-ra
+-pb
+-ra
+-pb
+-rr
+-pb
+-rr
+-pb
+-rb
+-pb
+-rr
+-pb
+-pb
+-rr
+-pb
+-rr
+-pb
+-pb
+-pb
+-rb
+-pb
+-rr
+-pb
+-ra
+-pb
+-pb
+-rb
+-pb
+-pb
+-rr
+-ra
+-pb
+-rr
+-ra
+-ra
+-ra
+-pb
+-pb
+-rr
+-ra
+-pb
+-rb
+-pb
+-rb
+-pb
+-ra
+-pb
+-rr
+-ra
+-pb
+-rb
+-pb
+-rr
+-ra
+-ra
+-ra
+-ra
+-pb
+-rb
+-pb
+-ra
+-pb
+-rb
+-pb
+-ra
+-pb
+-pb
+-rb
+-pb
+-pb
+-pb
+-ra
+-ra
+-pb
+-rb
+-pb
+-pb
+-ra
+-pb
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-ra
+-pb
+-rb
+-pb
+-rr
+-pb
+-rb
+-pb
+-ra
+-pb
+-ra
+-pb
+-pb
+-pb
+-rb
+-pb
+-rr
+-ra
+-pb
+-ra
+-ra
+-ra
+-ra
+-ra
+-pb
+-ra
+-pb
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-ra
+-pb
+-ra
+-pb
+-ra
+-ra
+-pb
+-rr
+-pb
+-rb
+-pb
+-rb
+-pb
+-rrr
+-rrr
+-rrr
+-pb
+-rb
+-pb
+-ra
+-ra
+-ra
+-pb
+-rrb
+-BEGINNING SORTINGsb
+-pa
+-pa
+-pa
+-pa
+-pa
+-pa
+-rb
+-sb
+-pa
+-pa
+-rrb
+-pa
+-rb
+-pa
+-pa
+-sa
+-rb
+-rb
+-pa
+-sss
+-rrb
+-rrb
+-pa
+-rrb
+-pa
+-pa
+-pa
+-pa
+-rb
+-rb
+-pa
+-sa
+-rrb
+-sb
+-rrb
+-pa
+-pa
+-pa
+-pa
+-rr
+-pa
+-rr
+-rb
+-pa
+-pa
+-rb
+-rb
+-rb
+-pa
+-rr
+-pa
+-sss
+-rr
+-sa
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rr
+-sss
+-rrr
+-rrb
+-rrb
+-rrb
+-pa
+-rrb
+-rb
+-pa
+-rb
+-pa
+-sss
+-pa
+-sa
+-rrb
+-sb
+-rrb
+-sb
+-pa
+-sb
+-pa
+-pa
+-rb
+-rb
+-rb
+-rb
+-pa
+-ra
+-pa
+-pa
+-pa
+-ra
+-pa
+-sss
+-pa
+-rr
+-rr
+-sa
+-rrr
+-rrr
+-rrr
+-rrr
+-rrb
+-rrb
+-pa
+-rb
+-pa
+-sss
+-pa
+-sa
+-rr
+-sa
+-rrr
+-rrb
+-sb
+-pa
+-sb
+-pa
+-pa
+-rb
+-pa
+-pa
+-sss
+-pa
+-rb
+-rb
+-pa
+-pa
+-rr
+-rr
+-pa
+-ra
+-pa
+-rb
+-rb
+-pa
+-ra
+-pa
+-pa
+-rb
+-rb
+-rb
+-pa
+-rr
+-pa
+-rr
+-ra
+-pb
+-ra
+-ra
+-pb
+-pb
+-rb
+-sb
+-pa
+-rrb
+-pa
+-pa
+-rra
+-rra
+-sa
+-rra
+-sa
+-rr
+-sss
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-rrr
+-rrr
+-rrr
+-sss
+-ra
+-pb
+-ra
+-pb
+-ra
+-pb
+-sb
+-pa
+-pa
+-pa
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rrb
+-rrb
+-rrb
+-pa
+-rr
+-rb
+-pa
+-rb
+-rb
+-pa
+-sss
+-pa
+-pa
+-ra
+-ra
+-pa
+-sa
+-rrr
+-rrr
+-rrr
+-sss
+-rrb
+-pa
+-rb
+-rb
+-rb
+-pa
+-rb
+-pa
+-sss
+-rr
+-sa
+-rrr
+-rrb
+-rrb
+-rrb
+-sb
+-rrb
+-pa
+-pa
+-sb
+-pa
+-pa
+-pa
+-rr
+-rb
+-pa
+-rr
+-pa
+-pa
+-pa
+-rr
+-ra
+-ra
+-pa
+-rb
+-rb
+-pa
+-rb
+-pa
+-sss
+-pa
+-rb
+-rb
+-rb
+-rb
+-rb
+-pa
+-pa
+-rr
+-pa
+-sss
+-ra
+-ra
+-rra
+-rra
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-ra
+-ra
+-ra
+-sa
+-pb
+-pa
+-rrr
+-rrr
+-rrr
+-sa
+-rr
+-sss
+-rrr
+-pa
+-rb
+-pa
+-pa
+-rr
+-rb
+-rb
+-rb
+-pa
+-sa
+-pa
+-rr
+-pa
+-rr
+-rr
+-sss
+-rrr
+-rrr
+-rrr
+-rrr
+-rb
+-rb
+-rb
+-rb
+-pa
+-pa
+-sa
+-pa
+-sa
+-rr
+-sss
+-rrr
+-pa
+-sb
+-pa
+-pa
+-pa
+-
+--9731	([5][-19][0])
+--9426	([5][-19][0])
+--9371	([5][-19][0])
+--8559	([5][-19][0])
+--8349	([-5][-21][0])
+--7700	([-5][-21][0])
+--7669	([-5][-21][0])
+--7614	([-5][-20][0])
+--6902	([-5][-20][0])
+--6892	([-5][-20][0])
+--6790	([-5][-21][0])
+--6676	([-5][-21][0])
+--6589	([-5][-21][0])
+--6386	([-5][-20][0])
+--6195	([-5][-20][0])
+--6060	([-5][-20][0])
+--5608	([5][-22][0])
+--5575	([-5][-21][0])
+--5347	([-5][-20][0])
+--4929	([-5][-21][0])
+--4821	([-5][-21][0])
+--4307	([5][-4][0])
+--4749	([5][-1][0])
+--4438	([5][-2][1])
+--4541	([5][-2][2])
+--4036	([5][-20][0])
+--3796	([5][-20][0])
+--3792	([5][-20][0])
+--3633	([5][-20][0])
+--3628	([-5][-22][0])
+--2864	([-5][-22][0])
+--2785	([-5][-22][0])
+--2717	([-5][-21][0])
+--2576	([-5][-21][0])
+--2444	([-5][-21][0])
+--2149	([-5][-22][0])
+--1977	([-5][-22][0])
+--1911	([-5][-22][0])
+--1760	([-5][-21][0])
+--1446	([-5][-21][0])
+--1336	([-5][-21][0])
+--1334	([5][-22][0])
+--1240	([5][-22][0])
+--1153	([5][-22][0])
+--753	([-5][-22][0])
+--448	([-5][-22][0])
+-11	([-5][-22][0])
+-184	([5][-23][0])
+-390	([5][-23][0])
+-398	([5][-3][0])
+-1013	([4][-19][0])
+-1071	([4][-19][0])
+-1477	([4][-19][0])
+-1635	([-6][-21][0])
+-1761	([-6][-21][0])
+-2031	([-6][-21][0])
+-2285	([-6][-20][0])
+-2777	([-6][-20][0])
+-3134	([-6][-20][0])
+-3154	([-6][-21][0])
+-3286	([-6][-21][0])
+-3341	([-6][-21][0])
+-3433	([4][-20][0])
+-3452	([4][-20][0])
+-3722	([4][-20][0])
+-3829	([-6][-22][0])
+-3905	([-6][-22][0])
+-4127	([-6][-22][0])
+-4390	([4][-20][0])
+-4677	([-6][-21][0])
+-4851	([-6][-21][0])
+-5321	([-6][-21][0])
+-5446	([-6][-22][0])
+-5549	([-6][-22][0])
+-5866	([-6][-22][0])
+-5897	([3][-19][0])
+-5922	([3][-19][0])
+-6039	([3][-19][0])
+-6339	([-7][-21][0])
+-6529	([-7][-21][0])
+-6644	([3][-19][0])
+-7085	([3][-20][0])
+-7177	([3][-20][1])
+-7885	([3][-20][0])
+-8038	([-7][-22][0])
+-8165	([-7][-22][0])
+-8215	([-7][-22][0])
+-8273	([2][-19][0])
+-8424	([2][-19][0])
+-8543	([2][1][0])
+-8860	([2][-20][0])
+-9009	([2][-20][0])
+-9480	([2][-20][0])
+-9659	([1][-19][0])
+-9751	([1][-20][0])
+-9828	([1][-20][0])
+-9884	([0][1][1])
+-9951	([0][0][1])
+-9977	([0][0][0])
+------------------	------------------
+-	a			b	
+diff --git a/Push-Swap42/file4.txt b/Push-Swap42/file4.txt
+deleted file mode 100644
+index 888e87f..0000000
+--- a/Push-Swap42/file4.txt
++++ /dev/null
+@@ -1,4480 +0,0 @@
+-ra
+-ra
+-pb
+-pb
+-ra
+-pb
+-rr
+-pb
+-rr
+-pb
+-rr
+-pb
+-pb
+-rr
+-ra
+-ra
+-ra
+-ra
+-pb
+-rb
+-pb
+-rr
+-pb
+-pb
+-ra
+-pb
+-rb
+-pb
+-pb
+-ra
+-ra
+-pb
+-rr
+-pb
+-ra
+-pb
+-rr
+-ra
+-pb
+-pb
+-ra
+-ra
+-pb
+-pb
+-rb
+-pb
+-rb
+-pb
+-pb
+-rb
+-pb
+-pb
+-rr
+-ra
+-pb
+-ra
+-pb
+-pb
+-ra
+-ra
+-pb
+-pb
+-pb
+-ra
+-pb
+-rr
+-pb
+-ra
+-pb
+-rb
+-pb
+-rb
+-pb
+-rb
+-pb
+-ra
+-ra
+-ra
+-pb
+-rb
+-pb
+-ra
+-ra
+-pb
+-ra
+-pb
+-ra
+-pb
+-ra
+-pb
+-ra
+-ra
+-pb
+-ra
+-ra
+-ra
+-ra
+-pb
+-rr
+-pb
+-rr
+-ra
+-ra
+-pb
+-rb
+-pb
+-rr
+-pb
+-rr
+-pb
+-pb
+-rb
+-pb
+-pb
+-rr
+-ra
+-pb
+-rr
+-pb
+-rb
+-pb
+-rr
+-pb
+-rb
+-pb
+-rb
+-pb
+-pb
+-rb
+-pb
+-rr
+-pb
+-rr
+-ra
+-pb
+-rr
+-ra
+-ra
+-pb
+-rr
+-pb
+-pb
+-pb
+-rb
+-pb
+-rb
+-pb
+-rb
+-pb
+-ra
+-pb
+-ra
+-pb
+-rb
+-pb
+-pb
+-rb
+-pb
+-ra
+-ra
+-ra
+-ra
+-ra
+-pb
+-ra
+-ra
+-pb
+-ra
+-pb
+-rr
+-ra
+-ra
+-ra
+-ra
+-pb
+-ra
+-pb
+-pb
+-pb
+-rr
+-pb
+-rb
+-pb
+-pb
+-ra
+-ra
+-pb
+-rb
+-pb
+-rr
+-ra
+-ra
+-pb
+-rr
+-ra
+-ra
+-ra
+-pb
+-rb
+-pb
+-ra
+-pb
+-ra
+-pb
+-pb
+-ra
+-pb
+-rb
+-pb
+-rb
+-pb
+-rb
+-pb
+-ra
+-pb
+-rb
+-pb
+-ra
+-ra
+-pb
+-ra
+-ra
+-ra
+-ra
+-ra
+-ra
+-pb
+-rr
+-pb
+-rb
+-pb
+-ra
+-ra
+-ra
+-ra
+-pb
+-rr
+-ra
+-pb
+-rr
+-pb
+-pb
+-rb
+-pb
+-rb
+-pb
+-rb
+-pb
+-rr
+-pb
+-ra
+-ra
+-ra
+-pb
+-rr
+-ra
+-ra
+-pb
+-rb
+-pb
+-rb
+-pb
+-pb
+-pb
+-rr
+-pb
+-rb
+-pb
+-pb
+-rr
+-pb
+-rb
+-pb
+-rr
+-pb
+-pb
+-rr
+-ra
+-ra
+-ra
+-ra
+-pb
+-ra
+-ra
+-ra
+-ra
+-pb
+-rb
+-pb
+-rb
+-pb
+-ra
+-ra
+-ra
+-pb
+-rr
+-pb
+-ra
+-ra
+-pb
+-pb
+-ra
+-ra
+-ra
+-pb
+-ra
+-ra
+-pb
+-pb
+-ra
+-pb
+-ra
+-ra
+-pb
+-ra
+-ra
+-ra
+-pb
+-ra
+-pb
+-ra
+-pb
+-rr
+-ra
+-ra
+-ra
+-pb
+-rr
+-pb
+-rb
+-pb
+-rr
+-pb
+-pb
+-rb
+-pb
+-pb
+-pb
+-rr
+-pb
+-rr
+-ra
+-pb
+-pb
+-ra
+-pb
+-rb
+-pb
+-rb
+-pb
+-rb
+-pb
+-ra
+-ra
+-pb
+-rr
+-ra
+-pb
+-pb
+-rr
+-ra
+-ra
+-pb
+-pb
+-pb
+-rb
+-pb
+-ra
+-ra
+-ra
+-pb
+-rb
+-pb
+-ra
+-pb
+-rb
+-pb
+-pb
+-ra
+-ra
+-ra
+-pb
+-rr
+-ra
+-ra
+-pb
+-rr
+-pb
+-rr
+-ra
+-ra
+-ra
+-ra
+-ra
+-ra
+-pb
+-rr
+-pb
+-rr
+-pb
+-pb
+-rb
+-pb
+-rb
+-pb
+-rb
+-pb
+-pb
+-rr
+-ra
+-pb
+-rr
+-pb
+-ra
+-pb
+-ra
+-pb
+-ra
+-pb
+-pb
+-rb
+-pb
+-pb
+-ra
+-pb
+-ra
+-ra
+-pb
+-rb
+-pb
+-pb
+-rb
+-pb
+-rr
+-ra
+-pb
+-pb
+-rb
+-pb
+-pb
+-ra
+-ra
+-pb
+-pb
+-ra
+-ra
+-pb
+-ra
+-pb
+-rb
+-pb
+-rr
+-ra
+-ra
+-ra
+-pb
+-rr
+-ra
+-pb
+-ra
+-ra
+-pb
+-rb
+-pb
+-pb
+-ra
+-ra
+-pb
+-pb
+-rr
+-ra
+-ra
+-ra
+-pb
+-rb
+-pb
+-ra
+-ra
+-pb
+-pb
+-rr
+-pb
+-ra
+-pb
+-pb
+-pb
+-rb
+-pb
+-rb
+-pb
+-pb
+-ra
+-pb
+-rr
+-pb
+-pb
+-pb
+-ra
+-ra
+-ra
+-pb
+-pb
+-rb
+-pb
+-rb
+-pb
+-rr
+-pb
+-rb
+-pb
+-pb
+-rr
+-pb
+-ra
+-pb
+-pb
+-pb
+-rr
+-ra
+-pb
+-rr
+-ra
+-pb
+-ra
+-pb
+-ra
+-pb
+-rr
+-pb
+-pb
+-ra
+-ra
+-pb
+-ra
+-pb
+-ra
+-ra
+-ra
+-ra
+-ra
+-pb
+-ra
+-pb
+-rb
+-pb
+-rr
+-ra
+-pb
+-rb
+-pb
+-ra
+-ra
+-ra
+-pb
+-rr
+-pb
+-ra
+-ra
+-ra
+-pb
+-rr
+-ra
+-ra
+-ra
+-ra
+-ra
+-pb
+-rb
+-pb
+-pb
+-pb
+-ra
+-pb
+-ra
+-ra
+-pb
+-rb
+-pb
+-ra
+-pb
+-rb
+-pb
+-pb
+-ra
+-pb
+-pb
+-ra
+-pb
+-rb
+-pb
+-ra
+-pb
+-pb
+-ra
+-ra
+-pb
+-rr
+-ra
+-ra
+-pb
+-ra
+-pb
+-rr
+-ra
+-pb
+-pb
+-rr
+-ra
+-pb
+-rr
+-pb
+-pb
+-rb
+-pb
+-pb
+-pb
+-rr
+-pb
+-pb
+-rb
+-pb
+-pb
+-ra
+-pb
+-rr
+-ra
+-pb
+-rb
+-pb
+-rr
+-pb
+-ra
+-ra
+-pb
+-ra
+-ra
+-pb
+-rr
+-ra
+-pb
+-rr
+-ra
+-pb
+-ra
+-pb
+-ra
+-pb
+-rr
+-pb
+-pb
+-rb
+-pb
+-ra
+-ra
+-pb
+-rr
+-ra
+-ra
+-pb
+-ra
+-ra
+-pb
+-pb
+-ra
+-ra
+-ra
+-pb
+-rb
+-pb
+-ra
+-ra
+-pb
+-rr
+-ra
+-ra
+-ra
+-ra
+-ra
+-ra
+-pb
+-ra
+-pb
+-pb
+-rb
+-pb
+-rr
+-ra
+-pb
+-rr
+-pb
+-ra
+-ra
+-pb
+-ra
+-pb
+-pb
+-rb
+-pb
+-rr
+-pb
+-rb
+-pb
+-ra
+-pb
+-rb
+-pb
+-rb
+-pb
+-ra
+-pb
+-rb
+-pb
+-ra
+-pb
+-rr
+-pb
+-rb
+-pb
+-pb
+-rr
+-pb
+-rr
+-ra
+-pb
+-ra
+-pb
+-rb
+-pb
+-rb
+-pb
+-pb
+-rb
+-pb
+-rr
+-ra
+-pb
+-rr
+-pb
+-rb
+-pb
+-rb
+-pb
+-rb
+-pb
+-rr
+-ra
+-ra
+-pb
+-rr
+-pb
+-pb
+-ra
+-pb
+-rr
+-pb
+-rr
+-ra
+-pb
+-ra
+-ra
+-ra
+-ra
+-pb
+-rr
+-pb
+-rb
+-pb
+-rb
+-pb
+-ra
+-pb
+-pb
+-ra
+-ra
+-ra
+-pb
+-rr
+-ra
+-ra
+-pb
+-ra
+-ra
+-ra
+-pb
+-pb
+-rr
+-ra
+-ra
+-ra
+-pb
+-rr
+-pb
+-ra
+-ra
+-pb
+-pb
+-rb
+-pb
+-ra
+-ra
+-ra
+-ra
+-ra
+-pb
+-rr
+-pb
+-pb
+-pb
+-rb
+-pb
+-ra
+-pb
+-rr
+-ra
+-pb
+-rb
+-pb
+-ra
+-pb
+-ra
+-pb
+-pb
+-rb
+-pb
+-pb
+-pb
+-rr
+-pb
+-rb
+-pb
+-pb
+-pb
+-rr
+-pb
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-ra
+-ra
+-pb
+-ra
+-ra
+-pb
+-rr
+-pb
+-ra
+-ra
+-pb
+-pb
+-rb
+-pb
+-ra
+-pb
+-rr
+-ra
+-ra
+-ra
+-pb
+-rr
+-pb
+-pb
+-rb
+-pb
+-pb
+-pb
+-rb
+-pb
+-rr
+-pb
+-rr
+-ra
+-pb
+-rr
+-ra
+-ra
+-pb
+-rb
+-pb
+-rr
+-pb
+-rr
+-pb
+-rr
+-pb
+-rr
+-pb
+-ra
+-pb
+-rr
+-ra
+-pb
+-ra
+-ra
+-ra
+-pb
+-pb
+-rb
+-pb
+-rr
+-pb
+-pb
+-ra
+-ra
+-pb
+-rb
+-pb
+-rb
+-pb
+-ra
+-ra
+-pb
+-ra
+-pb
+-rr
+-ra
+-ra
+-pb
+-rr
+-pb
+-pb
+-ra
+-ra
+-pb
+-ra
+-pb
+-pb
+-ra
+-pb
+-rr
+-pb
+-ra
+-ra
+-pb
+-rb
+-pb
+-pb
+-ra
+-ra
+-ra
+-pb
+-rb
+-pb
+-pb
+-ra
+-pb
+-rr
+-pb
+-ra
+-ra
+-pb
+-ra
+-pb
+-rr
+-pb
+-pb
+-ra
+-ra
+-ra
+-pb
+-pb
+-pb
+-rr
+-ra
+-ra
+-pb
+-rb
+-pb
+-rb
+-pb
+-rb
+-pb
+-rr
+-pb
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-ra
+-ra
+-pb
+-pb
+-rr
+-pb
+-rr
+-pb
+-rr
+-pb
+-rb
+-pb
+-pb
+-pb
+-rr
+-ra
+-pb
+-ra
+-ra
+-pb
+-rr
+-pb
+-ra
+-pb
+-rb
+-pb
+-ra
+-pb
+-ra
+-pb
+-pb
+-ra
+-ra
+-ra
+-pb
+-rb
+-pb
+-rr
+-ra
+-ra
+-pb
+-pb
+-rr
+-ra
+-pb
+-rr
+-pb
+-rr
+-pb
+-ra
+-ra
+-ra
+-ra
+-pb
+-ra
+-pb
+-rb
+-pb
+-rb
+-pb
+-rb
+-pb
+-ra
+-pb
+-rb
+-pb
+-pb
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-ra
+-ra
+-pb
+-pb
+-ra
+-pb
+-ra
+-pb
+-ra
+-ra
+-ra
+-pb
+-rr
+-ra
+-pb
+-rr
+-ra
+-ra
+-pb
+-rb
+-pb
+-rb
+-pb
+-pb
+-rb
+-pb
+-rb
+-pb
+-rr
+-ra
+-pb
+-rb
+-pb
+-pb
+-pb
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-ra
+-ra
+-pb
+-pb
+-rr
+-ra
+-ra
+-pb
+-rb
+-pb
+-pb
+-rb
+-pb
+-rr
+-ra
+-pb
+-pb
+-rrr
+-rrr
+-rrr
+-rrr
+-pb
+-rb
+-pb
+-ra
+-pb
+-ra
+-pb
+-rrr
+-BEGINNING SORTINGpa
+-pa
+-pa
+-pa
+-pa
+-sb
+-pa
+-pa
+-pa
+-sb
+-pa
+-pa
+-pa
+-pa
+-rb
+-rb
+-pa
+-pa
+-rr
+-pa
+-sss
+-pa
+-rr
+-rrr
+-rrr
+-sa
+-rrb
+-rrb
+-pa
+-pa
+-pa
+-pa
+-rb
+-pa
+-pa
+-sss
+-rr
+-rr
+-pa
+-pa
+-rrr
+-rrr
+-rrb
+-pa
+-pa
+-pa
+-pa
+-pa
+-pa
+-rb
+-rb
+-pa
+-rr
+-rb
+-pa
+-sss
+-rb
+-rb
+-pa
+-rr
+-rb
+-pa
+-ra
+-pa
+-sa
+-pa
+-sa
+-ra
+-rra
+-rrr
+-rrr
+-sa
+-rrr
+-sss
+-rr
+-sa
+-rrr
+-rrb
+-rrb
+-pa
+-rrb
+-pa
+-rrb
+-rrb
+-rb
+-pa
+-rb
+-pa
+-sss
+-pa
+-rrb
+-pa
+-rrb
+-pa
+-pa
+-pa
+-rr
+-rb
+-rb
+-pa
+-ra
+-pa
+-pa
+-sa
+-pa
+-sss
+-pa
+-rr
+-rb
+-rb
+-pa
+-sss
+-ra
+-sa
+-pb
+-pa
+-rra
+-rrr
+-rrr
+-sa
+-rrr
+-sss
+-rr
+-sa
+-rrr
+-rrb
+-rrb
+-pa
+-rrb
+-rb
+-rb
+-pa
+-rb
+-pa
+-pa
+-rrb
+-sb
+-rrb
+-sb
+-rrb
+-sb
+-pa
+-pa
+-pa
+-pa
+-rb
+-pa
+-rr
+-rb
+-pa
+-pa
+-rr
+-rb
+-rb
+-rb
+-rb
+-rb
+-pa
+-sss
+-pa
+-sss
+-pa
+-sss
+-rb
+-rb
+-rb
+-pa
+-pa
+-pa
+-rr
+-rr
+-ra
+-pa
+-pa
+-sss
+-pa
+-sss
+-pa
+-rr
+-pa
+-ra
+-pa
+-pb
+-ra
+-pb
+-pb
+-ra
+-ra
+-pb
+-ra
+-rb
+-pa
+-rb
+-pa
+-sa
+-rrb
+-pa
+-rrb
+-pa
+-rra
+-rra
+-rra
+-rra
+-sa
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-rrr
+-rrr
+-pb
+-pb
+-ra
+-ra
+-pb
+-ra
+-ra
+-rb
+-sb
+-pa
+-rrb
+-pa
+-pa
+-rrr
+-rrr
+-sa
+-rrr
+-rrr
+-rrb
+-rrb
+-rrb
+-rrb
+-pa
+-pa
+-ra
+-pa
+-rb
+-rb
+-rb
+-pa
+-rr
+-pa
+-rr
+-rb
+-pa
+-sss
+-pa
+-sa
+-rb
+-rb
+-pa
+-ra
+-ra
+-ra
+-sss
+-pb
+-pa
+-rra
+-rra
+-rrr
+-rrr
+-rrr
+-sa
+-rrr
+-sa
+-ra
+-pb
+-sa
+-ra
+-sa
+-rrr
+-rrr
+-rrb
+-pa
+-rrb
+-rb
+-rb
+-rb
+-pa
+-pa
+-pa
+-rrb
+-pa
+-rrb
+-rrb
+-pa
+-pa
+-pa
+-pa
+-pa
+-ra
+-pa
+-sss
+-rb
+-rb
+-rb
+-pa
+-pa
+-sss
+-rb
+-rb
+-pa
+-rr
+-pa
+-pa
+-ra
+-ra
+-pa
+-rb
+-pa
+-sss
+-rb
+-rb
+-pa
+-sss
+-pa
+-pa
+-rr
+-rr
+-pa
+-rb
+-rb
+-pa
+-rr
+-pb
+-ra
+-ra
+-pb
+-ra
+-pb
+-ra
+-pb
+-sb
+-pa
+-pa
+-pa
+-pa
+-rra
+-rra
+-sss
+-rra
+-sa
+-rra
+-ra
+-ra
+-sa
+-pb
+-pa
+-rra
+-rra
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-rrr
+-rrr
+-pb
+-pb
+-sa
+-ra
+-rrr
+-ra
+-rrr
+-ra
+-rrr
+-rrb
+-rrb
+-rrb
+-rrb
+-pa
+-rb
+-pa
+-rr
+-rb
+-pa
+-sss
+-pa
+-rr
+-rb
+-pa
+-sa
+-pa
+-rr
+-rb
+-rb
+-pa
+-sa
+-pa
+-ra
+-rr
+-sss
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-sss
+-ra
+-rrr
+-rrb
+-rrb
+-pa
+-rrb
+-rb
+-rb
+-pa
+-rb
+-rb
+-pa
+-sa
+-pa
+-sa
+-rrb
+-rrb
+-pa
+-rrb
+-pa
+-rrb
+-sb
+-pa
+-pa
+-pa
+-rb
+-rb
+-pa
+-pa
+-rr
+-rr
+-pa
+-rr
+-rb
+-rb
+-pa
+-rb
+-rb
+-rb
+-rb
+-rb
+-pa
+-pa
+-ra
+-ra
+-pa
+-pa
+-ra
+-pa
+-pa
+-pa
+-pa
+-ra
+-pa
+-pa
+-pa
+-rb
+-pa
+-pa
+-sss
+-pa
+-rr
+-pa
+-rr
+-rb
+-rb
+-pa
+-rb
+-rb
+-pa
+-rr
+-rb
+-rb
+-pa
+-rr
+-pa
+-rb
+-pa
+-rr
+-pa
+-sss
+-rb
+-rb
+-pa
+-rb
+-rb
+-pa
+-pa
+-sss
+-pa
+-sss
+-ra
+-ra
+-ra
+-pa
+-ra
+-pb
+-ra
+-pb
+-ra
+-ra
+-pb
+-pb
+-pb
+-ra
+-ra
+-pb
+-ra
+-ra
+-pb
+-pb
+-pa
+-rr
+-pa
+-pa
+-rb
+-rb
+-pa
+-rr
+-rrr
+-rrr
+-sa
+-rrb
+-rrb
+-pa
+-pa
+-pa
+-pa
+-rra
+-rra
+-rra
+-sss
+-rra
+-rra
+-rra
+-rra
+-rra
+-ra
+-pb
+-pb
+-pb
+-ra
+-ra
+-pb
+-ra
+-sb
+-pa
+-sb
+-pa
+-sb
+-pa
+-pa
+-rra
+-rra
+-rra
+-sa
+-rra
+-sa
+-ra
+-sa
+-pb
+-pa
+-rra
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-rrr
+-rrr
+-ra
+-ra
+-pb
+-ra
+-ra
+-pb
+-pb
+-ra
+-ra
+-pb
+-pb
+-pb
+-ra
+-pb
+-sb
+-pa
+-sb
+-pa
+-pa
+-rb
+-rb
+-pa
+-sa
+-rrb
+-sb
+-rrb
+-pa
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-rrr
+-rrr
+-ra
+-pb
+-ra
+-ra
+-pb
+-ra
+-pb
+-rb
+-sb
+-pa
+-pa
+-rrb
+-pa
+-rrr
+-rrr
+-rrr
+-rrr
+-rrb
+-rrb
+-rrb
+-rb
+-pa
+-ra
+-pa
+-pa
+-pa
+-pa
+-rr
+-rr
+-pa
+-rb
+-pa
+-rr
+-rb
+-rb
+-rb
+-pa
+-pa
+-rb
+-rb
+-pa
+-pa
+-rr
+-rb
+-rb
+-pa
+-rr
+-rb
+-pa
+-pa
+-pa
+-sss
+-ra
+-ra
+-pa
+-ra
+-pb
+-pb
+-ra
+-pb
+-ra
+-ra
+-pb
+-rb
+-sb
+-pa
+-pa
+-rrb
+-sb
+-pa
+-pa
+-rra
+-rra
+-rra
+-rra
+-sa
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-ra
+-ra
+-sss
+-ra
+-rrr
+-rrr
+-sa
+-rrr
+-rrb
+-rrb
+-rrb
+-rrb
+-pa
+-rr
+-rb
+-pa
+-rr
+-pa
+-rr
+-pa
+-pa
+-ra
+-pa
+-rb
+-rb
+-rb
+-rb
+-pa
+-sa
+-pa
+-sa
+-rr
+-sa
+-rrr
+-rrr
+-rrr
+-sa
+-rrr
+-sa
+-rrr
+-sss
+-ra
+-pb
+-sa
+-ra
+-sa
+-rrr
+-rrr
+-rrb
+-rrb
+-rb
+-rb
+-pa
+-rr
+-pa
+-pa
+-ra
+-pa
+-rrr
+-rrr
+-sss
+-rrb
+-pa
+-pa
+-pa
+-pa
+-pa
+-rr
+-rb
+-rb
+-rb
+-pa
+-pa
+-rb
+-pa
+-sss
+-pa
+-pa
+-rr
+-rr
+-rb
+-rb
+-pa
+-pa
+-sss
+-pa
+-rr
+-rr
+-pa
+-pa
+-rr
+-rr
+-ra
+-pa
+-sss
+-rb
+-rb
+-rb
+-rb
+-rb
+-pa
+-pa
+-rb
+-pa
+-sss
+-rb
+-rb
+-rb
+-rb
+-pa
+-sss
+-pa
+-pa
+-ra
+-ra
+-pa
+-pa
+-pa
+-pa
+-ra
+-ra
+-pa
+-pa
+-rr
+-pa
+-sss
+-rb
+-rb
+-pa
+-ra
+-pa
+-sss
+-pa
+-rb
+-rb
+-pa
+-sss
+-rb
+-rb
+-rb
+-pa
+-pa
+-ra
+-ra
+-ra
+-pb
+-ra
+-ra
+-pb
+-ra
+-pb
+-ra
+-pb
+-pb
+-pb
+-ra
+-ra
+-sa
+-pb
+-pa
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-pb
+-pb
+-ra
+-pb
+-pb
+-ra
+-ra
+-ra
+-sb
+-pa
+-rb
+-sb
+-pa
+-rrb
+-pa
+-pa
+-rra
+-rra
+-rra
+-rra
+-sa
+-rr
+-sa
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-rrr
+-sss
+-rrr
+-rrr
+-ra
+-ra
+-ra
+-pb
+-ra
+-ra
+-pb
+-pb
+-ra
+-pb
+-pb
+-pb
+-pb
+-ra
+-ra
+-sb
+-pa
+-rb
+-pa
+-rb
+-pa
+-sss
+-pa
+-sa
+-rrb
+-pa
+-rrb
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-ra
+-pb
+-pb
+-ra
+-pb
+-pb
+-ra
+-ra
+-pa
+-sb
+-pa
+-sb
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-sa
+-rrr
+-sss
+-ra
+-rrr
+-rrb
+-rrb
+-rrb
+-rb
+-rb
+-pa
+-pa
+-pa
+-rr
+-rr
+-rr
+-rb
+-pa
+-rr
+-rb
+-rb
+-pa
+-pa
+-ra
+-pa
+-pa
+-rr
+-pa
+-sss
+-pa
+-sss
+-pa
+-rr
+-pa
+-rb
+-rb
+-pa
+-sss
+-pa
+-rb
+-rb
+-rb
+-pa
+-rrr
+-rrr
+-sss
+-rrr
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-pb
+-ra
+-sa
+-ra
+-sa
+-rrr
+-rrr
+-sss
+-rrb
+-rrb
+-rrb
+-rrb
+-rrb
+-rrb
+-rrb
+-rb
+-rb
+-pa
+-rr
+-rb
+-rb
+-pa
+-pa
+-sss
+-pa
+-rb
+-pa
+-rr
+-rb
+-pa
+-pa
+-pa
+-ra
+-ra
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-ra
+-rrr
+-rrb
+-rrb
+-rrb
+-rb
+-pa
+-pa
+-rr
+-pa
+-sa
+-rb
+-rb
+-pa
+-ra
+-rrr
+-rrr
+-sa
+-rrb
+-pa
+-rrb
+-sb
+-pa
+-pa
+-pa
+-rb
+-rb
+-pa
+-pa
+-sss
+-pa
+-rr
+-rb
+-pa
+-sss
+-pa
+-rb
+-pa
+-rr
+-rb
+-pa
+-sss
+-rb
+-rb
+-pa
+-pa
+-rr
+-pa
+-pa
+-pa
+-rr
+-ra
+-pa
+-sss
+-pa
+-sss
+-rb
+-rb
+-pa
+-rr
+-rb
+-pa
+-pa
+-pa
+-pa
+-sss
+-pa
+-rr
+-rr
+-ra
+-ra
+-ra
+-pa
+-sss
+-pa
+-rr
+-rb
+-pa
+-pa
+-rr
+-rb
+-rb
+-rb
+-pa
+-sss
+-rb
+-rb
+-rb
+-pa
+-pa
+-pa
+-ra
+-ra
+-ra
+-pa
+-rb
+-pa
+-rb
+-rb
+-pa
+-sss
+-pa
+-rr
+-pa
+-pa
+-ra
+-ra
+-pa
+-pa
+-rb
+-pa
+-rb
+-pa
+-rb
+-rb
+-rb
+-rb
+-rb
+-pa
+-sss
+-pa
+-rr
+-pa
+-pa
+-rr
+-rb
+-pa
+-rr
+-pa
+-rr
+-rb
+-pa
+-rr
+-pa
+-pa
+-ra
+-pa
+-rb
+-rb
+-pa
+-sss
+-rb
+-rb
+-rb
+-rb
+-rb
+-pa
+-rb
+-rb
+-pa
+-ra
+-pa
+-sss
+-rb
+-rb
+-rb
+-rb
+-rb
+-pa
+-pa
+-ra
+-ra
+-pa
+-rb
+-pa
+-pa
+-sss
+-ra
+-ra
+-pa
+-pa
+-rb
+-rb
+-rb
+-pa
+-pa
+-rr
+-pa
+-pb
+-pb
+-ra
+-pb
+-ra
+-ra
+-ra
+-pb
+-pb
+-ra
+-pb
+-ra
+-ra
+-pb
+-pb
+-pb
+-ra
+-ra
+-ra
+-ra
+-pb
+-ra
+-ra
+-pb
+-pb
+-pb
+-ra
+-ra
+-ra
+-pb
+-pb
+-pa
+-rr
+-pa
+-pa
+-sss
+-rb
+-rb
+-pa
+-sa
+-pa
+-rr
+-rb
+-pa
+-rr
+-rb
+-pa
+-sa
+-ra
+-sa
+-pb
+-pa
+-rra
+-rrr
+-rrr
+-rrr
+-sa
+-rrb
+-rrb
+-rrb
+-pa
+-rrb
+-pa
+-rb
+-pa
+-sa
+-rb
+-rb
+-pa
+-sa
+-rrb
+-sb
+-rrb
+-pa
+-rrb
+-sb
+-pa
+-pa
+-pa
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-ra
+-ra
+-pb
+-pb
+-pb
+-pb
+-pb
+-ra
+-ra
+-ra
+-pb
+-pb
+-pb
+-ra
+-ra
+-ra
+-pa
+-rr
+-pa
+-ra
+-pa
+-rb
+-pa
+-sa
+-rrr
+-rrr
+-rb
+-rb
+-pa
+-pa
+-rrb
+-pa
+-rrb
+-pa
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-pb
+-ra
+-pb
+-pb
+-pb
+-ra
+-ra
+-ra
+-pa
+-pa
+-sb
+-pa
+-pa
+-rra
+-rra
+-rra
+-rra
+-sa
+-rrr
+-rrr
+-sss
+-rrr
+-rrr
+-sss
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-rrr
+-sss
+-rrr
+-rrr
+-sss
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-rrr
+-rrr
+-rrr
+-sss
+-pb
+-pb
+-ra
+-ra
+-pb
+-pb
+-pb
+-pb
+-ra
+-pb
+-ra
+-pb
+-pb
+-ra
+-ra
+-pb
+-ra
+-ra
+-ra
+-ra
+-ra
+-ra
+-ra
+-pb
+-ra
+-pb
+-pb
+-ra
+-ra
+-pb
+-pb
+-pa
+-pa
+-pa
+-rr
+-ra
+-ra
+-pa
+-rb
+-rb
+-pa
+-sa
+-pa
+-sss
+-rb
+-rb
+-pa
+-rrr
+-rrr
+-rrr
+-rrb
+-rrb
+-pa
+-rb
+-rb
+-pa
+-rr
+-rb
+-pa
+-sa
+-pa
+-ra
+-rrr
+-rrr
+-rrb
+-sb
+-rrb
+-sb
+-pa
+-rb
+-sb
+-pa
+-pa
+-rrb
+-pa
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-rrr
+-sss
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-pb
+-pb
+-ra
+-pb
+-ra
+-ra
+-pb
+-ra
+-ra
+-pb
+-ra
+-pb
+-pb
+-ra
+-ra
+-pb
+-pa
+-pa
+-rr
+-rr
+-rb
+-pa
+-pa
+-rrr
+-rrr
+-rrb
+-sb
+-pa
+-rb
+-sb
+-pa
+-pa
+-rrb
+-pa
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-rrr
+-sss
+-ra
+-ra
+-ra
+-ra
+-pb
+-pb
+-pb
+-pb
+-rb
+-sb
+-pa
+-rrb
+-pa
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-rrb
+-rrb
+-rrb
+-rrb
+-rb
+-rb
+-rb
+-pa
+-rr
+-pa
+-rb
+-pa
+-rb
+-rb
+-pa
+-sss
+-pa
+-pa
+-rr
+-rr
+-rb
+-rb
+-pa
+-pa
+-pa
+-rr
+-ra
+-ra
+-pa
+-sss
+-pa
+-pa
+-rb
+-rb
+-pa
+-rr
+-rb
+-rb
+-rb
+-rb
+-pa
+-rb
+-rb
+-rb
+-pa
+-pa
+-rr
+-rb
+-pa
+-rr
+-pa
+-ra
+-pa
+-pa
+-rr
+-pa
+-pa
+-pa
+-rr
+-pa
+-sss
+-pa
+-sss
+-pa
+-sss
+-pa
+-sss
+-pa
+-rr
+-pa
+-rr
+-pa
+-pa
+-rr
+-ra
+-ra
+-ra
+-ra
+-pb
+-ra
+-pb
+-pb
+-pb
+-ra
+-ra
+-ra
+-pb
+-pb
+-sa
+-pb
+-pa
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-pb
+-ra
+-ra
+-ra
+-pb
+-ra
+-pb
+-pb
+-rb
+-rb
+-pa
+-pa
+-rrb
+-rrb
+-pa
+-pa
+-rra
+-rra
+-sa
+-rra
+-sa
+-rra
+-ra
+-ra
+-sa
+-pb
+-pa
+-rra
+-rra
+-rrr
+-rrr
+-sss
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-ra
+-pb
+-ra
+-pb
+-pb
+-pb
+-pb
+-ra
+-ra
+-ra
+-pb
+-ra
+-pb
+-ra
+-ra
+-rb
+-rb
+-pa
+-pa
+-rb
+-rb
+-pa
+-rrb
+-rrb
+-rrb
+-pa
+-rrb
+-pa
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-ra
+-pb
+-ra
+-pb
+-pb
+-pb
+-ra
+-ra
+-pa
+-pa
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-sa
+-rrr
+-sa
+-ra
+-pb
+-sa
+-ra
+-sa
+-rrr
+-rrr
+-rrb
+-pa
+-rb
+-rb
+-pa
+-rb
+-rb
+-rb
+-pa
+-pa
+-rr
+-pa
+-ra
+-pa
+-pa
+-pa
+-rr
+-ra
+-pa
+-sss
+-pa
+-rr
+-rb
+-rb
+-rb
+-rb
+-pa
+-rr
+-pa
+-ra
+-pa
+-rb
+-pa
+-pa
+-rr
+-pa
+-pb
+-ra
+-ra
+-pb
+-pb
+-pb
+-ra
+-ra
+-pa
+-pa
+-sb
+-pa
+-pa
+-rra
+-rra
+-sa
+-rra
+-sa
+-rra
+-sa
+-ra
+-sa
+-pb
+-pa
+-rra
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-rrr
+-ra
+-pb
+-ra
+-ra
+-pb
+-pb
+-ra
+-pb
+-rb
+-pa
+-rb
+-pa
+-sss
+-rrb
+-pa
+-rrb
+-pa
+-rrr
+-rrr
+-rrr
+-rrr
+-sa
+-rrb
+-rrb
+-pa
+-rrb
+-sb
+-pa
+-pa
+-rb
+-rb
+-pa
+-rb
+-pa
+-pa
+-pa
+-rr
+-rr
+-ra
+-pa
+-sa
+-rb
+-rb
+-pa
+-sa
+-ra
+-sa
+-pb
+-pa
+-rra
+-rrr
+-rrr
+-rrr
+-rrb
+-pa
+-rrb
+-rrb
+-rrb
+-pa
+-rb
+-sb
+-pa
+-pa
+-rrb
+-sb
+-pa
+-sb
+-pa
+-pa
+-rb
+-rb
+-rb
+-pa
+-pa
+-ra
+-ra
+-pa
+-pa
+-pa
+-pa
+-pa
+-pa
+-rr
+-rr
+-pa
+-rr
+-rr
+-ra
+-ra
+-pa
+-pa
+-rb
+-rb
+-pa
+-rr
+-pa
+-pa
+-pa
+-rb
+-pa
+-pa
+-rr
+-rb
+-pa
+-rr
+-pa
+-rb
+-rb
+-rb
+-pa
+-sss
+-rb
+-rb
+-rb
+-rb
+-rb
+-rb
+-pa
+-sss
+-pa
+-rb
+-rb
+-pa
+-sss
+-rb
+-rb
+-pa
+-rb
+-rb
+-pa
+-ra
+-pa
+-pa
+-rb
+-rb
+-pa
+-pa
+-rr
+-pa
+-rr
+-rb
+-rb
+-rb
+-pa
+-pa
+-pa
+-rr
+-rr
+-pa
+-sss
+-pa
+-rr
+-rb
+-pa
+-ra
+-pa
+-sss
+-rb
+-rb
+-pa
+-rr
+-rb
+-pa
+-pa
+-pa
+-ra
+-pa
+-rb
+-rb
+-pa
+-pa
+-pa
+-rr
+-pa
+-sss
+-pa
+-rb
+-rb
+-rb
+-rb
+-rb
+-rb
+-rb
+-pa
+-pa
+-pa
+-ra
+-ra
+-pa
+-rb
+-pa
+-sss
+-pa
+-rr
+-pa
+-pa
+-sss
+-rr
+-rr
+-pa
+-sss
+-rb
+-rb
+-pa
+-rr
+-rb
+-pa
+-sss
+-pa
+-pa
+-pa
+-pa
+-rr
+-rr
+-rr
+-rr
+-ra
+-pb
+-pb
+-ra
+-ra
+-ra
+-ra
+-pb
+-ra
+-ra
+-pb
+-pb
+-ra
+-pb
+-pb
+-pb
+-pb
+-ra
+-pb
+-ra
+-ra
+-ra
+-pb
+-pb
+-pb
+-ra
+-ra
+-ra
+-ra
+-pb
+-pb
+-pa
+-rr
+-pa
+-pa
+-rb
+-rb
+-rb
+-rb
+-pa
+-ra
+-pa
+-sa
+-rb
+-rb
+-pa
+-sss
+-pa
+-rr
+-rrr
+-rrr
+-sss
+-rrr
+-rrb
+-rrb
+-rrb
+-rrb
+-rrb
+-pa
+-rb
+-pa
+-rb
+-rb
+-pa
+-sa
+-pa
+-sa
+-rrb
+-sb
+-rrb
+-sb
+-rrb
+-sb
+-pa
+-pa
+-sb
+-pa
+-pa
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-ra
+-ra
+-pb
+-ra
+-pb
+-ra
+-pb
+-pb
+-ra
+-ra
+-ra
+-pb
+-ra
+-pb
+-pb
+-pb
+-rb
+-rb
+-pa
+-pa
+-sa
+-ra
+-ra
+-pa
+-rb
+-rb
+-pa
+-rrr
+-rrr
+-rrb
+-sb
+-rrb
+-sb
+-pa
+-sb
+-pa
+-sb
+-pa
+-pa
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-ra
+-ra
+-pb
+-pb
+-ra
+-pb
+-pb
+-ra
+-rb
+-sb
+-pa
+-rrb
+-pa
+-sb
+-pa
+-pa
+-rra
+-rra
+-rra
+-sa
+-rra
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-rrr
+-rrr
+-pb
+-pb
+-pb
+-ra
+-pb
+-pb
+-pb
+-pb
+-pb
+-ra
+-ra
+-ra
+-ra
+-pb
+-ra
+-ra
+-ra
+-ra
+-ra
+-ra
+-ra
+-ra
+-pb
+-pb
+-ra
+-pb
+-ra
+-pb
+-ra
+-pb
+-pb
+-pa
+-rb
+-rb
+-rb
+-rb
+-rb
+-rb
+-pa
+-pa
+-sa
+-pa
+-sa
+-pa
+-rr
+-pa
+-pa
+-rr
+-ra
+-ra
+-pb
+-sa
+-ra
+-sss
+-rra
+-rra
+-rrr
+-rrr
+-rrr
+-rrb
+-rrb
+-pa
+-rrb
+-rrb
+-rrb
+-pa
+-pa
+-sb
+-pa
+-pa
+-rb
+-rb
+-pa
+-sa
+-rrb
+-pa
+-rrb
+-pa
+-rrr
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-rrr
+-sss
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-rrr
+-ra
+-ra
+-pb
+-pb
+-pb
+-ra
+-ra
+-pb
+-pb
+-ra
+-pb
+-ra
+-ra
+-pb
+-ra
+-pb
+-rb
+-pa
+-rb
+-pa
+-sss
+-pa
+-rr
+-pa
+-rr
+-rrr
+-rrr
+-rrb
+-rrb
+-pa
+-rb
+-rb
+-pa
+-sa
+-rrb
+-rrb
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-ra
+-pb
+-rrr
+-ra
+-rrr
+-ra
+-rrr
+-rb
+-rb
+-rb
+-pa
+-pa
+-ra
+-pa
+-pa
+-rr
+-pa
+-pa
+-pa
+-pa
+-rr
+-pa
+-sss
+-pa
+-rr
+-pa
+-pa
+-pa
+-rb
+-pa
+-rr
+-pa
+-rb
+-pa
+-rr
+-rb
+-pa
+-rr
+-pa
+-pa
+-rr
+-pa
+-pa
+-rr
+-rb
+-rb
+-rb
+-pa
+-rb
+-rb
+-rb
+-pa
+-pa
+-rr
+-ra
+-pa
+-pa
+-rr
+-rb
+-rb
+-rb
+-rb
+-pa
+-rr
+-pa
+-rr
+-pa
+-pa
+-pa
+-rr
+-pb
+-ra
+-pb
+-ra
+-ra
+-ra
+-ra
+-pb
+-pb
+-pb
+-ra
+-pb
+-ra
+-ra
+-pb
+-pb
+-pa
+-rr
+-pa
+-rb
+-pa
+-rr
+-rb
+-pa
+-sss
+-rrr
+-rrr
+-rrb
+-sb
+-rrb
+-sb
+-pa
+-rb
+-rb
+-pa
+-sa
+-rrb
+-rrb
+-pa
+-pa
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-ra
+-ra
+-pb
+-ra
+-ra
+-pb
+-sss
+-pb
+-pa
+-rra
+-rra
+-rra
+-sa
+-rra
+-sa
+-rrr
+-rrr
+-sss
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-rrr
+-rrr
+-rrr
+-pb
+-pb
+-pb
+-pb
+-ra
+-ra
+-pb
+-ra
+-ra
+-ra
+-ra
+-pb
+-pb
+-ra
+-ra
+-rb
+-rb
+-rb
+-pa
+-pa
+-pa
+-sa
+-rr
+-sss
+-rrr
+-rrb
+-rrb
+-pa
+-rrb
+-sb
+-pa
+-sb
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-ra
+-ra
+-ra
+-ra
+-pb
+-pb
+-pb
+-pb
+-rb
+-sb
+-pa
+-rrb
+-pa
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-ra
+-ra
+-sss
+-pb
+-pa
+-rrr
+-rrr
+-rb
+-rb
+-pa
+-rb
+-pa
+-pa
+-sss
+-ra
+-ra
+-pa
+-pa
+-pa
+-ra
+-ra
+-pa
+-pa
+-pa
+-rr
+-rb
+-rb
+-rb
+-rb
+-pa
+-pa
+-rb
+-rb
+-rb
+-pa
+-rb
+-rb
+-pa
+-rb
+-pa
+-pa
+-rr
+-rr
+-ra
+-pb
+-pb
+-sss
+-rra
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-rrr
+-rrr
+-ra
+-ra
+-ra
+-pb
+-sa
+-pb
+-pa
+-rrr
+-rrr
+-sss
+-rrr
+-pa
+-rb
+-rb
+-rb
+-pa
+-sss
+-pa
+-sa
+-pa
+-pa
+-pa
+-rr
+-rr
+-rr
+-rb
+-pa
+-ra
+-pa
+-sss
+-rrr
+-rrr
+-sa
+-rrr
+-sa
+-rrr
+-sa
+-pa
+-pa
+-rr
+-rb
+-pa
+-sa
+-pa
+-rr
+-rrr
+-rrr
+-sb
+-pa
+-rb
+-sb
+-pa
+-rrb
+-pa
+-pa
+-
+--9965	([7][-19][0])
+--9923	([7][-19][0])
+--9868	([7][1][0])
+--9861	([7][-19][0])
+--9853	([-3][-20][0])
+--9851	([-3][-20][0])
+--9631	([-3][-21][0])
+--9602	([-3][-21][0])
+--9551	([-3][-20][0])
+--9437	([-3][-20][0])
+--9427	([-3][-20][0])
+--9407	([-3][-20][0])
+--9395	([-3][-21][0])
+--9374	([-3][-21][0])
+--9358	([-3][-21][0])
+--9351	([-3][-21][0])
+--9331	([-3][-20][0])
+--9317	([-3][-20][0])
+--9306	([-3][-20][0])
+--9206	([7][-22][0])
+--9205	([-3][-21][0])
+--9203	([-3][-20][0])
+--9071	([-3][-21][0])
+--9035	([-3][-21][0])
+--8971	([7][-3][0])
+--9094	([7][-1][2])
+--8840	([-3][-21][0])
+--8727	([-3][-21][0])
+--8694	([-3][-20][0])
+--8666	([-3][-20][0])
+--8632	([7][-22][0])
+--8576	([-3][-21][0])
+--8575	([7][-21][0])
+--8569	([7][-21][0])
+--8533	([7][-21][0])
+--8491	([7][-1][0])
+--8463	([7][-21][0])
+--8448	([7][-21][0])
+--8427	([7][-21][0])
+--8402	([7][-21][0])
+--8370	([-3][-23][0])
+--8365	([-3][-23][0])
+--8321	([-3][-23][0])
+--8274	([-3][-21][0])
+--8273	([-3][-21][0])
+--8268	([-3][-21][0])
+--8252	([-3][-21][0])
+--8223	([7][-23][0])
+--8093	([-3][-22][0])
+--8017	([7][-22][0])
+--8005	([7][-22][0])
+--7995	([-3][-24][0])
+--7897	([-3][-24][0])
+--7889	([-3][-23][0])
+--7833	([-3][-23][0])
+--7822	([-3][-24][0])
+--7779	([-3][-24][0])
+--7767	([-3][-20][0])
+--7500	([7][-3][0])
+--7589	([7][0][0])
+--7572	([7][-1][3])
+--7698	([7][0][2])
+--7502	([7][-1][1])
+--7651	([7][0][1])
+--7452	([7][-21][0])
+--7443	([7][-21][0])
+--7391	([-3][-23][0])
+--7382	([-3][-23][0])
+--7337	([-3][-22][0])
+--7316	([-3][-22][0])
+--7280	([-3][-23][0])
+--7273	([-3][-23][0])
+--7143	([7][-21][1])
+--7133	([7][-21][0])
+--7022	([-3][-23][0])
+--6974	([-3][-23][0])
+--6970	([7][-21][0])
+--6969	([7][-21][0])
+--6908	([7][-21][1])
+--6875	([7][-21][0])
+--6859	([-3][-22][0])
+--6783	([-3][-22][0])
+--6755	([-3][-22][0])
+--6670	([-3][-23][0])
+--6582	([-3][-23][0])
+--6557	([-3][-21][0])
+--6572	([-3][-24][0])
+--6541	([-3][-21][0])
+--6517	([-3][-21][0])
+--6451	([-3][-21][0])
+--6265	([7][-22][0])
+--6262	([7][-22][0])
+--6160	([7][-22][0])
+--6158	([7][-2][0])
+--6144	([7][-22][0])
+--6130	([7][-22][0])
+--6126	([7][-22][0])
+--6034	([7][-22][0])
+--5998	([-3][-23][0])
+--5991	([-3][-23][0])
+--5953	([-3][-24][0])
+--5927	([-3][-24][0])
+--5901	([7][-22][0])
+--5886	([7][-22][0])
+--5859	([7][-22][0])
+--5853	([7][-22][0])
+--5824	([-3][-24][0])
+--5781	([-3][-24][0])
+--5718	([-3][-24][0])
+--5686	([7][-22][0])
+--5666	([-3][-23][0])
+--5645	([-3][-23][0])
+--5613	([-3][-23][0])
+--5582	([-3][-24][0])
+--5521	([-3][-24][0])
+--5520	([-3][-24][0])
+--5428	([-3][-24][0])
+--5377	([7][-20][0])
+--5373	([7][-20][0])
+--5343	([7][-20][0])
+--5319	([7][-20][0])
+--5307	([7][0][0])
+--5294	([7][-20][1])
+--5276	([7][-20][0])
+--5230	([-3][-21][0])
+--5224	([-3][-21][0])
+--5156	([-3][-21][0])
+--5120	([-3][-22][0])
+--5037	([7][-24][0])
+--5015	([-3][-23][0])
+--5053	([7][-2][0])
+--4964	([7][-20][0])
+--4955	([7][-20][0])
+--4906	([-3][-21][0])
+--4890	([-3][-21][0])
+--4885	([-3][-21][0])
+--4814	([-3][-21][0])
+--4781	([7][-22][1])
+--4774	([7][-22][0])
+--4703	([-3][-24][0])
+--4684	([-3][-24][0])
+--4675	([-3][-22][0])
+--4620	([7][-24][0])
+--4456	([-3][-23][0])
+--4629	([7][-2][0])
+--4455	([7][-23][0])
+--4415	([7][-23][0])
+--4389	([7][-23][0])
+--4276	([7][-23][0])
+--4273	([-3][-21][0])
+--4271	([-3][-21][0])
+--4195	([7][-22][0])
+--4208	([-3][-22][0])
+--4129	([7][-22][0])
+--4055	([7][-22][0])
+--4029	([7][-22][0])
+--3953	([7][-22][0])
+--3894	([7][-22][0])
+--3841	([7][-22][1])
+--3776	([7][-22][0])
+--3730	([-3][-24][0])
+--3616	([-3][-24][0])
+--3555	([-3][-24][0])
+--3507	([-3][-22][0])
+--3376	([-3][-22][0])
+--3373	([7][-24][0])
+--3342	([-3][-23][0])
+--3290	([7][-23][0])
+--3268	([7][-23][0])
+--3242	([-3][-25][0])
+--3206	([-3][-25][0])
+--3199	([7][-24][0])
+--2743	([-3][-23][0])
+--2731	([-3][-21][0])
+--2719	([-3][-21][0])
+--2696	([-3][-21][0])
+--2634	([-3][-21][0])
+--2573	([7][-22][0])
+--2571	([7][-22][0])
+--2530	([7][-22][0])
+--2428	([7][-2][0])
+--2351	([7][-22][0])
+--2315	([7][-22][0])
+--2274	([7][-2][0])
+--2251	([7][-22][0])
+--2137	([-3][-23][0])
+--2104	([-3][-23][0])
+--2064	([-3][-24][0])
+--1984	([-3][-24][0])
+--1951	([7][-22][0])
+--1940	([7][-22][0])
+--1848	([7][-2][0])
+--1755	([7][-22][0])
+--1744	([-3][-23][0])
+--1741	([-3][-23][0])
+--1727	([-3][-24][0])
+--1692	([-3][-24][0])
+--1676	([-3][-23][0])
+--1636	([-3][-23][0])
+--1616	([-3][-23][0])
+--1598	([-3][-24][0])
+--1596	([-3][-24][0])
+--1578	([-3][-24][0])
+--1569	([-3][-24][0])
+--1557	([-3][-22][0])
+--1552	([-3][-22][0])
+--1540	([-3][-22][0])
+--1476	([-3][-22][0])
+--1331	([7][-23][0])
+--1269	([7][-23][0])
+--1258	([7][-23][0])
+--1256	([7][-23][0])
+--1254	([7][-23][1])
+--1216	([7][-23][0])
+--1201	([-3][-25][0])
+--1056	([-3][-25][0])
+--1049	([-3][-24][0])
+--1001	([-3][-24][0])
+--991	([-3][-25][0])
+--970	([-3][-25][0])
+--924	([7][-23][0])
+--912	([7][-23][0])
+--903	([7][-23][0])
+--762	([7][-23][0])
+--741	([-3][-25][0])
+--637	([-3][-25][0])
+--483	([-3][-25][0])
+--442	([7][-23][0])
+--281	([-3][-24][0])
+--278	([-3][-24][0])
+--218	([-3][-24][0])
+--197	([-3][-25][0])
+--23	([7][-27][0])
+--22	([-3][-26][0])
+--86	([7][-5][0])
+--15	([6][-19][0])
+-13	([6][-19][0])
+-27	([6][-19][0])
+-218	([6][-19][0])
+-225	([-4][-20][0])
+-232	([-4][-20][0])
+-245	([-4][-21][0])
+-270	([-4][-21][0])
+-303	([-4][-20][0])
+-372	([6][-3][0])
+-311	([6][0][0])
+-370	([6][-1][1])
+-381	([-4][-21][0])
+-384	([-4][-21][0])
+-405	([-4][-21][0])
+-412	([-4][-21][0])
+-447	([-4][-20][0])
+-508	([-4][-20][0])
+-539	([-4][-20][0])
+-528	([-4][-21][0])
+-569	([-4][-20][0])
+-617	([-4][-20][0])
+-825	([6][-3][0])
+-719	([6][-1][0])
+-635	([6][-1][3])
+-674	([6][-1][2])
+-714	([6][-1][1])
+-751	([6][-2][2])
+-802	([6][-2][1])
+-830	([-4][-21][0])
+-837	([-4][-20][0])
+-922	([6][-3][0])
+-854	([6][0][0])
+-862	([6][-1][1])
+-1057	([6][-21][0])
+-1063	([6][-21][0])
+-1074	([6][-21][0])
+-1088	([6][-21][0])
+-1105	([6][-21][0])
+-1140	([6][-21][1])
+-1145	([6][-21][0])
+-1232	([-4][-23][0])
+-1361	([-4][-23][0])
+-1410	([-4][-23][0])
+-1424	([6][-21][0])
+-1431	([-4][-21][0])
+-1436	([-4][-21][0])
+-1453	([-4][-21][0])
+-1492	([-4][-21][0])
+-1500	([6][-22][0])
+-1536	([6][-22][0])
+-1557	([6][-2][0])
+-1614	([6][-22][0])
+-1987	([6][-23][0])
+-2096	([-4][-22][0])
+-2103	([6][-20][0])
+-2105	([6][-20][0])
+-2209	([6][-20][0])
+-2243	([6][-20][0])
+-2381	([-4][-21][0])
+-2417	([-4][-21][0])
+-2425	([-4][-22][0])
+-2448	([-4][-22][0])
+-2607	([-4][-21][0])
+-2661	([-4][-21][0])
+-2765	([-4][-22][0])
+-2761	([-4][-22][0])
+-2804	([-4][-22][0])
+-3035	([-4][-22][0])
+-3054	([-4][-22][0])
+-3113	([-4][-21][0])
+-3191	([-4][-21][0])
+-3207	([-4][-21][0])
+-3253	([6][-4][0])
+-3220	([6][-1][0])
+-3222	([6][-2][3])
+-3230	([6][-2][2])
+-3252	([6][-2][1])
+-3283	([-4][-22][0])
+-3296	([-4][-22][0])
+-3316	([-4][-22][0])
+-3328	([-4][-22][0])
+-3363	([6][-23][0])
+-3395	([6][-23][0])
+-3458	([6][-23][0])
+-3472	([6][-3][0])
+-3534	([-4][-21][0])
+-3545	([-4][-21][0])
+-3559	([-4][-21][0])
+-3653	([-4][-21][0])
+-3717	([6][-22][0])
+-3722	([6][-22][0])
+-3783	([6][-2][0])
+-3829	([6][-22][0])
+-3843	([6][-22][0])
+-3845	([6][-22][0])
+-3854	([-4][-24][0])
+-3864	([-4][-24][0])
+-3915	([6][-22][0])
+-3936	([6][-22][0])
+-3950	([-4][-21][0])
+-3984	([-4][-22][0])
+-4021	([6][-24][0])
+-4042	([-4][-23][0])
+-4018	([6][-2][0])
+-4074	([6][-23][0])
+-4100	([6][-23][0])
+-4151	([6][-23][0])
+-4473	([6][-23][0])
+-4493	([6][-23][0])
+-4551	([6][-23][0])
+-4566	([6][-23][0])
+-4637	([6][-23][0])
+-4693	([-4][-24][0])
+-4727	([-4][-24][0])
+-4732	([-4][-25][0])
+-4759	([-4][-25][0])
+-4766	([5][-19][0])
+-4802	([5][-19][0])
+-4819	([5][-19][1])
+-4840	([5][-19][0])
+-4865	([-5][-21][0])
+-4910	([-5][-21][0])
+-4931	([-5][-21][0])
+-4959	([5][-19][0])
+-5027	([-5][-20][0])
+-5139	([5][-3][0])
+-5038	([5][0][0])
+-5055	([5][-1][1])
+-5148	([-5][-21][0])
+-5247	([-5][-21][0])
+-5321	([-5][-21][0])
+-5334	([-5][-21][0])
+-5351	([-5][-20][0])
+-5712	([5][-3][0])
+-5383	([5][0][0])
+-5352	([5][0][2])
+-5356	([5][0][1])
+-5762	([-5][-21][0])
+-5774	([-5][-21][0])
+-5899	([5][-23][0])
+-5929	([-5][-22][0])
+-5970	([5][-22][0])
+-6007	([5][-22][0])
+-6033	([5][-22][0])
+-6058	([5][-22][0])
+-6122	([5][-20][0])
+-6158	([5][-20][0])
+-6177	([5][-20][1])
+-6202	([5][-20][0])
+-6204	([-5][-22][0])
+-6309	([-5][-22][0])
+-6335	([-5][-22][0])
+-6340	([5][-20][0])
+-6367	([-5][-21][0])
+-6446	([-5][-21][0])
+-6501	([-5][-22][0])
+-6474	([-5][-22][0])
+-6527	([-5][-22][0])
+-6541	([5][-24][0])
+-6562	([-5][-23][0])
+-6581	([-5][-21][0])
+-6646	([-5][-21][0])
+-6757	([-5][-21][0])
+-6782	([-5][-21][0])
+-6846	([5][-22][0])
+-6879	([5][-22][0])
+-6889	([5][-2][0])
+-6951	([-5][-22][0])
+-6957	([-5][-22][0])
+-6977	([-5][-22][0])
+-6985	([-5][-22][0])
+-6998	([5][-23][1])
+-7053	([5][-23][0])
+-7176	([-5][-25][0])
+-7187	([-5][-25][0])
+-7245	([4][-19][0])
+-7246	([4][-19][0])
+-7305	([4][-19][0])
+-7307	([4][-19][0])
+-7335	([-6][-21][0])
+-7339	([-6][-21][0])
+-7382	([-6][-21][0])
+-7429	([4][-19][0])
+-7603	([-6][-20][0])
+-7639	([-6][-20][0])
+-7748	([-6][-20][0])
+-7787	([-6][-21][0])
+-8036	([4][-23][0])
+-8108	([-6][-22][0])
+-7958	([4][-1][0])
+-8124	([4][-20][0])
+-8179	([4][-20][1])
+-8187	([4][-20][0])
+-8276	([-6][-22][0])
+-8279	([-6][-22][0])
+-8306	([-6][-22][0])
+-8307	([4][-20][1])
+-8319	([4][-20][0])
+-8397	([-6][-21][0])
+-8429	([-6][-21][0])
+-8437	([-6][-21][0])
+-8446	([-6][-22][0])
+-8511	([4][-5][0])
+-8462	([4][-2][0])
+-8472	([4][-3][1])
+-8548	([4][-20][0])
+-8582	([3][-19][0])
+-8708	([3][-19][0])
+-8735	([3][-19][0])
+-8760	([3][-19][0])
+-8803	([-7][-20][0])
+-8868	([-7][-20][0])
+-8873	([-7][-21][0])
+-8889	([-7][-21][0])
+-8937	([3][-20][0])
+-9006	([3][-20][0])
+-9024	([3][-20][0])
+-9037	([3][-20][0])
+-9039	([-7][-21][0])
+-9061	([-7][-21][0])
+-9160	([-7][-22][0])
+-9221	([-7][-22][0])
+-9290	([2][-19][0])
+-9373	([2][-19][0])
+-9474	([2][-19][0])
+-9490	([2][-19][0])
+-9499	([2][-20][0])
+-9503	([2][-20][0])
+-9513	([2][-20][0])
+-9541	([2][-20][0])
+-9547	([1][-19][0])
+-9558	([1][-19][0])
+-9737	([1][-20][0])
+-9786	([1][-20][0])
+-9840	([0][1][1])
+-9995	([0][0][0])
+-9893	([0][0][1])
+------------------	------------------
+-	a			b	
+diff --git a/Push-Swap42/file500.txt b/Push-Swap42/file500.txt
+deleted file mode 100644
+index 3c6904c..0000000
+--- a/Push-Swap42/file500.txt
++++ /dev/null
+@@ -1,4466 +0,0 @@
+-ra
+-pb
+-pb
+-rb
+-pb
+-pb
+-rr
+-ra
+-ra
+-ra
+-pb
+-rr
+-ra
+-pb
+-pb
+-ra
+-pb
+-rb
+-pb
+-pb
+-pb
+-rb
+-pb
+-pb
+-pb
+-rr
+-ra
+-ra
+-pb
+-ra
+-ra
+-pb
+-ra
+-ra
+-pb
+-pb
+-pb
+-rb
+-pb
+-rr
+-pb
+-rb
+-pb
+-rb
+-pb
+-rb
+-pb
+-rb
+-pb
+-rr
+-pb
+-pb
+-ra
+-pb
+-rr
+-ra
+-pb
+-rb
+-pb
+-rb
+-pb
+-rb
+-pb
+-ra
+-pb
+-ra
+-pb
+-rr
+-ra
+-ra
+-ra
+-ra
+-pb
+-rr
+-ra
+-ra
+-ra
+-pb
+-pb
+-rb
+-pb
+-rb
+-pb
+-pb
+-rb
+-pb
+-pb
+-pb
+-ra
+-ra
+-pb
+-rr
+-ra
+-ra
+-pb
+-ra
+-pb
+-rb
+-pb
+-rr
+-pb
+-pb
+-pb
+-rr
+-pb
+-rb
+-pb
+-rb
+-pb
+-ra
+-pb
+-rr
+-ra
+-pb
+-rr
+-pb
+-pb
+-rb
+-pb
+-ra
+-ra
+-ra
+-pb
+-pb
+-rb
+-pb
+-rb
+-pb
+-rr
+-ra
+-pb
+-rb
+-pb
+-ra
+-pb
+-ra
+-pb
+-pb
+-pb
+-rb
+-pb
+-rb
+-pb
+-ra
+-ra
+-pb
+-pb
+-pb
+-ra
+-pb
+-pb
+-rb
+-pb
+-rr
+-pb
+-pb
+-rb
+-pb
+-rr
+-ra
+-ra
+-ra
+-ra
+-ra
+-pb
+-rb
+-pb
+-pb
+-rr
+-pb
+-pb
+-rb
+-pb
+-ra
+-ra
+-ra
+-pb
+-pb
+-rr
+-pb
+-pb
+-ra
+-pb
+-ra
+-pb
+-ra
+-ra
+-pb
+-rr
+-pb
+-ra
+-pb
+-pb
+-ra
+-ra
+-pb
+-ra
+-ra
+-ra
+-pb
+-rb
+-pb
+-rb
+-pb
+-rb
+-pb
+-ra
+-pb
+-pb
+-rr
+-ra
+-ra
+-pb
+-ra
+-ra
+-ra
+-ra
+-ra
+-ra
+-pb
+-rb
+-pb
+-rb
+-pb
+-rb
+-pb
+-ra
+-ra
+-ra
+-pb
+-rb
+-pb
+-ra
+-pb
+-pb
+-pb
+-ra
+-pb
+-pb
+-pb
+-pb
+-ra
+-ra
+-ra
+-ra
+-pb
+-pb
+-ra
+-pb
+-rr
+-pb
+-pb
+-ra
+-ra
+-ra
+-pb
+-rb
+-pb
+-rb
+-pb
+-rb
+-pb
+-rb
+-pb
+-ra
+-pb
+-rb
+-pb
+-rb
+-pb
+-rb
+-pb
+-pb
+-rb
+-pb
+-pb
+-rb
+-pb
+-rr
+-ra
+-pb
+-ra
+-ra
+-ra
+-ra
+-pb
+-rb
+-pb
+-rr
+-ra
+-ra
+-ra
+-ra
+-ra
+-pb
+-rr
+-ra
+-ra
+-pb
+-rr
+-ra
+-ra
+-pb
+-rr
+-ra
+-pb
+-rb
+-pb
+-pb
+-rb
+-pb
+-pb
+-pb
+-ra
+-pb
+-rr
+-ra
+-ra
+-ra
+-ra
+-ra
+-pb
+-rr
+-ra
+-ra
+-ra
+-pb
+-rr
+-pb
+-ra
+-pb
+-pb
+-rb
+-pb
+-pb
+-ra
+-ra
+-ra
+-pb
+-rr
+-pb
+-rb
+-pb
+-pb
+-rb
+-pb
+-pb
+-pb
+-rb
+-pb
+-ra
+-ra
+-ra
+-ra
+-ra
+-pb
+-rb
+-pb
+-rr
+-ra
+-ra
+-pb
+-pb
+-ra
+-ra
+-pb
+-ra
+-ra
+-ra
+-ra
+-pb
+-ra
+-ra
+-pb
+-pb
+-rb
+-pb
+-pb
+-rr
+-ra
+-ra
+-pb
+-ra
+-pb
+-rb
+-pb
+-ra
+-ra
+-pb
+-rr
+-ra
+-ra
+-pb
+-rr
+-pb
+-rr
+-pb
+-rr
+-pb
+-ra
+-ra
+-ra
+-ra
+-pb
+-pb
+-rr
+-ra
+-pb
+-pb
+-ra
+-pb
+-rr
+-ra
+-pb
+-pb
+-pb
+-ra
+-pb
+-pb
+-ra
+-pb
+-rr
+-ra
+-pb
+-ra
+-ra
+-ra
+-ra
+-ra
+-ra
+-ra
+-pb
+-pb
+-pb
+-pb
+-rr
+-ra
+-ra
+-ra
+-ra
+-pb
+-ra
+-ra
+-ra
+-pb
+-rb
+-pb
+-ra
+-ra
+-ra
+-ra
+-pb
+-pb
+-rb
+-pb
+-pb
+-ra
+-ra
+-pb
+-rr
+-ra
+-pb
+-rr
+-ra
+-pb
+-pb
+-rb
+-pb
+-rb
+-pb
+-rr
+-ra
+-pb
+-ra
+-ra
+-pb
+-pb
+-rr
+-ra
+-pb
+-rr
+-pb
+-ra
+-pb
+-rr
+-ra
+-ra
+-ra
+-ra
+-ra
+-pb
+-ra
+-ra
+-ra
+-ra
+-pb
+-pb
+-pb
+-ra
+-ra
+-pb
+-ra
+-pb
+-rr
+-ra
+-pb
+-rr
+-pb
+-rr
+-ra
+-pb
+-rr
+-pb
+-rr
+-pb
+-pb
+-rb
+-pb
+-rr
+-pb
+-pb
+-ra
+-ra
+-pb
+-rr
+-pb
+-pb
+-rb
+-pb
+-rb
+-pb
+-ra
+-ra
+-pb
+-rr
+-ra
+-ra
+-ra
+-pb
+-rr
+-pb
+-rb
+-pb
+-rr
+-pb
+-rb
+-pb
+-rr
+-ra
+-pb
+-pb
+-rr
+-pb
+-pb
+-ra
+-pb
+-rr
+-pb
+-rb
+-pb
+-pb
+-rb
+-pb
+-rr
+-pb
+-ra
+-pb
+-ra
+-ra
+-ra
+-ra
+-pb
+-rb
+-pb
+-ra
+-ra
+-ra
+-pb
+-rr
+-ra
+-pb
+-rr
+-pb
+-pb
+-ra
+-ra
+-ra
+-ra
+-pb
+-pb
+-ra
+-pb
+-rb
+-pb
+-pb
+-rb
+-pb
+-rr
+-ra
+-ra
+-ra
+-pb
+-rr
+-pb
+-rr
+-ra
+-pb
+-rr
+-ra
+-pb
+-rb
+-pb
+-rb
+-pb
+-rr
+-ra
+-ra
+-pb
+-pb
+-rb
+-pb
+-ra
+-pb
+-rb
+-pb
+-rr
+-ra
+-ra
+-pb
+-rb
+-pb
+-rb
+-pb
+-pb
+-ra
+-ra
+-pb
+-pb
+-pb
+-rr
+-pb
+-rb
+-pb
+-ra
+-ra
+-ra
+-ra
+-ra
+-pb
+-rb
+-pb
+-rb
+-pb
+-rr
+-ra
+-ra
+-pb
+-rr
+-ra
+-ra
+-ra
+-pb
+-rr
+-pb
+-ra
+-pb
+-ra
+-ra
+-pb
+-rr
+-pb
+-pb
+-ra
+-pb
+-pb
+-ra
+-ra
+-pb
+-rr
+-ra
+-pb
+-rr
+-ra
+-ra
+-pb
+-rr
+-ra
+-ra
+-pb
+-pb
+-pb
+-pb
+-rr
+-ra
+-pb
+-pb
+-rb
+-pb
+-rb
+-pb
+-ra
+-ra
+-ra
+-pb
+-pb
+-pb
+-rb
+-pb
+-ra
+-ra
+-ra
+-pb
+-ra
+-pb
+-rb
+-pb
+-pb
+-ra
+-ra
+-pb
+-rb
+-pb
+-rb
+-pb
+-rb
+-pb
+-ra
+-pb
+-rr
+-pb
+-pb
+-rr
+-pb
+-ra
+-pb
+-ra
+-pb
+-ra
+-ra
+-pb
+-rr
+-ra
+-pb
+-rr
+-ra
+-ra
+-pb
+-rb
+-pb
+-pb
+-ra
+-pb
+-rb
+-pb
+-rb
+-pb
+-pb
+-pb
+-pb
+-rb
+-pb
+-pb
+-pb
+-ra
+-pb
+-pb
+-ra
+-ra
+-ra
+-ra
+-pb
+-rb
+-pb
+-rr
+-pb
+-pb
+-rb
+-pb
+-rb
+-pb
+-rb
+-pb
+-rb
+-pb
+-rb
+-pb
+-rr
+-ra
+-ra
+-pb
+-rb
+-pb
+-pb
+-ra
+-ra
+-pb
+-rr
+-pb
+-ra
+-ra
+-ra
+-ra
+-ra
+-pb
+-pb
+-pb
+-rb
+-pb
+-ra
+-pb
+-rb
+-pb
+-pb
+-pb
+-pb
+-rr
+-ra
+-ra
+-pb
+-pb
+-rr
+-ra
+-pb
+-ra
+-pb
+-ra
+-pb
+-ra
+-ra
+-pb
+-rb
+-pb
+-rr
+-ra
+-ra
+-ra
+-ra
+-pb
+-ra
+-ra
+-ra
+-pb
+-rb
+-pb
+-rr
+-ra
+-pb
+-ra
+-pb
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-ra
+-ra
+-pb
+-rr
+-ra
+-ra
+-ra
+-ra
+-pb
+-rr
+-pb
+-rb
+-pb
+-rb
+-pb
+-rr
+-ra
+-pb
+-pb
+-rb
+-pb
+-ra
+-pb
+-ra
+-ra
+-ra
+-pb
+-ra
+-pb
+-ra
+-ra
+-ra
+-ra
+-pb
+-rr
+-pb
+-ra
+-ra
+-pb
+-rr
+-pb
+-pb
+-pb
+-rr
+-ra
+-pb
+-ra
+-ra
+-ra
+-ra
+-pb
+-ra
+-pb
+-rb
+-pb
+-ra
+-ra
+-ra
+-pb
+-rb
+-pb
+-rr
+-pb
+-rb
+-pb
+-pb
+-rr
+-pb
+-ra
+-pb
+-rr
+-pb
+-ra
+-pb
+-pb
+-rr
+-pb
+-ra
+-pb
+-rr
+-ra
+-pb
+-pb
+-rr
+-pb
+-rr
+-pb
+-rb
+-pb
+-rr
+-ra
+-pb
+-ra
+-pb
+-rr
+-ra
+-ra
+-ra
+-ra
+-pb
+-rb
+-pb
+-pb
+-ra
+-pb
+-rb
+-pb
+-pb
+-ra
+-pb
+-rr
+-ra
+-ra
+-pb
+-rb
+-pb
+-rb
+-pb
+-pb
+-rr
+-pb
+-ra
+-ra
+-pb
+-pb
+-rb
+-pb
+-pb
+-rb
+-pb
+-rb
+-pb
+-pb
+-ra
+-pb
+-ra
+-pb
+-pb
+-rb
+-pb
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-ra
+-ra
+-pb
+-rr
+-ra
+-ra
+-ra
+-ra
+-pb
+-pb
+-rr
+-pb
+-rr
+-ra
+-ra
+-ra
+-ra
+-pb
+-ra
+-pb
+-pb
+-ra
+-pb
+-ra
+-pb
+-ra
+-pb
+-rr
+-ra
+-ra
+-pb
+-pb
+-pb
+-rr
+-pb
+-ra
+-pb
+-rb
+-pb
+-ra
+-pb
+-rr
+-ra
+-pb
+-ra
+-pb
+-rb
+-pb
+-pb
+-rb
+-pb
+-pb
+-ra
+-pb
+-rb
+-pb
+-rb
+-pb
+-rb
+-pb
+-pb
+-rr
+-pb
+-rb
+-pb
+-rr
+-ra
+-ra
+-pb
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-pb
+-pb
+-rb
+-pb
+-ra
+-ra
+-ra
+-pb
+-rr
+-ra
+-ra
+-pb
+-pb
+-rr
+-pb
+-pb
+-rr
+-pb
+-pb
+-rb
+-pb
+-rr
+-pb
+-pb
+-pb
+-rr
+-ra
+-pb
+-ra
+-ra
+-ra
+-ra
+-pb
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-pb
+-ra
+-pb
+-pb
+-pb
+-rb
+-pb
+-ra
+-pb
+-rr
+-pb
+-rb
+-pb
+-rrr
+-rrr
+-sss
+-rrr
+-ra
+-pb
+-pb
+-rr
+-ra
+-pb
+-rb
+-pb
+-rrr
+-rrb
+-BEGINNING SORTINGsb
+-pa
+-pa
+-pa
+-pa
+-pa
+-rb
+-rb
+-pa
+-sss
+-rrb
+-rrb
+-pa
+-pa
+-rb
+-sb
+-pa
+-rrb
+-pa
+-pa
+-pa
+-pa
+-rr
+-rb
+-rb
+-pa
+-pa
+-sss
+-pa
+-rr
+-rrr
+-rrr
+-sss
+-rrb
+-pa
+-rrb
+-pa
+-pa
+-pa
+-pa
+-rr
+-pa
+-rb
+-pa
+-sa
+-pa
+-rr
+-rrr
+-rrr
+-rrb
+-pa
+-rb
+-rb
+-pa
+-sa
+-rrb
+-pa
+-rrb
+-pa
+-pa
+-rb
+-pa
+-rr
+-pa
+-sss
+-pa
+-rr
+-rb
+-rb
+-pa
+-sss
+-pa
+-sa
+-pa
+-rr
+-pa
+-rr
+-rr
+-sa
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-ra
+-ra
+-sa
+-pb
+-pa
+-rrr
+-rrr
+-rrb
+-rb
+-sb
+-pa
+-pa
+-rrb
+-sb
+-pa
+-rb
+-pa
+-rb
+-pa
+-sa
+-rrb
+-pa
+-rrb
+-pa
+-pa
+-pa
+-ra
+-pa
+-rb
+-rb
+-pa
+-sss
+-rb
+-rb
+-rb
+-pa
+-pa
+-sss
+-ra
+-ra
+-pa
+-rb
+-rb
+-pa
+-sa
+-ra
+-rra
+-rrr
+-rrr
+-rrr
+-rrb
+-rrb
+-rrb
+-rrb
+-pa
+-pa
+-rr
+-rr
+-pa
+-rb
+-rb
+-pa
+-rrr
+-rrr
+-rrb
+-rrb
+-pa
+-pa
+-pa
+-pa
+-rb
+-pa
+-pa
+-rr
+-rb
+-pa
+-rb
+-pa
+-rb
+-rb
+-pa
+-rb
+-pa
+-sss
+-pa
+-rr
+-rb
+-rb
+-pa
+-pa
+-pa
+-sss
+-rr
+-rr
+-ra
+-pa
+-sss
+-pa
+-rb
+-rb
+-pa
+-rr
+-pa
+-pa
+-pa
+-rr
+-ra
+-pb
+-sa
+-ra
+-sss
+-ra
+-pb
+-pb
+-ra
+-ra
+-pb
+-rb
+-sb
+-pa
+-rrb
+-pa
+-pa
+-rra
+-rra
+-rra
+-sa
+-rra
+-ra
+-ra
+-sa
+-pb
+-pa
+-rra
+-rra
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-ra
+-pb
+-ra
+-pb
+-pb
+-ra
+-pb
+-ra
+-sb
+-pa
+-pa
+-sb
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-sa
+-rrr
+-rrb
+-rrb
+-rrb
+-rrb
+-pa
+-pa
+-rb
+-rb
+-pa
+-sa
+-pa
+-rb
+-pa
+-ra
+-pa
+-sa
+-rb
+-rb
+-rb
+-rb
+-pa
+-rr
+-pa
+-ra
+-rr
+-sa
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rr
+-sss
+-rrr
+-rrb
+-rrb
+-rrb
+-rrb
+-rrb
+-pa
+-pa
+-rb
+-pa
+-rb
+-pa
+-sss
+-rr
+-sa
+-rrr
+-rrb
+-pa
+-rrb
+-sb
+-pa
+-pa
+-pa
+-rb
+-rb
+-rb
+-rb
+-pa
+-rb
+-rb
+-rb
+-pa
+-sss
+-pa
+-sss
+-pa
+-pa
+-rr
+-rb
+-pa
+-pa
+-pa
+-ra
+-ra
+-ra
+-pa
+-sss
+-rb
+-rb
+-pa
+-pa
+-pa
+-rr
+-pa
+-ra
+-pa
+-rb
+-rb
+-rb
+-pa
+-rr
+-ra
+-ra
+-ra
+-pb
+-pb
+-ra
+-pb
+-pb
+-rb
+-rb
+-pa
+-pa
+-rrb
+-pa
+-rrb
+-pa
+-rra
+-rra
+-sss
+-rra
+-sa
+-rra
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-pb
+-ra
+-pb
+-ra
+-pb
+-ra
+-ra
+-pa
+-sb
+-pa
+-pa
+-rrr
+-rrr
+-sa
+-rrr
+-sss
+-rrr
+-ra
+-ra
+-sss
+-pb
+-pa
+-rrr
+-rrr
+-rrb
+-rrb
+-rrb
+-pa
+-rr
+-pa
+-rr
+-rb
+-pa
+-rb
+-rb
+-pa
+-pa
+-pa
+-rb
+-rb
+-pa
+-pa
+-rr
+-ra
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-rrb
+-rrb
+-rrb
+-rrb
+-rb
+-pa
+-rr
+-rb
+-pa
+-pa
+-sa
+-pa
+-rr
+-rrr
+-rrr
+-rrb
+-sb
+-rrb
+-pa
+-pa
+-sb
+-pa
+-pa
+-rb
+-rb
+-pa
+-pa
+-ra
+-ra
+-pa
+-rb
+-rb
+-pa
+-rb
+-rb
+-pa
+-pa
+-sss
+-ra
+-ra
+-pa
+-pa
+-rb
+-pa
+-pa
+-ra
+-pa
+-pa
+-pa
+-rr
+-rr
+-rb
+-rb
+-pa
+-ra
+-pa
+-pa
+-rb
+-pa
+-rb
+-rb
+-pa
+-rr
+-rb
+-pa
+-rr
+-pa
+-pa
+-pa
+-rb
+-rb
+-rb
+-rb
+-rb
+-rb
+-pa
+-rr
+-rb
+-rb
+-pa
+-sss
+-pa
+-rr
+-pa
+-ra
+-pa
+-pa
+-sss
+-pa
+-rr
+-rb
+-rb
+-rb
+-rb
+-pa
+-pa
+-ra
+-ra
+-ra
+-pb
+-pb
+-pb
+-ra
+-ra
+-pb
+-ra
+-pb
+-pb
+-ra
+-pb
+-pb
+-ra
+-ra
+-pa
+-rr
+-rb
+-pa
+-ra
+-pa
+-pa
+-sss
+-rrr
+-rrr
+-sss
+-pa
+-sb
+-pa
+-sb
+-pa
+-pa
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-ra
+-ra
+-ra
+-pb
+-pb
+-pb
+-ra
+-pb
+-rb
+-sb
+-pa
+-rrb
+-pa
+-pa
+-pa
+-rra
+-rra
+-sa
+-rra
+-sa
+-rra
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-ra
+-ra
+-ra
+-pb
+-pb
+-ra
+-ra
+-ra
+-ra
+-pb
+-pb
+-pb
+-pb
+-ra
+-pb
+-rb
+-sb
+-pa
+-rrb
+-pa
+-rb
+-pa
+-rb
+-pa
+-sa
+-rrb
+-sb
+-rrb
+-sb
+-pa
+-pa
+-pa
+-rrr
+-rrr
+-sss
+-rrr
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-rrr
+-ra
+-ra
+-ra
+-pb
+-ra
+-pb
+-pb
+-pb
+-pa
+-rb
+-rb
+-pa
+-sss
+-rrb
+-rrb
+-pa
+-pa
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-ra
+-ra
+-sss
+-pb
+-pa
+-rrr
+-rrr
+-rrb
+-rrb
+-rrb
+-pa
+-rr
+-rb
+-pa
+-rr
+-pa
+-pa
+-rr
+-rb
+-pa
+-pa
+-pa
+-rr
+-rr
+-pa
+-ra
+-pa
+-sss
+-pa
+-sss
+-rb
+-rb
+-rb
+-pa
+-pa
+-rr
+-rb
+-rb
+-pa
+-sss
+-pa
+-sss
+-pa
+-sss
+-pa
+-rr
+-ra
+-ra
+-pb
+-sss
+-rra
+-rra
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-rrr
+-sss
+-rrr
+-rrr
+-rrr
+-ra
+-pb
+-ra
+-pb
+-pb
+-ra
+-pb
+-ra
+-rb
+-pa
+-rb
+-pa
+-sss
+-rrb
+-pa
+-rrb
+-pa
+-rrr
+-rrr
+-sa
+-rrr
+-sa
+-rrr
+-sss
+-rrb
+-rrb
+-rb
+-rb
+-pa
+-rb
+-pa
+-pa
+-ra
+-ra
+-pa
+-sa
+-rb
+-rb
+-pa
+-sa
+-pa
+-rr
+-rb
+-rb
+-pa
+-pa
+-ra
+-rrr
+-rrr
+-rrr
+-rrr
+-rrb
+-rrb
+-rrb
+-rrb
+-rb
+-rb
+-pa
+-rr
+-rb
+-pa
+-pa
+-ra
+-pa
+-rrr
+-rrr
+-rrb
+-sb
+-rrb
+-sb
+-pa
+-sb
+-pa
+-sb
+-pa
+-pa
+-pa
+-rr
+-pa
+-pa
+-rr
+-pa
+-pa
+-sss
+-pa
+-rb
+-pa
+-sss
+-pa
+-pa
+-ra
+-pa
+-pa
+-sss
+-pa
+-sss
+-pa
+-rr
+-rb
+-rb
+-pa
+-rr
+-rb
+-pa
+-rr
+-pa
+-sss
+-pa
+-sss
+-pa
+-sss
+-pa
+-rb
+-pa
+-pa
+-rr
+-rr
+-rb
+-rb
+-pa
+-sss
+-rb
+-rb
+-rb
+-pa
+-rr
+-pa
+-rr
+-rb
+-rb
+-pa
+-sss
+-rb
+-rb
+-rb
+-rb
+-pa
+-pa
+-pa
+-rr
+-rr
+-rr
+-pa
+-rr
+-rb
+-rb
+-pa
+-pa
+-ra
+-ra
+-ra
+-pb
+-pb
+-ra
+-pb
+-ra
+-pb
+-pb
+-pb
+-ra
+-ra
+-ra
+-ra
+-pb
+-pb
+-pa
+-rr
+-rb
+-rb
+-pa
+-pa
+-sss
+-pa
+-rr
+-rrr
+-rrr
+-sss
+-rrb
+-sb
+-rrb
+-sb
+-pa
+-sb
+-pa
+-pa
+-pa
+-rra
+-rra
+-sss
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-ra
+-ra
+-ra
+-pb
+-ra
+-pb
+-pb
+-rb
+-sb
+-pa
+-rrb
+-pa
+-pa
+-rra
+-rra
+-sa
+-rra
+-sa
+-rra
+-sa
+-rr
+-sa
+-rrr
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-rrr
+-sss
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-rrr
+-sss
+-rrr
+-rrr
+-rrr
+-ra
+-ra
+-ra
+-pb
+-pb
+-ra
+-ra
+-ra
+-pb
+-pb
+-ra
+-pb
+-ra
+-sss
+-pb
+-pa
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-rrr
+-sss
+-ra
+-pb
+-ra
+-sa
+-ra
+-rrr
+-rrr
+-rrr
+-rrb
+-rrb
+-rrb
+-rrb
+-rrb
+-pa
+-pa
+-ra
+-pa
+-rb
+-rb
+-pa
+-rr
+-rb
+-rb
+-rb
+-rb
+-rb
+-pa
+-rb
+-rb
+-rb
+-pa
+-rb
+-rb
+-pa
+-sss
+-pa
+-rb
+-pa
+-rr
+-pa
+-pa
+-ra
+-ra
+-pa
+-pa
+-pa
+-rr
+-ra
+-pa
+-pb
+-pb
+-ra
+-ra
+-pb
+-ra
+-pb
+-ra
+-pa
+-rb
+-rb
+-pa
+-sa
+-rrb
+-rrb
+-pa
+-pa
+-rra
+-rra
+-sa
+-rra
+-sa
+-rra
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-ra
+-ra
+-pb
+-pb
+-ra
+-ra
+-pb
+-rb
+-sb
+-pa
+-pa
+-rrb
+-pa
+-rrr
+-rrr
+-rrr
+-sa
+-rrr
+-sss
+-ra
+-rrr
+-rrb
+-rrb
+-rrb
+-rrb
+-rb
+-rb
+-pa
+-pa
+-pa
+-sa
+-pa
+-sa
+-rr
+-rr
+-ra
+-pa
+-sa
+-pa
+-rr
+-rb
+-pa
+-sss
+-rb
+-rb
+-pa
+-sa
+-ra
+-pb
+-sa
+-ra
+-sa
+-rra
+-rra
+-rrr
+-rrr
+-sa
+-rrr
+-sss
+-rrr
+-ra
+-ra
+-sa
+-pb
+-pa
+-rrr
+-rrr
+-rrb
+-rrb
+-rb
+-rb
+-rb
+-rb
+-pa
+-pa
+-pa
+-pa
+-sa
+-ra
+-ra
+-rrr
+-rrr
+-rrb
+-sb
+-rrb
+-pa
+-pa
+-pa
+-pa
+-pa
+-rr
+-pa
+-pa
+-pa
+-pa
+-ra
+-pa
+-pa
+-pa
+-pa
+-rb
+-pa
+-rr
+-rb
+-rb
+-rb
+-rb
+-pa
+-pa
+-rb
+-rb
+-rb
+-rb
+-pa
+-pa
+-pa
+-sss
+-ra
+-ra
+-ra
+-pa
+-sss
+-pa
+-pa
+-rr
+-rr
+-rb
+-pa
+-rb
+-rb
+-rb
+-rb
+-pa
+-pa
+-pa
+-rr
+-pa
+-rr
+-pa
+-pa
+-rr
+-pa
+-rr
+-rb
+-rb
+-pa
+-rb
+-rb
+-rb
+-rb
+-pa
+-sss
+-pa
+-rb
+-pa
+-pa
+-rr
+-ra
+-pa
+-sss
+-pa
+-rr
+-pa
+-pa
+-pa
+-rr
+-ra
+-pa
+-rb
+-pa
+-pa
+-pa
+-sss
+-ra
+-ra
+-ra
+-pa
+-pa
+-rr
+-rb
+-rb
+-rb
+-pa
+-pa
+-pa
+-rr
+-rr
+-ra
+-pa
+-rb
+-rb
+-pa
+-rb
+-rb
+-rb
+-rb
+-rb
+-pa
+-rr
+-pa
+-rb
+-pa
+-sss
+-pa
+-rr
+-rb
+-rb
+-pa
+-pa
+-sss
+-pa
+-sss
+-rb
+-rb
+-pa
+-sss
+-pa
+-rr
+-pa
+-rr
+-pa
+-rr
+-pa
+-rr
+-rb
+-rb
+-pa
+-rr
+-rb
+-pa
+-pa
+-rb
+-rb
+-pa
+-ra
+-ra
+-pb
+-ra
+-pb
+-pb
+-pb
+-ra
+-pb
+-pb
+-ra
+-ra
+-ra
+-ra
+-ra
+-pb
+-ra
+-pb
+-pb
+-ra
+-pb
+-ra
+-ra
+-pb
+-pb
+-ra
+-pb
+-ra
+-ra
+-pb
+-pb
+-pb
+-rb
+-rb
+-rb
+-pa
+-pa
+-sa
+-rb
+-rb
+-pa
+-rr
+-rb
+-pa
+-ra
+-pa
+-sa
+-pa
+-rr
+-pa
+-ra
+-pa
+-sa
+-rr
+-sss
+-rrr
+-rrr
+-rrr
+-sa
+-rrr
+-rrr
+-sss
+-ra
+-rrr
+-rrb
+-rrb
+-pa
+-rrb
+-sb
+-pa
+-sb
+-pa
+-sb
+-pa
+-pa
+-sb
+-pa
+-pa
+-pa
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-ra
+-ra
+-rra
+-rra
+-sss
+-ra
+-ra
+-rra
+-rra
+-ra
+-rra
+-rrr
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-rrr
+-sss
+-rrr
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-rrr
+-rrr
+-ra
+-ra
+-ra
+-ra
+-ra
+-pb
+-ra
+-ra
+-ra
+-pb
+-ra
+-ra
+-pb
+-ra
+-pb
+-pb
+-pb
+-pb
+-ra
+-ra
+-pb
+-pb
+-ra
+-pb
+-pb
+-pb
+-pb
+-pb
+-pb
+-ra
+-ra
+-rb
+-rb
+-pa
+-rr
+-pa
+-rb
+-rb
+-pa
+-pa
+-sss
+-ra
+-ra
+-pa
+-rb
+-pa
+-sa
+-pa
+-sa
+-rrr
+-rrr
+-rrr
+-rrb
+-rrb
+-rrb
+-pa
+-pa
+-rr
+-pa
+-rr
+-rb
+-pa
+-sa
+-rrr
+-rrr
+-rrb
+-rb
+-rb
+-pa
+-pa
+-sss
+-rrb
+-rrb
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-ra
+-ra
+-pb
+-pb
+-pb
+-ra
+-pb
+-sss
+-ra
+-pb
+-ra
+-pb
+-ra
+-ra
+-pb
+-rb
+-sb
+-pa
+-rrb
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-rrr
+-rrr
+-ra
+-ra
+-ra
+-ra
+-pb
+-pb
+-pb
+-rb
+-sb
+-pa
+-rrb
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-rrr
+-rrb
+-pa
+-rrb
+-rrb
+-rrb
+-rrb
+-rb
+-rb
+-rb
+-pa
+-pa
+-sss
+-ra
+-ra
+-pa
+-rb
+-rb
+-rb
+-rb
+-rb
+-pa
+-rr
+-pa
+-sss
+-rb
+-rb
+-pa
+-rb
+-rb
+-pa
+-rb
+-rb
+-rb
+-rb
+-pa
+-rb
+-rb
+-pa
+-sss
+-pa
+-rr
+-rb
+-pa
+-pa
+-ra
+-ra
+-pa
+-pa
+-pa
+-ra
+-pa
+-pa
+-ra
+-pa
+-pa
+-pa
+-ra
+-pa
+-rb
+-pa
+-rb
+-pa
+-sss
+-pa
+-rr
+-pa
+-sss
+-pa
+-pa
+-rr
+-rr
+-pa
+-rr
+-pa
+-pa
+-rr
+-rb
+-rb
+-rb
+-pa
+-ra
+-ra
+-ra
+-ra
+-ra
+-pb
+-pb
+-pb
+-ra
+-pb
+-pb
+-ra
+-pb
+-pb
+-pb
+-ra
+-ra
+-rb
+-pa
+-rr
+-pa
+-rr
+-pa
+-pa
+-rrr
+-rrr
+-rrb
+-pa
+-rb
+-rb
+-pa
+-sss
+-rrb
+-pa
+-rrb
+-pa
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-ra
+-ra
+-ra
+-pb
+-ra
+-pb
+-pb
+-pb
+-rb
+-rb
+-pa
+-pa
+-rrb
+-rrb
+-pa
+-pa
+-rra
+-rra
+-rra
+-rra
+-sa
+-ra
+-rra
+-rrr
+-rrr
+-sss
+-rrr
+-rrr
+-sss
+-rrr
+-rrr
+-sss
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-ra
+-pb
+-pb
+-ra
+-ra
+-pb
+-ra
+-pb
+-ra
+-ra
+-pb
+-ra
+-pb
+-ra
+-pb
+-rb
+-pa
+-pa
+-sss
+-rb
+-rb
+-pa
+-sa
+-rrb
+-sb
+-rrb
+-sb
+-rrb
+-sb
+-pa
+-pa
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-rrr
+-sss
+-ra
+-sa
+-ra
+-rrr
+-rrr
+-sss
+-ra
+-ra
+-rrr
+-rrr
+-sa
+-rrb
+-rrb
+-rrb
+-rrb
+-rb
+-pa
+-ra
+-pa
+-rb
+-pa
+-sss
+-pa
+-rb
+-pa
+-pa
+-rb
+-pa
+-rr
+-pa
+-rr
+-rb
+-rb
+-rb
+-pa
+-ra
+-pa
+-sss
+-rb
+-rb
+-rb
+-rb
+-pa
+-pa
+-rr
+-rb
+-pa
+-rr
+-pa
+-pa
+-ra
+-pb
+-ra
+-ra
+-pb
+-pb
+-ra
+-ra
+-pb
+-sb
+-pa
+-pa
+-sb
+-pa
+-pa
+-rra
+-rra
+-rra
+-sa
+-rra
+-ra
+-ra
+-sa
+-pb
+-pa
+-rra
+-rra
+-rrr
+-rrr
+-sss
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-pb
+-pb
+-pb
+-ra
+-ra
+-ra
+-ra
+-sb
+-pa
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-rrb
+-rrb
+-rrb
+-rrb
+-rrb
+-pa
+-ra
+-pa
+-rb
+-pa
+-rb
+-pa
+-rr
+-rb
+-rb
+-pa
+-sa
+-pa
+-pa
+-rr
+-pa
+-rr
+-ra
+-ra
+-sa
+-pb
+-pa
+-rra
+-rra
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-ra
+-rrr
+-rrb
+-rrb
+-pa
+-pa
+-rr
+-pa
+-sa
+-rb
+-rb
+-rb
+-pa
+-ra
+-rrr
+-rrr
+-rrb
+-rrb
+-pa
+-pa
+-sb
+-pa
+-pa
+-rb
+-rb
+-rb
+-pa
+-pa
+-rr
+-pa
+-ra
+-pa
+-sss
+-pa
+-pa
+-rb
+-pa
+-pa
+-ra
+-ra
+-pa
+-rb
+-rb
+-rb
+-pa
+-pa
+-rr
+-rb
+-rb
+-rb
+-pa
+-sss
+-pa
+-rr
+-rb
+-pa
+-rb
+-rb
+-rb
+-pa
+-rr
+-rb
+-rb
+-rb
+-pa
+-pa
+-sss
+-pa
+-rr
+-rr
+-ra
+-pa
+-sss
+-pa
+-pa
+-pa
+-rr
+-rr
+-rr
+-rb
+-rb
+-pa
+-pa
+-rr
+-rr
+-pa
+-rb
+-pa
+-rr
+-pa
+-pa
+-rr
+-pa
+-sss
+-pa
+-rb
+-pa
+-rr
+-rb
+-pa
+-sss
+-rb
+-rb
+-pa
+-ra
+-pa
+-pa
+-rb
+-rb
+-pa
+-rr
+-rb
+-pa
+-rr
+-pa
+-rr
+-pa
+-pa
+-ra
+-pa
+-sss
+-pa
+-pa
+-pa
+-rr
+-pa
+-pa
+-ra
+-ra
+-ra
+-pa
+-rb
+-pa
+-ra
+-pa
+-sss
+-pa
+-sss
+-rb
+-rb
+-rb
+-pa
+-rr
+-rb
+-pa
+-sss
+-pa
+-rb
+-rb
+-rb
+-pa
+-ra
+-pa
+-pa
+-pa
+-rb
+-pa
+-rb
+-rb
+-pa
+-pa
+-sss
+-rb
+-rb
+-pa
+-ra
+-pa
+-ra
+-ra
+-pb
+-pb
+-ra
+-pb
+-pb
+-ra
+-ra
+-pb
+-pb
+-ra
+-pb
+-ra
+-ra
+-ra
+-pb
+-ra
+-ra
+-pb
+-pb
+-ra
+-pb
+-pb
+-pb
+-pb
+-ra
+-ra
+-ra
+-ra
+-pb
+-sb
+-pa
+-pa
+-pa
+-sa
+-pa
+-rr
+-rb
+-rb
+-rb
+-pa
+-sss
+-pa
+-sa
+-pa
+-rr
+-rb
+-pa
+-rr
+-ra
+-ra
+-sa
+-pb
+-pa
+-rra
+-rra
+-rrr
+-rrr
+-rrr
+-rrb
+-pa
+-rrb
+-rrb
+-rrb
+-rb
+-rb
+-rb
+-pa
+-pa
+-pa
+-sa
+-rrb
+-rrb
+-pa
+-rrb
+-pa
+-pa
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-pb
+-ra
+-ra
+-ra
+-ra
+-ra
+-ra
+-pb
+-ra
+-pb
+-pb
+-pb
+-pb
+-pb
+-pb
+-ra
+-pa
+-pa
+-rr
+-rb
+-pa
+-rr
+-rb
+-pa
+-sa
+-rrr
+-rrr
+-sss
+-rrb
+-pa
+-rrb
+-pa
+-pa
+-pa
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-ra
+-ra
+-pb
+-pb
+-pb
+-ra
+-pb
+-ra
+-sb
+-pa
+-pa
+-pa
+-pa
+-rra
+-rra
+-rra
+-sa
+-rra
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-rrr
+-sss
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-ra
+-ra
+-pb
+-pb
+-ra
+-pb
+-pb
+-ra
+-ra
+-ra
+-pb
+-pb
+-pb
+-pb
+-ra
+-ra
+-ra
+-pb
+-pb
+-pb
+-pb
+-ra
+-ra
+-ra
+-ra
+-pb
+-ra
+-pb
+-ra
+-sss
+-ra
+-sa
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-sss
+-ra
+-pb
+-pb
+-ra
+-ra
+-pb
+-pb
+-pb
+-pb
+-ra
+-ra
+-pb
+-ra
+-pb
+-ra
+-ra
+-rb
+-pa
+-ra
+-pa
+-pa
+-rr
+-rb
+-rb
+-pa
+-sa
+-rrr
+-rrr
+-rrb
+-rrb
+-pa
+-rb
+-sb
+-pa
+-rrb
+-pa
+-pa
+-rrr
+-rrr
+-sss
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-pb
+-ra
+-pb
+-ra
+-ra
+-sa
+-ra
+-sa
+-rrr
+-rrr
+-sa
+-rrr
+-rrr
+-pa
+-rr
+-pa
+-rr
+-pa
+-rb
+-pa
+-rb
+-pa
+-ra
+-pa
+-pa
+-rr
+-pa
+-rr
+-pa
+-pa
+-rb
+-pa
+-pa
+-rr
+-pa
+-pa
+-rr
+-rb
+-rb
+-pa
+-pa
+-rr
+-pa
+-pa
+-pa
+-pa
+-sss
+-rr
+-rr
+-rb
+-pa
+-pa
+-pa
+-rr
+-rb
+-rb
+-rb
+-pa
+-rb
+-pa
+-pa
+-rb
+-pa
+-rr
+-pa
+-pa
+-rr
+-pa
+-rr
+-rb
+-rb
+-pa
+-rr
+-ra
+-ra
+-pb
+-pb
+-pb
+-ra
+-pb
+-pb
+-pb
+-ra
+-ra
+-pb
+-pb
+-ra
+-ra
+-ra
+-pa
+-rr
+-pa
+-ra
+-pa
+-rb
+-rb
+-rb
+-pa
+-rrr
+-rrr
+-sa
+-rrb
+-pa
+-rrb
+-pa
+-pa
+-pa
+-rra
+-rra
+-rra
+-sss
+-rra
+-rra
+-rra
+-rra
+-rra
+-ra
+-pb
+-ra
+-ra
+-rra
+-rra
+-sa
+-rra
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-pb
+-ra
+-pb
+-pb
+-ra
+-pb
+-ra
+-ra
+-pb
+-ra
+-pb
+-ra
+-ra
+-ra
+-pb
+-pa
+-rb
+-rb
+-pa
+-rb
+-rb
+-pa
+-sa
+-rr
+-sss
+-rrr
+-rrb
+-rrb
+-rrb
+-sb
+-rrb
+-pa
+-pa
+-sb
+-pa
+-pa
+-rrr
+-rrr
+-sss
+-rrr
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-ra
+-ra
+-pb
+-rrr
+-rrr
+-pa
+-rr
+-pa
+-pa
+-rr
+-pa
+-pa
+-rr
+-rb
+-rb
+-pa
+-pa
+-pa
+-rb
+-rb
+-rb
+-rb
+-rb
+-pa
+-pa
+-rr
+-rb
+-rb
+-pa
+-pa
+-pa
+-pa
+-rr
+-ra
+-ra
+-ra
+-pa
+-rb
+-pa
+-sss
+-ra
+-pb
+-pb
+-ra
+-ra
+-pb
+-sb
+-pa
+-pa
+-pa
+-rra
+-rra
+-sa
+-rra
+-sa
+-rr
+-sss
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-ra
+-ra
+-pb
+-ra
+-pb
+-ra
+-sa
+-pb
+-pa
+-rrr
+-rrr
+-rrr
+-rrr
+-pa
+-rb
+-pa
+-sa
+-pa
+-pa
+-rr
+-rb
+-rb
+-pa
+-pa
+-sss
+-rr
+-rr
+-pa
+-sss
+-pa
+-rr
+-rr
+-sa
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-sa
+-rrr
+-sss
+-ra
+-rrr
+-pa
+-pa
+-rb
+-rb
+-rb
+-rb
+-pa
+-pa
+-sa
+-rr
+-sss
+-rrr
+-pa
+-sb
+-pa
+-pa
+-pa
+-
+--9993	([7][-19][0])
+--9969	([7][-19][0])
+--9940	([7][-19][0])
+--9862	([7][-19][0])
+--9853	([-3][-21][0])
+--9843	([-3][-21][0])
+--9817	([-3][-21][0])
+--9778	([7][-19][0])
+--9755	([-3][-20][0])
+--9647	([7][-3][0])
+--9672	([7][0][0])
+--9662	([7][-1][1])
+--9636	([-3][-21][0])
+--9597	([-3][-21][0])
+--9588	([-3][-21][0])
+--9572	([-3][-21][0])
+--9563	([-3][-20][0])
+--9535	([-3][-20][0])
+--9386	([-3][-20][0])
+--9385	([-3][-20][0])
+--9241	([7][-22][0])
+--9152	([-3][-21][0])
+--9101	([-3][-21][0])
+--9092	([-3][-21][0])
+--9053	([-3][-21][0])
+--9041	([7][-22][0])
+--8986	([7][-22][0])
+--8954	([7][-22][0])
+--8949	([-3][-21][0])
+--8870	([-3][-21][0])
+--8831	([-3][-20][0])
+--8823	([-3][-20][0])
+--8695	([7][-3][0])
+--8802	([7][0][0])
+--8748	([7][-1][1])
+--8616	([-3][-20][0])
+--8614	([-3][-20][0])
+--8607	([7][-21][0])
+--8591	([7][-21][0])
+--8562	([7][-21][0])
+--8530	([7][-21][0])
+--8469	([-3][-23][0])
+--8463	([-3][-23][0])
+--8446	([-3][-23][0])
+--8439	([-3][-21][0])
+--8406	([-3][-21][0])
+--8290	([-3][-21][0])
+--8020	([7][-4][0])
+--8278	([7][-1][0])
+--8241	([7][-2][2])
+--8277	([7][-2][3])
+--7999	([7][-22][0])
+--7987	([7][-22][0])
+--7943	([7][-22][1])
+--7938	([7][-22][0])
+--7894	([-3][-23][0])
+--7853	([-3][-23][0])
+--7798	([-3][-24][0])
+--7773	([-3][-24][0])
+--7769	([-3][-20][0])
+--7760	([-3][-20][0])
+--7719	([-3][-20][0])
+--7711	([-3][-20][0])
+--7576	([-3][-20][0])
+--7655	([-3][-21][0])
+--7554	([7][-21][0])
+--7481	([7][-21][0])
+--7416	([7][-1][0])
+--7392	([7][-21][0])
+--7381	([-3][-22][0])
+--7351	([-3][-22][0])
+--7330	([-3][-23][0])
+--7321	([-3][-23][0])
+--6698	([-3][-21][0])
+--6716	([-3][-21][0])
+--6674	([-3][-21][0])
+--6672	([-3][-21][0])
+--6654	([-3][-21][0])
+--6646	([7][-22][0])
+--6616	([7][-22][0])
+--6499	([7][-22][0])
+--6477	([7][-22][0])
+--6465	([7][-22][0])
+--6456	([7][-22][0])
+--6367	([7][-22][1])
+--6363	([7][-22][0])
+--6325	([-3][-23][0])
+--6320	([-3][-23][0])
+--6313	([-3][-24][0])
+--6224	([-3][-24][0])
+--6093	([7][-22][0])
+--6047	([7][-22][1])
+--6044	([7][-22][0])
+--6013	([-3][-24][0])
+--6004	([-3][-24][0])
+--5957	([-3][-24][0])
+--5930	([7][-22][0])
+--5918	([-3][-23][0])
+--5908	([-3][-23][0])
+--5875	([-3][-23][0])
+--5869	([-3][-24][0])
+--5861	([-3][-24][0])
+--5860	([7][-26][0])
+--5858	([-3][-25][0])
+--5808	([7][-22][0])
+--5731	([7][-20][0])
+--5724	([7][-20][0])
+--5721	([7][-20][0])
+--5636	([7][-20][0])
+--5625	([-3][-21][0])
+--5618	([-3][-21][0])
+--5605	([-3][-22][0])
+--5540	([-3][-22][0])
+--5504	([-3][-21][0])
+--5297	([7][-4][0])
+--5428	([7][-1][0])
+--5409	([7][-2][1])
+--5266	([-3][-22][0])
+--5264	([-3][-22][0])
+--5250	([7][-24][0])
+--5247	([-3][-23][0])
+--5211	([-3][-21][0])
+--5187	([-3][-21][0])
+--5169	([-3][-21][0])
+--5154	([-3][-21][0])
+--5081	([7][-22][0])
+--5070	([7][-22][0])
+--5011	([7][-22][0])
+--4912	([-3][-22][0])
+--4903	([-3][-22][0])
+--4886	([7][-24][0])
+--4835	([-3][-23][0])
+--4676	([7][-23][0])
+--4668	([7][-23][0])
+--4636	([7][-23][0])
+--4606	([7][-23][0])
+--4561	([-3][-21][0])
+--4491	([-3][-21][0])
+--4234	([7][-4][0])
+--4434	([7][-1][0])
+--4448	([7][-1][1])
+--4348	([7][-2][2])
+--4289	([7][-2][1])
+--4165	([-3][-21][0])
+--4151	([7][-22][0])
+--4134	([7][-22][0])
+--4086	([7][-22][0])
+--3963	([7][-22][0])
+--3711	([-3][-24][0])
+--3672	([-3][-24][0])
+--3634	([-3][-24][0])
+--3491	([-3][-22][0])
+--3288	([7][-5][0])
+--3388	([7][-2][0])
+--3381	([7][-3][1])
+--3251	([7][-23][0])
+--3170	([7][-23][0])
+--3155	([-3][-25][0])
+--3138	([-3][-25][0])
+--3067	([7][-23][1])
+--3064	([7][-23][0])
+--2962	([-3][-25][0])
+--2881	([-3][-25][0])
+--2838	([-3][-24][0])
+--2834	([-3][-24][0])
+--2830	([-3][-25][0])
+--2808	([-3][-25][0])
+--2787	([7][-20][0])
+--2782	([-3][-21][0])
+--2713	([-3][-21][0])
+--2646	([-3][-21][0])
+--2607	([-3][-21][0])
+--2384	([7][-22][0])
+--2369	([7][-22][0])
+--2275	([7][-2][0])
+--2266	([7][-22][0])
+--2071	([7][-22][0])
+--2049	([7][-2][0])
+--1931	([-3][-21][0])
+--1806	([-3][-21][0])
+--1719	([7][-22][0])
+--1705	([7][-22][0])
+--1538	([-3][-24][0])
+--1520	([-3][-24][0])
+--1472	([-3][-23][0])
+--1448	([-3][-23][0])
+--1410	([-3][-24][0])
+--1398	([-3][-24][0])
+--1393	([-3][-23][0])
+--1355	([-3][-23][0])
+--1320	([-3][-23][0])
+--1257	([-3][-24][0])
+--1244	([-3][-24][0])
+--1237	([-3][-24][0])
+--1194	([-3][-24][0])
+--1134	([-3][-22][0])
+--1064	([-3][-22][0])
+--695	([7][-5][0])
+--1024	([7][-2][0])
+--1056	([7][-2][2])
+--728	([7][-3][1])
+--1117	([7][-2][4])
+--913	([7][-3][6])
+--1150	([7][-2][6])
+--1044	([7][-2][1])
+--992	([7][-3][7])
+--802	([7][-3][3])
+--832	([7][-3][4])
+--845	([7][-3][5])
+--761	([7][-3][2])
+--1165	([7][-2][7])
+--658	([7][-23][0])
+--600	([7][-23][0])
+--596	([7][-23][0])
+--441	([7][-23][0])
+--373	([7][-23][0])
+--350	([7][-23][0])
+--326	([7][-23][0])
+--294	([7][-23][0])
+--235	([-3][-24][0])
+--149	([7][-7][0])
+--193	([7][-4][0])
+--189	([7][-5][1])
+--86	([-3][-25][0])
+--85	([-3][-25][0])
+--75	([-3][-25][0])
+--51	([-3][-25][0])
+--14	([6][-19][0])
+-9	([6][-19][0])
+-52	([6][-19][0])
+-63	([6][-19][0])
+-74	([-4][-20][0])
+-132	([-4][-20][0])
+-215	([-4][-21][0])
+-235	([-4][-21][0])
+-257	([-4][-20][0])
+-320	([-4][-20][0])
+-341	([6][-22][0])
+-350	([-4][-21][0])
+-355	([-4][-21][0])
+-372	([-4][-21][0])
+-536	([-4][-20][0])
+-402	([-4][-22][0])
+-631	([6][-3][0])
+-548	([6][0][0])
+-610	([6][-1][1])
+-682	([6][-21][0])
+-683	([6][-21][0])
+-689	([6][-1][0])
+-694	([-4][-21][0])
+-745	([-4][-21][0])
+-798	([-4][-21][0])
+-836	([-4][-21][0])
+-873	([6][-22][0])
+-1011	([6][-22][0])
+-1025	([-4][-24][0])
+-1056	([-4][-24][0])
+-1121	([-4][-20][0])
+-1148	([-4][-20][0])
+-1158	([-4][-20][0])
+-1260	([6][-3][0])
+-1167	([6][0][0])
+-1210	([6][-1][1])
+-1294	([-4][-20][0])
+-1352	([6][-22][0])
+-1623	([-4][-21][0])
+-1667	([-4][-21][0])
+-1681	([-4][-21][0])
+-1710	([-4][-21][0])
+-1817	([-4][-21][0])
+-1829	([6][-22][0])
+-1842	([6][-22][0])
+-1927	([6][-2][0])
+-2003	([-4][-21][0])
+-2034	([6][-22][0])
+-2061	([6][-22][0])
+-2097	([6][-22][0])
+-2135	([6][-22][0])
+-2231	([-4][-23][0])
+-2266	([-4][-23][0])
+-2312	([-4][-24][0])
+-2371	([-4][-24][0])
+-2374	([6][-20][0])
+-2398	([6][-20][0])
+-2403	([6][-20][0])
+-2404	([6][-20][0])
+-2445	([-4][-21][0])
+-2565	([-4][-21][0])
+-2609	([-4][-22][0])
+-2660	([-4][-22][0])
+-2690	([-4][-21][0])
+-2721	([-4][-21][0])
+-2729	([-4][-21][0])
+-2756	([-4][-21][0])
+-2762	([-4][-22][0])
+-2785	([-4][-22][0])
+-2789	([-4][-22][0])
+-2830	([-4][-22][0])
+-2831	([-4][-21][0])
+-2849	([-4][-21][0])
+-2861	([-4][-21][0])
+-2905	([-4][-21][0])
+-2914	([6][-22][1])
+-2926	([6][-22][0])
+-2988	([-4][-24][0])
+-2991	([-4][-24][0])
+-3012	([-4][-22][0])
+-3021	([-4][-22][0])
+-3119	([-4][-22][0])
+-3212	([6][-4][0])
+-3188	([6][-3][1])
+-3280	([-4][-22][0])
+-3293	([-4][-22][0])
+-3329	([-4][-21][0])
+-3407	([-4][-21][0])
+-3441	([6][-23][0])
+-3476	([-4][-22][0])
+-3497	([6][-22][0])
+-3508	([6][-22][0])
+-3524	([-4][-24][0])
+-3541	([-4][-24][0])
+-3592	([6][-22][0])
+-3673	([6][-22][0])
+-3751	([6][-22][0])
+-3757	([-4][-24][0])
+-3759	([-4][-24][0])
+-3813	([6][-22][0])
+-3920	([6][-2][0])
+-3946	([-4][-22][0])
+-3968	([-4][-22][0])
+-3992	([-4][-22][0])
+-4049	([-4][-22][0])
+-4075	([6][-23][0])
+-4117	([6][-23][0])
+-4126	([6][-23][0])
+-4165	([6][-3][0])
+-4171	([6][-23][0])
+-4236	([6][-23][0])
+-4294	([6][-23][0])
+-4329	([6][-23][0])
+-4364	([-4][-24][0])
+-4452	([-4][-24][0])
+-4502	([-4][-25][0])
+-4513	([-4][-25][0])
+-4544	([5][-19][0])
+-4579	([5][-19][0])
+-4580	([5][-19][0])
+-4591	([5][-19][0])
+-4645	([-5][-20][0])
+-4682	([-5][-20][0])
+-4769	([-5][-21][0])
+-4840	([-5][-21][0])
+-4876	([-5][-20][0])
+-4924	([-5][-20][0])
+-5009	([-5][-20][0])
+-5059	([-5][-20][0])
+-5102	([-5][-21][0])
+-5151	([-5][-21][0])
+-5203	([-5][-21][0])
+-5248	([-5][-21][0])
+-5294	([-5][-20][0])
+-5329	([-5][-20][0])
+-5347	([5][-22][0])
+-5382	([-5][-21][0])
+-5399	([5][-21][0])
+-5455	([5][-21][0])
+-5471	([5][-21][0])
+-5504	([-5][-21][0])
+-5607	([-5][-21][0])
+-5608	([-5][-21][0])
+-5609	([-5][-21][0])
+-5634	([5][-22][1])
+-5703	([5][-22][0])
+-5758	([-5][-24][0])
+-5847	([-5][-24][0])
+-5885	([5][-20][0])
+-5942	([5][-20][0])
+-5981	([5][-20][0])
+-5995	([5][-20][0])
+-6010	([-5][-22][0])
+-6069	([-5][-22][0])
+-6194	([-5][-22][0])
+-6211	([5][-20][0])
+-6222	([-5][-21][0])
+-6261	([-5][-21][0])
+-6286	([-5][-21][0])
+-6288	([-5][-22][0])
+-6319	([-5][-22][0])
+-6355	([-5][-22][0])
+-6382	([-5][-22][0])
+-6427	([5][-20][0])
+-6636	([-5][-21][0])
+-6670	([-5][-21][0])
+-6699	([-5][-21][0])
+-6736	([-5][-21][0])
+-6790	([5][-22][0])
+-6802	([5][-22][0])
+-6903	([5][-22][0])
+-6904	([5][-22][0])
+-6915	([-5][-22][0])
+-6967	([-5][-22][0])
+-6974	([5][-24][0])
+-7019	([-5][-23][0])
+-7057	([5][-23][0])
+-7188	([5][-23][0])
+-7244	([5][-3][0])
+-7269	([4][-19][0])
+-7284	([4][-19][0])
+-7400	([4][-19][0])
+-7446	([4][-19][0])
+-7447	([-6][-20][0])
+-7465	([-6][-20][0])
+-7524	([-6][-21][0])
+-7584	([-6][-21][0])
+-7588	([-6][-20][0])
+-7656	([-6][-20][0])
+-7697	([-6][-20][0])
+-7734	([-6][-21][0])
+-7795	([4][-4][0])
+-7746	([4][-1][0])
+-7770	([4][-2][1])
+-7806	([4][-20][0])
+-7856	([4][-20][1])
+-7873	([4][-20][0])
+-7883	([-6][-22][0])
+-7996	([-6][-22][0])
+-8040	([4][-20][0])
+-8051	([4][-20][0])
+-8121	([4][0][0])
+-8176	([-6][-21][0])
+-8284	([-6][-21][0])
+-8289	([4][-23][0])
+-8337	([-6][-22][0])
+-8390	([-6][-22][0])
+-8398	([-6][-22][0])
+-8422	([-6][-22][0])
+-8439	([-6][-22][0])
+-8478	([3][-19][1])
+-8483	([3][-19][0])
+-8497	([-7][-21][0])
+-8530	([-7][-21][0])
+-8533	([-7][-20][0])
+-8540	([-7][-20][0])
+-8574	([-7][-21][0])
+-8590	([-7][-21][0])
+-8613	([3][-20][0])
+-8636	([3][-20][0])
+-8665	([3][-20][1])
+-8753	([3][-20][0])
+-9053	([-7][-21][0])
+-9080	([-7][-21][0])
+-9086	([-7][-22][0])
+-9178	([-7][-22][0])
+-9181	([2][-19][0])
+-9243	([2][-19][0])
+-9261	([2][-19][0])
+-9275	([2][1][0])
+-9292	([2][-20][0])
+-9350	([2][-20][0])
+-9352	([-8][-22][0])
+-9374	([-8][-22][0])
+-9388	([1][-19][0])
+-9403	([1][-19][0])
+-9503	([1][-20][0])
+-9567	([1][-20][0])
+-9607	([0][1][1])
+-9882	([0][0][1])
+-9932	([0][0][0])
+------------------	------------------
+-	a			b	
+diff --git a/Push-Swap42/file501.txt b/Push-Swap42/file501.txt
+deleted file mode 100644
+index c7c9cd0..0000000
+--- a/Push-Swap42/file501.txt
++++ /dev/null
+@@ -1,4715 +0,0 @@
+-ra
+-pb
+-pb
+-rb
+-pb
+-pb
+-rr
+-ra
+-ra
+-ra
+-pb
+-rr
+-ra
+-pb
+-pb
+-ra
+-pb
+-rb
+-pb
+-pb
+-pb
+-rb
+-pb
+-pb
+-pb
+-rr
+-ra
+-ra
+-pb
+-ra
+-ra
+-pb
+-ra
+-ra
+-pb
+-pb
+-pb
+-rb
+-pb
+-rr
+-pb
+-rb
+-pb
+-rb
+-pb
+-rb
+-pb
+-rb
+-pb
+-rr
+-pb
+-pb
+-ra
+-pb
+-rr
+-ra
+-pb
+-rb
+-pb
+-rb
+-pb
+-rb
+-pb
+-ra
+-pb
+-ra
+-pb
+-rr
+-ra
+-ra
+-ra
+-ra
+-pb
+-rr
+-ra
+-ra
+-ra
+-pb
+-pb
+-rb
+-pb
+-rb
+-pb
+-pb
+-rb
+-pb
+-pb
+-pb
+-ra
+-ra
+-pb
+-rr
+-ra
+-ra
+-pb
+-ra
+-pb
+-rb
+-pb
+-rr
+-pb
+-pb
+-pb
+-rr
+-pb
+-rb
+-pb
+-rb
+-pb
+-ra
+-pb
+-rr
+-ra
+-pb
+-rr
+-pb
+-pb
+-rb
+-pb
+-ra
+-ra
+-ra
+-pb
+-pb
+-rb
+-pb
+-rb
+-pb
+-rr
+-ra
+-pb
+-rb
+-pb
+-ra
+-pb
+-ra
+-pb
+-pb
+-pb
+-rb
+-pb
+-rb
+-pb
+-ra
+-ra
+-pb
+-pb
+-pb
+-ra
+-pb
+-pb
+-rb
+-pb
+-rr
+-pb
+-pb
+-rb
+-pb
+-rr
+-ra
+-ra
+-ra
+-ra
+-ra
+-pb
+-rb
+-pb
+-pb
+-rr
+-pb
+-pb
+-rb
+-pb
+-ra
+-ra
+-ra
+-pb
+-pb
+-rr
+-pb
+-pb
+-ra
+-pb
+-ra
+-pb
+-ra
+-ra
+-pb
+-rr
+-pb
+-ra
+-pb
+-pb
+-ra
+-ra
+-pb
+-ra
+-ra
+-ra
+-pb
+-rb
+-pb
+-rb
+-pb
+-rb
+-pb
+-ra
+-pb
+-pb
+-rr
+-ra
+-ra
+-pb
+-ra
+-ra
+-ra
+-ra
+-ra
+-ra
+-pb
+-rb
+-pb
+-rb
+-pb
+-rb
+-pb
+-ra
+-ra
+-ra
+-pb
+-rb
+-pb
+-ra
+-pb
+-pb
+-pb
+-ra
+-pb
+-pb
+-pb
+-pb
+-ra
+-ra
+-ra
+-ra
+-pb
+-pb
+-ra
+-pb
+-rr
+-pb
+-pb
+-ra
+-ra
+-ra
+-pb
+-rb
+-pb
+-rb
+-pb
+-rb
+-pb
+-rb
+-pb
+-ra
+-pb
+-rb
+-pb
+-rb
+-pb
+-rb
+-pb
+-pb
+-rb
+-pb
+-pb
+-rb
+-pb
+-rr
+-ra
+-pb
+-ra
+-ra
+-ra
+-ra
+-pb
+-rb
+-pb
+-rr
+-ra
+-ra
+-ra
+-ra
+-ra
+-pb
+-rr
+-ra
+-ra
+-pb
+-rr
+-ra
+-ra
+-pb
+-rr
+-ra
+-pb
+-rb
+-pb
+-pb
+-rb
+-pb
+-pb
+-pb
+-ra
+-pb
+-rr
+-ra
+-ra
+-ra
+-ra
+-ra
+-pb
+-rr
+-ra
+-ra
+-ra
+-pb
+-rr
+-pb
+-ra
+-pb
+-pb
+-rb
+-pb
+-pb
+-ra
+-ra
+-ra
+-pb
+-rr
+-pb
+-rb
+-pb
+-pb
+-rb
+-pb
+-pb
+-pb
+-rb
+-pb
+-ra
+-ra
+-ra
+-ra
+-ra
+-pb
+-rb
+-pb
+-rr
+-ra
+-ra
+-pb
+-pb
+-ra
+-ra
+-pb
+-ra
+-ra
+-ra
+-ra
+-pb
+-ra
+-ra
+-pb
+-pb
+-rb
+-pb
+-pb
+-rr
+-ra
+-ra
+-pb
+-ra
+-pb
+-rb
+-pb
+-ra
+-ra
+-pb
+-rr
+-ra
+-ra
+-pb
+-rr
+-pb
+-rr
+-pb
+-rr
+-pb
+-ra
+-ra
+-ra
+-ra
+-pb
+-pb
+-rr
+-ra
+-pb
+-pb
+-ra
+-pb
+-rr
+-ra
+-pb
+-pb
+-pb
+-ra
+-pb
+-pb
+-ra
+-pb
+-rr
+-ra
+-pb
+-ra
+-ra
+-ra
+-ra
+-ra
+-ra
+-ra
+-pb
+-pb
+-pb
+-pb
+-rr
+-ra
+-ra
+-ra
+-ra
+-pb
+-ra
+-ra
+-ra
+-pb
+-rb
+-pb
+-ra
+-ra
+-ra
+-ra
+-pb
+-pb
+-rb
+-pb
+-pb
+-ra
+-ra
+-pb
+-rr
+-ra
+-pb
+-rr
+-ra
+-pb
+-pb
+-rb
+-pb
+-rb
+-pb
+-rr
+-ra
+-pb
+-ra
+-ra
+-pb
+-pb
+-rr
+-ra
+-pb
+-rr
+-pb
+-ra
+-pb
+-rr
+-ra
+-ra
+-ra
+-ra
+-ra
+-pb
+-ra
+-ra
+-ra
+-ra
+-pb
+-pb
+-pb
+-ra
+-ra
+-pb
+-ra
+-pb
+-rr
+-ra
+-pb
+-rr
+-pb
+-rr
+-ra
+-pb
+-rr
+-pb
+-rr
+-pb
+-pb
+-rb
+-pb
+-rr
+-pb
+-pb
+-ra
+-ra
+-pb
+-rr
+-pb
+-pb
+-rb
+-pb
+-rb
+-pb
+-ra
+-ra
+-pb
+-rr
+-ra
+-ra
+-ra
+-pb
+-rr
+-pb
+-rb
+-pb
+-rr
+-pb
+-rb
+-pb
+-rr
+-ra
+-pb
+-pb
+-rr
+-pb
+-pb
+-ra
+-pb
+-rr
+-pb
+-rb
+-pb
+-pb
+-rb
+-pb
+-rr
+-pb
+-ra
+-pb
+-ra
+-ra
+-ra
+-ra
+-pb
+-rb
+-pb
+-ra
+-ra
+-ra
+-pb
+-rr
+-ra
+-pb
+-rr
+-pb
+-pb
+-ra
+-ra
+-ra
+-ra
+-pb
+-pb
+-ra
+-pb
+-rb
+-pb
+-pb
+-rb
+-pb
+-rr
+-ra
+-ra
+-ra
+-pb
+-rr
+-pb
+-rr
+-ra
+-pb
+-rr
+-ra
+-pb
+-rb
+-pb
+-rb
+-pb
+-rr
+-ra
+-ra
+-pb
+-pb
+-rb
+-pb
+-ra
+-pb
+-rb
+-pb
+-rr
+-ra
+-ra
+-pb
+-rb
+-pb
+-rb
+-pb
+-pb
+-ra
+-ra
+-pb
+-pb
+-pb
+-rr
+-pb
+-rb
+-pb
+-ra
+-ra
+-ra
+-ra
+-ra
+-pb
+-rb
+-pb
+-rb
+-pb
+-rr
+-ra
+-ra
+-pb
+-rr
+-ra
+-ra
+-ra
+-pb
+-rr
+-pb
+-ra
+-pb
+-ra
+-ra
+-pb
+-rr
+-pb
+-pb
+-ra
+-pb
+-pb
+-ra
+-ra
+-pb
+-rr
+-ra
+-pb
+-rr
+-ra
+-ra
+-pb
+-rr
+-ra
+-ra
+-pb
+-pb
+-pb
+-pb
+-rr
+-ra
+-pb
+-pb
+-rb
+-pb
+-rb
+-pb
+-ra
+-ra
+-ra
+-pb
+-pb
+-pb
+-rb
+-pb
+-ra
+-ra
+-ra
+-pb
+-ra
+-pb
+-rb
+-pb
+-pb
+-ra
+-ra
+-pb
+-rb
+-pb
+-rb
+-pb
+-rb
+-pb
+-ra
+-pb
+-rr
+-pb
+-pb
+-rr
+-pb
+-ra
+-pb
+-ra
+-pb
+-ra
+-ra
+-pb
+-rr
+-ra
+-pb
+-rr
+-ra
+-ra
+-pb
+-rb
+-pb
+-pb
+-ra
+-pb
+-rb
+-pb
+-rb
+-pb
+-pb
+-pb
+-pb
+-rb
+-pb
+-pb
+-pb
+-ra
+-pb
+-pb
+-ra
+-ra
+-ra
+-ra
+-pb
+-rb
+-pb
+-rr
+-pb
+-pb
+-rb
+-pb
+-rb
+-pb
+-rb
+-pb
+-rb
+-pb
+-rb
+-pb
+-rr
+-ra
+-ra
+-pb
+-rb
+-pb
+-pb
+-ra
+-ra
+-pb
+-rr
+-pb
+-ra
+-ra
+-ra
+-ra
+-ra
+-pb
+-pb
+-pb
+-rb
+-pb
+-ra
+-pb
+-rb
+-pb
+-pb
+-pb
+-pb
+-rr
+-ra
+-ra
+-pb
+-pb
+-rr
+-ra
+-pb
+-ra
+-pb
+-ra
+-pb
+-ra
+-ra
+-pb
+-rb
+-pb
+-rr
+-ra
+-ra
+-ra
+-ra
+-pb
+-ra
+-ra
+-ra
+-pb
+-rb
+-pb
+-rr
+-ra
+-pb
+-ra
+-pb
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-ra
+-ra
+-pb
+-rr
+-ra
+-ra
+-ra
+-ra
+-pb
+-rr
+-pb
+-rb
+-pb
+-rb
+-pb
+-rr
+-ra
+-pb
+-pb
+-rb
+-pb
+-ra
+-pb
+-ra
+-ra
+-ra
+-pb
+-ra
+-pb
+-ra
+-ra
+-ra
+-ra
+-pb
+-rr
+-pb
+-ra
+-ra
+-pb
+-rr
+-pb
+-pb
+-pb
+-rr
+-ra
+-pb
+-ra
+-ra
+-ra
+-ra
+-pb
+-ra
+-pb
+-rb
+-pb
+-ra
+-ra
+-ra
+-pb
+-rb
+-pb
+-rr
+-pb
+-rb
+-pb
+-pb
+-rr
+-pb
+-ra
+-pb
+-rr
+-pb
+-ra
+-pb
+-pb
+-rr
+-pb
+-ra
+-pb
+-rr
+-ra
+-pb
+-pb
+-rr
+-pb
+-rr
+-pb
+-rb
+-pb
+-rr
+-ra
+-pb
+-ra
+-pb
+-rr
+-ra
+-ra
+-ra
+-ra
+-pb
+-rb
+-pb
+-pb
+-ra
+-pb
+-rb
+-pb
+-pb
+-ra
+-pb
+-rr
+-ra
+-ra
+-pb
+-rb
+-pb
+-rb
+-pb
+-pb
+-rr
+-pb
+-ra
+-ra
+-pb
+-pb
+-rb
+-pb
+-pb
+-rb
+-pb
+-rb
+-pb
+-pb
+-ra
+-pb
+-ra
+-pb
+-pb
+-rb
+-pb
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-ra
+-ra
+-pb
+-rr
+-ra
+-ra
+-ra
+-ra
+-pb
+-pb
+-rr
+-pb
+-rr
+-ra
+-ra
+-ra
+-ra
+-pb
+-ra
+-pb
+-pb
+-ra
+-pb
+-ra
+-pb
+-ra
+-pb
+-rr
+-ra
+-ra
+-pb
+-pb
+-pb
+-rr
+-pb
+-ra
+-pb
+-rb
+-pb
+-ra
+-pb
+-rr
+-ra
+-pb
+-ra
+-pb
+-rb
+-pb
+-pb
+-rb
+-pb
+-pb
+-ra
+-pb
+-rb
+-pb
+-rb
+-pb
+-rb
+-pb
+-pb
+-rr
+-pb
+-rb
+-pb
+-rr
+-ra
+-ra
+-pb
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-pb
+-pb
+-rb
+-pb
+-ra
+-ra
+-ra
+-pb
+-rr
+-ra
+-ra
+-pb
+-pb
+-rr
+-pb
+-pb
+-rr
+-pb
+-pb
+-rb
+-pb
+-rr
+-pb
+-pb
+-pb
+-rr
+-ra
+-pb
+-ra
+-ra
+-ra
+-ra
+-pb
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-pb
+-ra
+-pb
+-pb
+-pb
+-rb
+-pb
+-ra
+-pb
+-rr
+-pb
+-rb
+-pb
+-rrr
+-rrr
+-sss
+-rrr
+-ra
+-pb
+-pb
+-rr
+-ra
+-pb
+-rb
+-pb
+-rrr
+-rrb
+-BEGINNING SORTINGsb
+-pa
+-pa
+-pa
+-pa
+-pa
+-rb
+-rb
+-pa
+-sss
+-rrb
+-rrb
+-pa
+-pa
+-rb
+-sb
+-pa
+-rrb
+-pa
+-pa
+-pa
+-pa
+-rr
+-rb
+-rb
+-pa
+-pa
+-sss
+-pa
+-rr
+-rrr
+-rrr
+-sss
+-rrb
+-pa
+-rrb
+-pa
+-pa
+-pa
+-pa
+-rr
+-pa
+-rb
+-pa
+-sa
+-pa
+-rr
+-rrr
+-rrr
+-rrb
+-pa
+-rb
+-rb
+-pa
+-sa
+-rrb
+-pa
+-rrb
+-pa
+-pa
+-rb
+-pa
+-rr
+-pa
+-sss
+-pa
+-rr
+-rb
+-rb
+-pa
+-sss
+-pa
+-sa
+-pa
+-rr
+-pa
+-rr
+-rr
+-sa
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-ra
+-ra
+-pb
+-pb
+-sb
+-pa
+-pa
+-rrr
+-rrr
+-rrb
+-rb
+-sb
+-pa
+-pa
+-rrb
+-sb
+-pa
+-rb
+-pa
+-rb
+-pa
+-sa
+-rrb
+-pa
+-rrb
+-pa
+-pa
+-pa
+-ra
+-pa
+-rb
+-rb
+-pa
+-sss
+-rb
+-rb
+-rb
+-pa
+-pa
+-sss
+-ra
+-ra
+-pa
+-rb
+-rb
+-pa
+-sa
+-ra
+-pb
+-ra
+-pb
+-sb
+-pa
+-pa
+-rra
+-rra
+-rrr
+-rrr
+-rrr
+-rrb
+-rrb
+-rrb
+-rrb
+-pa
+-pa
+-rr
+-rr
+-pa
+-rb
+-rb
+-pa
+-rrr
+-rrr
+-rrb
+-rrb
+-pa
+-pa
+-pa
+-pa
+-rb
+-pa
+-pa
+-rr
+-rb
+-pa
+-rb
+-pa
+-rb
+-rb
+-pa
+-rb
+-pa
+-sss
+-pa
+-rr
+-rb
+-rb
+-pa
+-pa
+-pa
+-sss
+-rr
+-rr
+-ra
+-pa
+-sss
+-pa
+-rb
+-rb
+-pa
+-rr
+-pa
+-pa
+-pa
+-rr
+-ra
+-pb
+-pb
+-ra
+-ra
+-pb
+-ra
+-ra
+-pb
+-rb
+-sb
+-pa
+-rrb
+-pa
+-sb
+-pa
+-pa
+-rra
+-rra
+-rra
+-sss
+-rra
+-ra
+-ra
+-pb
+-pb
+-sb
+-pa
+-pa
+-rra
+-rra
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-ra
+-pb
+-ra
+-pb
+-pb
+-ra
+-pb
+-ra
+-sb
+-pa
+-pa
+-sb
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-sa
+-rrr
+-rrb
+-rrb
+-rrb
+-rrb
+-pa
+-pa
+-rb
+-rb
+-pa
+-sa
+-pa
+-rb
+-pa
+-ra
+-pa
+-sa
+-rb
+-rb
+-rb
+-rb
+-pa
+-rr
+-pa
+-ra
+-rr
+-sa
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rr
+-sss
+-rrr
+-rrb
+-rrb
+-rrb
+-rrb
+-rrb
+-pa
+-pa
+-rb
+-pa
+-rb
+-pa
+-sss
+-rr
+-sa
+-rrr
+-rrb
+-pa
+-rrb
+-sb
+-pa
+-pa
+-pa
+-rb
+-rb
+-rb
+-rb
+-pa
+-rb
+-rb
+-rb
+-pa
+-sss
+-pa
+-sss
+-pa
+-pa
+-rr
+-rb
+-pa
+-pa
+-pa
+-ra
+-ra
+-ra
+-pa
+-sss
+-rb
+-rb
+-pa
+-pa
+-pa
+-rr
+-pa
+-ra
+-pa
+-rb
+-rb
+-rb
+-pa
+-rr
+-ra
+-ra
+-ra
+-pb
+-pb
+-ra
+-pb
+-pb
+-rb
+-rb
+-pa
+-pa
+-rrb
+-pa
+-rrb
+-pa
+-rra
+-rra
+-sss
+-rra
+-sa
+-rra
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-pb
+-ra
+-pb
+-ra
+-pb
+-ra
+-ra
+-pa
+-sb
+-pa
+-pa
+-rrr
+-rrr
+-sa
+-rrr
+-sss
+-rrr
+-ra
+-ra
+-pb
+-pb
+-sb
+-pa
+-pa
+-rrr
+-rrr
+-rrb
+-rrb
+-rrb
+-pa
+-rr
+-pa
+-rr
+-rb
+-rb
+-pa
+-rb
+-pa
+-pa
+-pa
+-rb
+-rb
+-pa
+-pa
+-rr
+-ra
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-rrb
+-rrb
+-rrb
+-rrb
+-rb
+-pa
+-rr
+-rb
+-pa
+-pa
+-sa
+-pa
+-rr
+-rrr
+-rrr
+-rrb
+-sb
+-rrb
+-pa
+-pa
+-sb
+-pa
+-pa
+-rb
+-rb
+-pa
+-pa
+-ra
+-ra
+-pa
+-rb
+-rb
+-pa
+-rb
+-rb
+-pa
+-pa
+-sss
+-ra
+-ra
+-pa
+-pa
+-rb
+-pa
+-pa
+-ra
+-pa
+-pa
+-pa
+-rr
+-rr
+-rb
+-rb
+-pa
+-ra
+-pa
+-pa
+-rb
+-pa
+-rb
+-rb
+-pa
+-rr
+-rb
+-pa
+-rr
+-pa
+-pa
+-pa
+-rb
+-rb
+-rb
+-rb
+-rb
+-rb
+-pa
+-rr
+-rb
+-rb
+-pa
+-sss
+-pa
+-rr
+-pa
+-ra
+-pa
+-pa
+-sss
+-pa
+-rr
+-rb
+-rb
+-rb
+-rb
+-pa
+-pa
+-ra
+-ra
+-ra
+-pb
+-pb
+-pb
+-ra
+-ra
+-pb
+-ra
+-pb
+-pb
+-ra
+-pb
+-pb
+-ra
+-ra
+-pa
+-rr
+-rb
+-pa
+-ra
+-pa
+-pa
+-sss
+-rrr
+-rrr
+-sss
+-pa
+-sb
+-pa
+-sb
+-pa
+-pa
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-ra
+-ra
+-ra
+-pb
+-pb
+-pb
+-ra
+-pb
+-rb
+-sb
+-pa
+-rrb
+-pa
+-pa
+-pa
+-rra
+-rra
+-sa
+-rra
+-sa
+-rra
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-ra
+-ra
+-ra
+-pb
+-pb
+-ra
+-ra
+-ra
+-ra
+-pb
+-pb
+-pb
+-pb
+-ra
+-pb
+-rb
+-sb
+-pa
+-rrb
+-pa
+-rb
+-pa
+-rb
+-pa
+-sa
+-rrb
+-sb
+-rrb
+-sb
+-pa
+-pa
+-pa
+-rrr
+-rrr
+-sss
+-rrr
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-rrr
+-ra
+-ra
+-ra
+-pb
+-ra
+-pb
+-pb
+-pb
+-pa
+-rb
+-rb
+-pa
+-sss
+-rrb
+-rrb
+-pa
+-pa
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-ra
+-ra
+-pb
+-pb
+-sb
+-pa
+-pa
+-rrr
+-rrr
+-rrb
+-rrb
+-rrb
+-pa
+-rr
+-rb
+-pa
+-rr
+-pa
+-ra
+-pa
+-rb
+-rb
+-pa
+-pa
+-pa
+-rr
+-rr
+-pa
+-ra
+-pa
+-sss
+-pa
+-sss
+-rb
+-rb
+-rb
+-pa
+-pa
+-rr
+-rb
+-rb
+-pa
+-sss
+-pa
+-sss
+-pa
+-sss
+-pa
+-rr
+-ra
+-ra
+-pb
+-pb
+-ra
+-pb
+-sb
+-pa
+-pa
+-pa
+-rra
+-rra
+-rra
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-rrr
+-sss
+-rrr
+-rrr
+-rrr
+-ra
+-pb
+-ra
+-pb
+-pb
+-ra
+-pb
+-ra
+-rb
+-pa
+-rb
+-pa
+-sss
+-rrb
+-pa
+-rrb
+-pa
+-rrr
+-rrr
+-sa
+-rrr
+-sa
+-rrr
+-sss
+-rrb
+-rrb
+-rb
+-rb
+-pa
+-rb
+-pa
+-pa
+-ra
+-ra
+-pa
+-sa
+-rb
+-rb
+-pa
+-sa
+-pa
+-rr
+-rb
+-rb
+-pa
+-ra
+-pa
+-rrr
+-rrr
+-rrr
+-rrr
+-rrb
+-rrb
+-rrb
+-rrb
+-rb
+-rb
+-pa
+-rr
+-rb
+-pa
+-pa
+-ra
+-pa
+-rrr
+-rrr
+-rrb
+-sb
+-rrb
+-sb
+-pa
+-sb
+-pa
+-sb
+-pa
+-pa
+-pa
+-rr
+-pa
+-pa
+-rr
+-pa
+-pa
+-sss
+-pa
+-rb
+-pa
+-sss
+-pa
+-pa
+-ra
+-pa
+-pa
+-sss
+-pa
+-sss
+-pa
+-rr
+-rb
+-rb
+-pa
+-rr
+-rb
+-pa
+-rr
+-pa
+-sss
+-pa
+-sss
+-pa
+-sss
+-pa
+-rb
+-pa
+-pa
+-rr
+-rr
+-rb
+-rb
+-pa
+-sss
+-rb
+-rb
+-rb
+-pa
+-rr
+-pa
+-rr
+-rb
+-rb
+-pa
+-sss
+-rb
+-rb
+-rb
+-rb
+-pa
+-pa
+-pa
+-rr
+-rr
+-rr
+-pa
+-rr
+-rb
+-rb
+-pa
+-pa
+-ra
+-ra
+-ra
+-pb
+-pb
+-ra
+-pb
+-ra
+-pb
+-pb
+-pb
+-ra
+-ra
+-ra
+-ra
+-pb
+-pb
+-pa
+-rr
+-rb
+-rb
+-pa
+-pa
+-sss
+-pa
+-rr
+-rrr
+-rrr
+-sss
+-rrb
+-sb
+-rrb
+-sb
+-pa
+-sb
+-pa
+-pa
+-pa
+-rra
+-rra
+-sss
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-ra
+-ra
+-ra
+-pb
+-ra
+-pb
+-pb
+-rb
+-sb
+-pa
+-rrb
+-pa
+-pa
+-rra
+-rra
+-sa
+-rra
+-sa
+-rra
+-sa
+-rr
+-sa
+-rrr
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-rrr
+-sss
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-rrr
+-sss
+-rrr
+-rrr
+-rrr
+-ra
+-ra
+-ra
+-pb
+-pb
+-ra
+-ra
+-ra
+-pb
+-pb
+-ra
+-pb
+-ra
+-pb
+-pb
+-sb
+-pa
+-rb
+-rb
+-pa
+-pa
+-sa
+-pa
+-sa
+-rrb
+-sb
+-rrb
+-sb
+-pa
+-sb
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-rrr
+-sss
+-ra
+-pb
+-ra
+-pb
+-ra
+-ra
+-pb
+-sb
+-pa
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-rrr
+-rrb
+-rrb
+-rrb
+-rrb
+-pa
+-pa
+-ra
+-pa
+-rb
+-rb
+-pa
+-rr
+-rb
+-rb
+-rb
+-rb
+-rb
+-pa
+-rb
+-rb
+-rb
+-pa
+-rb
+-rb
+-pa
+-sss
+-pa
+-rb
+-pa
+-rr
+-pa
+-pa
+-ra
+-ra
+-pa
+-pa
+-pa
+-rr
+-ra
+-pa
+-pb
+-pb
+-ra
+-ra
+-pb
+-ra
+-pb
+-ra
+-pa
+-rb
+-rb
+-pa
+-sa
+-rrb
+-rrb
+-pa
+-pa
+-rra
+-rra
+-sa
+-rra
+-sa
+-rra
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-ra
+-ra
+-pb
+-pb
+-ra
+-ra
+-pb
+-rb
+-sb
+-pa
+-pa
+-rrb
+-pa
+-rrr
+-rrr
+-rrr
+-sa
+-rrr
+-sss
+-ra
+-pb
+-ra
+-pb
+-sb
+-pa
+-pa
+-rrr
+-rrr
+-rrb
+-rrb
+-rrb
+-rb
+-rb
+-pa
+-pa
+-pa
+-sa
+-pa
+-sa
+-rr
+-rr
+-ra
+-pa
+-sa
+-pa
+-rr
+-rb
+-pa
+-sss
+-rb
+-rb
+-pa
+-sa
+-ra
+-pb
+-pb
+-ra
+-pa
+-pa
+-rra
+-rra
+-rrr
+-rrr
+-sa
+-rrr
+-sss
+-rrr
+-ra
+-ra
+-pb
+-pb
+-sb
+-pa
+-pa
+-rrr
+-rrr
+-rrb
+-rrb
+-rb
+-rb
+-rb
+-rb
+-pa
+-pa
+-pa
+-pa
+-sa
+-ra
+-ra
+-rrr
+-rrr
+-rrb
+-sb
+-rrb
+-pa
+-pa
+-pa
+-pa
+-pa
+-rr
+-pa
+-pa
+-pa
+-pa
+-ra
+-pa
+-pa
+-pa
+-pa
+-rb
+-pa
+-rr
+-rb
+-rb
+-rb
+-rb
+-pa
+-pa
+-rb
+-rb
+-rb
+-rb
+-pa
+-pa
+-pa
+-sss
+-ra
+-ra
+-ra
+-pa
+-sss
+-pa
+-pa
+-rr
+-rr
+-rb
+-pa
+-rb
+-rb
+-rb
+-rb
+-pa
+-pa
+-pa
+-rr
+-pa
+-rr
+-pa
+-pa
+-rr
+-pa
+-rr
+-rb
+-rb
+-pa
+-rb
+-rb
+-rb
+-rb
+-pa
+-sss
+-pa
+-rb
+-pa
+-pa
+-rr
+-ra
+-pa
+-sss
+-pa
+-rr
+-pa
+-pa
+-pa
+-rr
+-ra
+-pa
+-rb
+-pa
+-pa
+-pa
+-sss
+-ra
+-ra
+-ra
+-pa
+-pa
+-rr
+-rb
+-rb
+-rb
+-pa
+-pa
+-pa
+-rr
+-rr
+-ra
+-pa
+-rb
+-rb
+-pa
+-rb
+-rb
+-rb
+-rb
+-rb
+-pa
+-rr
+-pa
+-rb
+-pa
+-sss
+-pa
+-rr
+-rb
+-rb
+-pa
+-pa
+-sss
+-pa
+-sss
+-rb
+-rb
+-pa
+-sss
+-pa
+-rr
+-pa
+-rr
+-pa
+-rr
+-pa
+-rr
+-rb
+-rb
+-pa
+-rr
+-rb
+-pa
+-pa
+-rb
+-rb
+-pa
+-ra
+-ra
+-pb
+-ra
+-pb
+-pb
+-pb
+-ra
+-pb
+-pb
+-ra
+-ra
+-ra
+-ra
+-ra
+-pb
+-ra
+-pb
+-pb
+-ra
+-pb
+-ra
+-ra
+-pb
+-pb
+-ra
+-pb
+-ra
+-ra
+-pb
+-pb
+-pb
+-rb
+-rb
+-rb
+-pa
+-pa
+-sa
+-rb
+-rb
+-pa
+-rr
+-rb
+-pa
+-ra
+-pa
+-sa
+-pa
+-rr
+-pa
+-ra
+-pa
+-sa
+-rr
+-sss
+-rrr
+-rrr
+-rrr
+-sa
+-rrr
+-rrr
+-sss
+-ra
+-pb
+-ra
+-pb
+-sb
+-pa
+-pa
+-rrr
+-rrr
+-rrb
+-pa
+-rrb
+-sb
+-pa
+-sb
+-pa
+-sb
+-pa
+-pa
+-sb
+-pa
+-pa
+-pa
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-ra
+-ra
+-pb
+-ra
+-ra
+-pb
+-ra
+-pb
+-ra
+-ra
+-pb
+-pb
+-pb
+-pb
+-pb
+-ra
+-pa
+-rr
+-rb
+-pa
+-rr
+-rb
+-pa
+-pa
+-sa
+-rrr
+-rrr
+-sss
+-rrb
+-pa
+-rrb
+-pa
+-pa
+-pa
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-pb
+-ra
+-pb
+-pb
+-ra
+-ra
+-pb
+-ra
+-rb
+-sb
+-pa
+-rrb
+-pa
+-pa
+-pa
+-rra
+-rra
+-sa
+-rra
+-sa
+-rra
+-sa
+-ra
+-pb
+-pb
+-ra
+-pa
+-pa
+-rra
+-rra
+-rrr
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-rrr
+-sss
+-rrr
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-rrr
+-rrr
+-ra
+-ra
+-ra
+-ra
+-ra
+-pb
+-ra
+-ra
+-ra
+-pb
+-ra
+-ra
+-pb
+-ra
+-pb
+-pb
+-pb
+-pb
+-ra
+-ra
+-pb
+-pb
+-ra
+-pb
+-pb
+-pb
+-pb
+-pb
+-pb
+-ra
+-ra
+-rb
+-rb
+-pa
+-rr
+-pa
+-rb
+-rb
+-pa
+-pa
+-sss
+-ra
+-ra
+-pa
+-rb
+-pa
+-sa
+-pa
+-sa
+-rrr
+-rrr
+-rrr
+-rrb
+-rrb
+-rrb
+-pa
+-pa
+-rr
+-pa
+-rr
+-rb
+-pa
+-sa
+-rrr
+-rrr
+-rrb
+-rb
+-rb
+-pa
+-pa
+-sss
+-rrb
+-rrb
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-ra
+-ra
+-pb
+-pb
+-pb
+-ra
+-pb
+-pb
+-ra
+-ra
+-pb
+-ra
+-ra
+-pb
+-pa
+-rb
+-pa
+-sss
+-pa
+-sss
+-rrb
+-sb
+-pa
+-rb
+-sb
+-pa
+-rrb
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-rrr
+-rrr
+-ra
+-ra
+-ra
+-ra
+-pb
+-pb
+-pb
+-rb
+-sb
+-pa
+-rrb
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-rrr
+-rrb
+-pa
+-rrb
+-rrb
+-rrb
+-rrb
+-rb
+-rb
+-rb
+-pa
+-pa
+-sss
+-ra
+-ra
+-pa
+-rb
+-rb
+-rb
+-rb
+-rb
+-pa
+-rr
+-pa
+-sss
+-rb
+-rb
+-pa
+-rb
+-rb
+-pa
+-rb
+-rb
+-rb
+-rb
+-pa
+-rb
+-rb
+-pa
+-sss
+-pa
+-rr
+-rb
+-pa
+-pa
+-ra
+-ra
+-pa
+-pa
+-pa
+-ra
+-pa
+-pa
+-ra
+-pa
+-pa
+-pa
+-ra
+-pa
+-rb
+-pa
+-rb
+-pa
+-sss
+-pa
+-rr
+-pa
+-sss
+-pa
+-pa
+-rr
+-rr
+-pa
+-rr
+-pa
+-pa
+-rr
+-rb
+-rb
+-rb
+-pa
+-ra
+-ra
+-ra
+-ra
+-ra
+-pb
+-pb
+-pb
+-ra
+-pb
+-pb
+-ra
+-pb
+-pb
+-pb
+-ra
+-ra
+-rb
+-pa
+-rr
+-pa
+-rr
+-pa
+-pa
+-rrr
+-rrr
+-rrb
+-pa
+-rb
+-rb
+-pa
+-sa
+-rrb
+-pa
+-rrb
+-pa
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-ra
+-ra
+-ra
+-pb
+-ra
+-pb
+-pb
+-pb
+-rb
+-rb
+-pa
+-pa
+-rrb
+-rrb
+-pa
+-pa
+-rra
+-rra
+-rra
+-rra
+-sa
+-ra
+-pb
+-ra
+-pb
+-sb
+-pa
+-pa
+-rra
+-rra
+-rrr
+-rrr
+-sss
+-rrr
+-rrr
+-sss
+-rrr
+-rrr
+-sss
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-ra
+-pb
+-pb
+-ra
+-ra
+-pb
+-ra
+-pb
+-ra
+-ra
+-pb
+-ra
+-pb
+-ra
+-pb
+-rb
+-pa
+-pa
+-sss
+-rb
+-rb
+-pa
+-sa
+-rrb
+-sb
+-rrb
+-sb
+-rrb
+-sb
+-pa
+-pa
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-rrr
+-sss
+-ra
+-pb
+-ra
+-ra
+-ra
+-pb
+-pb
+-rb
+-sb
+-pa
+-rrb
+-pa
+-pa
+-rrr
+-rrr
+-sa
+-rrr
+-rrr
+-rrb
+-rrb
+-rrb
+-rrb
+-rb
+-pa
+-ra
+-pa
+-rb
+-pa
+-sss
+-pa
+-sss
+-pa
+-rb
+-pa
+-sss
+-pa
+-rr
+-rb
+-pa
+-rr
+-rb
+-rb
+-rb
+-pa
+-ra
+-pa
+-sss
+-rb
+-rb
+-rb
+-rb
+-pa
+-pa
+-rr
+-rb
+-pa
+-rr
+-pa
+-pa
+-ra
+-pb
+-ra
+-ra
+-pb
+-ra
+-ra
+-pb
+-pb
+-sb
+-pa
+-pa
+-sb
+-pa
+-pa
+-rra
+-rra
+-sa
+-rra
+-rra
+-rrr
+-rrr
+-sss
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-pb
+-pb
+-pb
+-ra
+-ra
+-ra
+-ra
+-sb
+-pa
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-rrb
+-rrb
+-rrb
+-rrb
+-rrb
+-pa
+-ra
+-pa
+-rb
+-pa
+-rb
+-pa
+-rr
+-rb
+-rb
+-pa
+-sa
+-pa
+-pa
+-rr
+-pa
+-rr
+-ra
+-ra
+-pb
+-pb
+-sb
+-pa
+-pa
+-rra
+-rra
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-ra
+-pb
+-ra
+-pb
+-sb
+-pa
+-pa
+-rrr
+-rrr
+-rrb
+-pa
+-pa
+-rr
+-pa
+-sa
+-rb
+-rb
+-rb
+-pa
+-ra
+-rrr
+-rrr
+-rrb
+-rrb
+-pa
+-pa
+-sb
+-pa
+-pa
+-rb
+-rb
+-rb
+-pa
+-pa
+-rr
+-pa
+-ra
+-pa
+-sss
+-pa
+-pa
+-rb
+-pa
+-pa
+-ra
+-ra
+-pa
+-rb
+-rb
+-rb
+-pa
+-pa
+-rr
+-rb
+-rb
+-rb
+-pa
+-sss
+-pa
+-rr
+-rb
+-pa
+-rb
+-rb
+-rb
+-pa
+-rr
+-rb
+-rb
+-rb
+-pa
+-pa
+-sss
+-pa
+-rr
+-rr
+-ra
+-pa
+-sss
+-pa
+-pa
+-pa
+-rr
+-rr
+-rr
+-rb
+-rb
+-pa
+-pa
+-rr
+-rr
+-pa
+-rb
+-pa
+-rr
+-pa
+-pa
+-rr
+-pa
+-sss
+-pa
+-rb
+-pa
+-rr
+-rb
+-pa
+-sss
+-rb
+-rb
+-pa
+-ra
+-pa
+-pa
+-rb
+-rb
+-pa
+-rr
+-rb
+-pa
+-rr
+-pa
+-rr
+-pa
+-pa
+-ra
+-pa
+-sss
+-pa
+-pa
+-pa
+-rr
+-pa
+-pa
+-ra
+-ra
+-ra
+-pa
+-rb
+-pa
+-ra
+-pa
+-sss
+-pa
+-sss
+-rb
+-rb
+-rb
+-pa
+-rr
+-rb
+-pa
+-sss
+-pa
+-rb
+-rb
+-rb
+-pa
+-ra
+-pa
+-pa
+-pa
+-rb
+-pa
+-rb
+-rb
+-pa
+-pa
+-sss
+-rb
+-rb
+-pa
+-ra
+-pa
+-ra
+-ra
+-pb
+-pb
+-ra
+-pb
+-pb
+-ra
+-ra
+-pb
+-pb
+-ra
+-pb
+-ra
+-ra
+-ra
+-pb
+-ra
+-ra
+-pb
+-pb
+-ra
+-pb
+-pb
+-pb
+-pb
+-ra
+-ra
+-ra
+-ra
+-pb
+-sb
+-pa
+-pa
+-pa
+-sa
+-pa
+-rr
+-rb
+-rb
+-rb
+-pa
+-sss
+-pa
+-sa
+-pa
+-rr
+-rb
+-pa
+-rr
+-ra
+-ra
+-pb
+-pb
+-sb
+-pa
+-pa
+-rra
+-rra
+-rrr
+-rrr
+-rrr
+-rrb
+-pa
+-rrb
+-rrb
+-rrb
+-rb
+-rb
+-rb
+-pa
+-pa
+-pa
+-sa
+-rrb
+-rrb
+-pa
+-rrb
+-pa
+-pa
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-pb
+-ra
+-ra
+-ra
+-ra
+-ra
+-ra
+-pb
+-ra
+-pb
+-pb
+-pb
+-pb
+-pb
+-pb
+-ra
+-pa
+-pa
+-rr
+-rb
+-pa
+-rr
+-rb
+-pa
+-sa
+-rrr
+-rrr
+-sss
+-rrb
+-pa
+-rrb
+-pa
+-pa
+-pa
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-rra
+-ra
+-ra
+-pb
+-pb
+-pb
+-ra
+-pb
+-ra
+-sb
+-pa
+-pa
+-pa
+-pa
+-rra
+-rra
+-rra
+-sa
+-rra
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-rrr
+-sss
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-ra
+-ra
+-pb
+-pb
+-ra
+-pb
+-pb
+-ra
+-ra
+-ra
+-pb
+-pb
+-pb
+-pb
+-ra
+-ra
+-ra
+-pb
+-pb
+-pb
+-pb
+-ra
+-ra
+-ra
+-ra
+-pb
+-ra
+-pb
+-ra
+-pb
+-ra
+-pa
+-rb
+-pa
+-ra
+-pa
+-pa
+-pa
+-sss
+-ra
+-ra
+-pa
+-sss
+-rb
+-rb
+-rb
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-sa
+-rrb
+-rb
+-pa
+-rb
+-pa
+-sss
+-pa
+-sa
+-rr
+-sa
+-rrr
+-rrb
+-rrb
+-pa
+-pa
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-sss
+-ra
+-pb
+-pb
+-ra
+-ra
+-pb
+-pb
+-pb
+-pb
+-ra
+-ra
+-pb
+-ra
+-pb
+-ra
+-ra
+-rb
+-pa
+-ra
+-pa
+-pa
+-rr
+-rb
+-rb
+-pa
+-sa
+-rrr
+-rrr
+-rrb
+-rrb
+-pa
+-rb
+-sb
+-pa
+-rrb
+-pa
+-pa
+-rrr
+-rrr
+-sss
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-rrr
+-pb
+-ra
+-pb
+-ra
+-ra
+-pb
+-ra
+-pa
+-pa
+-pa
+-rrr
+-rrr
+-sa
+-rrr
+-rrr
+-pa
+-rr
+-pa
+-rr
+-pa
+-rb
+-pa
+-rb
+-pa
+-ra
+-pa
+-pa
+-rr
+-pa
+-rr
+-pa
+-pa
+-rb
+-pa
+-pa
+-rr
+-pa
+-pa
+-rr
+-rb
+-rb
+-pa
+-pa
+-rr
+-pa
+-pa
+-pa
+-pa
+-sss
+-rr
+-rr
+-rb
+-pa
+-pa
+-pa
+-rr
+-rb
+-rb
+-rb
+-pa
+-rb
+-pa
+-pa
+-rb
+-pa
+-rr
+-pa
+-pa
+-rr
+-pa
+-rr
+-rb
+-rb
+-pa
+-rr
+-ra
+-ra
+-pb
+-pb
+-pb
+-ra
+-pb
+-pb
+-pb
+-ra
+-ra
+-pb
+-pb
+-ra
+-ra
+-ra
+-pa
+-rr
+-pa
+-ra
+-pa
+-rb
+-rb
+-rb
+-pa
+-rrr
+-rrr
+-sa
+-rrb
+-pa
+-rrb
+-pa
+-pa
+-pa
+-rra
+-rra
+-rra
+-sss
+-rra
+-rra
+-rra
+-rra
+-rra
+-ra
+-pb
+-ra
+-ra
+-pb
+-ra
+-pb
+-pb
+-rb
+-rb
+-pa
+-pa
+-rrb
+-pa
+-rrb
+-pa
+-rra
+-rra
+-rra
+-sa
+-rra
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-pb
+-ra
+-pb
+-pb
+-ra
+-pb
+-ra
+-ra
+-pb
+-ra
+-pb
+-ra
+-ra
+-ra
+-pb
+-pa
+-rb
+-rb
+-pa
+-rb
+-rb
+-pa
+-sa
+-rr
+-sss
+-rrr
+-rrb
+-rrb
+-rrb
+-sb
+-rrb
+-pa
+-pa
+-sb
+-pa
+-pa
+-rrr
+-rrr
+-sss
+-rrr
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-ra
+-ra
+-pb
+-pb
+-ra
+-pb
+-sb
+-pa
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-rb
+-pa
+-rr
+-pa
+-pa
+-rr
+-pa
+-pa
+-rr
+-rb
+-rb
+-pa
+-pa
+-pa
+-rb
+-rb
+-rb
+-rb
+-rb
+-pa
+-pa
+-rr
+-rb
+-rb
+-pa
+-pa
+-pa
+-pa
+-rr
+-ra
+-ra
+-ra
+-pa
+-rb
+-pa
+-sss
+-ra
+-pb
+-pb
+-ra
+-ra
+-pb
+-sb
+-pa
+-pa
+-pa
+-rra
+-rra
+-sa
+-rra
+-sa
+-rr
+-sss
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-rrr
+-sss
+-ra
+-ra
+-pb
+-ra
+-pb
+-ra
+-pb
+-pb
+-sb
+-pa
+-pa
+-pa
+-pa
+-rrr
+-rrr
+-rrr
+-rrr
+-pa
+-rb
+-pa
+-sa
+-pa
+-pa
+-rr
+-rb
+-rb
+-pa
+-pa
+-sss
+-rr
+-rr
+-pa
+-sss
+-pa
+-rr
+-rr
+-sa
+-rrr
+-rrr
+-rrr
+-sss
+-rrr
+-sa
+-rrr
+-sss
+-ra
+-pb
+-ra
+-pb
+-sb
+-pa
+-pa
+-rrr
+-rrr
+-sb
+-pa
+-pa
+-pa
+-pa
+-rb
+-rb
+-rb
+-pa
+-sa
+-pa
+-pa
+-pa
+-
+--9993	([7][-19][0])
+--9969	([7][-19][0])
+--9940	([7][-19][0])
+--9862	([-3][-21][0])
+--9853	([-3][-21][0])
+--9843	([7][-19][0])
+--9817	([7][-19][0])
+--9778	([7][-19][0])
+--9755	([-3][-20][0])
+--9672	([-3][-20][0])
+--9662	([7][-21][0])
+--9647	([7][-21][0])
+--9636	([-3][-21][0])
+--9597	([-3][-21][0])
+--9588	([-3][-21][0])
+--9572	([-3][-21][0])
+--9563	([-3][-20][0])
+--9535	([-3][-20][0])
+--9386	([-3][-20][0])
+--9385	([-3][-20][0])
+--9272	([7][-21][0])
+--9254	([7][-21][0])
+--9241	([7][-21][0])
+--9152	([7][-21][0])
+--9101	([-3][-21][0])
+--9092	([-3][-21][0])
+--9053	([-3][-21][0])
+--9041	([7][-22][0])
+--8986	([7][-22][0])
+--8954	([7][-22][0])
+--8949	([-3][-21][0])
+--8870	([-3][-21][0])
+--8831	([-3][-20][0])
+--8823	([-3][-20][0])
+--8802	([-3][-20][0])
+--8768	([7][-21][0])
+--8748	([7][-21][0])
+--8695	([7][-21][0])
+--8616	([-3][-20][0])
+--8614	([-3][-20][0])
+--8607	([7][-21][0])
+--8591	([7][-21][0])
+--8562	([7][-21][0])
+--8530	([7][-21][0])
+--8469	([-3][-23][0])
+--8463	([-3][-23][0])
+--8446	([-3][-23][0])
+--8439	([-3][-21][0])
+--8406	([-3][-21][0])
+--8290	([-3][-21][0])
+--8278	([-3][-21][0])
+--8277	([7][-22][1])
+--8241	([7][-22][0])
+--8110	([-3][-24][0])
+--8020	([-3][-24][0])
+--7999	([7][-22][0])
+--7987	([7][-22][0])
+--7943	([7][-22][1])
+--7938	([7][-22][0])
+--7894	([-3][-23][0])
+--7853	([-3][-23][0])
+--7798	([-3][-24][0])
+--7773	([-3][-24][0])
+--7769	([-3][-20][0])
+--7760	([-3][-20][0])
+--7719	([-3][-20][0])
+--7711	([-3][-20][0])
+--7672	([7][-21][0])
+--7659	([7][-21][0])
+--7655	([7][-21][0])
+--7576	([-3][-20][0])
+--7554	([7][-21][0])
+--7481	([7][-21][0])
+--7416	([7][-1][0])
+--7392	([7][-21][0])
+--7381	([-3][-22][0])
+--7351	([-3][-22][0])
+--7330	([-3][-23][0])
+--7321	([-3][-23][0])
+--7291	([7][-21][0])
+--7208	([7][-21][0])
+--7204	([7][-21][0])
+--7151	([7][-21][0])
+--7149	([-3][-23][0])
+--7135	([-3][-23][0])
+--7048	([-3][-23][0])
+--6966	([-3][-22][0])
+--6954	([-3][-22][0])
+--6911	([-3][-22][0])
+--6899	([-3][-23][0])
+--6782	([-3][-23][0])
+--6778	([-3][-23][0])
+--6741	([-3][-23][0])
+--6716	([7][-21][0])
+--6698	([-3][-21][0])
+--6674	([-3][-21][0])
+--6672	([-3][-21][0])
+--6654	([-3][-21][0])
+--6646	([7][-22][0])
+--6616	([7][-22][0])
+--6499	([7][-22][0])
+--6477	([7][-22][0])
+--6465	([7][-22][0])
+--6456	([7][-22][0])
+--6367	([7][-22][1])
+--6363	([7][-22][0])
+--6325	([-3][-23][0])
+--6320	([-3][-23][0])
+--6313	([-3][-24][0])
+--6224	([-3][-24][0])
+--6093	([7][-22][0])
+--6047	([7][-22][1])
+--6044	([7][-22][0])
+--6013	([-3][-24][0])
+--6004	([-3][-24][0])
+--5957	([-3][-24][0])
+--5930	([7][-22][0])
+--5918	([-3][-23][0])
+--5908	([-3][-23][0])
+--5875	([-3][-23][0])
+--5869	([-3][-24][0])
+--5861	([-3][-24][0])
+--5860	([7][-25][0])
+--5858	([7][-25][0])
+--5808	([7][-22][0])
+--5731	([7][-20][0])
+--5724	([7][-20][0])
+--5721	([7][-20][0])
+--5636	([7][-20][0])
+--5625	([-3][-21][0])
+--5618	([-3][-21][0])
+--5605	([-3][-22][0])
+--5540	([-3][-22][0])
+--5504	([-3][-21][0])
+--5428	([-3][-21][0])
+--5409	([7][-22][0])
+--5297	([7][-22][0])
+--5266	([-3][-22][0])
+--5264	([-3][-22][0])
+--5250	([7][-23][0])
+--5247	([7][-23][0])
+--5211	([-3][-21][0])
+--5187	([-3][-21][0])
+--5169	([-3][-21][0])
+--5154	([-3][-21][0])
+--5081	([7][-22][0])
+--5070	([7][-22][0])
+--5011	([7][-22][0])
+--4912	([-3][-22][0])
+--4903	([-3][-22][0])
+--4886	([-3][-22][0])
+--4835	([-3][-22][0])
+--4676	([7][-23][0])
+--4668	([7][-23][0])
+--4636	([7][-23][0])
+--4606	([7][-23][0])
+--4561	([-3][-21][0])
+--4491	([-3][-21][0])
+--4448	([-3][-21][0])
+--4434	([-3][-21][0])
+--4348	([7][-22][0])
+--4289	([7][-22][0])
+--4234	([7][-2][0])
+--4165	([-3][-21][0])
+--4151	([7][-22][0])
+--4134	([7][-22][0])
+--4086	([7][-22][0])
+--3963	([7][-22][0])
+--3711	([-3][-24][0])
+--3672	([-3][-24][0])
+--3634	([-3][-24][0])
+--3491	([-3][-22][0])
+--3388	([-3][-22][0])
+--3381	([7][-23][0])
+--3288	([7][-23][0])
+--3251	([7][-23][0])
+--3170	([7][-23][0])
+--3155	([-3][-25][0])
+--3138	([-3][-25][0])
+--3067	([7][-23][1])
+--3064	([7][-23][0])
+--2962	([-3][-25][0])
+--2881	([-3][-25][0])
+--2838	([-3][-24][0])
+--2834	([-3][-24][0])
+--2830	([-3][-25][0])
+--2808	([-3][-25][0])
+--2787	([7][-20][0])
+--2782	([-3][-21][0])
+--2713	([-3][-21][0])
+--2646	([-3][-21][0])
+--2607	([-3][-21][0])
+--2384	([7][-22][0])
+--2369	([7][-22][0])
+--2275	([7][-2][0])
+--2272	([7][-22][0])
+--2266	([7][-22][0])
+--2228	([7][-2][0])
+--2129	([7][-22][0])
+--2071	([-3][-24][0])
+--2056	([-3][-24][0])
+--2049	([-3][-24][0])
+--1931	([-3][-21][0])
+--1806	([-3][-21][0])
+--1719	([7][-22][0])
+--1705	([7][-22][0])
+--1538	([-3][-24][0])
+--1520	([-3][-24][0])
+--1472	([-3][-23][0])
+--1448	([-3][-23][0])
+--1410	([-3][-24][0])
+--1398	([-3][-24][0])
+--1393	([-3][-23][0])
+--1355	([-3][-23][0])
+--1320	([-3][-23][0])
+--1257	([-3][-24][0])
+--1244	([-3][-24][0])
+--1237	([-3][-24][0])
+--1194	([-3][-24][0])
+--1165	([-3][-22][0])
+--1150	([-3][-22][0])
+--1134	([7][-23][0])
+--1117	([7][-23][0])
+--1064	([7][-23][0])
+--1056	([7][-23][0])
+--1044	([7][-23][0])
+--1024	([7][-3][0])
+--992	([7][-23][0])
+--913	([7][-23][0])
+--845	([7][-23][1])
+--832	([7][-23][0])
+--802	([-3][-24][0])
+--761	([-3][-24][0])
+--728	([-3][-25][0])
+--695	([-3][-25][0])
+--658	([7][-23][0])
+--600	([7][-23][0])
+--596	([7][-23][0])
+--441	([7][-23][0])
+--373	([7][-23][0])
+--350	([7][-23][0])
+--326	([7][-23][0])
+--294	([7][-23][0])
+--235	([-3][-24][0])
+--193	([-3][-24][0])
+--189	([7][-25][0])
+--149	([7][-25][0])
+--86	([-3][-25][0])
+--85	([-3][-25][0])
+--75	([-3][-25][0])
+--51	([-3][-25][0])
+--14	([6][-19][0])
+-9	([6][-19][0])
+-52	([6][-19][0])
+-63	([6][-19][0])
+-74	([-4][-20][0])
+-132	([-4][-20][0])
+-215	([-4][-21][0])
+-235	([-4][-21][0])
+-257	([-4][-20][0])
+-320	([-4][-20][0])
+-341	([6][-21][0])
+-350	([6][-21][0])
+-355	([-4][-21][0])
+-372	([-4][-21][0])
+-375	([6][-22][0])
+-402	([6][-22][0])
+-536	([-4][-20][0])
+-548	([-4][-20][0])
+-610	([6][-21][0])
+-631	([6][-21][0])
+-682	([6][-21][0])
+-683	([6][-21][0])
+-689	([6][-1][0])
+-694	([-4][-21][0])
+-745	([-4][-21][0])
+-798	([-4][-21][0])
+-836	([-4][-21][0])
+-873	([6][-22][0])
+-1011	([6][-22][0])
+-1025	([-4][-24][0])
+-1056	([-4][-24][0])
+-1121	([-4][-20][0])
+-1148	([-4][-20][0])
+-1158	([-4][-20][0])
+-1167	([-4][-20][0])
+-1198	([6][-21][0])
+-1210	([6][-21][0])
+-1260	([6][-21][0])
+-1294	([-4][-20][0])
+-1352	([6][-21][0])
+-1362	([6][-21][0])
+-1432	([6][-21][0])
+-1561	([-4][-23][0])
+-1582	([-4][-23][0])
+-1595	([-4][-23][0])
+-1623	([6][-21][0])
+-1667	([-4][-21][0])
+-1681	([-4][-21][0])
+-1710	([-4][-21][0])
+-1817	([-4][-21][0])
+-1829	([6][-22][0])
+-1842	([6][-22][0])
+-1927	([6][-2][0])
+-2003	([-4][-21][0])
+-2034	([6][-22][0])
+-2061	([6][-22][0])
+-2097	([6][-22][0])
+-2135	([6][-22][0])
+-2231	([-4][-23][0])
+-2266	([-4][-23][0])
+-2312	([-4][-24][0])
+-2371	([-4][-24][0])
+-2374	([6][-20][0])
+-2398	([6][-20][0])
+-2403	([6][-20][0])
+-2404	([6][-20][0])
+-2445	([-4][-21][0])
+-2565	([-4][-21][0])
+-2609	([-4][-22][0])
+-2660	([-4][-22][0])
+-2690	([-4][-21][0])
+-2721	([-4][-21][0])
+-2729	([-4][-21][0])
+-2756	([-4][-21][0])
+-2762	([-4][-22][0])
+-2785	([-4][-22][0])
+-2789	([-4][-22][0])
+-2830	([-4][-22][0])
+-2831	([-4][-21][0])
+-2849	([-4][-21][0])
+-2861	([-4][-21][0])
+-2905	([-4][-21][0])
+-2914	([6][-22][1])
+-2926	([6][-22][0])
+-2988	([-4][-24][0])
+-2991	([-4][-24][0])
+-3012	([-4][-22][0])
+-3021	([-4][-22][0])
+-3119	([-4][-22][0])
+-3135	([6][-23][0])
+-3188	([6][-23][0])
+-3212	([6][-23][0])
+-3280	([-4][-22][0])
+-3293	([-4][-22][0])
+-3329	([-4][-21][0])
+-3407	([-4][-21][0])
+-3441	([6][-22][0])
+-3476	([6][-22][0])
+-3497	([6][-22][0])
+-3508	([6][-22][0])
+-3524	([-4][-24][0])
+-3541	([-4][-24][0])
+-3592	([6][-22][0])
+-3673	([6][-22][0])
+-3751	([6][-22][0])
+-3757	([-4][-24][0])
+-3759	([-4][-24][0])
+-3813	([6][-22][0])
+-3920	([6][-2][0])
+-3946	([-4][-22][0])
+-3968	([-4][-22][0])
+-3992	([-4][-22][0])
+-4049	([-4][-22][0])
+-4075	([6][-23][0])
+-4117	([6][-23][0])
+-4126	([6][-23][0])
+-4165	([6][-3][0])
+-4171	([6][-23][0])
+-4236	([6][-23][0])
+-4294	([6][-23][0])
+-4329	([6][-23][0])
+-4364	([-4][-24][0])
+-4452	([-4][-24][0])
+-4502	([-4][-25][0])
+-4513	([-4][-25][0])
+-4544	([5][-19][0])
+-4579	([5][-19][0])
+-4580	([5][-19][0])
+-4591	([5][-19][0])
+-4645	([-5][-20][0])
+-4682	([-5][-20][0])
+-4769	([-5][-21][0])
+-4840	([-5][-21][0])
+-4876	([-5][-20][0])
+-4924	([-5][-20][0])
+-5009	([-5][-20][0])
+-5059	([-5][-20][0])
+-5102	([-5][-21][0])
+-5151	([-5][-21][0])
+-5203	([-5][-21][0])
+-5248	([-5][-21][0])
+-5294	([-5][-20][0])
+-5329	([-5][-20][0])
+-5347	([5][-21][0])
+-5382	([5][-21][0])
+-5399	([5][-21][0])
+-5455	([5][-21][0])
+-5471	([5][-21][0])
+-5504	([-5][-21][0])
+-5607	([-5][-21][0])
+-5608	([-5][-21][0])
+-5609	([-5][-21][0])
+-5634	([5][-22][1])
+-5703	([5][-22][0])
+-5758	([-5][-24][0])
+-5847	([-5][-24][0])
+-5885	([5][-20][0])
+-5942	([5][-20][0])
+-5981	([5][-20][0])
+-5995	([5][-20][0])
+-6010	([-5][-22][0])
+-6069	([-5][-22][0])
+-6194	([-5][-22][0])
+-6211	([5][-20][0])
+-6222	([-5][-21][0])
+-6261	([-5][-21][0])
+-6286	([-5][-21][0])
+-6288	([-5][-22][0])
+-6319	([-5][-22][0])
+-6355	([-5][-22][0])
+-6382	([-5][-22][0])
+-6427	([5][-20][0])
+-6636	([-5][-21][0])
+-6670	([-5][-21][0])
+-6699	([-5][-21][0])
+-6736	([-5][-21][0])
+-6790	([5][-22][0])
+-6802	([5][-22][0])
+-6903	([5][-22][0])
+-6904	([5][-22][0])
+-6915	([-5][-22][0])
+-6967	([-5][-22][0])
+-6974	([5][-23][0])
+-7019	([5][-23][0])
+-7057	([5][-23][0])
+-7100	([5][-23][0])
+-7188	([5][-23][0])
+-7244	([5][-3][0])
+-7269	([4][-19][0])
+-7284	([4][-19][0])
+-7400	([4][-19][0])
+-7446	([4][-19][0])
+-7447	([-6][-20][0])
+-7465	([-6][-20][0])
+-7524	([-6][-21][0])
+-7584	([-6][-21][0])
+-7588	([-6][-20][0])
+-7656	([-6][-20][0])
+-7697	([-6][-20][0])
+-7734	([-6][-21][0])
+-7746	([-6][-21][0])
+-7770	([4][-22][0])
+-7795	([4][-22][0])
+-7806	([4][-20][0])
+-7856	([4][-20][1])
+-7873	([4][-20][0])
+-7883	([-6][-22][0])
+-7996	([-6][-22][0])
+-8040	([4][-20][0])
+-8051	([4][-20][0])
+-8121	([4][0][0])
+-8176	([-6][-21][0])
+-8284	([-6][-21][0])
+-8289	([4][-22][0])
+-8337	([4][-22][0])
+-8390	([-6][-22][0])
+-8398	([-6][-22][0])
+-8422	([-6][-22][0])
+-8439	([-6][-22][0])
+-8478	([3][-19][1])
+-8483	([3][-19][0])
+-8497	([-7][-21][0])
+-8530	([-7][-21][0])
+-8533	([-7][-20][0])
+-8540	([-7][-20][0])
+-8574	([-7][-21][0])
+-8590	([-7][-21][0])
+-8613	([3][-20][0])
+-8636	([3][-20][0])
+-8665	([3][-20][1])
+-8753	([3][-20][0])
+-9053	([-7][-21][0])
+-9080	([-7][-21][0])
+-9086	([-7][-22][0])
+-9178	([-7][-22][0])
+-9181	([2][-19][0])
+-9243	([2][-19][0])
+-9261	([2][-19][0])
+-9275	([2][1][0])
+-9292	([2][-20][0])
+-9350	([2][-20][0])
+-9352	([-8][-22][0])
+-9374	([-8][-22][0])
+-9388	([1][-19][0])
+-9403	([1][-19][0])
+-9503	([1][-20][0])
+-9567	([1][-20][0])
+-9607	([0][1][1])
+-9882	([0][0][1])
+-9932	([0][0][0])
+------------------	------------------
+-	a			b	
+diff --git a/Push-Swap42/headers/push_swap.h b/Push-Swap42/headers/push_swap.h
+index 8a4d7c5..a25a3e1 100644
+--- a/Push-Swap42/headers/push_swap.h
++++ b/Push-Swap42/headers/push_swap.h
+@@ -6,7 +6,7 @@
+ /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
+ /*                                                +#+#+#+#+#+   +#+           */
+ /*   Created: 2022/12/03 11:26:22 by Teiki             #+#    #+#             */
+-/*   Updated: 2022/12/11 14:53:26 by Teiki            ###   ########.fr       */
++/*   Updated: 2022/12/11 17:08:17 by Teiki            ###   ########.fr       */
+ /*                                                                            */
+ /* ************************************************************************** */
+ 
+@@ -69,10 +69,11 @@ void	add_infolst(t_listi **list, t_tab *tab);
+ void	init_sorting(t_listi **lst_from, t_listi **lst_to, int piv, int low_piv);
+ void	left_sorting(t_listi **la, t_listi **lb, int i_piv, int low_piv);
+ void	print_listi(t_listi *la, t_listi *lb);
+-void	check_andput_nb(t_listi **lst, int low_piv, int nb);
+-void	sort_three_lb(t_listi **la, t_listi **lb);
++void	check_andput_nb(t_listi **lst,int piv, int low_piv, int nb);
++void	sort_three_lb(t_listi **la, t_listi **lb, int piv, int low_piv);
+ void	init_sorting_la(t_listi **la, t_listi **lb, int piv, int low_piv);
+ void	re_index_la(t_listi **la, int low_piv);
++void	right_sorting(t_listi **la, t_listi **lb, int i_piv, int low_piv);
+ int		count_elem(t_listi	**lst, int piv, int low_piv);
+ int		*make_tab(char **str_tab, size_t size);
+ int		no_more_piv(t_listi	*lst, int piv);
+diff --git a/Push-Swap42/obj/algo_sorting.o b/Push-Swap42/obj/algo_sorting.o
+index bd4b2c8..a8e312d 100644
+Binary files a/Push-Swap42/obj/algo_sorting.o and b/Push-Swap42/obj/algo_sorting.o differ
+diff --git a/Push-Swap42/obj/info_preparation.o b/Push-Swap42/obj/info_preparation.o
+index 8acb070..74df1e3 100644
+Binary files a/Push-Swap42/obj/info_preparation.o and b/Push-Swap42/obj/info_preparation.o differ
+diff --git a/Push-Swap42/obj/pre_sorting_la.o b/Push-Swap42/obj/pre_sorting_la.o
+index adcc6fc..8af45ba 100644
+Binary files a/Push-Swap42/obj/pre_sorting_la.o and b/Push-Swap42/obj/pre_sorting_la.o differ
+diff --git a/Push-Swap42/obj/utils_sorting.o b/Push-Swap42/obj/utils_sorting.o
+index f20df81..3b5bbea 100644
+Binary files a/Push-Swap42/obj/utils_sorting.o and b/Push-Swap42/obj/utils_sorting.o differ
+diff --git a/Push-Swap42/randomnb.py b/Push-Swap42/randomnb.py
+index 6115001..e43f1f7 100644
+--- a/Push-Swap42/randomnb.py
++++ b/Push-Swap42/randomnb.py
+@@ -3,7 +3,7 @@ import string
+ import re
+ 
+ res = []
+-length = 510
++length = 500
+ 
+ for i in range(length):
+     i = random.randint(-10000, 10000)
+diff --git a/Push-Swap42/src/algo_sorting.c b/Push-Swap42/src/algo_sorting.c
+index 2d9509c..7086a1c 100644
+--- a/Push-Swap42/src/algo_sorting.c
++++ b/Push-Swap42/src/algo_sorting.c
+@@ -6,7 +6,7 @@
+ /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
+ /*                                                +#+#+#+#+#+   +#+           */
+ /*   Created: 2022/12/08 23:55:36 by Teiki             #+#    #+#             */
+-/*   Updated: 2022/12/11 14:56:22 by Teiki            ###   ########.fr       */
++/*   Updated: 2022/12/11 16:43:26 by Teiki            ###   ########.fr       */
+ /*                                                                            */
+ /* ************************************************************************** */
+ 
+@@ -18,7 +18,6 @@ void	pivot_right(t_listi **la, t_listi **lb, int piv, int low_piv);
+ void	split_low_piv(t_listi *lst);
+ void	check_and_pull_back(t_listi **la, t_listi **lb, int piv, int low_piv);
+ void	check_and_pull_back_b(t_listi **la, t_listi **lb, int piv, int low_piv);
+-void	right_sorting(t_listi **la, t_listi **lb, int i_piv, int low_piv);
+ 
+ void	left_sorting(t_listi **la, t_listi **lb, int i_piv, int low_piv)
+ {
+@@ -30,13 +29,13 @@ void	left_sorting(t_listi **la, t_listi **lb, int i_piv, int low_piv)
+ 		print_listi(*la, *lb);
+ 		exit(0);
+ 	}
+-	check_and_pull_back_b(la, lb, i_piv, low_piv);
+-	init_sorting(la, lb, i_piv, low_piv);
+-	// if (i_piv == 5)
++	// if (i_piv == 1 && low_piv == 0)
+ 	// {
+ 	// 	ft_printf("POST INIT B\n");
+-	// 	// print_listi(*la, *lb);
++	// 	print_listi(*la, *lb);
+ 	// }
++	check_and_pull_back_b(la, lb, i_piv, low_piv);
++	init_sorting(la, lb, i_piv, low_piv);
+ 	count = count_elem(lb, i_piv, low_piv);
+ 	if (low_piv > 1)
+ 		left_sorting(la, lb, i_piv + 1, 0);
+@@ -98,21 +97,6 @@ void	right_sorting(t_listi **la, t_listi **lb, int i_piv, int low_piv)
+ 	}
+ }
+ 
+-// void	split_categ_sorting(t_listi **lst, int piv, int low_piv, int max)
+-// {
+-// 	t_listi	*temp;
+-
+-// 	temp = *lst;
+-// 	while (temp && temp->low_piv == low_piv)
+-// 	{
+-// 		if (temp->pos < max / 2)
+-// 			temp->low_piv -= 1;
+-// 		else
+-// 			temp->pos -= max / 2;
+-// 		temp = temp->next;
+-// 	}
+-// }
+-
+ void	split_categ_sorting(t_listi **lst, int piv, int low_piv, int max)
+ {
+ 	t_listi	*temp;
+@@ -163,34 +147,18 @@ void	split_categ_sorting(t_listi **lst, int piv, int low_piv, int max)
+ void	pivot_left(t_listi **la, t_listi **lb, int piv, int low_piv)
+ {
+ 	while ((*lb) && (*lb)->low_piv <= low_piv + 1 && (*lb)->piv == piv)
+-	{
+-						if ((*la)->nbr == 689)
+-	{
+-		// ft_printf("\n\n00 - Right Sorting, piv : %d, low_piv : %d, nb_elem_categ ;\
+-	//  %d, count : %d\n", piv, low_piv, (*la)->nb_elem_categ);
+-	//  	print_listi(*la, *lb);
+-	}
++	{		
+ 		if ((*lb)->low_piv == low_piv + 1)
+ 		{
+-
+-			// ft_printf("I FEEL ITS HERE    ");
+-			if ((*la)->low_piv == low_piv) // surveiller le ">= dans des cas particuliers" + eventuellement eviter rr+ rrr si c'est le dernier
++			if ((*la)->low_piv == low_piv)
+ 				double_rotate(la, lb);
+ 			else if (no_more_low_piv(*lb, piv, low_piv) && no_more_low_piv(*lb, piv, low_piv - 1))
+ 				break ;
+ 			else
+ 				rotate(lb, 'b');
+-			// if ((*la)->nbr > (*la)->next->nbr)
+-			// {
+-			// 	if ((*lb)->nbr < (*lb)->next->nbr)
+-			// 		double_swap(la, lb);
+-			// 	else if ((*la)->nb_elem_categ <= 8)
+-			// 		swap(la, 'a');
+-			// }
+ 		}
+ 		else
+ 		{
+-			// split_low_piv(*lb);
+ 			if ((*la)->low_piv == low_piv && (*lb)->low_piv == low_piv - 1)
+ 			{
+ 				while ((*la)->low_piv == low_piv)
+@@ -207,28 +175,9 @@ void	pivot_left(t_listi **la, t_listi **lb, int piv, int low_piv)
+ 		}
+ 	}
+ 	while ((*la)->low_piv == low_piv)
+-	{
+-		// ft_printf("\n\nRight Sorting, NBR : %d, low_piv :\
+-		 %d, nb_elem_categ ; %d, count : %d\n", (*la)->nbr, low_piv, (*la)->nb_elem_categ);
+ 		rotate(la, 'a');
+-	}
+-	// ft_printf("\n\n00 - Right Sorting, piv : %d, low_piv : %d, nb_elem_categ ;\
+-	//  %d, count : %d\n", piv, low_piv, (*la)->nb_elem_categ);
+-	//  	print_listi(*la, *lb);
+ }
+ 
+-void	split_low_piv(t_listi *lst)
+-{
+-	if (lst->nb_elem_categ <= 3)
+-	{
+-		lst->low_piv -= 1;
+-		return ;
+-	}
+-	if (lst->pos > lst->nb_elem_categ / 2 - (1 - (lst->nb_elem_categ % 2)))
+-		lst->pos -= lst->nb_elem_categ / 2;
+-	else
+-		lst->low_piv -= 1;
+-}
+ 
+ void	check_and_pull_back(t_listi **la, t_listi **lb, int piv, int low_piv)
+ {
+@@ -318,7 +267,6 @@ void	check_and_pull_back_b(t_listi **la, t_listi **lb, int piv, int low_piv)
+ 
+ void	pivot_right(t_listi **la, t_listi **lb, int piv, int low_piv)
+ {
+-	// ft_printf("CA SENT LA BOUCLE INFINIE     ");
+ 	while ((*la) && (*la)->low_piv <= low_piv + 1 && (*la)->low_piv >= low_piv - 1 && (*la)->piv == piv)
+ 	{
+ 		
+@@ -329,13 +277,6 @@ void	pivot_right(t_listi **la, t_listi **lb, int piv, int low_piv)
+ 				double_rotate(la, lb);
+ 			else
+ 				rotate(la, 'a');
+-			// if ((*la)->nbr > (*la)->next->nbr)
+-			// {
+-			// 	if ((*lb)->nbr < (*lb)->next->nbr)
+-			// 		double_swap(la, lb);
+-			// 	else if ((*la)->nb_elem_categ <= 8)
+-			// 		swap(la, 'a');
+-			// }
+ 		}
+ 		else
+ 		{
+@@ -358,12 +299,5 @@ void	pivot_right(t_listi **la, t_listi **lb, int piv, int low_piv)
+ 		}
+ 	}
+ 	while ((*lb)->low_piv == low_piv + 1)
+-	{
+-		// ft_printf("\n\nRight Sorting, NBR : %d, low_piv :\
+-		 %d, nb_elem_categ ; %d, count : %d\n", (*la)->nbr, low_piv, (*la)->nb_elem_categ);
+ 		rotate(lb, 'b');
+-	}
+-	// ft_printf("\n\n00 - Right Sorting, piv : %d, low_piv : %d, nb_elem_categ ;\
+-	//  %d, count : %d\n", piv, low_piv, (*la)->nb_elem_categ);
+-	//  	print_listi(*la, *lb);
+-}
+\ No newline at end of file
++}
+diff --git a/Push-Swap42/src/info_preparation.c b/Push-Swap42/src/info_preparation.c
+index 2a3f73e..5aca159 100644
+--- a/Push-Swap42/src/info_preparation.c
++++ b/Push-Swap42/src/info_preparation.c
+@@ -6,7 +6,7 @@
+ /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
+ /*                                                +#+#+#+#+#+   +#+           */
+ /*   Created: 2022/12/08 15:14:32 by Teiki             #+#    #+#             */
+-/*   Updated: 2022/12/11 13:34:52 by Teiki            ###   ########.fr       */
++/*   Updated: 2022/12/11 15:15:23 by Teiki            ###   ########.fr       */
+ /*                                                                            */
+ /* ************************************************************************** */
+ 
+@@ -95,6 +95,8 @@ void	split_categ(t_listi **lst, int max_piv)
+ 				else
+ 					temp->low_piv = 0;
+ 			}
++			else if (temp->piv == 1)
++				temp->low_piv = 0;
+ 			// temp->nb_elem_categ = 0;
+ 			temp = temp->next;
+ 		}
+diff --git a/Push-Swap42/src/pivot_init2.c b/Push-Swap42/src/pivot_init2.c
+index be5f76d..3989d8f 100644
+--- a/Push-Swap42/src/pivot_init2.c
++++ b/Push-Swap42/src/pivot_init2.c
+@@ -6,7 +6,7 @@
+ /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
+ /*                                                +#+#+#+#+#+   +#+           */
+ /*   Created: 2022/12/08 14:43:21 by Teiki             #+#    #+#             */
+-/*   Updated: 2022/12/11 00:28:00 by Teiki            ###   ########.fr       */
++/*   Updated: 2022/12/11 17:03:45 by Teiki            ###   ########.fr       */
+ /*                                                                            */
+ /* ************************************************************************** */
+ 
+diff --git a/Push-Swap42/src/pre_sorting_la.c b/Push-Swap42/src/pre_sorting_la.c
+index c40d15f..60c3bc9 100644
+--- a/Push-Swap42/src/pre_sorting_la.c
++++ b/Push-Swap42/src/pre_sorting_la.c
+@@ -6,7 +6,7 @@
+ /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
+ /*                                                +#+#+#+#+#+   +#+           */
+ /*   Created: 2022/12/09 18:19:40 by jlitaudo          #+#    #+#             */
+-/*   Updated: 2022/12/11 14:57:36 by Teiki            ###   ########.fr       */
++/*   Updated: 2022/12/11 17:08:47 by Teiki            ###   ########.fr       */
+ /*                                                                            */
+ /* ************************************************************************** */
+ 
+@@ -33,13 +33,6 @@ void	init_sorting_la(t_listi **la, t_listi **lb, int piv, int low_piv)
+ 	}
+ 	else if (count == 3)
+ 		sort_three_la(la, lb, piv, low_piv);
+-	// else if ((*la)->next->pos == 0)
+-	// {
+-	// 	double_rotate(la, lb);
+-	// 	sort_three_la(la, lb, piv, low_piv);
+-	// 	double_rev_rotate(la, lb);
+-	// }
+-
+ }
+ 
+ void	sort_three_la(t_listi **la, t_listi **lb, int piv, int low_piv)
+@@ -55,7 +48,7 @@ void	sort_three_la(t_listi **la, t_listi **lb, int piv, int low_piv)
+ 			else
+ 				swap(la, 'a');
+ 		}
+-		if (cond_swap_lb(lb, piv, low_piv) && (*lb)->next->pos <= 2)
++		if (cond_swap_lb(lb, piv, low_piv))
+ 			swap(lb, 'b');
+ 		double_rev_rotate(la, lb);
+ 		if ((*la)->nbr > (*la)->next->nbr)
+@@ -106,7 +99,7 @@ void	re_index_la(t_listi **la, int low_piv)
+ int	cond_swap_lb(t_listi **lb, int piv, int low_piv)  // aurais pu etre simplifiee avec seulement une comparaison des nombres
+ {
+ 	if ((*lb)->pos < (*lb)->next->pos && (*lb)->low_piv == \
+-				(*lb)->next->low_piv && (*lb)->piv == ((*lb)->next->piv))
++				(*lb)->next->low_piv && (*lb)->piv == ((*lb)->next->piv) && (*lb)->nb_elem_categ <= 5)
+ 		return (1);
+ 	return (0);
+-}
+\ No newline at end of file
++}
+diff --git a/Push-Swap42/src/push_swap.c b/Push-Swap42/src/push_swap.c
+index 794d7ed..b1d661f 100644
+--- a/Push-Swap42/src/push_swap.c
++++ b/Push-Swap42/src/push_swap.c
+@@ -6,7 +6,7 @@
+ /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
+ /*                                                +#+#+#+#+#+   +#+           */
+ /*   Created: 2022/12/03 11:23:19 by Teiki             #+#    #+#             */
+-/*   Updated: 2022/12/11 00:25:30 by Teiki            ###   ########.fr       */
++/*   Updated: 2022/12/11 16:47:08 by Teiki            ###   ########.fr       */
+ /*                                                                            */
+ /* ************************************************************************** */
+ 
+diff --git a/Push-Swap42/src/push_swap.h b/Push-Swap42/src/push_swap.h
+deleted file mode 100644
+index c1043ce..0000000
+--- a/Push-Swap42/src/push_swap.h
++++ /dev/null
+@@ -1,83 +0,0 @@
+-/* ************************************************************************** */
+-/*                                                                            */
+-/*                                                        :::      ::::::::   */
+-/*   push_swap.h                                        :+:      :+:    :+:   */
+-/*                                                    +:+ +:+         +:+     */
+-/*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
+-/*                                                +#+#+#+#+#+   +#+           */
+-/*   Created: 2022/12/03 11:26:22 by Teiki             #+#    #+#             */
+-/*   Updated: 2022/12/11 14:51:57 by Teiki            ###   ########.fr       */
+-/*                                                                            */
+-/* ************************************************************************** */
+-
+-#ifndef PUSH_SWAP_H
+-
+-# define PUSH_SWAP_H
+-
+-# include <stdio.h>
+-# include "libft.h"
+-# include "ft_printf.h"
+-
+-typedef struct s_tab
+-{
+-	int		*tab;
+-	int		*tab_pivot_ind;
+-	int		*tab_pivot;
+-	size_t	size_pivot;
+-	size_t	size_temp;
+-	size_t	size;
+-}t_tab;
+-
+-typedef struct s_listi
+-{
+-	struct s_listi	*next;
+-	int				nbr;
+-	int				piv;
+-	int				low_piv;
+-	int				pos;
+-	int				nb_elem_categ;
+-}t_listi;
+-
+-// typedef struct s_listsmpl
+-// {
+-// 	struct s_listsmpl	*next;
+-// 	t_listi				**lst;
+-// 	size_t				size;
+-// 	int					min;
+-// 	int					pivot;
+-// 	int					max;
+-// 	int					sign;
+-// 	int					first;
+-
+-// }t_listsmpl;
+-
+-void	rev_rotate(t_listi **list, char c);
+-void	double_rev_rotate(t_listi **la, t_listi **lb);
+-void	rotate(t_listi **list, char c);
+-void	double_rotate(t_listi **la, t_listi **lb);
+-void	push(t_listi **list1, t_listi **list2, char c);
+-void	swap(t_listi **list, char c);
+-void	double_swap(t_listi **la, t_listi **lb);
+-void	ft_lstadd_front_loc(t_listi **lst, t_listi *new);
+-void	ft_lstadd_back_loc(t_listi **lst, t_listi *new);
+-void	pivot(t_listi **la, t_listi **lb, int i_piv);
+-void	pivot2(t_listi **la, t_listi **lb, int i_piv);
+-void	sort_merge(t_tab *tab);
+-void	make_tab_piv(t_tab	*tab);
+-void	split_categ(t_listi **lst, int max_piv);
+-void	add_infolst(t_listi **list, t_tab *tab);
+-void	init_sorting(t_listi **la, t_listi **lb, int piv, int low_piv);
+-void	left_sorting(t_listi **la, t_listi **lb, int i_piv, int low_piv);
+-void	print_listi(t_listi *la, t_listi *lb);
+-void	check_andput_nb(t_listi **lst,int piv, int low_piv, int nb);
+-void	sort_three_lb(t_listi **la, t_listi **lb, int piv, int low_piv);
+-void	init_sorting_la(t_listi **la, t_listi **lb, int piv, int low_piv);
+-void	re_index_la(t_listi **la, int low_piv);
+-int		count_elem(t_listi	**lst, int piv, int low_piv);
+-int		*make_tab(char **str_tab, size_t size);
+-int		no_more_piv(t_listi	*lst, int piv);
+-int		no_more_low_piv(t_listi	*lst, int i_piv, int low_piv);
+-t_listi	*ft_lstlast_loc(t_listi *lst);
+-t_listi	*ft_lstnew_loc(int nbr);
+-size_t	lst_size_loc(t_listi *lst);
+-#endif
+\ No newline at end of file
+diff --git a/Push-Swap42/src/sort_three_elem.c b/Push-Swap42/src/sort_three_elem.c
+index bfb9a32..6000dc6 100644
+--- a/Push-Swap42/src/sort_three_elem.c
++++ b/Push-Swap42/src/sort_three_elem.c
+@@ -6,7 +6,7 @@
+ /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
+ /*                                                +#+#+#+#+#+   +#+           */
+ /*   Created: 2022/12/09 13:06:33 by jlitaudo          #+#    #+#             */
+-/*   Updated: 2022/12/11 10:41:57 by Teiki            ###   ########.fr       */
++/*   Updated: 2022/12/11 17:05:06 by Teiki            ###   ########.fr       */
+ /*                                                                            */
+ /* ************************************************************************** */
+ 
+diff --git a/Push-Swap42/src/utils_sorting.c b/Push-Swap42/src/utils_sorting.c
+index f763da7..23b007b 100644
+--- a/Push-Swap42/src/utils_sorting.c
++++ b/Push-Swap42/src/utils_sorting.c
+@@ -6,7 +6,7 @@
+ /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
+ /*                                                +#+#+#+#+#+   +#+           */
+ /*   Created: 2022/12/09 11:27:03 by jlitaudo          #+#    #+#             */
+-/*   Updated: 2022/12/11 13:58:27 by Teiki            ###   ########.fr       */
++/*   Updated: 2022/12/11 17:27:06 by Teiki            ###   ########.fr       */
+ /*                                                                            */
+ /* ************************************************************************** */
+ 
+@@ -18,23 +18,18 @@ void	init_sorting(t_listi **la, t_listi **lb, int piv, int low_piv)
+ 
+ 	if (no_more_low_piv(*lb, piv, low_piv))
+ 		return ;
+-	check_andput_nb(lb, piv,  low_piv, 1);
+-	check_andput_nb(lb, piv, low_piv, 0);
++	check_andput_nb(lb, low_piv, piv, 1);
++	check_andput_nb(lb, low_piv, piv, 0);
+ 	temp = *lb;
+ 	if (temp && temp->pos == 0)
+ 	{
+-		if ((*la)->nbr > (*la)->next->nbr)
+-			swap(la, 'a');
+ 		push(la, lb, 'a');
+ 		(*la)->low_piv -= 20;
+ 		init_sorting(la, lb, piv, low_piv);
+ 	}
+ 	else if (temp && temp->next && temp->next->pos == 0)
+ 	{
+-		if ((*la)->nbr > (*la)->next->nbr)
+-			double_swap(la, lb);
+-		else
+-			swap(lb, 'b');
++		swap(lb, 'b');
+ 		push(la, lb, 'a');
+ 		(*la)->low_piv -= 20;
+ 		init_sorting(la, lb, piv, low_piv);
+@@ -53,8 +48,6 @@ int	count_elem(t_listi	**lst, int piv, int low_piv)
+ 	int		j;
+ 	int		k;
+ 
+-	if (piv < 3)
+-		return (0);
+ 	i = 0;
+ 	j = 0;
+ 	k = 0;
+@@ -88,14 +81,14 @@ void	check_andput_nb(t_listi **lst, int piv, int low_piv, int nb)
+ 	t_listi	*temp;
+ 
+ 	temp = *lst;
+-	while (temp && temp->low_piv == low_piv && temp->piv == piv)
++	while (temp && temp->low_piv == low_piv)
+ 	{
+ 		if (temp->pos == nb)
+ 			return ;
+ 		temp = temp->next;
+ 	}
+ 	temp = *lst;
+-	while (temp && temp->low_piv == low_piv && temp->piv == piv)
++	while (temp && temp->low_piv == low_piv)
+ 	{
+ 		if (temp->pos > nb)
+ 			temp->pos -= 1;

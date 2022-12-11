@@ -6,7 +6,7 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/08 15:14:32 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/11 13:34:52 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/11 17:37:55 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -95,6 +95,8 @@ void	split_categ(t_listi **lst, int max_piv)
 				else
 					temp->low_piv = 0;
 			}
+			else if (temp->piv == 1)
+				temp->low_piv = 0;
 			// temp->nb_elem_categ = 0;
 			temp = temp->next;
 		}

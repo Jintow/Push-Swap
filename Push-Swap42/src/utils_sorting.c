@@ -6,7 +6,7 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/09 11:27:03 by jlitaudo          #+#    #+#             */
-/*   Updated: 2022/12/11 13:58:27 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/11 18:06:30 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,28 +18,23 @@ void	init_sorting(t_listi **la, t_listi **lb, int piv, int low_piv)
 
 	if (no_more_low_piv(*lb, piv, low_piv))
 		return ;
-	check_andput_nb(lb, piv,  low_piv, 1);
+	check_andput_nb(lb, piv, low_piv, 1);
 	check_andput_nb(lb, piv, low_piv, 0);
 	temp = *lb;
 	if (temp && temp->pos == 0)
 	{
-		if ((*la)->nbr > (*la)->next->nbr)
-			swap(la, 'a');
 		push(la, lb, 'a');
 		(*la)->low_piv -= 20;
 		init_sorting(la, lb, piv, low_piv);
 	}
 	else if (temp && temp->next && temp->next->pos == 0)
 	{
-		if ((*la)->nbr > (*la)->next->nbr)
-			double_swap(la, lb);
-		else
-			swap(lb, 'b');
+		swap(lb, 'b');
 		push(la, lb, 'a');
 		(*la)->low_piv -= 20;
 		init_sorting(la, lb, piv, low_piv);
 	}
-	else if (temp && temp->next && temp->next->next && temp->next->next->pos == 0)
+	else if (temp && temp->next && temp->next->next && temp->next->next->pos == 0 && temp->nb_elem_categ <= 3)
 	{
 		sort_three_lb(la, lb, piv, low_piv);
 		init_sorting(la, lb, piv, low_piv);
@@ -53,8 +48,6 @@ int	count_elem(t_listi	**lst, int piv, int low_piv)
 	int		j;
 	int		k;
 
-	if (piv < 3)
-		return (0);
 	i = 0;
 	j = 0;
 	k = 0;

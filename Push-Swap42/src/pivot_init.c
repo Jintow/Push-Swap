@@ -6,7 +6,7 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/08 14:11:43 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/10 23:41:51 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/11 18:38:18 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,10 +61,10 @@ int	test_rot_push(t_listi **la, t_listi **lb, int i_piv)
 	i = 0;
 	if ((*la)->piv == i_piv)
 	{
-		if ((*lb) && (*lb)->low_piv == 1 && (*lb)->piv == i_piv)
+		if ((*lb) && (*lb)->low_piv == 1 && (*lb)->piv == i_piv && (*la)->low_piv == 0)
 		{
-			rotate(lb, 'b');
-			i++;
+			while ((*lb)->low_piv == 1 && (*lb)->piv == i_piv && (*lb)->next && (*lb)->next->next && (*lb)->next->next->next)
+				rotate(lb, 'b');
 		}
 		push(lb, la, 'b');
 	}

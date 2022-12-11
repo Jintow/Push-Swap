@@ -6,7 +6,7 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/09 18:19:40 by jlitaudo          #+#    #+#             */
-/*   Updated: 2022/12/11 14:57:36 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/11 18:19:04 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,8 +21,8 @@ void	init_sorting_la(t_listi **la, t_listi **lb, int piv, int low_piv)
 	int		count;
 
 	re_index_la(la, low_piv);
-	count = count_elem(la, piv, low_piv); //faire attention a la fonction -> peut etre revoir son fonctionnement
-	if (count > 4 || count == 0)
+	count = count_elem(la, piv, low_piv);
+	if (count > 3 || count == 0)
 		return ;
 	else if (count == 2)
 	{
@@ -33,13 +33,6 @@ void	init_sorting_la(t_listi **la, t_listi **lb, int piv, int low_piv)
 	}
 	else if (count == 3)
 		sort_three_la(la, lb, piv, low_piv);
-	// else if ((*la)->next->pos == 0)
-	// {
-	// 	double_rotate(la, lb);
-	// 	sort_three_la(la, lb, piv, low_piv);
-	// 	double_rev_rotate(la, lb);
-	// }
-
 }
 
 void	sort_three_la(t_listi **la, t_listi **lb, int piv, int low_piv)
@@ -55,7 +48,7 @@ void	sort_three_la(t_listi **la, t_listi **lb, int piv, int low_piv)
 			else
 				swap(la, 'a');
 		}
-		if (cond_swap_lb(lb, piv, low_piv) && (*lb)->next->pos <= 2)
+		if (cond_swap_lb(lb, piv, low_piv))
 			swap(lb, 'b');
 		double_rev_rotate(la, lb);
 		if ((*la)->nbr > (*la)->next->nbr)
@@ -106,7 +99,7 @@ void	re_index_la(t_listi **la, int low_piv)
 int	cond_swap_lb(t_listi **lb, int piv, int low_piv)  // aurais pu etre simplifiee avec seulement une comparaison des nombres
 {
 	if ((*lb)->pos < (*lb)->next->pos && (*lb)->low_piv == \
-				(*lb)->next->low_piv && (*lb)->piv == ((*lb)->next->piv))
+				(*lb)->next->low_piv && (*lb)->piv == ((*lb)->next->piv))// && (*lb)->nb_elem_categ <= 5)
 		return (1);
 	return (0);
 }
