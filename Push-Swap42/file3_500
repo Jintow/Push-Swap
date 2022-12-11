@@ -2,40 +2,43 @@ pb
 ra
 pb
 pb
-pb
-rr
-rr
-ra
-ra
-pb
-rr
-pb
-ra
-pb
-ra
-pb
-ra
-pb
-rr
-ra
-ra
-ra
-ra
-ra
-ra
-pb
+rb
 pb
 rr
 ra
 ra
 ra
 pb
+rr
 pb
+ra
+pb
+ra
+pb
+ra
+pb
+rr
+ra
+ra
+ra
+ra
+ra
+ra
 pb
 pb
 rr
+ra
+ra
+ra
+pb
+pb
+rb
+pb
+rb
+pb
 rr
-rr
+ra
+ra
 pb
 ra
 pb
@@ -48,78 +51,8 @@ rb
 pb
 ra
 pb
-pb
-rb
 rb
 pb
-ra
-ra
-ra
-pb
-pb
-rr
-rb
-pb
-ra
-ra
-pb
-ra
-ra
-ra
-ra
-pb
-pb
-pb
-rr
-rr
-pb
-rb
-rb
-pb
-ra
-pb
-rb
-pb
-ra
-pb
-ra
-pb
-rb
-pb
-pb
-rr
-pb
-pb
-ra
-pb
-ra
-ra
-pb
-ra
-ra
-ra
-pb
-rb
-pb
-pb
-pb
-rr
-rr
-pb
-rr
-ra
-ra
-pb
-pb
-rr
-pb
-rb
-rb
-pb
-pb
-pb
-pb
-rb
 rb
 pb
 ra
@@ -128,185 +61,10 @@ ra
 pb
 rb
 pb
-ra
-pb
-pb
-ra
-pb
-rr
-ra
-ra
-pb
-pb
-rb
-pb
-ra
-ra
-ra
-pb
-rr
-pb
-rb
-pb
-ra
-pb
-ra
-ra
-pb
-rb
-pb
-pb
-rr
-pb
-rr
-ra
-pb
-pb
-rb
-rb
-pb
-pb
-ra
-ra
-ra
-pb
-pb
-ra
-ra
-pb
-rr
-ra
-ra
-pb
-pb
-ra
-ra
-pb
-ra
-pb
-ra
-pb
-pb
-pb
-pb
-pb
-ra
-ra
-pb
-rr
-ra
-ra
-pb
-pb
-rr
-rr
-ra
-ra
-ra
-ra
-ra
-pb
-rb
-pb
-ra
-ra
-pb
-ra
-pb
-rr
-ra
-pb
 rr
 pb
 ra
 ra
-ra
-pb
-ra
-ra
-ra
-pb
-pb
-pb
-rr
-pb
-rr
-pb
-rr
-pb
-pb
-rr
-rb
-rb
-rb
-pb
-ra
-pb
-pb
-pb
-pb
-rr
-rr
-rb
-rb
-pb
-ra
-ra
-pb
-pb
-pb
-ra
-pb
-rr
-ra
-ra
-pb
-pb
-rr
-rb
-pb
-ra
-pb
-rb
-pb
-pb
-rr
-ra
-ra
-ra
-ra
-pb
-rr
-pb
-ra
-pb
-pb
-rr
-ra
-pb
-rb
-pb
-ra
-pb
-rr
-ra
-ra
-ra
-pb
-ra
-pb
-ra
-pb
-pb
-rr
-rb
-pb
-ra
-ra
-pb
-ra
-pb
-rb
 pb
 ra
 ra
@@ -315,31 +73,7 @@ ra
 pb
 rb
 pb
-pb
-pb
-pb
-pb
-ra
-pb
-pb
-rr
-ra
-pb
-pb
-rr
-pb
 rb
-pb
-ra
-ra
-pb
-ra
-pb
-ra
-pb
-ra
-ra
-ra
 pb
 rr
 ra
@@ -348,26 +82,53 @@ rb
 pb
 ra
 pb
+rb
+pb
+ra
+pb
+ra
+pb
+rb
+pb
+pb
+rr
+pb
+pb
+ra
+pb
+ra
+ra
+pb
+ra
+ra
+ra
+pb
+rb
+pb
+pb
+rb
+pb
 rr
 ra
+pb
+rr
+ra
+ra
+pb
+rb
+pb
+rr
+pb
+rb
+pb
+pb
+pb
+rb
 pb
 rb
 pb
 ra
 ra
-pb
-ra
-ra
-pb
-pb
-pb
-pb
-ra
-ra
-ra
-ra
-ra
-pb
 ra
 pb
 rb
@@ -377,67 +138,23 @@ pb
 pb
 ra
 pb
-rb
-pb
-pb
-pb
-ra
-pb
-ra
-ra
-ra
-pb
-pb
 rr
+ra
+ra
 pb
 pb
-pb
-rb
-rb
-rb
 rb
 pb
 ra
 ra
 ra
 pb
-pb
-pb
 rr
-rr
+pb
 rb
 pb
-pb
-pb
-rr
-rr
-pb
-pb
-pb
-rr
-rr
-pb
-rr
-pb
-pb
 ra
 pb
-pb
-rr
-ra
-ra
-ra
-pb
-rr
-ra
-ra
-ra
-ra
-pb
-rr
-pb
-pb
-ra
 ra
 ra
 pb
@@ -449,71 +166,366 @@ pb
 rr
 ra
 pb
-pb
-rb
 rb
 pb
-pb
-pb
-pb
-rr
-pb
-rb
-rb
 rb
 pb
-ra
-pb
-ra
-ra
-ra
-ra
 pb
 ra
 ra
 ra
 pb
-ra
-pb
-pb
-pb
 pb
 ra
-pb
-rr
-ra
-pb
-pb
-pb
-pb
-pb
-pb
-pb
-rr
-rr
-rb
-rb
-pb
-ra
-ra
-ra
-ra
-pb
-pb
-rr
-rb
-pb
 ra
 pb
 rr
 ra
 ra
 pb
+pb
+ra
+ra
+pb
+ra
+pb
+ra
+pb
+pb
+pb
+pb
+pb
+ra
+ra
+pb
 rr
+ra
+ra
+pb
+rb
+pb
+rr
+ra
+ra
+ra
+ra
+ra
+ra
+pb
+rb
+pb
+ra
+ra
+pb
+ra
+pb
+rr
+ra
+pb
+rr
+pb
+ra
+ra
+ra
+pb
+ra
+ra
+ra
+pb
+rb
+pb
+rb
+pb
+rr
+pb
+rr
+pb
+rr
+pb
+rb
+pb
+rr
+pb
+ra
+pb
+rb
+pb
+rb
+pb
+rb
+pb
+rr
+ra
+pb
+ra
+ra
+pb
+pb
+pb
+ra
+pb
+rr
+ra
+ra
+pb
+rb
+pb
+rr
+pb
+ra
+pb
+rb
 pb
 pb
 rr
+ra
+ra
+ra
+ra
+pb
 rr
+pb
+ra
+pb
+pb
+rr
+ra
+pb
+rb
+pb
+ra
+pb
+rr
+ra
+ra
+ra
+pb
+ra
+pb
+ra
+pb
+rb
+pb
+rr
+pb
+ra
+ra
+pb
+ra
+pb
+rb
+pb
+ra
+ra
+ra
+ra
+pb
+rb
+pb
+pb
+pb
+pb
+pb
+ra
+pb
+pb
+rr
+ra
+pb
+pb
+rr
+pb
+rb
+pb
+ra
+ra
+pb
+ra
+pb
+ra
+pb
+ra
+ra
+ra
+pb
+rr
+ra
+pb
+rb
+pb
+ra
+pb
+rr
+ra
+pb
+rb
+pb
+ra
+ra
+pb
+ra
+ra
+pb
+pb
+pb
+pb
+ra
+ra
+ra
+ra
+ra
+pb
+ra
+pb
+rb
+pb
+ra
+pb
+pb
+ra
+pb
+rb
+pb
+pb
+pb
+ra
+pb
+ra
+ra
+ra
+pb
+rb
+pb
+rr
+pb
+rb
+pb
+rb
+pb
+rb
+pb
+ra
+ra
+ra
+pb
+rb
+pb
+rb
+pb
+rr
+ra
+pb
+pb
+rb
+pb
+rr
+ra
+pb
+pb
+rb
+pb
+rr
+ra
+pb
+rr
+pb
+pb
+ra
+pb
+pb
+rr
+ra
+ra
+ra
+pb
+rr
+ra
+ra
+ra
+ra
+pb
+rr
+pb
+pb
+ra
+ra
+ra
+pb
+rb
+pb
+pb
+rr
+pb
+rr
+ra
+pb
+rb
+pb
+rb
+pb
+pb
+rb
+pb
+rb
+pb
+rr
+pb
+rb
+pb
+ra
+pb
+ra
+ra
+ra
+ra
+pb
+ra
+ra
+ra
+pb
+ra
+pb
+pb
+pb
+pb
+ra
+pb
+rr
+ra
+pb
+pb
+pb
+pb
+rb
+pb
+rb
+pb
+rb
+pb
+rr
+ra
+pb
+ra
+ra
+ra
+ra
+pb
+rb
+pb
+rr
+pb
+ra
+pb
+rr
+ra
+ra
+pb
+rr
+pb
+rb
+pb
+rr
+ra
 ra
 pb
 rr
@@ -531,8 +543,8 @@ pb
 rb
 pb
 pb
-pb
 rb
+pb
 rb
 pb
 pb
@@ -1214,9 +1226,8 @@ rr
 rb
 pa
 rrr
-rrb
-sb
 pa
+rrb
 pa
 pa
 rr
@@ -1311,6 +1322,10 @@ rrb
 pa
 pa
 pa
+rr
+rr
+rrr
+rrr
 pa
 pa
 pa
@@ -1343,9 +1358,8 @@ pb
 rr
 pa
 rrr
-rrb
-sb
 pa
+rrb
 pa
 rrr
 rrr
@@ -1360,13 +1374,11 @@ pb
 rb
 pa
 rrr
-rrb
-sb
-pa
 pa
 rrb
-sb
 pa
+pa
+rrb
 rb
 pa
 rr
@@ -1431,13 +1443,11 @@ pa
 rrr
 rrr
 rrr
-rrb
+rb
 sb
 pa
-rr
-rb
+rrb
 pa
-rrr
 rrb
 pa
 pa
@@ -1477,14 +1487,11 @@ sa
 rr
 sss
 rrr
-rrb
+pa
 sb
 pa
-rb
 pa
-ra
-pa
-rrr
+rrb
 pa
 rrb
 pa
@@ -1576,9 +1583,8 @@ rrr
 rrr
 rrr
 sa
-rrb
-sb
 pa
+rrb
 pa
 pa
 pa
@@ -1616,10 +1622,11 @@ pa
 sb
 pa
 pa
+sb
+pa
 rrb
 rb
 rb
-pa
 rb
 rb
 pa
@@ -1632,17 +1639,13 @@ pa
 pa
 pa
 ra
-ra
 rrr
 rrr
 rrr
-rrr
-sb
 pa
-sb
 pa
-sb
 pa
+rrb
 pa
 pa
 pa
@@ -1851,11 +1854,9 @@ rr
 rrr
 rrr
 sa
+pa
+pa
 rrb
-sb
-pa
-sb
-pa
 pa
 rrr
 rrr
@@ -1878,9 +1879,8 @@ pa
 rrr
 rrr
 sss
-rrb
-sb
 pa
+rrb
 pa
 pa
 rb
@@ -1893,8 +1893,6 @@ pa
 pa
 rrr
 rrr
-rrb
-rb
 sb
 pa
 rrb
@@ -1939,11 +1937,9 @@ pa
 rrr
 rrr
 sa
+pa
+pa
 rrb
-sb
-pa
-sb
-pa
 pa
 rrr
 rrr
@@ -2200,9 +2196,8 @@ ra
 rrr
 rrr
 sa
-rrb
-sb
 pa
+rrb
 pa
 pa
 rrr
@@ -2237,13 +2232,10 @@ ra
 pa
 rrr
 rrr
-rrb
-sb
-rb
 sb
 pa
-rrb
 pa
+rrb
 pa
 pa
 pa
@@ -2286,9 +2278,8 @@ pa
 rrr
 rrr
 sa
-rrb
-sb
 pa
+rrb
 pa
 pa
 rrr
@@ -2564,20 +2555,15 @@ pb
 rb
 pa
 rrr
-rrb
-sb
 pa
 pa
 rrb
-sb
+pa
 pa
 sb
 pa
-rb
 pa
-ra
-pa
-rrr
+rrb
 pa
 rrr
 rrr
@@ -2808,9 +2794,8 @@ pb
 rb
 pa
 rrr
-rrb
-sb
 pa
+rrb
 pa
 rrr
 rrr
@@ -3122,47 +3107,46 @@ rb
 rb
 pa
 pa
-sss
+sa
 ra
 ra
 pb
 rr
 pb
 pb
+rb
+pa
+rrr
+pa
+rrb
+pa
+rrr
+rrr
+rrr
+sa
+rrr
+sa
+rrr
+sa
+pb
+rr
+ra
+pb
+pb
+rb
+pa
+rrr
+rrr
+sb
+pa
+pa
+pa
+pa
+rr
 rb
 pa
 rrr
 rrb
-sb
-pa
-pa
-rrr
-rrr
-rrr
-sa
-rrr
-sa
-rrr
-sa
-pb
-rr
-ra
-pb
-pb
-rb
-pa
-rrr
-rrr
-sb
-pa
-pa
-pa
-pa
-rr
-rb
-pa
-rrr
-rrb
 pa
 pa
 pa
@@ -3172,85 +3156,36 @@ pa
 rr
 pa
 pa
-pa
-pa
 ra
 ra
-ra
-pa
-rb
-pa
-pa
-rr
-ra
-pa
-pa
-rr
-pa
-pa
-ra
-ra
-pa
-pa
-pa
-rr
-rr
-rb
-pa
-rb
-pa
-pa
-rb
-pa
-pa
-rb
-rb
-pa
-pa
-ra
-ra
-pa
 pa
 pa
 ra
 pa
 pa
 rr
+rb
 pa
+pa
+pa
+ra
+ra
+ra
+pa
+rb
 pa
 ra
 pa
 pa
 pa
 rr
-rb
-pa
-pa
-ra
-pa
-pa
-rb
-pa
-rb
-rb
-rb
-pa
 rr
+rb
 pa
 pa
 rb
 rb
 pa
-rb
-pa
-pa
-pa
-pa
-pa
-ra
-ra
-ra
-ra
 pa
 pa
 rb
@@ -3258,62 +3193,110 @@ rb
 pa
 pa
 ra
-pa
-rb
-pa
 ra
 pa
-rb
-rb
 pa
 pa
 pa
-pa
-pa
-pa
-pa
-pa
-ra
-ra
-ra
-ra
-ra
-ra
-pa
-rb
-rb
 pa
 rr
 pa
 ra
-pa
-rb
-pa
-rr
-rb
-rb
-rb
-pa
-pa
-rr
-pa
-pa
-ra
-ra
 ra
 pa
+pa
+pa
+pa
+rr
+pa
+rb
 rb
 pa
 pa
-rr
 pa
 rr
-pa
+rb
+rb
 pa
 pa
 ra
 pa
 rb
+pa
+rb
+rb
+pa
+rb
+pa
+pa
+pa
+pa
+pa
+ra
+ra
+ra
+ra
+pa
+pa
+rb
+rb
+pa
+pa
+ra
+pa
+rb
+pa
+ra
+pa
+pa
+pa
+rb
+rb
+pa
+pa
+pa
+pa
+pa
+ra
+ra
+ra
+ra
+ra
+pa
+pa
+rr
+rb
+pa
+rr
+pa
+ra
+pa
+rb
+rb
+pa
+pa
+rr
+rr
+rb
+pa
+ra
+pa
+pa
+pa
+rr
+ra
+pa
+rb
+pa
+rr
+rb
+pa
+ra
+pa
+pa
+pa
+rr
+pa
 pa
 rb
 pa
@@ -3329,10 +3312,9 @@ ra
 pb
 pb
 pb
-ra
 pb
 pb
-rb
+rr
 rb
 pb
 pb
@@ -3361,11 +3343,10 @@ ra
 pb
 pb
 rr
-pb
-rb
 rb
 pb
-ra
+pb
+rr
 ra
 ra
 pb
@@ -3451,11 +3432,13 @@ pb
 ra
 pa
 rrr
+rb
+sb
+pa
+rrb
 rrb
 pa
 pa
-sb
-pa
 pa
 sb
 pa
@@ -3465,150 +3448,151 @@ pa
 pa
 rr
 pa
+sa
+pa
+rr
+ra
+ra
+pa
+pa
+rr
+pa
+sss
+pa
+sss
+rb
+rb
+pa
+rrr
+rrr
+rrr
+rrr
+rrr
+pa
+sb
+pa
+sb
+pa
+sb
+pa
+pa
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+pb
+rr
+ra
+ra
+ra
+pb
+rb
+pb
+pb
+pb
+pb
+pb
+rr
+pb
+ra
+pb
+pb
+rb
+pb
+pb
+rb
+pb
+ra
+ra
+pb
+pb
+rr
+ra
+ra
+pb
+rb
+pb
+pb
+ra
+pb
+ra
+pb
+pb
+rb
+rb
+pb
+pb
+rb
+pb
+pb
+rr
+pb
+pb
+pb
+rb
+rb
+rb
+pa
+rr
+pa
+rr
+pa
+rb
+pa
+ra
+pa
+pa
+pa
 sss
 ra
 ra
 pa
-pa
-pa
 sss
-rr
-rr
-pa
-sss
-pa
-sss
-pa
-rrr
-rrr
-rrr
-sa
-rra
-sa
-rra
-pa
-pa
 rb
-pa
-ra
-pa
-rrr
-pa
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-pb
-rr
-ra
-ra
-ra
-pb
-pb
-rb
-pb
-pb
-pb
-pb
-rr
-pb
-ra
-pb
-pb
-pb
-pb
-rb
-rb
-pb
-ra
-ra
-pb
-ra
-pb
-rr
-ra
-ra
-pb
-pb
-rb
-pb
-ra
-pb
-pb
-pb
-pb
-rb
-rb
-rb
-pb
-ra
-pb
-rb
-pb
-pb
-pb
-pb
-rb
-rb
-rb
-rb
-pa
-rr
-pa
-ra
-pa
-rb
-pa
-pa
-sa
-ra
-ra
-pa
-pa
-rr
 rb
 pa
 sa
-pa
+rr
 sa
+rrr
 rrr
 rrr
 rrr
@@ -3638,21 +3622,24 @@ rrr
 rrr
 ra
 pb
-pb
-pb
 rb
+pb
+pb
+sss
+ra
 pb
 sss
 pb
-rr
 pb
 pb
+sb
 pb
 rb
 rb
 rb
+rb
 pb
-sss
+sb
 ra
 ra
 ra
@@ -3669,7 +3656,7 @@ sa
 rrr
 sa
 rrr
-sss
+sa
 rrr
 sss
 pb
@@ -3692,16 +3679,16 @@ pa
 pa
 pa
 pa
+ra
+ra
+pa
+sa
+rb
+rb
+rb
+rb
+pa
 rr
-ra
-pa
-sss
-rb
-rb
-rb
-rb
-pa
-ra
 pa
 sa
 pa
@@ -3714,164 +3701,180 @@ rr
 sa
 rrr
 rrr
-rrr
-rrr
-rrr
-sa
-rrr
-pa
-pa
-rr
-pa
-rrr
-pa
-pa
-rb
-rb
-pa
-rr
-rb
-pa
-pa
-rr
-rr
-pa
-ra
-pa
-pa
-ra
-pa
-pa
-rb
-pa
-pa
-ra
-ra
-pa
-pa
-pa
-pa
-pa
-pa
-ra
-ra
-ra
-pa
-rb
-pa
-ra
-pa
-pa
-pa
-pa
-pa
-rr
-pa
-rr
-rb
-pa
-ra
-pa
-rb
-pa
-rb
-pa
-ra
-pb
-pb
-sss
-pb
-sss
-rr
-rb
-rb
-pb
-pb
-rr
-ra
-pb
-sb
-pb
-rb
-pb
-pb
-sb
-ra
-pa
-pa
-pa
-pa
 rrr
 rrr
 rrr
 sss
 rrr
-sa
-rrr
-pb
-pb
+pa
+pa
 rr
 rb
-pb
-ra
 pa
-rrr
-rrr
-pa
-pa
-pa
-pa
-rr
-rr
-pa
-rrr
-rrr
-pa
-pa
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-rrr
-pb
-pb
-pb
-rb
-rb
-pb
-sss
-pb
-sss
-pb
-rb
-pb
-sb
-pb
-rr
-ra
-pb
-rr
-ra
-pa
-pa
-pa
-pa
-rrr
-rrr
-sa
-rrr
-sa
 rrr
 rrb
+pa
+pa
+rb
+rb
+pa
+rr
+rb
+pa
+pa
+rr
+rr
+pa
+ra
+pa
+pa
+ra
+pa
+pa
+ra
+pa
+rb
+pa
+pa
+pa
+ra
+pa
+pa
+pa
+pa
+ra
+ra
+ra
+pa
+rb
+pa
+ra
+pa
+pa
+pa
+pa
+pa
+rr
+pa
+pa
+rr
+rr
+pa
+rb
+pa
+rb
+pa
+ra
+pb
+pb
+sss
+pb
+sss
+pb
+sss
+rr
+rb
+rb
+rb
+pb
+ra
+ra
+pb
+rb
+pb
+sss
+pb
+pb
+ra
+pa
+pa
+pa
+pa
+rrr
+rrr
+rrr
+sa
+rrr
+sss
+rrr
+pb
+pb
+rr
+rb
+pb
+ra
+pa
+rrr
+rrr
+pa
+pa
+pa
+pa
+rr
+rr
+pa
+rrr
+rrr
+pa
+pa
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+pb
+pb
+pb
+sb
+rr
+rb
+pb
+sb
+pb
+rb
+pb
+sb
+pb
+rr
+ra
+pb
+rr
+pb
+ra
+pa
+pa
+sb
+pa
+pa
+rrr
+rrr
+sa
+rrr
+sa
+rrr
+rrr
+sa
+pb
+rb
+pb
+pb
+rr
+ra
+pa
+rrr
+rrr
+sb
+pa
+pa
 pa
 rr
 pa
@@ -3937,15 +3940,15 @@ pa
 -90584	([-3][-21][0][2])
 -90310	([-3][-21][0][2])
 -89830	([-3][-22][0][1])
--89351	([-3][-21][0][4])
--89050	([-3][-21][0][4])
--88411	([-3][-21][0][4])
--88236	([-3][-21][0][4])
--87785	([7][-22][0][4])
+-89351	([7][-21][0][2])
+-89050	([7][-21][0][2])
+-88411	([-3][-22][0][2])
+-88236	([-3][-22][0][2])
+-87785	([7][-23][0][1])
 -87640	([7][-22][0][4])
 -87587	([7][-22][0][4])
 -87582	([7][-22][0][4])
--86588	([-3][-20][0][14])
+-86588	([7][-22][0][4])
 -86578	([7][-21][0][2])
 -86408	([7][-21][0][2])
 -85511	([-3][-22][0][2])
@@ -3960,7 +3963,7 @@ pa
 -80258	([7][-23][0][4])
 -80245	([7][-23][0][4])
 -79245	([7][-23][0][4])
--79200	([7][-20][0][2])
+-79200	([7][-20][0][1])
 -79172	([7][-20][0][2])
 -79093	([-3][-21][0][1])
 -79058	([-3][-22][0][1])
@@ -3998,13 +4001,13 @@ pa
 -64377	([-3][-23][0][5])
 -64076	([-3][-23][0][5])
 -64072	([-3][-23][0][5])
--63233	([-3][-24][0][4])
--63180	([-3][-24][0][4])
--62818	([-3][-24][0][4])
+-63233	([-3][-24][0][3])
+-63180	([-3][-24][0][3])
+-62818	([-3][-24][0][3])
 -62803	([-3][-24][0][4])
--62742	([7][-21][0][1])
--61226	([-3][-22][0][1])
--60718	([-3][-23][0][1])
+-62742	([7][-21][0][5])
+-61226	([7][-21][0][5])
+-60718	([7][-21][0][5])
 -59435	([7][-21][0][5])
 -58020	([7][-21][0][5])
 -57929	([-3][-22][0][5])
@@ -4016,13 +4019,13 @@ pa
 -57135	([-3][-23][0][4])
 -56921	([-3][-23][0][4])
 -56697	([-3][-23][0][4])
--56129	([7][-22][0][5])
--56113	([7][-22][0][5])
--56064	([7][-22][0][5])
--55966	([7][-22][0][5])
--55412	([7][-22][0][5])
+-56129	([7][-22][0][4])
+-56113	([7][-22][0][4])
+-56064	([7][-22][0][4])
+-55966	([7][-22][0][4])
 -55285	([7][-23][0][1])
 -55050	([7][-23][0][2])
+-55412	([7][-2][0][5])
 -53850	([-3][-24][0][1])
 -53474	([7][-25][0][1])
 -53058	([-3][-23][0][5])
@@ -4155,12 +4158,12 @@ pa
 1311	([7][-25][0][4])
 1478	([7][-25][0][4])
 1586	([7][-25][0][4])
-1668	([7][-24][0][1])
-1788	([-3][-25][0][1])
-2005	([-3][-26][0][1])
-3081	([7][-24][0][4])
-3238	([7][-24][0][4])
+1668	([7][-24][0][5])
+1788	([7][-24][0][3])
+2005	([7][-24][0][3])
+3081	([7][-24][0][3])
 3240	([7][-25][0][2])
+3238	([7][-24][0][5])
 3618	([7][-25][0][1])
 3724	([-3][-26][0][1])
 4514	([7][-27][0][1])
@@ -4182,16 +4185,16 @@ pa
 10287	([6][-22][0][2])
 11482	([6][-22][0][2])
 12001	([-4][-20][0][7])
-12365	([6][-21][0][2])
+12365	([6][-21][0][1])
 12823	([6][-21][0][3])
 12940	([6][-21][0][2])
 13104	([-4][-22][0][2])
 13123	([-4][-22][0][2])
 13138	([6][-23][0][2])
 13184	([6][-23][0][2])
-13333	([6][-20][0][3])
+13333	([6][-20][0][1])
 13525	([6][-20][0][2])
-13551	([6][0][0][2])
+13551	([6][-20][0][2])
 13800	([-4][-21][0][2])
 13835	([-4][-21][0][2])
 14620	([-4][-22][0][2])
@@ -4203,7 +4206,7 @@ pa
 16185	([6][-23][0][2])
 16417	([6][-23][0][2])
 16675	([-4][-21][0][7])
-17054	([6][-22][0][2])
+17054	([6][-22][0][1])
 17298	([6][-22][0][3])
 17376	([6][-22][0][2])
 17679	([-4][-23][0][2])
@@ -4244,28 +4247,28 @@ pa
 32012	([-4][-22][0][2])
 32348	([6][-23][0][2])
 33020	([6][-23][0][2])
-33459	([6][-22][0][3])
+33459	([6][-22][0][1])
 34048	([6][-22][0][2])
 34075	([6][-22][0][2])
 34421	([-4][-23][0][2])
 35471	([-4][-23][0][2])
 36413	([6][-24][0][2])
 37458	([6][-24][0][2])
-37474	([6][-21][0][2])
+37474	([6][-21][0][1])
 37563	([6][-21][0][3])
-37794	([6][-1][0][2])
+37794	([6][-21][0][2])
 38329	([-4][-22][0][2])
 38460	([-4][-22][0][2])
 39138	([-4][-23][0][2])
 39207	([-4][-23][0][2])
-39395	([6][-22][0][2])
+39395	([6][-22][0][1])
 40170	([6][-22][0][3])
 40417	([6][-22][0][2])
 41563	([-4][-23][0][2])
 41929	([-4][-23][0][2])
 42242	([6][-24][0][2])
 42413	([6][-24][0][2])
-42509	([6][-23][0][3])
+42509	([6][-23][0][1])
 42599	([6][-23][0][2])
 43237	([6][-23][0][2])
 44541	([-4][-24][0][2])
@@ -4293,17 +4296,17 @@ pa
 57696	([-4][-26][0][2])
 58123	([-4][-26][0][2])
 58246	([6][-24][0][7])
-58657	([5][-19][0][4])
-58684	([5][-19][0][4])
-58854	([5][-19][0][4])
-59318	([5][-19][0][4])
-60905	([-5][-20][0][4])
-60989	([-5][-20][0][4])
-61339	([-5][-20][0][4])
-61977	([-5][-20][0][4])
+58657	([5][-19][0][1])
+58684	([5][-19][0][3])
+58854	([5][-19][0][3])
+59318	([5][-19][0][3])
+60905	([-5][-20][0][3])
+60989	([-5][-20][0][3])
+61339	([-5][-20][0][3])
+61977	([-5][-21][0][3])
 63788	([-5][-21][0][3])
 64359	([-5][-21][0][3])
-64419	([-5][-21][0][3])
+64419	([5][-19][0][10])
 64537	([5][-20][0][3])
 64571	([5][-20][0][3])
 64613	([5][-20][0][3])
@@ -4314,8 +4317,8 @@ pa
 67243	([5][-22][0][3])
 67645	([5][-22][0][3])
 68888	([-5][-20][0][10])
-69140	([5][-21][0][3])
-69877	([5][-21][0][3])
+69140	([5][-21][0][2])
+69877	([5][-21][0][2])
 70491	([5][-21][0][4])
 70726	([5][-21][0][3])
 70962	([-5][-22][0][3])
@@ -4336,8 +4339,8 @@ pa
 77041	([-5][-22][0][3])
 77378	([-5][-22][0][3])
 77642	([5][-21][0][1])
-77776	([-5][-22][0][1])
-77836	([-5][-23][0][1])
+77776	([5][-21][0][3])
+77836	([5][-21][0][3])
 77896	([5][-21][0][3])
 78254	([-5][-22][0][3])
 78332	([-5][-22][0][3])
@@ -4346,9 +4349,9 @@ pa
 78805	([5][-23][0][3])
 78965	([5][-23][0][3])
 79047	([5][-22][0][1])
-79151	([5][-22][0][2])
-79253	([-5][-23][0][1])
-79386	([-5][-24][0][1])
+79151	([5][-22][0][4])
+79253	([5][-22][0][3])
+79386	([5][-2][0][3])
 80026	([-5][-23][0][3])
 80132	([-5][-23][0][3])
 80140	([-5][-23][0][3])
@@ -4360,21 +4363,21 @@ pa
 81008	([-6][-20][0][1])
 81587	([-6][-21][0][1])
 82219	([4][-19][0][4])
-82601	([4][-20][0][2])
+82601	([4][-20][0][1])
 82875	([4][-20][0][1])
 83073	([-6][-21][0][1])
 83161	([4][-22][0][1])
-83229	([4][-21][0][2])
+83229	([4][-21][0][1])
 83356	([4][-21][0][1])
 83408	([-6][-22][0][1])
 84592	([4][-23][0][1])
 85496	([4][-19][0][15])
 85814	([4][-19][0][15])
-86117	([4][-20][0][5])
-86266	([4][-20][0][5])
-86521	([4][-20][0][5])
-86561	([4][-20][0][5])
-86884	([4][-20][0][5])
+86117	([4][-20][0][3])
+86266	([4][-20][0][3])
+86521	([4][-20][0][3])
+86561	([-6][-21][0][2])
+86884	([-6][-21][0][2])
 87381	([4][-20][0][6])
 87732	([4][-21][0][2])
 88233	([4][-21][0][2])
@@ -4402,7 +4405,7 @@ pa
 95810	([-7][-21][0][3])
 96592	([-7][-22][0][2])
 96607	([-7][-22][0][2])
-96625	([2][-19][0][2])
+96625	([2][-19][0][1])
 96700	([2][-19][0][1])
 96889	([-8][-20][0][1])
 97016	([-8][-21][0][1])

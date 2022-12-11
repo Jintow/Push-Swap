@@ -6,7 +6,7 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/08 23:55:36 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/11 18:21:10 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/11 22:40:01 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,8 +30,9 @@ void	left_sorting(t_listi **la, t_listi **lb, int i_piv, int low_piv)
 		print_listi(*la, *lb);
 		exit(0);
 	}
-	check_and_pull_back_b(la, lb, i_piv, low_piv);
+	// ft_printf("Beggining of B\n");
 	init_sorting(la, lb, i_piv, low_piv);
+	check_and_pull_back_b(la, lb, i_piv, low_piv);
 	count = count_elem(lb, i_piv, low_piv);
 	if (low_piv > 1)
 		left_sorting(la, lb, i_piv + 1, 0);

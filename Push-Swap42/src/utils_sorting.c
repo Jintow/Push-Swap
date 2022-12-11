@@ -6,7 +6,7 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/09 11:27:03 by jlitaudo          #+#    #+#             */
-/*   Updated: 2022/12/11 18:06:30 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/11 22:32:44 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -81,20 +81,40 @@ void	check_andput_nb(t_listi **lst, int piv, int low_piv, int nb)
 	t_listi	*temp;
 
 	temp = *lst;
-	while (temp && temp->low_piv == low_piv && temp->piv == piv)
+	while (temp)
 	{
-		if (temp->pos == nb)
+		if (temp->low_piv == low_piv && temp->piv == piv && temp->pos == nb)
 			return ;
 		temp = temp->next;
 	}
 	temp = *lst;
-	while (temp && temp->low_piv == low_piv && temp->piv == piv)
+	while (temp)
 	{
-		if (temp->pos > nb)
+		if (temp->low_piv == low_piv && temp->piv == piv && temp->pos > nb)
 			temp->pos -= 1;
 		temp = temp->next;
 	}
 }
+
+// void	check_andput_nb(t_listi **lst, int piv, int low_piv, int nb)
+// {
+// 	t_listi	*temp;
+
+// 	temp = *lst;
+// 	while (temp && temp->low_piv == low_piv && temp->piv == piv)
+// 	{
+// 		if (temp->pos == nb)
+// 			return ;
+// 		temp = temp->next;
+// 	}
+// 	temp = *lst;
+// 	while (temp && temp->low_piv == low_piv && temp->piv == piv)
+// 	{
+// 		if (temp->pos > nb)
+// 			temp->pos -= 1;
+// 		temp = temp->next;
+// 	}
+// }
 
 int	no_more_piv(t_listi	*lst, int piv)
 {

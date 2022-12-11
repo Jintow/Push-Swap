@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   chain_list_functions.c                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+        */
+/*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/03 17:50:46 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/09 15:35:46 by jlitaudo         ###   ########.fr       */
+/*   Updated: 2022/12/11 22:02:17 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -84,4 +84,19 @@ t_listi	*ft_lstlast_loc(t_listi *lst)
 	while (lst->next)
 		lst = lst->next;
 	return (lst);
+}
+
+size_t	ft_lstsize_loc(t_listi *lst)
+{
+	size_t	i;
+
+	if (!lst)
+		return (0);
+	i = 1;
+	while (lst->next)
+	{
+		lst = lst->next;
+		i++;
+	}
+	return (i);
 }
