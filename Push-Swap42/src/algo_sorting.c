@@ -6,7 +6,7 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/08 23:55:36 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/11 00:44:33 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/11 02:19:14 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -62,10 +62,9 @@ void	right_sorting(t_listi **la, t_listi **lb, int i_piv, int low_piv)
 
 	i++;
 
+
 	init_sorting_la(la, lb, i_piv, low_piv);
 	count = count_elem(la, i_piv, low_piv);
-	// ft_printf("\n\n00 - Right Sorting, piv : %d, low_piv : %d, nb_elem_categ ;\
-	 %d, count : %d\n", i_piv, low_piv, (*la)->nb_elem_categ, count);
 	if (count == 0 && ft_lstlast_loc(*la)->low_piv == low_piv + 1 && ft_lstlast_loc(*la)->piv == i_piv)
 	{
 		// ft_printf("\nPULLBACK\n");
@@ -105,8 +104,15 @@ void	pivot_left(t_listi **la, t_listi **lb, int piv, int low_piv)
 {
 	while ((*lb) && (*lb)->low_piv <= low_piv + 1 && (*lb)->piv == piv)
 	{
+						if ((*la)->nbr == 689)
+	{
+	// 	ft_printf("\n\n00 - Right Sorting, piv : %d, low_piv : %d, nb_elem_categ ;\
+	//  %d, count : %d\n", piv, low_piv, (*la)->nb_elem_categ);
+	//  	print_listi(*la, *lb);
+	}
 		if ((*lb)->low_piv == low_piv + 1)
 		{
+
 			if ((*la)->low_piv == low_piv) // surveiller le ">= dans des cas particuliers" + eventuellement eviter rr+ rrr si c'est le dernier
 				double_rotate(la, lb);
 			else if (no_more_low_piv(*lb, piv, low_piv))
@@ -145,6 +151,9 @@ void	pivot_left(t_listi **la, t_listi **lb, int piv, int low_piv)
 		 %d, nb_elem_categ ; %d, count : %d\n", (*la)->nbr, low_piv, (*la)->nb_elem_categ);
 		rotate(la, 'a');
 	}
+	// ft_printf("\n\n00 - Right Sorting, piv : %d, low_piv : %d, nb_elem_categ ;\
+	//  %d, count : %d\n", piv, low_piv, (*la)->nb_elem_categ);
+	//  	print_listi(*la, *lb);
 }
 
 void	split_low_piv(t_listi *lst)
@@ -214,28 +223,34 @@ void	check_and_pull_back_b(t_listi **la, t_listi **lb, int piv, int low_piv)
 
 void	pivot_right(t_listi **la, t_listi **lb, int piv, int low_piv)
 {
+	t_listi	*temp;
+
 	while ((*la)->low_piv <= low_piv + 1 && (*la)->piv == piv && (*la)->low_piv >= low_piv)
 	{
 		if ((*la)->low_piv == low_piv + 1)
 			rotate(la, 'a');
-		else if (((*la)->next->next->pos == 0 || (*la)->next->pos == 0) && (*la)->pos == 0)
-		{
-			if ((*lb)->nbr < (*lb)->next->nbr)
-				double_swap(la, lb);
-			else if ((*la)->next->next->pos == 0)
-				swap(la, 'a');
-			while ((*lb)->low_piv == low_piv)
-			{
-				(*lb)->low_piv -= 1;
-				(*lb) = (*lb)->next;
-			}
-			if ((*la)->low_piv == low_piv)
-				(*la)->low_piv--;
+		// else if ((*la)->next->next->pos == 0 && (*la)->pos == 0)
+		// {
+		// 	if ((*lb)->nbr < (*lb)->next->nbr)
+		// 		double_swap(la, lb);
+		// 	else
+		// 		swap(la, 'a');
+			
+		// 	temp = *lb;
+		// 	while ((temp)->low_piv == low_piv)
+		// 	{
+		// 		temp->pos -= 1;
+		// 		temp = temp->next;
+		// 	}
+		// 	if ((*la)->low_piv == low_piv)
+		// 		(*la)->pos--;
 
-		}
+		// }
 		else
 			push(lb, la, 'b');
 		// init_sorting_la(la, lb, piv, low_piv);
 	}
-	// print_listi(*la, *lb);
+	// ft_printf("\n\n00 - Right Sorting, piv : %d, low_piv : %d, nb_elem_categ ;\
+	//  %d, count : %d\n", piv, low_piv, (*la)->nb_elem_categ);
+	//  	print_listi(*la, *lb);
 }

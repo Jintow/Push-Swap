@@ -1,0 +1,4466 @@
+ra
+pb
+pb
+rb
+pb
+pb
+rr
+ra
+ra
+ra
+pb
+rr
+ra
+pb
+pb
+ra
+pb
+rb
+pb
+pb
+pb
+rb
+pb
+pb
+pb
+rr
+ra
+ra
+pb
+ra
+ra
+pb
+ra
+ra
+pb
+pb
+pb
+rb
+pb
+rr
+pb
+rb
+pb
+rb
+pb
+rb
+pb
+rb
+pb
+rr
+pb
+pb
+ra
+pb
+rr
+ra
+pb
+rb
+pb
+rb
+pb
+rb
+pb
+ra
+pb
+ra
+pb
+rr
+ra
+ra
+ra
+ra
+pb
+rr
+ra
+ra
+ra
+pb
+pb
+rb
+pb
+rb
+pb
+pb
+rb
+pb
+pb
+pb
+ra
+ra
+pb
+rr
+ra
+ra
+pb
+ra
+pb
+rb
+pb
+rr
+pb
+pb
+pb
+rr
+pb
+rb
+pb
+rb
+pb
+ra
+pb
+rr
+ra
+pb
+rr
+pb
+pb
+rb
+pb
+ra
+ra
+ra
+pb
+pb
+rb
+pb
+rb
+pb
+rr
+ra
+pb
+rb
+pb
+ra
+pb
+ra
+pb
+pb
+pb
+rb
+pb
+rb
+pb
+ra
+ra
+pb
+pb
+pb
+ra
+pb
+pb
+rb
+pb
+rr
+pb
+pb
+rb
+pb
+rr
+ra
+ra
+ra
+ra
+ra
+pb
+rb
+pb
+pb
+rr
+pb
+pb
+rb
+pb
+ra
+ra
+ra
+pb
+pb
+rr
+pb
+pb
+ra
+pb
+ra
+pb
+ra
+ra
+pb
+rr
+pb
+ra
+pb
+pb
+ra
+ra
+pb
+ra
+ra
+ra
+pb
+rb
+pb
+rb
+pb
+rb
+pb
+ra
+pb
+pb
+rr
+ra
+ra
+pb
+ra
+ra
+ra
+ra
+ra
+ra
+pb
+rb
+pb
+rb
+pb
+rb
+pb
+ra
+ra
+ra
+pb
+rb
+pb
+ra
+pb
+pb
+pb
+ra
+pb
+pb
+pb
+pb
+ra
+ra
+ra
+ra
+pb
+pb
+ra
+pb
+rr
+pb
+pb
+ra
+ra
+ra
+pb
+rb
+pb
+rb
+pb
+rb
+pb
+rb
+pb
+ra
+pb
+rb
+pb
+rb
+pb
+rb
+pb
+pb
+rb
+pb
+pb
+rb
+pb
+rr
+ra
+pb
+ra
+ra
+ra
+ra
+pb
+rb
+pb
+rr
+ra
+ra
+ra
+ra
+ra
+pb
+rr
+ra
+ra
+pb
+rr
+ra
+ra
+pb
+rr
+ra
+pb
+rb
+pb
+pb
+rb
+pb
+pb
+pb
+ra
+pb
+rr
+ra
+ra
+ra
+ra
+ra
+pb
+rr
+ra
+ra
+ra
+pb
+rr
+pb
+ra
+pb
+pb
+rb
+pb
+pb
+ra
+ra
+ra
+pb
+rr
+pb
+rb
+pb
+pb
+rb
+pb
+pb
+pb
+rb
+pb
+ra
+ra
+ra
+ra
+ra
+pb
+rb
+pb
+rr
+ra
+ra
+pb
+pb
+ra
+ra
+pb
+ra
+ra
+ra
+ra
+pb
+ra
+ra
+pb
+pb
+rb
+pb
+pb
+rr
+ra
+ra
+pb
+ra
+pb
+rb
+pb
+ra
+ra
+pb
+rr
+ra
+ra
+pb
+rr
+pb
+rr
+pb
+rr
+pb
+ra
+ra
+ra
+ra
+pb
+pb
+rr
+ra
+pb
+pb
+ra
+pb
+rr
+ra
+pb
+pb
+pb
+ra
+pb
+pb
+ra
+pb
+rr
+ra
+pb
+ra
+ra
+ra
+ra
+ra
+ra
+ra
+pb
+pb
+pb
+pb
+rr
+ra
+ra
+ra
+ra
+pb
+ra
+ra
+ra
+pb
+rb
+pb
+ra
+ra
+ra
+ra
+pb
+pb
+rb
+pb
+pb
+ra
+ra
+pb
+rr
+ra
+pb
+rr
+ra
+pb
+pb
+rb
+pb
+rb
+pb
+rr
+ra
+pb
+ra
+ra
+pb
+pb
+rr
+ra
+pb
+rr
+pb
+ra
+pb
+rr
+ra
+ra
+ra
+ra
+ra
+pb
+ra
+ra
+ra
+ra
+pb
+pb
+pb
+ra
+ra
+pb
+ra
+pb
+rr
+ra
+pb
+rr
+pb
+rr
+ra
+pb
+rr
+pb
+rr
+pb
+pb
+rb
+pb
+rr
+pb
+pb
+ra
+ra
+pb
+rr
+pb
+pb
+rb
+pb
+rb
+pb
+ra
+ra
+pb
+rr
+ra
+ra
+ra
+pb
+rr
+pb
+rb
+pb
+rr
+pb
+rb
+pb
+rr
+ra
+pb
+pb
+rr
+pb
+pb
+ra
+pb
+rr
+pb
+rb
+pb
+pb
+rb
+pb
+rr
+pb
+ra
+pb
+ra
+ra
+ra
+ra
+pb
+rb
+pb
+ra
+ra
+ra
+pb
+rr
+ra
+pb
+rr
+pb
+pb
+ra
+ra
+ra
+ra
+pb
+pb
+ra
+pb
+rb
+pb
+pb
+rb
+pb
+rr
+ra
+ra
+ra
+pb
+rr
+pb
+rr
+ra
+pb
+rr
+ra
+pb
+rb
+pb
+rb
+pb
+rr
+ra
+ra
+pb
+pb
+rb
+pb
+ra
+pb
+rb
+pb
+rr
+ra
+ra
+pb
+rb
+pb
+rb
+pb
+pb
+ra
+ra
+pb
+pb
+pb
+rr
+pb
+rb
+pb
+ra
+ra
+ra
+ra
+ra
+pb
+rb
+pb
+rb
+pb
+rr
+ra
+ra
+pb
+rr
+ra
+ra
+ra
+pb
+rr
+pb
+ra
+pb
+ra
+ra
+pb
+rr
+pb
+pb
+ra
+pb
+pb
+ra
+ra
+pb
+rr
+ra
+pb
+rr
+ra
+ra
+pb
+rr
+ra
+ra
+pb
+pb
+pb
+pb
+rr
+ra
+pb
+pb
+rb
+pb
+rb
+pb
+ra
+ra
+ra
+pb
+pb
+pb
+rb
+pb
+ra
+ra
+ra
+pb
+ra
+pb
+rb
+pb
+pb
+ra
+ra
+pb
+rb
+pb
+rb
+pb
+rb
+pb
+ra
+pb
+rr
+pb
+pb
+rr
+pb
+ra
+pb
+ra
+pb
+ra
+ra
+pb
+rr
+ra
+pb
+rr
+ra
+ra
+pb
+rb
+pb
+pb
+ra
+pb
+rb
+pb
+rb
+pb
+pb
+pb
+pb
+rb
+pb
+pb
+pb
+ra
+pb
+pb
+ra
+ra
+ra
+ra
+pb
+rb
+pb
+rr
+pb
+pb
+rb
+pb
+rb
+pb
+rb
+pb
+rb
+pb
+rb
+pb
+rr
+ra
+ra
+pb
+rb
+pb
+pb
+ra
+ra
+pb
+rr
+pb
+ra
+ra
+ra
+ra
+ra
+pb
+pb
+pb
+rb
+pb
+ra
+pb
+rb
+pb
+pb
+pb
+pb
+rr
+ra
+ra
+pb
+pb
+rr
+ra
+pb
+ra
+pb
+ra
+pb
+ra
+ra
+pb
+rb
+pb
+rr
+ra
+ra
+ra
+ra
+pb
+ra
+ra
+ra
+pb
+rb
+pb
+rr
+ra
+pb
+ra
+pb
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+ra
+ra
+pb
+rr
+ra
+ra
+ra
+ra
+pb
+rr
+pb
+rb
+pb
+rb
+pb
+rr
+ra
+pb
+pb
+rb
+pb
+ra
+pb
+ra
+ra
+ra
+pb
+ra
+pb
+ra
+ra
+ra
+ra
+pb
+rr
+pb
+ra
+ra
+pb
+rr
+pb
+pb
+pb
+rr
+ra
+pb
+ra
+ra
+ra
+ra
+pb
+ra
+pb
+rb
+pb
+ra
+ra
+ra
+pb
+rb
+pb
+rr
+pb
+rb
+pb
+pb
+rr
+pb
+ra
+pb
+rr
+pb
+ra
+pb
+pb
+rr
+pb
+ra
+pb
+rr
+ra
+pb
+pb
+rr
+pb
+rr
+pb
+rb
+pb
+rr
+ra
+pb
+ra
+pb
+rr
+ra
+ra
+ra
+ra
+pb
+rb
+pb
+pb
+ra
+pb
+rb
+pb
+pb
+ra
+pb
+rr
+ra
+ra
+pb
+rb
+pb
+rb
+pb
+pb
+rr
+pb
+ra
+ra
+pb
+pb
+rb
+pb
+pb
+rb
+pb
+rb
+pb
+pb
+ra
+pb
+ra
+pb
+pb
+rb
+pb
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+ra
+ra
+pb
+rr
+ra
+ra
+ra
+ra
+pb
+pb
+rr
+pb
+rr
+ra
+ra
+ra
+ra
+pb
+ra
+pb
+pb
+ra
+pb
+ra
+pb
+ra
+pb
+rr
+ra
+ra
+pb
+pb
+pb
+rr
+pb
+ra
+pb
+rb
+pb
+ra
+pb
+rr
+ra
+pb
+ra
+pb
+rb
+pb
+pb
+rb
+pb
+pb
+ra
+pb
+rb
+pb
+rb
+pb
+rb
+pb
+pb
+rr
+pb
+rb
+pb
+rr
+ra
+ra
+pb
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+pb
+pb
+rb
+pb
+ra
+ra
+ra
+pb
+rr
+ra
+ra
+pb
+pb
+rr
+pb
+pb
+rr
+pb
+pb
+rb
+pb
+rr
+pb
+pb
+pb
+rr
+ra
+pb
+ra
+ra
+ra
+ra
+pb
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+pb
+ra
+pb
+pb
+pb
+rb
+pb
+ra
+pb
+rr
+pb
+rb
+pb
+rrr
+rrr
+sss
+rrr
+ra
+pb
+pb
+rr
+ra
+pb
+rb
+pb
+rrr
+rrb
+BEGINNING SORTINGsb
+pa
+pa
+pa
+pa
+pa
+rb
+rb
+pa
+sss
+rrb
+rrb
+pa
+pa
+rb
+sb
+pa
+rrb
+pa
+pa
+pa
+pa
+rr
+rb
+rb
+pa
+pa
+sss
+pa
+rr
+rrr
+rrr
+sss
+rrb
+pa
+rrb
+pa
+pa
+pa
+pa
+rr
+pa
+rb
+pa
+sa
+pa
+rr
+rrr
+rrr
+rrb
+pa
+rb
+rb
+pa
+sa
+rrb
+pa
+rrb
+pa
+pa
+rb
+pa
+rr
+pa
+sss
+pa
+rr
+rb
+rb
+pa
+sss
+pa
+sa
+pa
+rr
+pa
+rr
+rr
+sa
+rrr
+rrr
+rrr
+sss
+rrr
+sss
+rrr
+sss
+ra
+ra
+sa
+pb
+pa
+rrr
+rrr
+rrb
+rb
+sb
+pa
+pa
+rrb
+sb
+pa
+rb
+pa
+rb
+pa
+sa
+rrb
+pa
+rrb
+pa
+pa
+pa
+ra
+pa
+rb
+rb
+pa
+sss
+rb
+rb
+rb
+pa
+pa
+sss
+ra
+ra
+pa
+rb
+rb
+pa
+sa
+ra
+rra
+rrr
+rrr
+rrr
+rrb
+rrb
+rrb
+rrb
+pa
+pa
+rr
+rr
+pa
+rb
+rb
+pa
+rrr
+rrr
+rrb
+rrb
+pa
+pa
+pa
+pa
+rb
+pa
+pa
+rr
+rb
+pa
+rb
+pa
+rb
+rb
+pa
+rb
+pa
+sss
+pa
+rr
+rb
+rb
+pa
+pa
+pa
+sss
+rr
+rr
+ra
+pa
+sss
+pa
+rb
+rb
+pa
+rr
+pa
+pa
+pa
+rr
+ra
+pb
+sa
+ra
+sss
+ra
+pb
+pb
+ra
+ra
+pb
+rb
+sb
+pa
+rrb
+pa
+pa
+rra
+rra
+rra
+sa
+rra
+ra
+ra
+sa
+pb
+pa
+rra
+rra
+rrr
+rrr
+sss
+rrr
+sss
+rrr
+sss
+rrr
+sss
+rrr
+sss
+rrr
+sss
+rrr
+sss
+ra
+pb
+ra
+pb
+pb
+ra
+pb
+ra
+sb
+pa
+pa
+sb
+pa
+pa
+rrr
+rrr
+rrr
+sa
+rrr
+rrb
+rrb
+rrb
+rrb
+pa
+pa
+rb
+rb
+pa
+sa
+pa
+rb
+pa
+ra
+pa
+sa
+rb
+rb
+rb
+rb
+pa
+rr
+pa
+ra
+rr
+sa
+rrr
+rrr
+rrr
+sss
+rrr
+sss
+rr
+sss
+rrr
+rrb
+rrb
+rrb
+rrb
+rrb
+pa
+pa
+rb
+pa
+rb
+pa
+sss
+rr
+sa
+rrr
+rrb
+pa
+rrb
+sb
+pa
+pa
+pa
+rb
+rb
+rb
+rb
+pa
+rb
+rb
+rb
+pa
+sss
+pa
+sss
+pa
+pa
+rr
+rb
+pa
+pa
+pa
+ra
+ra
+ra
+pa
+sss
+rb
+rb
+pa
+pa
+pa
+rr
+pa
+ra
+pa
+rb
+rb
+rb
+pa
+rr
+ra
+ra
+ra
+pb
+pb
+ra
+pb
+pb
+rb
+rb
+pa
+pa
+rrb
+pa
+rrb
+pa
+rra
+rra
+sss
+rra
+sa
+rra
+rrr
+rrr
+sss
+rrr
+sss
+rrr
+sss
+rrr
+sss
+rrr
+sss
+rrr
+pb
+ra
+pb
+ra
+pb
+ra
+ra
+pa
+sb
+pa
+pa
+rrr
+rrr
+sa
+rrr
+sss
+rrr
+ra
+ra
+sss
+pb
+pa
+rrr
+rrr
+rrb
+rrb
+rrb
+pa
+rr
+pa
+rr
+rb
+pa
+rb
+rb
+pa
+pa
+pa
+rb
+rb
+pa
+pa
+rr
+ra
+rrr
+rrr
+rrr
+sss
+rrr
+rrb
+rrb
+rrb
+rrb
+rb
+pa
+rr
+rb
+pa
+pa
+sa
+pa
+rr
+rrr
+rrr
+rrb
+sb
+rrb
+pa
+pa
+sb
+pa
+pa
+rb
+rb
+pa
+pa
+ra
+ra
+pa
+rb
+rb
+pa
+rb
+rb
+pa
+pa
+sss
+ra
+ra
+pa
+pa
+rb
+pa
+pa
+ra
+pa
+pa
+pa
+rr
+rr
+rb
+rb
+pa
+ra
+pa
+pa
+rb
+pa
+rb
+rb
+pa
+rr
+rb
+pa
+rr
+pa
+pa
+pa
+rb
+rb
+rb
+rb
+rb
+rb
+pa
+rr
+rb
+rb
+pa
+sss
+pa
+rr
+pa
+ra
+pa
+pa
+sss
+pa
+rr
+rb
+rb
+rb
+rb
+pa
+pa
+ra
+ra
+ra
+pb
+pb
+pb
+ra
+ra
+pb
+ra
+pb
+pb
+ra
+pb
+pb
+ra
+ra
+pa
+rr
+rb
+pa
+ra
+pa
+pa
+sss
+rrr
+rrr
+sss
+pa
+sb
+pa
+sb
+pa
+pa
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+ra
+ra
+ra
+pb
+pb
+pb
+ra
+pb
+rb
+sb
+pa
+rrb
+pa
+pa
+pa
+rra
+rra
+sa
+rra
+sa
+rra
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+sss
+rrr
+sss
+rrr
+sss
+rrr
+sss
+rrr
+sss
+ra
+ra
+ra
+pb
+pb
+ra
+ra
+ra
+ra
+pb
+pb
+pb
+pb
+ra
+pb
+rb
+sb
+pa
+rrb
+pa
+rb
+pa
+rb
+pa
+sa
+rrb
+sb
+rrb
+sb
+pa
+pa
+pa
+rrr
+rrr
+sss
+rrr
+rrr
+rrr
+rrr
+sss
+rrr
+rrr
+ra
+ra
+ra
+pb
+ra
+pb
+pb
+pb
+pa
+rb
+rb
+pa
+sss
+rrb
+rrb
+pa
+pa
+rrr
+rrr
+sss
+rrr
+sss
+rrr
+ra
+ra
+sss
+pb
+pa
+rrr
+rrr
+rrb
+rrb
+rrb
+pa
+rr
+rb
+pa
+rr
+pa
+pa
+rr
+rb
+pa
+pa
+pa
+rr
+rr
+pa
+ra
+pa
+sss
+pa
+sss
+rb
+rb
+rb
+pa
+pa
+rr
+rb
+rb
+pa
+sss
+pa
+sss
+pa
+sss
+pa
+rr
+ra
+ra
+pb
+sss
+rra
+rra
+rrr
+rrr
+rrr
+sss
+rrr
+rrr
+sss
+rrr
+rrr
+rrr
+ra
+pb
+ra
+pb
+pb
+ra
+pb
+ra
+rb
+pa
+rb
+pa
+sss
+rrb
+pa
+rrb
+pa
+rrr
+rrr
+sa
+rrr
+sa
+rrr
+sss
+rrb
+rrb
+rb
+rb
+pa
+rb
+pa
+pa
+ra
+ra
+pa
+sa
+rb
+rb
+pa
+sa
+pa
+rr
+rb
+rb
+pa
+pa
+ra
+rrr
+rrr
+rrr
+rrr
+rrb
+rrb
+rrb
+rrb
+rb
+rb
+pa
+rr
+rb
+pa
+pa
+ra
+pa
+rrr
+rrr
+rrb
+sb
+rrb
+sb
+pa
+sb
+pa
+sb
+pa
+pa
+pa
+rr
+pa
+pa
+rr
+pa
+pa
+sss
+pa
+rb
+pa
+sss
+pa
+pa
+ra
+pa
+pa
+sss
+pa
+sss
+pa
+rr
+rb
+rb
+pa
+rr
+rb
+pa
+rr
+pa
+sss
+pa
+sss
+pa
+sss
+pa
+rb
+pa
+pa
+rr
+rr
+rb
+rb
+pa
+sss
+rb
+rb
+rb
+pa
+rr
+pa
+rr
+rb
+rb
+pa
+sss
+rb
+rb
+rb
+rb
+pa
+pa
+pa
+rr
+rr
+rr
+pa
+rr
+rb
+rb
+pa
+pa
+ra
+ra
+ra
+pb
+pb
+ra
+pb
+ra
+pb
+pb
+pb
+ra
+ra
+ra
+ra
+pb
+pb
+pa
+rr
+rb
+rb
+pa
+pa
+sss
+pa
+rr
+rrr
+rrr
+sss
+rrb
+sb
+rrb
+sb
+pa
+sb
+pa
+pa
+pa
+rra
+rra
+sss
+rra
+rra
+rra
+rra
+rra
+rra
+ra
+ra
+ra
+pb
+ra
+pb
+pb
+rb
+sb
+pa
+rrb
+pa
+pa
+rra
+rra
+sa
+rra
+sa
+rra
+sa
+rr
+sa
+rrr
+rrr
+rrr
+rrr
+sss
+rrr
+rrr
+sss
+rrr
+rrr
+sss
+rrr
+sss
+rrr
+sss
+rrr
+sss
+rrr
+rrr
+sss
+rrr
+rrr
+rrr
+ra
+ra
+ra
+pb
+pb
+ra
+ra
+ra
+pb
+pb
+ra
+pb
+ra
+sss
+pb
+pa
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+sss
+rrr
+rrr
+sss
+ra
+pb
+ra
+sa
+ra
+rrr
+rrr
+rrr
+rrb
+rrb
+rrb
+rrb
+rrb
+pa
+pa
+ra
+pa
+rb
+rb
+pa
+rr
+rb
+rb
+rb
+rb
+rb
+pa
+rb
+rb
+rb
+pa
+rb
+rb
+pa
+sss
+pa
+rb
+pa
+rr
+pa
+pa
+ra
+ra
+pa
+pa
+pa
+rr
+ra
+pa
+pb
+pb
+ra
+ra
+pb
+ra
+pb
+ra
+pa
+rb
+rb
+pa
+sa
+rrb
+rrb
+pa
+pa
+rra
+rra
+sa
+rra
+sa
+rra
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+sss
+rrr
+ra
+ra
+pb
+pb
+ra
+ra
+pb
+rb
+sb
+pa
+pa
+rrb
+pa
+rrr
+rrr
+rrr
+sa
+rrr
+sss
+ra
+rrr
+rrb
+rrb
+rrb
+rrb
+rb
+rb
+pa
+pa
+pa
+sa
+pa
+sa
+rr
+rr
+ra
+pa
+sa
+pa
+rr
+rb
+pa
+sss
+rb
+rb
+pa
+sa
+ra
+pb
+sa
+ra
+sa
+rra
+rra
+rrr
+rrr
+sa
+rrr
+sss
+rrr
+ra
+ra
+sa
+pb
+pa
+rrr
+rrr
+rrb
+rrb
+rb
+rb
+rb
+rb
+pa
+pa
+pa
+pa
+sa
+ra
+ra
+rrr
+rrr
+rrb
+sb
+rrb
+pa
+pa
+pa
+pa
+pa
+rr
+pa
+pa
+pa
+pa
+ra
+pa
+pa
+pa
+pa
+rb
+pa
+rr
+rb
+rb
+rb
+rb
+pa
+pa
+rb
+rb
+rb
+rb
+pa
+pa
+pa
+sss
+ra
+ra
+ra
+pa
+sss
+pa
+pa
+rr
+rr
+rb
+pa
+rb
+rb
+rb
+rb
+pa
+pa
+pa
+rr
+pa
+rr
+pa
+pa
+rr
+pa
+rr
+rb
+rb
+pa
+rb
+rb
+rb
+rb
+pa
+sss
+pa
+rb
+pa
+pa
+rr
+ra
+pa
+sss
+pa
+rr
+pa
+pa
+pa
+rr
+ra
+pa
+rb
+pa
+pa
+pa
+sss
+ra
+ra
+ra
+pa
+pa
+rr
+rb
+rb
+rb
+pa
+pa
+pa
+rr
+rr
+ra
+pa
+rb
+rb
+pa
+rb
+rb
+rb
+rb
+rb
+pa
+rr
+pa
+rb
+pa
+sss
+pa
+rr
+rb
+rb
+pa
+pa
+sss
+pa
+sss
+rb
+rb
+pa
+sss
+pa
+rr
+pa
+rr
+pa
+rr
+pa
+rr
+rb
+rb
+pa
+rr
+rb
+pa
+pa
+rb
+rb
+pa
+ra
+ra
+pb
+ra
+pb
+pb
+pb
+ra
+pb
+pb
+ra
+ra
+ra
+ra
+ra
+pb
+ra
+pb
+pb
+ra
+pb
+ra
+ra
+pb
+pb
+ra
+pb
+ra
+ra
+pb
+pb
+pb
+rb
+rb
+rb
+pa
+pa
+sa
+rb
+rb
+pa
+rr
+rb
+pa
+ra
+pa
+sa
+pa
+rr
+pa
+ra
+pa
+sa
+rr
+sss
+rrr
+rrr
+rrr
+sa
+rrr
+rrr
+sss
+ra
+rrr
+rrb
+rrb
+pa
+rrb
+sb
+pa
+sb
+pa
+sb
+pa
+pa
+sb
+pa
+pa
+pa
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+ra
+ra
+rra
+rra
+sss
+ra
+ra
+rra
+rra
+ra
+rra
+rrr
+rrr
+rrr
+rrr
+sss
+rrr
+sss
+rrr
+sss
+rrr
+rrr
+rrr
+rrr
+sss
+rrr
+sss
+rrr
+sss
+rrr
+sss
+rrr
+sss
+rrr
+sss
+rrr
+sss
+rrr
+sss
+rrr
+sss
+rrr
+sss
+rrr
+sss
+rrr
+sss
+rrr
+rrr
+sss
+rrr
+rrr
+rrr
+rrr
+sss
+rrr
+sss
+rrr
+rrr
+rrr
+ra
+ra
+ra
+ra
+ra
+pb
+ra
+ra
+ra
+pb
+ra
+ra
+pb
+ra
+pb
+pb
+pb
+pb
+ra
+ra
+pb
+pb
+ra
+pb
+pb
+pb
+pb
+pb
+pb
+ra
+ra
+rb
+rb
+pa
+rr
+pa
+rb
+rb
+pa
+pa
+sss
+ra
+ra
+pa
+rb
+pa
+sa
+pa
+sa
+rrr
+rrr
+rrr
+rrb
+rrb
+rrb
+pa
+pa
+rr
+pa
+rr
+rb
+pa
+sa
+rrr
+rrr
+rrb
+rb
+rb
+pa
+pa
+sss
+rrb
+rrb
+pa
+pa
+rrr
+rrr
+rrr
+sss
+rrr
+sss
+rrr
+rrr
+rrr
+sss
+rrr
+rrr
+sss
+rrr
+sss
+rrr
+sss
+rrr
+rrr
+rrr
+rrr
+rrr
+ra
+ra
+pb
+pb
+pb
+ra
+pb
+sss
+ra
+pb
+ra
+pb
+ra
+ra
+pb
+rb
+sb
+pa
+rrb
+pa
+pa
+rrr
+rrr
+rrr
+rrr
+sss
+rrr
+rrr
+rrr
+ra
+ra
+ra
+ra
+pb
+pb
+pb
+rb
+sb
+pa
+rrb
+pa
+pa
+rrr
+rrr
+rrr
+rrr
+rrb
+pa
+rrb
+rrb
+rrb
+rrb
+rb
+rb
+rb
+pa
+pa
+sss
+ra
+ra
+pa
+rb
+rb
+rb
+rb
+rb
+pa
+rr
+pa
+sss
+rb
+rb
+pa
+rb
+rb
+pa
+rb
+rb
+rb
+rb
+pa
+rb
+rb
+pa
+sss
+pa
+rr
+rb
+pa
+pa
+ra
+ra
+pa
+pa
+pa
+ra
+pa
+pa
+ra
+pa
+pa
+pa
+ra
+pa
+rb
+pa
+rb
+pa
+sss
+pa
+rr
+pa
+sss
+pa
+pa
+rr
+rr
+pa
+rr
+pa
+pa
+rr
+rb
+rb
+rb
+pa
+ra
+ra
+ra
+ra
+ra
+pb
+pb
+pb
+ra
+pb
+pb
+ra
+pb
+pb
+pb
+ra
+ra
+rb
+pa
+rr
+pa
+rr
+pa
+pa
+rrr
+rrr
+rrb
+pa
+rb
+rb
+pa
+sss
+rrb
+pa
+rrb
+pa
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+ra
+ra
+ra
+pb
+ra
+pb
+pb
+pb
+rb
+rb
+pa
+pa
+rrb
+rrb
+pa
+pa
+rra
+rra
+rra
+rra
+sa
+ra
+rra
+rrr
+rrr
+sss
+rrr
+rrr
+sss
+rrr
+rrr
+sss
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+ra
+pb
+pb
+ra
+ra
+pb
+ra
+pb
+ra
+ra
+pb
+ra
+pb
+ra
+pb
+rb
+pa
+pa
+sss
+rb
+rb
+pa
+sa
+rrb
+sb
+rrb
+sb
+rrb
+sb
+pa
+pa
+pa
+pa
+rrr
+rrr
+rrr
+rrr
+sss
+rrr
+sss
+rrr
+sss
+rrr
+rrr
+sss
+ra
+sa
+ra
+rrr
+rrr
+sss
+ra
+ra
+rrr
+rrr
+sa
+rrb
+rrb
+rrb
+rrb
+rb
+pa
+ra
+pa
+rb
+pa
+sss
+pa
+rb
+pa
+pa
+rb
+pa
+rr
+pa
+rr
+rb
+rb
+rb
+pa
+ra
+pa
+sss
+rb
+rb
+rb
+rb
+pa
+pa
+rr
+rb
+pa
+rr
+pa
+pa
+ra
+pb
+ra
+ra
+pb
+pb
+ra
+ra
+pb
+sb
+pa
+pa
+sb
+pa
+pa
+rra
+rra
+rra
+sa
+rra
+ra
+ra
+sa
+pb
+pa
+rra
+rra
+rrr
+rrr
+sss
+rrr
+rrr
+rrr
+rrr
+rrr
+pb
+pb
+pb
+ra
+ra
+ra
+ra
+sb
+pa
+pa
+pa
+rrr
+rrr
+rrr
+sss
+rrr
+rrb
+rrb
+rrb
+rrb
+rrb
+pa
+ra
+pa
+rb
+pa
+rb
+pa
+rr
+rb
+rb
+pa
+sa
+pa
+pa
+rr
+pa
+rr
+ra
+ra
+sa
+pb
+pa
+rra
+rra
+rrr
+rrr
+sss
+rrr
+sss
+rrr
+sss
+ra
+rrr
+rrb
+rrb
+pa
+pa
+rr
+pa
+sa
+rb
+rb
+rb
+pa
+ra
+rrr
+rrr
+rrb
+rrb
+pa
+pa
+sb
+pa
+pa
+rb
+rb
+rb
+pa
+pa
+rr
+pa
+ra
+pa
+sss
+pa
+pa
+rb
+pa
+pa
+ra
+ra
+pa
+rb
+rb
+rb
+pa
+pa
+rr
+rb
+rb
+rb
+pa
+sss
+pa
+rr
+rb
+pa
+rb
+rb
+rb
+pa
+rr
+rb
+rb
+rb
+pa
+pa
+sss
+pa
+rr
+rr
+ra
+pa
+sss
+pa
+pa
+pa
+rr
+rr
+rr
+rb
+rb
+pa
+pa
+rr
+rr
+pa
+rb
+pa
+rr
+pa
+pa
+rr
+pa
+sss
+pa
+rb
+pa
+rr
+rb
+pa
+sss
+rb
+rb
+pa
+ra
+pa
+pa
+rb
+rb
+pa
+rr
+rb
+pa
+rr
+pa
+rr
+pa
+pa
+ra
+pa
+sss
+pa
+pa
+pa
+rr
+pa
+pa
+ra
+ra
+ra
+pa
+rb
+pa
+ra
+pa
+sss
+pa
+sss
+rb
+rb
+rb
+pa
+rr
+rb
+pa
+sss
+pa
+rb
+rb
+rb
+pa
+ra
+pa
+pa
+pa
+rb
+pa
+rb
+rb
+pa
+pa
+sss
+rb
+rb
+pa
+ra
+pa
+ra
+ra
+pb
+pb
+ra
+pb
+pb
+ra
+ra
+pb
+pb
+ra
+pb
+ra
+ra
+ra
+pb
+ra
+ra
+pb
+pb
+ra
+pb
+pb
+pb
+pb
+ra
+ra
+ra
+ra
+pb
+sb
+pa
+pa
+pa
+sa
+pa
+rr
+rb
+rb
+rb
+pa
+sss
+pa
+sa
+pa
+rr
+rb
+pa
+rr
+ra
+ra
+sa
+pb
+pa
+rra
+rra
+rrr
+rrr
+rrr
+rrb
+pa
+rrb
+rrb
+rrb
+rb
+rb
+rb
+pa
+pa
+pa
+sa
+rrb
+rrb
+pa
+rrb
+pa
+pa
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+pb
+ra
+ra
+ra
+ra
+ra
+ra
+pb
+ra
+pb
+pb
+pb
+pb
+pb
+pb
+ra
+pa
+pa
+rr
+rb
+pa
+rr
+rb
+pa
+sa
+rrr
+rrr
+sss
+rrb
+pa
+rrb
+pa
+pa
+pa
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+rra
+ra
+ra
+pb
+pb
+pb
+ra
+pb
+ra
+sb
+pa
+pa
+pa
+pa
+rra
+rra
+rra
+sa
+rra
+rrr
+rrr
+rrr
+rrr
+rrr
+sss
+rrr
+sss
+rrr
+sss
+rrr
+sss
+rrr
+sss
+rrr
+sss
+rrr
+rrr
+sss
+rrr
+sss
+rrr
+sss
+rrr
+sss
+rrr
+rrr
+sss
+rrr
+rrr
+sss
+rrr
+sss
+rrr
+sss
+rrr
+sss
+rrr
+sss
+rrr
+rrr
+rrr
+sss
+rrr
+sss
+rrr
+sss
+rrr
+sss
+rrr
+sss
+rrr
+ra
+ra
+pb
+pb
+ra
+pb
+pb
+ra
+ra
+ra
+pb
+pb
+pb
+pb
+ra
+ra
+ra
+pb
+pb
+pb
+pb
+ra
+ra
+ra
+ra
+pb
+ra
+pb
+ra
+sss
+ra
+sa
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+sss
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+sss
+ra
+pb
+pb
+ra
+ra
+pb
+pb
+pb
+pb
+ra
+ra
+pb
+ra
+pb
+ra
+ra
+rb
+pa
+ra
+pa
+pa
+rr
+rb
+rb
+pa
+sa
+rrr
+rrr
+rrb
+rrb
+pa
+rb
+sb
+pa
+rrb
+pa
+pa
+rrr
+rrr
+sss
+rrr
+rrr
+rrr
+rrr
+rrr
+rrr
+pb
+ra
+pb
+ra
+ra
+sa
+ra
+sa
+rrr
+rrr
+sa
+rrr
+rrr
+pa
+rr
+pa
+rr
+pa
+rb
+pa
+rb
+pa
+ra
+pa
+pa
+rr
+pa
+rr
+pa
+pa
+rb
+pa
+pa
+rr
+pa
+pa
+rr
+rb
+rb
+pa
+pa
+rr
+pa
+pa
+pa
+pa
+sss
+rr
+rr
+rb
+pa
+pa
+pa
+rr
+rb
+rb
+rb
+pa
+rb
+pa
+pa
+rb
+pa
+rr
+pa
+pa
+rr
+pa
+rr
+rb
+rb
+pa
+rr
+ra
+ra
+pb
+pb
+pb
+ra
+pb
+pb
+pb
+ra
+ra
+pb
+pb
+ra
+ra
+ra
+pa
+rr
+pa
+ra
+pa
+rb
+rb
+rb
+pa
+rrr
+rrr
+sa
+rrb
+pa
+rrb
+pa
+pa
+pa
+rra
+rra
+rra
+sss
+rra
+rra
+rra
+rra
+rra
+ra
+pb
+ra
+ra
+rra
+rra
+sa
+rra
+rrr
+rrr
+rrr
+sss
+rrr
+sss
+rrr
+sss
+rrr
+sss
+rrr
+rrr
+rrr
+rrr
+sss
+rrr
+sss
+rrr
+rrr
+sss
+rrr
+sss
+rrr
+pb
+ra
+pb
+pb
+ra
+pb
+ra
+ra
+pb
+ra
+pb
+ra
+ra
+ra
+pb
+pa
+rb
+rb
+pa
+rb
+rb
+pa
+sa
+rr
+sss
+rrr
+rrb
+rrb
+rrb
+sb
+rrb
+pa
+pa
+sb
+pa
+pa
+rrr
+rrr
+sss
+rrr
+rrr
+rrr
+rrr
+sss
+rrr
+sss
+rrr
+sss
+ra
+ra
+pb
+rrr
+rrr
+pa
+rr
+pa
+pa
+rr
+pa
+pa
+rr
+rb
+rb
+pa
+pa
+pa
+rb
+rb
+rb
+rb
+rb
+pa
+pa
+rr
+rb
+rb
+pa
+pa
+pa
+pa
+rr
+ra
+ra
+ra
+pa
+rb
+pa
+sss
+ra
+pb
+pb
+ra
+ra
+pb
+sb
+pa
+pa
+pa
+rra
+rra
+sa
+rra
+sa
+rr
+sss
+rrr
+rrr
+rrr
+sss
+rrr
+sss
+rrr
+rrr
+sss
+rrr
+sss
+rrr
+sss
+rrr
+sss
+ra
+ra
+pb
+ra
+pb
+ra
+sa
+pb
+pa
+rrr
+rrr
+rrr
+rrr
+pa
+rb
+pa
+sa
+pa
+pa
+rr
+rb
+rb
+pa
+pa
+sss
+rr
+rr
+pa
+sss
+pa
+rr
+rr
+sa
+rrr
+rrr
+rrr
+sss
+rrr
+sa
+rrr
+sss
+ra
+rrr
+pa
+pa
+rb
+rb
+rb
+rb
+pa
+pa
+sa
+rr
+sss
+rrr
+pa
+sb
+pa
+pa
+pa
+
+-9993	([7][-19][0])
+-9969	([7][-19][0])
+-9940	([7][-19][0])
+-9862	([7][-19][0])
+-9853	([-3][-21][0])
+-9843	([-3][-21][0])
+-9817	([-3][-21][0])
+-9778	([7][-19][0])
+-9755	([-3][-20][0])
+-9647	([7][-3][0])
+-9672	([7][0][0])
+-9662	([7][-1][1])
+-9636	([-3][-21][0])
+-9597	([-3][-21][0])
+-9588	([-3][-21][0])
+-9572	([-3][-21][0])
+-9563	([-3][-20][0])
+-9535	([-3][-20][0])
+-9386	([-3][-20][0])
+-9385	([-3][-20][0])
+-9241	([7][-22][0])
+-9152	([-3][-21][0])
+-9101	([-3][-21][0])
+-9092	([-3][-21][0])
+-9053	([-3][-21][0])
+-9041	([7][-22][0])
+-8986	([7][-22][0])
+-8954	([7][-22][0])
+-8949	([-3][-21][0])
+-8870	([-3][-21][0])
+-8831	([-3][-20][0])
+-8823	([-3][-20][0])
+-8695	([7][-3][0])
+-8802	([7][0][0])
+-8748	([7][-1][1])
+-8616	([-3][-20][0])
+-8614	([-3][-20][0])
+-8607	([7][-21][0])
+-8591	([7][-21][0])
+-8562	([7][-21][0])
+-8530	([7][-21][0])
+-8469	([-3][-23][0])
+-8463	([-3][-23][0])
+-8446	([-3][-23][0])
+-8439	([-3][-21][0])
+-8406	([-3][-21][0])
+-8290	([-3][-21][0])
+-8020	([7][-4][0])
+-8278	([7][-1][0])
+-8241	([7][-2][2])
+-8277	([7][-2][3])
+-7999	([7][-22][0])
+-7987	([7][-22][0])
+-7943	([7][-22][1])
+-7938	([7][-22][0])
+-7894	([-3][-23][0])
+-7853	([-3][-23][0])
+-7798	([-3][-24][0])
+-7773	([-3][-24][0])
+-7769	([-3][-20][0])
+-7760	([-3][-20][0])
+-7719	([-3][-20][0])
+-7711	([-3][-20][0])
+-7576	([-3][-20][0])
+-7655	([-3][-21][0])
+-7554	([7][-21][0])
+-7481	([7][-21][0])
+-7416	([7][-1][0])
+-7392	([7][-21][0])
+-7381	([-3][-22][0])
+-7351	([-3][-22][0])
+-7330	([-3][-23][0])
+-7321	([-3][-23][0])
+-6698	([-3][-21][0])
+-6716	([-3][-21][0])
+-6674	([-3][-21][0])
+-6672	([-3][-21][0])
+-6654	([-3][-21][0])
+-6646	([7][-22][0])
+-6616	([7][-22][0])
+-6499	([7][-22][0])
+-6477	([7][-22][0])
+-6465	([7][-22][0])
+-6456	([7][-22][0])
+-6367	([7][-22][1])
+-6363	([7][-22][0])
+-6325	([-3][-23][0])
+-6320	([-3][-23][0])
+-6313	([-3][-24][0])
+-6224	([-3][-24][0])
+-6093	([7][-22][0])
+-6047	([7][-22][1])
+-6044	([7][-22][0])
+-6013	([-3][-24][0])
+-6004	([-3][-24][0])
+-5957	([-3][-24][0])
+-5930	([7][-22][0])
+-5918	([-3][-23][0])
+-5908	([-3][-23][0])
+-5875	([-3][-23][0])
+-5869	([-3][-24][0])
+-5861	([-3][-24][0])
+-5860	([7][-26][0])
+-5858	([-3][-25][0])
+-5808	([7][-22][0])
+-5731	([7][-20][0])
+-5724	([7][-20][0])
+-5721	([7][-20][0])
+-5636	([7][-20][0])
+-5625	([-3][-21][0])
+-5618	([-3][-21][0])
+-5605	([-3][-22][0])
+-5540	([-3][-22][0])
+-5504	([-3][-21][0])
+-5297	([7][-4][0])
+-5428	([7][-1][0])
+-5409	([7][-2][1])
+-5266	([-3][-22][0])
+-5264	([-3][-22][0])
+-5250	([7][-24][0])
+-5247	([-3][-23][0])
+-5211	([-3][-21][0])
+-5187	([-3][-21][0])
+-5169	([-3][-21][0])
+-5154	([-3][-21][0])
+-5081	([7][-22][0])
+-5070	([7][-22][0])
+-5011	([7][-22][0])
+-4912	([-3][-22][0])
+-4903	([-3][-22][0])
+-4886	([7][-24][0])
+-4835	([-3][-23][0])
+-4676	([7][-23][0])
+-4668	([7][-23][0])
+-4636	([7][-23][0])
+-4606	([7][-23][0])
+-4561	([-3][-21][0])
+-4491	([-3][-21][0])
+-4234	([7][-4][0])
+-4434	([7][-1][0])
+-4448	([7][-1][1])
+-4348	([7][-2][2])
+-4289	([7][-2][1])
+-4165	([-3][-21][0])
+-4151	([7][-22][0])
+-4134	([7][-22][0])
+-4086	([7][-22][0])
+-3963	([7][-22][0])
+-3711	([-3][-24][0])
+-3672	([-3][-24][0])
+-3634	([-3][-24][0])
+-3491	([-3][-22][0])
+-3288	([7][-5][0])
+-3388	([7][-2][0])
+-3381	([7][-3][1])
+-3251	([7][-23][0])
+-3170	([7][-23][0])
+-3155	([-3][-25][0])
+-3138	([-3][-25][0])
+-3067	([7][-23][1])
+-3064	([7][-23][0])
+-2962	([-3][-25][0])
+-2881	([-3][-25][0])
+-2838	([-3][-24][0])
+-2834	([-3][-24][0])
+-2830	([-3][-25][0])
+-2808	([-3][-25][0])
+-2787	([7][-20][0])
+-2782	([-3][-21][0])
+-2713	([-3][-21][0])
+-2646	([-3][-21][0])
+-2607	([-3][-21][0])
+-2384	([7][-22][0])
+-2369	([7][-22][0])
+-2275	([7][-2][0])
+-2266	([7][-22][0])
+-2071	([7][-22][0])
+-2049	([7][-2][0])
+-1931	([-3][-21][0])
+-1806	([-3][-21][0])
+-1719	([7][-22][0])
+-1705	([7][-22][0])
+-1538	([-3][-24][0])
+-1520	([-3][-24][0])
+-1472	([-3][-23][0])
+-1448	([-3][-23][0])
+-1410	([-3][-24][0])
+-1398	([-3][-24][0])
+-1393	([-3][-23][0])
+-1355	([-3][-23][0])
+-1320	([-3][-23][0])
+-1257	([-3][-24][0])
+-1244	([-3][-24][0])
+-1237	([-3][-24][0])
+-1194	([-3][-24][0])
+-1134	([-3][-22][0])
+-1064	([-3][-22][0])
+-695	([7][-5][0])
+-1024	([7][-2][0])
+-1056	([7][-2][2])
+-728	([7][-3][1])
+-1117	([7][-2][4])
+-913	([7][-3][6])
+-1150	([7][-2][6])
+-1044	([7][-2][1])
+-992	([7][-3][7])
+-802	([7][-3][3])
+-832	([7][-3][4])
+-845	([7][-3][5])
+-761	([7][-3][2])
+-1165	([7][-2][7])
+-658	([7][-23][0])
+-600	([7][-23][0])
+-596	([7][-23][0])
+-441	([7][-23][0])
+-373	([7][-23][0])
+-350	([7][-23][0])
+-326	([7][-23][0])
+-294	([7][-23][0])
+-235	([-3][-24][0])
+-149	([7][-7][0])
+-193	([7][-4][0])
+-189	([7][-5][1])
+-86	([-3][-25][0])
+-85	([-3][-25][0])
+-75	([-3][-25][0])
+-51	([-3][-25][0])
+-14	([6][-19][0])
+9	([6][-19][0])
+52	([6][-19][0])
+63	([6][-19][0])
+74	([-4][-20][0])
+132	([-4][-20][0])
+215	([-4][-21][0])
+235	([-4][-21][0])
+257	([-4][-20][0])
+320	([-4][-20][0])
+341	([6][-22][0])
+350	([-4][-21][0])
+355	([-4][-21][0])
+372	([-4][-21][0])
+536	([-4][-20][0])
+402	([-4][-22][0])
+631	([6][-3][0])
+548	([6][0][0])
+610	([6][-1][1])
+682	([6][-21][0])
+683	([6][-21][0])
+689	([6][-1][0])
+694	([-4][-21][0])
+745	([-4][-21][0])
+798	([-4][-21][0])
+836	([-4][-21][0])
+873	([6][-22][0])
+1011	([6][-22][0])
+1025	([-4][-24][0])
+1056	([-4][-24][0])
+1121	([-4][-20][0])
+1148	([-4][-20][0])
+1158	([-4][-20][0])
+1260	([6][-3][0])
+1167	([6][0][0])
+1210	([6][-1][1])
+1294	([-4][-20][0])
+1352	([6][-22][0])
+1623	([-4][-21][0])
+1667	([-4][-21][0])
+1681	([-4][-21][0])
+1710	([-4][-21][0])
+1817	([-4][-21][0])
+1829	([6][-22][0])
+1842	([6][-22][0])
+1927	([6][-2][0])
+2003	([-4][-21][0])
+2034	([6][-22][0])
+2061	([6][-22][0])
+2097	([6][-22][0])
+2135	([6][-22][0])
+2231	([-4][-23][0])
+2266	([-4][-23][0])
+2312	([-4][-24][0])
+2371	([-4][-24][0])
+2374	([6][-20][0])
+2398	([6][-20][0])
+2403	([6][-20][0])
+2404	([6][-20][0])
+2445	([-4][-21][0])
+2565	([-4][-21][0])
+2609	([-4][-22][0])
+2660	([-4][-22][0])
+2690	([-4][-21][0])
+2721	([-4][-21][0])
+2729	([-4][-21][0])
+2756	([-4][-21][0])
+2762	([-4][-22][0])
+2785	([-4][-22][0])
+2789	([-4][-22][0])
+2830	([-4][-22][0])
+2831	([-4][-21][0])
+2849	([-4][-21][0])
+2861	([-4][-21][0])
+2905	([-4][-21][0])
+2914	([6][-22][1])
+2926	([6][-22][0])
+2988	([-4][-24][0])
+2991	([-4][-24][0])
+3012	([-4][-22][0])
+3021	([-4][-22][0])
+3119	([-4][-22][0])
+3212	([6][-4][0])
+3188	([6][-3][1])
+3280	([-4][-22][0])
+3293	([-4][-22][0])
+3329	([-4][-21][0])
+3407	([-4][-21][0])
+3441	([6][-23][0])
+3476	([-4][-22][0])
+3497	([6][-22][0])
+3508	([6][-22][0])
+3524	([-4][-24][0])
+3541	([-4][-24][0])
+3592	([6][-22][0])
+3673	([6][-22][0])
+3751	([6][-22][0])
+3757	([-4][-24][0])
+3759	([-4][-24][0])
+3813	([6][-22][0])
+3920	([6][-2][0])
+3946	([-4][-22][0])
+3968	([-4][-22][0])
+3992	([-4][-22][0])
+4049	([-4][-22][0])
+4075	([6][-23][0])
+4117	([6][-23][0])
+4126	([6][-23][0])
+4165	([6][-3][0])
+4171	([6][-23][0])
+4236	([6][-23][0])
+4294	([6][-23][0])
+4329	([6][-23][0])
+4364	([-4][-24][0])
+4452	([-4][-24][0])
+4502	([-4][-25][0])
+4513	([-4][-25][0])
+4544	([5][-19][0])
+4579	([5][-19][0])
+4580	([5][-19][0])
+4591	([5][-19][0])
+4645	([-5][-20][0])
+4682	([-5][-20][0])
+4769	([-5][-21][0])
+4840	([-5][-21][0])
+4876	([-5][-20][0])
+4924	([-5][-20][0])
+5009	([-5][-20][0])
+5059	([-5][-20][0])
+5102	([-5][-21][0])
+5151	([-5][-21][0])
+5203	([-5][-21][0])
+5248	([-5][-21][0])
+5294	([-5][-20][0])
+5329	([-5][-20][0])
+5347	([5][-22][0])
+5382	([-5][-21][0])
+5399	([5][-21][0])
+5455	([5][-21][0])
+5471	([5][-21][0])
+5504	([-5][-21][0])
+5607	([-5][-21][0])
+5608	([-5][-21][0])
+5609	([-5][-21][0])
+5634	([5][-22][1])
+5703	([5][-22][0])
+5758	([-5][-24][0])
+5847	([-5][-24][0])
+5885	([5][-20][0])
+5942	([5][-20][0])
+5981	([5][-20][0])
+5995	([5][-20][0])
+6010	([-5][-22][0])
+6069	([-5][-22][0])
+6194	([-5][-22][0])
+6211	([5][-20][0])
+6222	([-5][-21][0])
+6261	([-5][-21][0])
+6286	([-5][-21][0])
+6288	([-5][-22][0])
+6319	([-5][-22][0])
+6355	([-5][-22][0])
+6382	([-5][-22][0])
+6427	([5][-20][0])
+6636	([-5][-21][0])
+6670	([-5][-21][0])
+6699	([-5][-21][0])
+6736	([-5][-21][0])
+6790	([5][-22][0])
+6802	([5][-22][0])
+6903	([5][-22][0])
+6904	([5][-22][0])
+6915	([-5][-22][0])
+6967	([-5][-22][0])
+6974	([5][-24][0])
+7019	([-5][-23][0])
+7057	([5][-23][0])
+7188	([5][-23][0])
+7244	([5][-3][0])
+7269	([4][-19][0])
+7284	([4][-19][0])
+7400	([4][-19][0])
+7446	([4][-19][0])
+7447	([-6][-20][0])
+7465	([-6][-20][0])
+7524	([-6][-21][0])
+7584	([-6][-21][0])
+7588	([-6][-20][0])
+7656	([-6][-20][0])
+7697	([-6][-20][0])
+7734	([-6][-21][0])
+7795	([4][-4][0])
+7746	([4][-1][0])
+7770	([4][-2][1])
+7806	([4][-20][0])
+7856	([4][-20][1])
+7873	([4][-20][0])
+7883	([-6][-22][0])
+7996	([-6][-22][0])
+8040	([4][-20][0])
+8051	([4][-20][0])
+8121	([4][0][0])
+8176	([-6][-21][0])
+8284	([-6][-21][0])
+8289	([4][-23][0])
+8337	([-6][-22][0])
+8390	([-6][-22][0])
+8398	([-6][-22][0])
+8422	([-6][-22][0])
+8439	([-6][-22][0])
+8478	([3][-19][1])
+8483	([3][-19][0])
+8497	([-7][-21][0])
+8530	([-7][-21][0])
+8533	([-7][-20][0])
+8540	([-7][-20][0])
+8574	([-7][-21][0])
+8590	([-7][-21][0])
+8613	([3][-20][0])
+8636	([3][-20][0])
+8665	([3][-20][1])
+8753	([3][-20][0])
+9053	([-7][-21][0])
+9080	([-7][-21][0])
+9086	([-7][-22][0])
+9178	([-7][-22][0])
+9181	([2][-19][0])
+9243	([2][-19][0])
+9261	([2][-19][0])
+9275	([2][1][0])
+9292	([2][-20][0])
+9350	([2][-20][0])
+9352	([-8][-22][0])
+9374	([-8][-22][0])
+9388	([1][-19][0])
+9403	([1][-19][0])
+9503	([1][-20][0])
+9567	([1][-20][0])
+9607	([0][1][1])
+9882	([0][0][1])
+9932	([0][0][0])
+-----------------	------------------
+	a			b	
