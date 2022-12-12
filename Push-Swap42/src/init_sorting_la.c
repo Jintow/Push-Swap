@@ -1,20 +1,20 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   pre_sorting_la.c                                   :+:      :+:    :+:   */
+/*   init_sorting_la.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/09 18:19:40 by jlitaudo          #+#    #+#             */
-/*   Updated: 2022/12/12 13:59:26 by jlitaudo         ###   ########.fr       */
+/*   Updated: 2022/12/12 19:54:59 by jlitaudo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
 int		cond_swap_lb(t_listi **lb, int piv, int low_piv);
-void	sort_three_la(t_listi **la, t_listi **lb, int piv, int low_piv);
-void	re_index_la(t_listi **la, int low_piv);
+void	sort_when_zero_second(t_listi **la, t_listi **lb, int piv, int low_piv);
+void	sort_when_zero_first(t_listi **la, t_listi **lb, int piv, int low_piv);
 
 void	init_sorting_la(t_listi **la, t_listi **lb, int piv, int low_piv)
 {
@@ -32,14 +32,13 @@ void	init_sorting_la(t_listi **la, t_listi **lb, int piv, int low_piv)
 			swap(la, 'a');
 	}
 	else if (count == 3)
-		sort_three_la(la, lb, piv, low_piv);
+		sort_when_zero_second(la, lb, piv, low_piv);
 }
 
-void	sort_three_la(t_listi **la, t_listi **lb, int piv, int low_piv)
+void	sort_when_zero_second(t_listi **la, t_listi **lb, int piv, int low_piv)
 {
 	if ((*la)->next->pos == 0)
 	{
-		// ft_printf("\nTHREE SORT!!\n");
 		double_rotate(la, lb);
 		if ((*la)->nbr > (*la)->next->nbr)
 		{
@@ -62,43 +61,23 @@ void	sort_three_la(t_listi **la, t_listi **lb, int piv, int low_piv)
 		re_index_la(la, low_piv);
 	}
 	else
-	{
-		(*la)->low_piv -= 20;
-		if ((*lb)->pos < (*lb)->next->pos)
-			double_swap(la, lb);
-		else
-			swap(la, 'a');
-		sort_three_la(la, lb, piv, low_piv);
-	}
+		sort_when_zero_first(la, lb, piv, low_piv);
 }
 
-void	re_index_la(t_listi **la, int low_piv)
+void	sort_when_zero_first(t_listi **la, t_listi **lb, int piv, int low_piv)
 {
-	t_listi	*temp;
-
-	temp = *la;
-	while (temp->next->low_piv == low_piv)
-		temp = temp->next;
-	if (temp->pos == 0 && temp->low_piv == low_piv)
-	{
-		temp->low_piv -= 20;
-		temp = *la;
-		while (temp->low_piv == low_piv)
-		{
-			temp->pos--;
-			temp = temp->next;
-		}
-		// ft_printf(" REINDEX IS LIFE! ");
-		re_index_la(la, low_piv);
-	}
+	(*la)->low_piv -= 20;
+	if ((*lb)->nbr < (*lb)->next->nbr)
+		double_swap(la, lb);
 	else
-		return ;
+		swap(la, 'a');
+	sort_when_zero_second(la, lb, piv, low_piv);
 }
 
-int	cond_swap_lb(t_listi **lb, int piv, int low_piv)  // aurais pu etre simplifiee avec seulement une comparaison des nombres
+int	cond_swap_lb(t_listi **lb, int piv, int low_piv)
 {
 	if ((*lb)->pos < (*lb)->next->pos && (*lb)->low_piv == \
-				(*lb)->next->low_piv && (*lb)->piv == ((*lb)->next->piv))// && (*lb)->nb_elem_categ <= 5)
+		(*lb)->next->low_piv && (*lb)->piv == ((*lb)->next->piv))
 		return (1);
 	return (0);
 }

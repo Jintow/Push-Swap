@@ -1,27 +1,35 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   sort_three_elem.c                                  :+:      :+:    :+:   */
+/*   re_indexing_la.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/12/09 13:06:33 by jlitaudo          #+#    #+#             */
-/*   Updated: 2022/12/12 19:01:49 by jlitaudo         ###   ########.fr       */
+/*   Created: 2022/12/12 19:22:42 by jlitaudo          #+#    #+#             */
+/*   Updated: 2022/12/12 19:23:08 by jlitaudo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
-void	sort_three_lb(t_listi **la, t_listi **lb, int piv, int low_piv)
+void	re_index_la(t_listi **la, int low_piv)
 {
 	t_listi	*temp;
 
-	temp = *lb;
-	rotate(lb, 'b');
-	if ((*la)->nbr > (*la)->next->nbr)
-		double_swap(la, lb);
+	temp = *la;
+	while (temp->next->low_piv == low_piv)
+		temp = temp->next;
+	if (temp->pos == 0 && temp->low_piv == low_piv)
+	{
+		temp->low_piv -= 20;
+		temp = *la;
+		while (temp->low_piv == low_piv)
+		{
+			temp->pos--;
+			temp = temp->next;
+		}
+		re_index_la(la, low_piv);
+	}
 	else
-		swap(lb, 'b');
-	push(la, lb, 'a');
-	rev_rotate(lb, 'b');
+		return ;
 }

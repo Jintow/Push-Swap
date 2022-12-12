@@ -6,7 +6,7 @@
 /*   By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/08 23:55:36 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/12 15:27:06 by jlitaudo         ###   ########.fr       */
+/*   Updated: 2022/12/12 17:39:56 by jlitaudo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,6 +34,7 @@ void	left_sorting(t_listi **la, t_listi **lb, int i_piv, int low_piv)
 	init_sorting(la, lb, i_piv, low_piv);
 	// ft_printf("\nPULLBACK\n");
 	check_and_pull_back_b(la, lb, i_piv, low_piv);
+	init_sorting(la, lb, i_piv, low_piv);
 	count = count_elem(lb, i_piv, low_piv);
 	if (low_piv > 1)
 		left_sorting(la, lb, i_piv + 1, 0);
@@ -189,14 +190,7 @@ void	pivot_left(t_listi **la, t_listi **lb, int piv, int low_piv)
 		}
 	}
 	while ((*la)->low_piv == low_piv)
-	{
-		// ft_printf("\n\nRight Sorting, NBR : %d, low_piv :\
-		 %d, nb_elem_categ ; %d, count : %d\n", (*la)->nbr, low_piv, (*la)->nb_elem_categ);
 		rotate(la, 'a');
-	}
-	// ft_printf("\n\n00 - Right Sorting, piv : %d, low_piv : %d, nb_elem_categ ;\
-	//  %d, count : %d\n", piv, low_piv, (*la)->nb_elem_categ);
-	//  	print_listi(*la, *lb);
 }
 
 void	check_and_pull_back(t_listi **la, t_listi **lb, int piv, int low_piv)
@@ -213,9 +207,9 @@ void	check_and_pull_back(t_listi **la, t_listi **lb, int piv, int low_piv)
 			double_rev_rotate(la, lb);
 		else
 			rev_rotate(la, 'a');
-		if ((*la)->nbr > (*la)->next->nbr && (*la)->nb_elem_categ <= 5)
+		if ((*la)->nbr > (*la)->next->nbr && (*la)->nb_elem_categ <= 4)
 		{
-			if ((*lb)->nbr < (*lb)->next->nbr)
+			if ((*lb)->nbr < (*lb)->next->nbr && (*lb)->nb_elem_categ <= 5)
 				double_swap(la, lb);
 			else
 				swap(la, 'a');
@@ -225,7 +219,6 @@ void	check_and_pull_back(t_listi **la, t_listi **lb, int piv, int low_piv)
 
 void	check_and_pull_back_b(t_listi **la, t_listi **lb, int piv, int low_piv)
 {
-	int 	i;
 	t_listi	*temp;
 
 	if (!(*lb) || !(*la))
@@ -235,16 +228,15 @@ void	check_and_pull_back_b(t_listi **la, t_listi **lb, int piv, int low_piv)
 		temp = temp->next;
 	if (!temp)
 		return ;
-	i = 0;
 	while (ft_lstlast_loc(*lb)->low_piv == low_piv && \
 		ft_lstlast_loc(*lb)->piv == piv)
 	{
 		rev_rotate(lb, 'b');
-		if ((*lb)->pos == i)
+		if ((*lb)->pos == 0)
 		{
 			(*lb)->low_piv -= 20;
 			push(la, lb, 'a');
-			i++;
+			check_andput_nb(lb, piv, low_piv, 0);
 		}
 		else if ((*lb)->nbr < (*lb)->next->nbr && (*lb)->nb_elem_categ <= 4)
 			swap(lb, 'b');

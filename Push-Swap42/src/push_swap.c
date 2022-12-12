@@ -6,13 +6,11 @@
 /*   By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/03 11:23:19 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/12 10:37:25 by jlitaudo         ###   ########.fr       */
+/*   Updated: 2022/12/12 16:51:40 by jlitaudo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
-
-int	check_sorted(t_listi *lst);
 
 int	main(int argc, char **argv)
 {
@@ -66,15 +64,4 @@ int	main(int argc, char **argv)
 	// free(tab.tab);
 	// free(tab.tab_pivot);
     return (0);
-}
-
-int	check_sorted(t_listi *lst)
-{
-	while (lst)
-	{
-		if (lst->nbr > lst->next->nbr)
-			return (0);
-		lst = lst->next;
-	}
-	return (1);
 }
