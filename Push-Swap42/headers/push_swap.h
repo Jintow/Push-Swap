@@ -6,7 +6,7 @@
 /*   By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/03 11:26:22 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/12 20:23:30 by jlitaudo         ###   ########.fr       */
+/*   Updated: 2022/12/12 20:29:28 by jlitaudo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -72,6 +72,10 @@ void	check_andput_nb(t_listi **lst, int piv, int low_piv, int nb);
 void	init_sorting_lb(t_listi **la, t_listi **lb, int piv, int low_piv);
 void	init_sorting_la(t_listi **la, t_listi **lb, int piv, int low_piv);
 void	split_categ_sorting(t_listi **lst, int piv, int low_piv, int max);
+void	check_and_pull_back_lb(t_listi **la, t_listi **lb, \
+	int piv, int low_piv);
+void	check_and_pull_back_la(t_listi **la, t_listi **lb, \
+	int piv, int low_piv);
 void	re_index_la(t_listi **la, int low_piv);
 void	right_sorting(t_listi **la, t_listi **lb, int i_piv, int low_piv);
 int		count_elem(t_listi	**lst, int piv, int low_piv);
