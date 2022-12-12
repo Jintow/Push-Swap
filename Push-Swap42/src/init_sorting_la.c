@@ -6,7 +6,7 @@
 /*   By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/09 18:19:40 by jlitaudo          #+#    #+#             */
-/*   Updated: 2022/12/12 19:55:54 by jlitaudo         ###   ########.fr       */
+/*   Updated: 2022/12/12 21:00:30 by jlitaudo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ void	init_sorting_la(t_listi **la, t_listi **lb, int piv, int low_piv)
 	int		count;
 
 	re_index_la(la, low_piv);
-	count = count_elem(la, piv, low_piv);
+	count = count_elem_in_categ(la, piv, low_piv);
 	if (count > 3 || count == 0)
 		return ;
 	else if (count == 2)

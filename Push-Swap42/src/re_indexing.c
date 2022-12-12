@@ -6,7 +6,7 @@
 /*   By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/12 19:22:42 by jlitaudo          #+#    #+#             */
-/*   Updated: 2022/12/12 19:23:08 by jlitaudo         ###   ########.fr       */
+/*   Updated: 2022/12/12 21:05:49 by jlitaudo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,4 +32,24 @@ void	re_index_la(t_listi **la, int low_piv)
 	}
 	else
 		return ;
+}
+
+void	re_index_lb(t_listi **lst, int piv, int low_piv, int nb)
+{
+	t_listi	*temp;
+
+	temp = *lst;
+	while (temp)
+	{
+		if (temp->low_piv == low_piv && temp->piv == piv && temp->pos == nb)
+			return ;
+		temp = temp->next;
+	}
+	temp = *lst;
+	while (temp)
+	{
+		if (temp->low_piv == low_piv && temp->piv == piv && temp->pos > nb)
+			temp->pos -= 1;
+		temp = temp->next;
+	}
 }

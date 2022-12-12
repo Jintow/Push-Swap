@@ -6,7 +6,7 @@
 /*   By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/12 20:26:35 by jlitaudo          #+#    #+#             */
-/*   Updated: 2022/12/12 20:27:20 by jlitaudo         ###   ########.fr       */
+/*   Updated: 2022/12/12 21:07:51 by jlitaudo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,7 @@ void	check_and_pull_back_lb(t_listi **la, t_listi **lb, int piv, int low_piv)
 		{
 			(*lb)->low_piv -= 20;
 			push(la, lb, 'a');
-			check_andput_nb(lb, piv, low_piv, 0);
+			re_index_lb(lb, piv, low_piv, 0);
 		}
 		else if ((*lb)->nbr < (*lb)->next->nbr && (*lb)->nb_elem_categ <= 4)
 			swap(lb, 'b');

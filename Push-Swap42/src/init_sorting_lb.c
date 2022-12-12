@@ -6,7 +6,7 @@
 /*   By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/12 20:05:18 by jlitaudo          #+#    #+#             */
-/*   Updated: 2022/12/12 20:15:17 by jlitaudo         ###   ########.fr       */
+/*   Updated: 2022/12/12 21:07:32 by jlitaudo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,8 +22,8 @@ void	init_sorting_lb(t_listi **la, t_listi **lb, int piv, int low_piv)
 
 	if (no_more_low_piv(*lb, piv, low_piv))
 		return ;
-	check_andput_nb(lb, piv, low_piv, 1);
-	check_andput_nb(lb, piv, low_piv, 0);
+	re_index_lb(lb, piv, low_piv, 1);
+	re_index_lb(lb, piv, low_piv, 0);
 	temp = *lb;
 	if (temp && temp->pos == 0 && temp->low_piv == low_piv)
 		sort_one_lb(la, lb, piv, low_piv);
