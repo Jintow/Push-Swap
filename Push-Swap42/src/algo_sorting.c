@@ -6,7 +6,7 @@
 /*   By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/08 23:55:36 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/12 17:39:56 by jlitaudo         ###   ########.fr       */
+/*   Updated: 2022/12/12 20:09:34 by jlitaudo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,10 +31,10 @@ void	left_sorting(t_listi **la, t_listi **lb, int i_piv, int low_piv)
 		exit(0);
 	}
 	// ft_printf("Beggining of B\n");
-	init_sorting(la, lb, i_piv, low_piv);
+	init_sorting_lb(la, lb, i_piv, low_piv);
 	// ft_printf("\nPULLBACK\n");
 	check_and_pull_back_b(la, lb, i_piv, low_piv);
-	init_sorting(la, lb, i_piv, low_piv);
+	init_sorting_lb(la, lb, i_piv, low_piv);
 	count = count_elem(lb, i_piv, low_piv);
 	if (low_piv > 1)
 		left_sorting(la, lb, i_piv + 1, 0);

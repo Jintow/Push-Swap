@@ -6,7 +6,7 @@
 /*   By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/03 11:26:22 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/12 19:43:58 by jlitaudo         ###   ########.fr       */
+/*   Updated: 2022/12/12 20:08:43 by jlitaudo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -66,12 +66,10 @@ void	sort_merge(t_tab *tab);
 void	make_tab_piv(t_tab	*tab);
 void	split_categ(t_listi **lst, int max_piv);
 void	add_infolst(t_listi **list, t_tab *tab);
-void	init_sorting(t_listi **lst_from, t_listi **lst_to, int piv, \
-	int low_piv);
 void	left_sorting(t_listi **la, t_listi **lb, int i_piv, int low_piv);
 void	print_listi(t_listi *la, t_listi *lb);
 void	check_andput_nb(t_listi **lst, int piv, int low_piv, int nb);
-void	sort_three_lb(t_listi **la, t_listi **lb, int piv, int low_piv);
+void	init_sorting_lb(t_listi **la, t_listi **lb, int piv, int low_piv);
 void	init_sorting_la(t_listi **la, t_listi **lb, int piv, int low_piv);
 void	re_index_la(t_listi **la, int low_piv);
 void	right_sorting(t_listi **la, t_listi **lb, int i_piv, int low_piv);

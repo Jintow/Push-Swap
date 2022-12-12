@@ -6,7 +6,7 @@
 #    By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/12/01 13:00:31 by jlitaudo          #+#    #+#              #
-#    Updated: 2022/12/12 19:42:14 by jlitaudo         ###   ########.fr        #
+#    Updated: 2022/12/12 20:09:06 by jlitaudo         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -24,7 +24,7 @@ HEAD		:= $(addprefix $(HEAD_DIR), $(LIST_HEAD))
 SRC_DIR		:=	src/
 LIST_SRC	:=	push_swap.c swap_push_rot.c chain_list_functions.c make_sort_tab.c make_tab_piv.c \
 				pivot_init.c pivot_init2.c info_preparation.c display.c split_categ.c \
-				algo_sorting.c sort_three_elem.c utils_sorting.c init_sorting_la.c re_indexing_la.c
+				algo_sorting.c init_sorting_lb.c utils_sorting.c init_sorting_la.c re_indexing_la.c
 SRC			:=	$(addprefix $(SRC_DIR), $(LIST_SRC))
 
 LIBX_DIR	:=	Libft/
