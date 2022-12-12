@@ -6,16 +6,14 @@
 /*   By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/08 23:55:36 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/12 20:09:34 by jlitaudo         ###   ########.fr       */
+/*   Updated: 2022/12/12 20:23:56 by jlitaudo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
-void	split_categ_sorting(t_listi **lst, int piv, int low_piv, int max);
 void	pivot_left(t_listi **la, t_listi **lb, int piv, int low_piv);
 void	pivot_right(t_listi **la, t_listi **lb, int piv, int low_piv);
-void	split_low_piv(t_listi *lst);
 void	check_and_pull_back(t_listi **la, t_listi **lb, int piv, int low_piv);
 void	check_and_pull_back_b(t_listi **la, t_listi **lb, int piv, int low_piv);
 void	right_sorting(t_listi **la, t_listi **lb, int i_piv, int low_piv);
@@ -93,53 +91,6 @@ void	right_sorting(t_listi **la, t_listi **lb, int i_piv, int low_piv)
 		pivot_right(la, lb, i_piv, low_piv - 1); //+possibilites de double rev_rot, a priori non!
 		left_sorting(la, lb, i_piv, low_piv - 2); // attention aux conditions particulieres dans la;
 		// print_listi(*la, *lb);
-	}
-}
-
-void	split_categ_sorting(t_listi **lst, int piv, int low_piv, int max)
-{
-	t_listi	*temp;
-
-	temp = *lst;
-	while (temp && temp->low_piv == low_piv && temp->piv == piv)
-	{
-		if (max % 3 == 0)
-		{
-			if (temp->pos < max / 3)
-				temp->low_piv -= 2;
-			else if (temp->pos < (2 * max / 3))
-			{
-				temp->low_piv -= 1;
-				temp->pos -= max / 3;
-			}
-			else
-				temp->pos -= 2 * max / 3;
-		}
-		else if ((max - 1) % 3 == 0)
-		{
-			if (temp->pos < max / 3)
-				temp->low_piv -= 2;
-			else if (temp->pos < 2 * max / 3)
-			{
-				temp->low_piv -= 1;
-				temp->pos -= max / 3;
-			}
-			else
-				temp->pos -= 2 * max / 3;
-		}
-		else
-		{
-			if (temp->pos < max / 3)
-				temp->low_piv -= 2;
-			else if (temp->pos < 2 * max / 3)
-			{
-				temp->low_piv -= 1;
-				temp->pos -= max / 3;
-			}
-			else
-				temp->pos -= (2 * (max / 3) + 1);
-		}
-		temp = temp->next;
 	}
 }
 
