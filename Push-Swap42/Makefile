@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+         #
+#    By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/12/01 13:00:31 by jlitaudo          #+#    #+#              #
-#    Updated: 2022/12/11 10:46:34 by Teiki            ###   ########.fr        #
+#    Updated: 2022/12/12 10:38:08 by jlitaudo         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,7 +15,7 @@
 #########################
 
 # Folders and names
-NAME		:= Push-Swap2
+NAME		:= push_swap
 
 HEAD_DIR	:=	headers/
 LIST_HEAD	:=	push_swap.h

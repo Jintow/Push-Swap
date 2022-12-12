@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   swap_push_rot.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
+/*   By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/04 14:03:33 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/10 23:32:14 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/12 11:05:35 by jlitaudo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,7 +51,7 @@ void	double_swap(t_listi **la, t_listi **lb)
 		second->next = first;
 		*lb = second;
 	}
-	ft_printf("sss\n");
+	ft_printf("ss\n");
 }
 
 void	push(t_listi **list1, t_listi **list2, char c)

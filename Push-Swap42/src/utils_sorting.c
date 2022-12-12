@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   utils_sorting.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
+/*   By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/09 11:27:03 by jlitaudo          #+#    #+#             */
-/*   Updated: 2022/12/11 22:32:44 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/12 15:28:07 by jlitaudo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,20 +21,28 @@ void	init_sorting(t_listi **la, t_listi **lb, int piv, int low_piv)
 	check_andput_nb(lb, piv, low_piv, 1);
 	check_andput_nb(lb, piv, low_piv, 0);
 	temp = *lb;
-	if (temp && temp->pos == 0)
+	if (temp && temp->pos == 0 && temp->low_piv == low_piv)
 	{
+		if ((*la)->nbr > (*la)->next->nbr)
+			swap(la, 'a');
 		push(la, lb, 'a');
 		(*la)->low_piv -= 20;
 		init_sorting(la, lb, piv, low_piv);
 	}
-	else if (temp && temp->next && temp->next->pos == 0)
+	else if (temp && temp->next && temp->next->pos == 0 && \
+		temp->next->low_piv == low_piv)
 	{
-		swap(lb, 'b');
+		if ((*la)->nbr > (*la)->next->nbr)
+			double_swap(la, lb);
+		else
+			swap(lb, 'b');
 		push(la, lb, 'a');
 		(*la)->low_piv -= 20;
 		init_sorting(la, lb, piv, low_piv);
 	}
-	else if (temp && temp->next && temp->next->next && temp->next->next->pos == 0 && temp->nb_elem_categ <= 3)
+	else if (temp && temp->next && temp->next->next && \
+		temp->next->next->pos == 0 && temp->nb_elem_categ <= 3 && \
+			temp->next->next->low_piv == low_piv)
 	{
 		sort_three_lb(la, lb, piv, low_piv);
 		init_sorting(la, lb, piv, low_piv);

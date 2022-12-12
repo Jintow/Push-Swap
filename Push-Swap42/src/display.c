@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   display.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
+/*   By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/08 15:23:13 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/11 13:16:43 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/12 12:54:13 by jlitaudo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ void	print_listi(t_listi *la, t_listi *lb)
 			la = la->next;
 		}
 		else
-			ft_printf("\t\t\t");
+			ft_printf("\t\t\t\t");
 		if (lb)
 		{
 			ft_printf("\t");
@@ -31,5 +31,5 @@ void	print_listi(t_listi *la, t_listi *lb)
 		}
 		ft_printf("\n");
 	}
-	ft_printf("-----------------\t------------------\n\ta\t\t\tb\t\n");
+	ft_printf("-----------------\t------------------\n\t\ta\t\t\t\t\tb\t\n");
 }

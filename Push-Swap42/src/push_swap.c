@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   push_swap.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
+/*   By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/03 11:23:19 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/11 16:47:08 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/12 10:37:25 by jlitaudo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,7 +61,7 @@ int	main(int argc, char **argv)
 			pivot2(&la, &lb, i);
 		i--;
 	}
-	ft_printf("BEGINNING SORTING");
+	// ft_printf("BEGINNING SORTING");
 	left_sorting(&la, &lb, 1, 0);
 	// free(tab.tab);
 	// free(tab.tab_pivot);

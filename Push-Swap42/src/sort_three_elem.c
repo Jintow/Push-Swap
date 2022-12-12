@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   sort_three_elem.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
+/*   By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/09 13:06:33 by jlitaudo          #+#    #+#             */
-/*   Updated: 2022/12/11 17:05:06 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/12 11:01:35 by jlitaudo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,10 @@ void	sort_three_lb(t_listi **la, t_listi **lb, int piv, int low_piv)
 
 	temp = *lb;
 	rotate(lb, 'b');
-	swap(lb, 'b');
+	if ((*la)->nbr > (*la)->next->nbr)
+		double_swap(la, lb);
+	else
+		swap(lb, 'b');
 	push(la, lb, 'a');
 	// init_sorting(la, lb);
 	rev_rotate(lb, 'b');

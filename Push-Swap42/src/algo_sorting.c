@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   algo_sorting.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
+/*   By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/08 23:55:36 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/11 22:40:01 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/12 15:27:06 by jlitaudo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,12 +26,13 @@ void	left_sorting(t_listi **la, t_listi **lb, int i_piv, int low_piv)
 
 	if (*lb == NULL)
 	{
-		ft_printf("\n");
-		print_listi(*la, *lb);
+		// ft_printf("\n");
+		// print_listi(*la, *lb);
 		exit(0);
 	}
 	// ft_printf("Beggining of B\n");
 	init_sorting(la, lb, i_piv, low_piv);
+	// ft_printf("\nPULLBACK\n");
 	check_and_pull_back_b(la, lb, i_piv, low_piv);
 	count = count_elem(lb, i_piv, low_piv);
 	if (low_piv > 1)
@@ -47,12 +48,12 @@ void	left_sorting(t_listi **la, t_listi **lb, int i_piv, int low_piv)
 	else
 	{
 		// ft_printf("\n\nPiVOT Sorting B, piv : %d, low_piv : %d, nb_elem_categ: \
-			%d, count : %d, nv count : %d\n", i_piv, low_piv, (*lb)->nb_elem_categ, count, count_elem(lb, i_piv, low_piv));
+		// 	%d, count : %d, nv count :\n", i_piv, low_piv, (*lb)->nb_elem_categ, count);
 		// print_listi(*la, *lb);
 		split_categ_sorting(lb, i_piv, low_piv, count);
 		count_elem(lb, i_piv, low_piv - 1);
 		// ft_printf("\n\nPiVOT Sorting B POST COUNTING, piv : %d, low_piv : %d, nb_elem_categ: \
-			%d, count : %d, nv count : %d\n", i_piv, low_piv, (*lb)->nb_elem_categ, count, count_elem(lb, i_piv, low_piv));
+			%d, count : %d, nv count :\n", i_piv, low_piv, (*lb)->nb_elem_categ, count);
 		// print_listi(*la, *lb);
 		pivot_left(la, lb, i_piv, low_piv - 1);
 		right_sorting(la, lb, i_piv, low_piv - 2);
@@ -67,7 +68,7 @@ void	right_sorting(t_listi **la, t_listi **lb, int i_piv, int low_piv)
 	i++;
 	count = count_elem(la, i_piv, low_piv);
 	// ft_printf("\n\nPre init sorting A, piv : %d, low_piv : %d, nb_elem_categ: \
-			%d, count : %d, nv count : %d\n", i_piv, low_piv, (*lb)->nb_elem_categ, count, count_elem(la, i_piv, low_piv));
+			%d, count : %d, nv count : %d\n", i_piv, low_piv, (*lb)->nb_elem_categ, count);
 	init_sorting_la(la, lb, i_piv, low_piv);
 	count = count_elem(la, i_piv, low_piv);
 	if (count == 0 && ft_lstlast_loc(*la)->low_piv == low_piv + 1 && ft_lstlast_loc(*la)->piv == i_piv)
@@ -85,7 +86,7 @@ void	right_sorting(t_listi **la, t_listi **lb, int i_piv, int low_piv)
 		// print_listi(*la, *lb);
 		split_categ_sorting(la, i_piv, low_piv, count);
 		// ft_printf("\n\nPost splitting A, piv : %d, low_piv : %d, nb_elem_categ: \
-			%d, count : %d, nv count : %d\n", i_piv, low_piv, (*la)->nb_elem_categ, count_elem(la, i_piv, low_piv));
+			%d, count : %d\n", i_piv, low_piv, (*la)->nb_elem_categ);
 		count_elem(la, i_piv, low_piv - 1);
 		// print_listi(*la, *lb);
 		pivot_right(la, lb, i_piv, low_piv - 1); //+possibilites de double rev_rot, a priori non!
@@ -99,7 +100,7 @@ void	split_categ_sorting(t_listi **lst, int piv, int low_piv, int max)
 	t_listi	*temp;
 
 	temp = *lst;
-	while (temp && temp->low_piv == low_piv)
+	while (temp && temp->low_piv == low_piv && temp->piv == piv)
 	{
 		if (max % 3 == 0)
 		{

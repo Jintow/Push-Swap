@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   pre_sorting_la.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
+/*   By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/09 18:19:40 by jlitaudo          #+#    #+#             */
-/*   Updated: 2022/12/11 18:19:04 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/12 13:59:26 by jlitaudo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -82,7 +82,6 @@ void	re_index_la(t_listi **la, int low_piv)
 	if (temp->pos == 0 && temp->low_piv == low_piv)
 	{
 		temp->low_piv -= 20;
-		temp->piv -= 10;
 		temp = *la;
 		while (temp->low_piv == low_piv)
 		{
