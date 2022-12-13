@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   init_sorting_lb.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+        */
+/*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/12 20:05:18 by jlitaudo          #+#    #+#             */
-/*   Updated: 2022/12/12 21:07:32 by jlitaudo         ###   ########.fr       */
+/*   Updated: 2022/12/13 18:32:51 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 void	sort_one_lb(t_listi **la, t_listi **lb, int piv, int low_piv);
 void	sort_two_lb(t_listi **la, t_listi **lb, int piv, int low_piv);
-void	sort_three_lb(t_listi **la, t_listi **lb, int piv, int low_piv);
+void	sort_three_lb(t_listi **la, t_listi **lb);
 
 void	init_sorting_lb(t_listi **la, t_listi **lb, int piv, int low_piv)
 {
@@ -34,7 +34,7 @@ void	init_sorting_lb(t_listi **la, t_listi **lb, int piv, int low_piv)
 		temp->next->next->pos == 0 && temp->nb_elem_categ <= 3 && \
 			temp->next->next->low_piv == low_piv)
 	{
-		sort_three_lb(la, lb, piv, low_piv);
+		sort_three_lb(la, lb);
 		init_sorting_lb(la, lb, piv, low_piv);
 	}
 }
@@ -59,7 +59,7 @@ void	sort_two_lb(t_listi **la, t_listi **lb, int piv, int low_piv)
 	init_sorting_lb(la, lb, piv, low_piv);
 }
 
-void	sort_three_lb(t_listi **la, t_listi **lb, int piv, int low_piv)
+void	sort_three_lb(t_listi **la, t_listi **lb)
 {
 	t_listi	*temp;
 

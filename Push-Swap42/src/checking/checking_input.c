@@ -6,7 +6,7 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/13 09:22:19 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/13 15:30:54 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/13 18:20:54 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -98,7 +98,7 @@ int	overflowing_checking(char **tab)
 
 int	no_duplicated_no_sorted_checking(t_tab *tab, int size)
 {
-	size_t	i;
+	int		i;
 	int		*tab_nb;
 
 	tab_nb = tab->tab;

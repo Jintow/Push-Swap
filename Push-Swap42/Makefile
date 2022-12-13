@@ -6,7 +6,7 @@
 #    By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/12/01 13:00:31 by jlitaudo          #+#    #+#              #
-#    Updated: 2022/12/13 17:25:22 by Teiki            ###   ########.fr        #
+#    Updated: 2022/12/13 18:29:15 by Teiki            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -76,7 +76,7 @@ OBJ			:= $(addprefix $(OBJ_DIR), $(LIST_OBJ))
 
 # Compiler options
 CC 			:= cc
-FLAG 		:= #-Wall -Wextra -Werror 
+FLAG 		:= -Wall -Wextra -Werror 
 FLAG_LIB	:= -I ./Libft/headers -L ./Libft/libft.a
 NORM		:= norminette -R -CheckDefine
 

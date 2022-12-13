@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   init_sorting_la.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+        */
+/*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/09 18:19:40 by jlitaudo          #+#    #+#             */
-/*   Updated: 2022/12/12 21:00:30 by jlitaudo         ###   ########.fr       */
+/*   Updated: 2022/12/13 18:29:07 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
-int		cond_swap_lb(t_listi **lb, int piv, int low_piv);
+int		cond_swap_lb(t_listi **lb);
 void	sort_when_zero_second(t_listi **la, t_listi **lb, int piv, int low_piv);
 void	sort_when_zero_first(t_listi **la, t_listi **lb, int piv, int low_piv);
 
@@ -26,7 +26,7 @@ void	init_sorting_la(t_listi **la, t_listi **lb, int piv, int low_piv)
 		return ;
 	else if (count == 2)
 	{
-		if ((*lb)->pos < (*lb)->next->pos)
+		if (cond_swap_lb(lb))
 			double_swap(la, lb);
 		else
 			swap(la, 'a');
@@ -42,18 +42,18 @@ void	sort_when_zero_second(t_listi **la, t_listi **lb, int piv, int low_piv)
 		double_rotate(la, lb);
 		if ((*la)->nbr > (*la)->next->nbr)
 		{
-			if (cond_swap_lb(lb, piv, low_piv))
+			if (cond_swap_lb(lb))
 				double_swap(la, lb);
 			else
 				swap(la, 'a');
 		}
-		if (cond_swap_lb(lb, piv, low_piv))
+		if (cond_swap_lb(lb))
 			swap(lb, 'b');
 		double_rev_rotate(la, lb);
 		if ((*la)->nbr > (*la)->next->nbr)
 		{
 			(*la)->low_piv -= 20;
-			if (cond_swap_lb(lb, piv, low_piv))
+			if (cond_swap_lb(lb))
 				double_swap(la, lb);
 			else
 				swap(la, 'a');
@@ -74,7 +74,7 @@ void	sort_when_zero_first(t_listi **la, t_listi **lb, int piv, int low_piv)
 	sort_when_zero_second(la, lb, piv, low_piv);
 }
 
-int	cond_swap_lb(t_listi **lb, int piv, int low_piv)
+int	cond_swap_lb(t_listi **lb)
 {
 	if ((*lb)->pos < (*lb)->next->pos && (*lb)->low_piv == \
 		(*lb)->next->low_piv && (*lb)->piv == ((*lb)->next->piv))

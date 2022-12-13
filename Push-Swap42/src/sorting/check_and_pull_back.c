@@ -6,7 +6,7 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/12 20:26:35 by jlitaudo          #+#    #+#             */
-/*   Updated: 2022/12/13 17:44:18 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/13 18:23:49 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,8 +16,6 @@ int	checking_last_piv(t_listi *lb, int low_piv);
 
 void	check_and_pull_back_lb(t_listi **la, t_listi **lb, int piv, int low_piv)
 {
-	t_listi	*temp;
-
 	if (!(*lb) || !(*la))
 		return ;
 	if (checking_last_piv(*lb, low_piv))

@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   info_preparation.c                                 :+:      :+:    :+:   */
+/*   adding_information_to_list.c                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+        */
+/*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/08 15:14:32 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/12 19:07:35 by jlitaudo         ###   ########.fr       */
+/*   Updated: 2022/12/13 18:28:39 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,8 +17,6 @@ void	add_relative_position(t_listi *lst, t_tab *tab);
 void	add_infolst(t_listi **list, t_tab *tab)
 {
 	t_listi	*lst;
-	int		i;
-	int		j;
 
 	lst = *list;
 	while (lst)
@@ -30,8 +28,8 @@ void	add_infolst(t_listi **list, t_tab *tab)
 
 void	add_relative_position(t_listi *lst, t_tab *tab)
 {
-	int	i;
-	int	j;
+	int		i;
+	size_t	j;
 
 	i = 0;
 	while (tab->tab[i] != lst->nbr)
