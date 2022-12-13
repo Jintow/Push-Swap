@@ -1,22 +1,22 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   sorting_pilot.c                                    :+:      :+:    :+:   */
+/*   sorting_pilot_bonus.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/13 14:21:20 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/13 16:56:57 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/13 20:08:46 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "push_swap.h"
+#include "checker.h"
 
-void	sort_two_or_three(t_listi **la, t_listi **lb);
+void	sort_two_or_three_bonus(t_listi **la, t_listi **lb);
 
-void	sorting_pilot(t_listi **la, t_tab *tab)
+void	sorting_pilot_bonus(t_listi **la, t_tab *tab)
 {
-	int		i;
+	size_t		i;
 	t_listi	*lb;
 
 	lb = NULL;
@@ -35,18 +35,18 @@ void	sorting_pilot(t_listi **la, t_tab *tab)
 	free(tab->tab);
 	free(tab->tab_pivot);
 	free(tab->tab_pivot_ind);
-	sort_two_or_three(la, &lb);
-	sorting_lb(la, &lb, 1, 0);
+	sort_two_or_three_bonus(la, &lb);
+	sorting_lb_bonus(la, &lb, 1, 0);
 }
 
-void	gate_away(t_listi **la, t_listi **lb)
+void	gate_away_bonus(t_listi **la, t_listi **lb, char *buffer)
 {
 	ft_lstclear_loc(la);
 	ft_lstclear_loc(lb);
-	exit (0);
+	execute_command(buffer, la, lb);
 }
 
-void	sort_two_or_three(t_listi **la, t_listi **lb)
+void	sort_two_or_three_bonus(t_listi **la, t_listi **lb)
 {
 	if (lst_size_loc(*la) == 2 && *lb == NULL)
 		swap(la, 'a');

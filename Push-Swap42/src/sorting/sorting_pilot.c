@@ -6,7 +6,7 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/13 14:21:20 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/13 18:33:17 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/13 18:37:46 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ void	sort_two_or_three(t_listi **la, t_listi **lb);
 
 void	sorting_pilot(t_listi **la, t_tab *tab)
 {
-	size_t		i;
+	size_t	i;
 	t_listi	*lb;
 
 	lb = NULL;

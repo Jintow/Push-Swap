@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   swap_push_rot.c                                    :+:      :+:    :+:   */
+/*   swap_push.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/04 14:03:33 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/13 08:52:06 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/13 19:11:41 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ void	swap(t_listi **list, char c)
 	*list = second;
 	if (c == 'a')
 		ft_printf("sa\n");
-	else
+	else if (c == 'b')
 		ft_printf("sb\n");
 }
 
@@ -74,6 +74,6 @@ void	push(t_listi **list1, t_listi **list2, char c)
 	}
 	if (c == 'a')
 		ft_printf("pa\n");
-	else
+	else if (c == 'b')
 		ft_printf("pb\n");
 }

@@ -6,7 +6,7 @@
 #    By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/12/01 13:00:31 by jlitaudo          #+#    #+#              #
-#    Updated: 2022/12/13 18:29:15 by Teiki            ###   ########.fr        #
+#    Updated: 2022/12/13 20:23:46 by Teiki            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -18,7 +18,8 @@
 NAME		:= push_swap
 
 HEAD_DIR	:=	headers/
-LIST_HEAD	:=	push_swap.h
+LIST_HEAD	:=	push_swap.h\
+				checker.h
 HEAD		:= $(addprefix $(HEAD_DIR), $(LIST_HEAD))
 
 LIST_SORT	:=	adding_information_to_list.c\
@@ -58,7 +59,22 @@ LIST_CHECK	:=	checking_input.c\
 CHECK_DIR	:=	checking/
 CHECKING	:=	$(addprefix $(CHECK_DIR), $(LIST_CHECK))
 
+LIST_BONUS	:=	algo_sorting_bonus.c\
+				do_instruction.c\
+				double_action_bonus.c\
+				execute_command.c\
+				main_checker.c\
+				sorting_pilot_bonus.c\
+
+BONUS_DIR	:= bonus/
+BONUS		:= $(addprefix $(BONUS_DIR), $(LIST_BONUS))
+
 LIST_SRC	:=	main.c\
+				$(CHECKING)\
+				$(TOOLS)\
+				$(SORTING)\
+
+LIST_SRC_B	:=	$(BONUS)\
 				$(CHECKING)\
 				$(TOOLS)\
 				$(SORTING)\
@@ -73,6 +89,8 @@ OBJ_DIR		:= obj/
 LIST_OBJ 	:= ${LIST_SRC:.c=.o}
 OBJ			:= $(addprefix $(OBJ_DIR), $(LIST_OBJ))
 
+LIST_OBJ_B	:= ${LIST_SRC_B:.c=.o}
+OBJ_BONUS	:= $(addprefix $(OBJ_DIR), $(LIST_OBJ_B))
 
 # Compiler options
 CC 			:= cc
@@ -98,7 +116,7 @@ _WHITE		:=	\x1b[37m
 # 		RULES			#
 #########################
  
-all:		${NAME}
+all:		${NAME} checker
 
 $(OBJ_DIR)%.o: $(SRC_DIR)%.c $(HEAD)
 			@mkdir -p $(@D)
@@ -115,6 +133,13 @@ $(LIBX_DIR)$(LIBX) :
 			@make -C $(LIBX_DIR)
 			@echo
 
+bonus:		checker
+
+checker:	$(LIBX_DIR)$(LIBX) $(OBJ_BONUS) $(HEAD)
+			@echo "$(_BOLD)$(_BLUE)compiling: $@$(_END)"
+			@${CC} -o ${NAME} ${OBJ} $(LIBX_DIR)${LIBX} $(LIBX_DIR)libmlx.a $(FlAG_LIB) #-fsanitize=address -g3
+			@echo "$(_BOLD)$(_WHITE)$@ SUCCESSFULLY CREATED$(_END)"
+
 norm:		$(NORM) $(SRC)
 
 push:		$(NAME)
@@ -128,13 +153,17 @@ fclean: 	clean
 			@rm -f ${NAME}
 			@echo "$(_RED)$(_BOLD)$(NAME) deleted$(_END)"
 
+fcleanb:	clean
+			@rm -f checker
+			@echo "$(_RED)$(_BOLD)$(NAME) deleted$(_END)"
+
 fcleanall:	clean
 			@make fclean -C $(LIBX_DIR)
 			@echo
-			@rm -f ${NAME}
+			@rm -f ${NAME} checker
 			@echo "$(_RED)$(_BOLD)$(NAME) deleted$(_END)"
 
-re: 		fclean all
+re: 		fclean $(NAME)
 
 reall:		fcleanall all
 
