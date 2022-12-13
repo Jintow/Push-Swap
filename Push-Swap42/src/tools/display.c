@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   display.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+        */
+/*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/08 15:23:13 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/12 12:54:13 by jlitaudo         ###   ########.fr       */
+/*   Updated: 2022/12/13 17:35:03 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,8 @@ void	print_listi(t_listi *la, t_listi *lb)
 	{
 		if (la)
 		{
-			ft_printf("%d\t([%d][%d][%d][%d])", la->nbr, la->piv, la->low_piv, la->pos, la->nb_elem_categ);
+			ft_printf("%d\t([%d][%d][%d][%d])", la->nbr, la->piv, \
+				la->low_piv, la->pos, la->nb_elem_categ);
 			la = la->next;
 		}
 		else
@@ -26,7 +27,8 @@ void	print_listi(t_listi *la, t_listi *lb)
 		if (lb)
 		{
 			ft_printf("\t");
-			ft_printf("%d\t([%d][%d][%d][%d])", lb->nbr, lb->piv, lb->low_piv, lb->pos, lb->nb_elem_categ);
+			ft_printf("%d\t([%d][%d][%d][%d])", lb->nbr, lb->piv, \
+				lb->low_piv, lb->pos, lb->nb_elem_categ);
 			lb = lb->next;
 		}
 		ft_printf("\n");

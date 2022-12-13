@@ -6,11 +6,13 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/12 20:26:35 by jlitaudo          #+#    #+#             */
-/*   Updated: 2022/12/12 23:58:04 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/13 17:44:18 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
+
+int	checking_last_piv(t_listi *lb, int low_piv);
 
 void	check_and_pull_back_lb(t_listi **la, t_listi **lb, int piv, int low_piv)
 {
@@ -18,10 +20,7 @@ void	check_and_pull_back_lb(t_listi **la, t_listi **lb, int piv, int low_piv)
 
 	if (!(*lb) || !(*la))
 		return ;
-	temp = *lb;
-	while (temp && temp->low_piv == low_piv) //remplacer par une fonciton explicative
-		temp = temp->next;
-	if (!temp)
+	if (checking_last_piv(*lb, low_piv))
 		return ;
 	while (ft_lstlast_loc(*lb)->low_piv == low_piv && \
 		ft_lstlast_loc(*lb)->piv == piv)
@@ -60,4 +59,16 @@ void	check_and_pull_back_la(t_listi **la, t_listi **lb, int piv, int low_piv)
 				swap(la, 'a');
 		}
 	}
+}
+
+int	checking_last_piv(t_listi *lb, int low_piv)
+{
+	t_listi	*temp;
+
+	temp = lb;
+	while (temp && temp->low_piv == low_piv)
+		temp = temp->next;
+	if (!temp)
+		return (1);
+	return (0);
 }
