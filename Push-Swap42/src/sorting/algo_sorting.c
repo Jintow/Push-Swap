@@ -6,13 +6,11 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/08 23:55:36 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/13 16:56:10 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/13 17:30:14 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
-
-void	right_sorting(t_listi **la, t_listi **lb, int i_piv, int low_piv);
 
 void	sorting_lb(t_listi **la, t_listi **lb, int i_piv, int low_piv)
 {
