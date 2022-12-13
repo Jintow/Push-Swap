@@ -6,7 +6,7 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/03 11:26:22 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/13 11:31:44 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/13 14:33:45 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -72,6 +72,10 @@ void	check_and_pull_back_la(t_listi **la, t_listi **lb, \
 void	re_index_la(t_listi **la, int low_piv);
 void	re_index_lb(t_listi **lst, int piv, int low_piv, int nb);
 void	right_sorting(t_listi **la, t_listi **lb, int i_piv, int low_piv);
+void	final_checking1(char **tab_nb, t_tab *tab);
+void	final_checking2(char **tab_nb, t_tab *tab);
+void	sorting_pilot(t_listi **la, t_tab *tab);
+void	gate_away(t_listi **la, t_listi **lb);
 int		central_checking(char **tab_nb, t_tab *tab);
 int		count_elem_in_categ(t_listi	**lst, int piv, int low_piv);
 int		*make_tab(char **str_tab, size_t size);
@@ -80,4 +84,5 @@ int		no_more_low_piv(t_listi	*lst, int i_piv, int low_piv);
 t_listi	*ft_lstlast_loc(t_listi *lst);
 t_listi	*ft_lstnew_loc(int nbr);
 size_t	lst_size_loc(t_listi *lst);
+void	ft_lstclear_loc(t_listi **lst);
 #endif

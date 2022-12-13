@@ -6,7 +6,7 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/13 09:22:19 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/13 12:02:07 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/13 15:30:54 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -110,9 +110,9 @@ int	no_duplicated_no_sorted_checking(t_tab *tab, int size)
 		if (tab_nb[i] == tab_nb[i + 1])
 			return (0);
 		i++;
-		if (i == size -1)
-			return (-1);
 	}
+	if (i == size -1)
+		return (-1);
 	sort_merge(tab);
 	tab_nb = tab->tab;
 	i = 0;

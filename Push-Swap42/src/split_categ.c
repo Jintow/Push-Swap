@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   split_categ.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+        */
+/*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/12 18:15:39 by jlitaudo          #+#    #+#             */
-/*   Updated: 2022/12/12 19:07:34 by jlitaudo         ###   ########.fr       */
+/*   Updated: 2022/12/13 14:56:53 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ void	split_categ(t_listi **lst, int max_piv)
 	int		pos_max;
 	t_listi	*temp;
 
-	while (max_piv >= 0)
+	while (max_piv >= 1)
 	{
 		pos_max = find_max(*lst, max_piv);
 		temp = *lst;
