@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   check_and_pull_back.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+        */
+/*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/12 20:26:35 by jlitaudo          #+#    #+#             */
-/*   Updated: 2022/12/12 21:07:51 by jlitaudo         ###   ########.fr       */
+/*   Updated: 2022/12/12 23:58:04 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ void	check_and_pull_back_lb(t_listi **la, t_listi **lb, int piv, int low_piv)
 	if (!(*lb) || !(*la))
 		return ;
 	temp = *lb;
-	while (temp && temp->low_piv == low_piv)
+	while (temp && temp->low_piv == low_piv) //remplacer par une fonciton explicative
 		temp = temp->next;
 	if (!temp)
 		return ;

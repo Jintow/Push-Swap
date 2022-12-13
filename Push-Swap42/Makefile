@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+         #
+#    By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/12/01 13:00:31 by jlitaudo          #+#    #+#              #
-#    Updated: 2022/12/12 21:10:13 by jlitaudo         ###   ########.fr        #
+#    Updated: 2022/12/13 11:43:20 by Teiki            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,17 +15,17 @@
 #########################
 
 # Folders and names
-NAME		:= push_swap
+NAME		:= push_swap_test
 
 HEAD_DIR	:=	headers/
 LIST_HEAD	:=	push_swap.h
 HEAD		:= $(addprefix $(HEAD_DIR), $(LIST_HEAD))
 
 SRC_DIR		:=	src/
-LIST_SRC	:=	push_swap.c swap_push_rot.c chain_list_functions.c make_sort_tab.c make_tab_piv.c \
-				pivot_init.c pivot_init2.c info_preparation.c display.c split_categ.c \
+LIST_SRC	:=	main.c swap_push.c rotate.c chain_list_functions.c chain_list_functions2.c make_sort_tab.c make_tab_piv.c \
+				pivot_init.c pivot_init2.c adding_information_to_list.c sorting_preparation.c display.c split_categ.c \
 				algo_sorting.c init_sorting_lb.c no_more_piv.c init_sorting_la.c re_indexing.c \
-				split_categ_sorting.c check_and_pull_back.c counting_elem_low_piv.c
+				split_categ_sorting.c check_and_pull_back.c counting_elem_low_piv.c checking_input.c
 SRC			:=	$(addprefix $(SRC_DIR), $(LIST_SRC))
 
 LIBX_DIR	:=	Libft/

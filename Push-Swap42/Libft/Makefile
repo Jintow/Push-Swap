@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+         #
+#    By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/12/05 09:23:38 by jlitaudo          #+#    #+#              #
-#    Updated: 2022/12/05 17:27:03 by jlitaudo         ###   ########.fr        #
+#    Updated: 2022/12/13 09:45:36 by Teiki            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -77,6 +77,7 @@ STR_SRC		:=	ft_calloc.c\
 				ft_striteri.c\
 				ft_strlcat.c\
 				ft_strlen.c\
+				ft_strcmp.c\
 				ft_strncmp.c\
 				ft_strrchr.c\
 				ft_substr.c\
@@ -97,6 +98,8 @@ STR_SRC		:=	ft_calloc.c\
                 ft_memmove.c\
                 ft_memset.c\
 				ft_bzero.c\
+				ft_is_inside.c\
+				ft_valid_format.c\
 
 STR_DIR		:=	str_func/
 STR			:=	$(addprefix $(STR_DIR), $(STR_SRC))
