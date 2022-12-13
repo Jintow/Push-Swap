@@ -6,7 +6,7 @@
 #    By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/12/01 13:00:31 by jlitaudo          #+#    #+#              #
-#    Updated: 2022/12/13 15:01:30 by Teiki            ###   ########.fr        #
+#    Updated: 2022/12/13 17:25:22 by Teiki            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -21,11 +21,49 @@ HEAD_DIR	:=	headers/
 LIST_HEAD	:=	push_swap.h
 HEAD		:= $(addprefix $(HEAD_DIR), $(LIST_HEAD))
 
+LIST_SORT	:=	adding_information_to_list.c\
+				algo_sorting.c\
+				check_and_pull_back.c\
+				counting_elem_low_piv.c\
+				init_sorting_la.c\
+				init_sorting_lb.c\
+				no_more_piv.c\
+				pivot_init.c\
+				pivot_init2.c\
+				pivot_la.c\
+				pivot_lb.c\
+				re_indexing.c\
+				sorting_pilot.c \
+				sorting_preparation.c\
+				split_categ_sorting.c\
+				split_categ.c\
+
+SORT_DIR	:=	sorting/
+SORTING		:=	$(addprefix $(SORT_DIR), $(LIST_SORT))
+
+LIST_TOOLS	:=	chain_list_functions.c\
+				chain_list_functions2.c\
+				display.c\
+				make_sort_tab.c\
+				make_tab_piv.c\
+				rotate.c\
+				swap_push.c\
+
+TOOLS_DIR	:=	tools/
+TOOLS		:=	$(addprefix $(TOOLS_DIR), $(LIST_TOOLS))
+
+LIST_CHECK	:=	checking_input.c\
+				checking_input_final.c\
+
+CHECK_DIR	:=	checking/
+CHECKING	:=	$(addprefix $(CHECK_DIR), $(LIST_CHECK))
+
+LIST_SRC	:=	main.c\
+				$(CHECKING)\
+				$(TOOLS)\
+				$(SORTING)\
+
 SRC_DIR		:=	src/
-LIST_SRC	:=	main.c swap_push.c rotate.c chain_list_functions.c chain_list_functions2.c make_sort_tab.c make_tab_piv.c \
-				pivot_init.c pivot_init2.c adding_information_to_list.c sorting_preparation.c display.c split_categ.c \
-				algo_sorting.c init_sorting_lb.c no_more_piv.c init_sorting_la.c re_indexing.c sorting_pilot.c \
-				split_categ_sorting.c check_and_pull_back.c counting_elem_low_piv.c checking_input.c checking_input_final.c
 SRC			:=	$(addprefix $(SRC_DIR), $(LIST_SRC))
 
 LIBX_DIR	:=	Libft/

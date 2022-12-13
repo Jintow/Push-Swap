@@ -6,7 +6,7 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/13 14:21:20 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/13 15:30:54 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/13 16:56:57 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,7 @@ void	sorting_pilot(t_listi **la, t_tab *tab)
 	free(tab->tab_pivot);
 	free(tab->tab_pivot_ind);
 	sort_two_or_three(la, &lb);
-	left_sorting(la, &lb, 1, 0);
+	sorting_lb(la, &lb, 1, 0);
 }
 
 void	gate_away(t_listi **la, t_listi **lb)

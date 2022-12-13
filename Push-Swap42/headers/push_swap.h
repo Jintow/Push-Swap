@@ -6,7 +6,7 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/03 11:26:22 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/13 14:33:45 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/13 16:56:38 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,11 +56,13 @@ void	ft_lstadd_front_loc(t_listi **lst, t_listi *new);
 void	ft_lstadd_back_loc(t_listi **lst, t_listi *new);
 void	pivot(t_listi **la, t_listi **lb, int i_piv);
 void	pivot2(t_listi **la, t_listi **lb, int i_piv);
+void	pivot_la(t_listi **la, t_listi **lb, int piv, int low_piv);
+void	pivot_lb(t_listi **la, t_listi **lb, int piv, int low_piv);
 void	sort_merge(t_tab *tab);
 void	make_tab_piv(t_tab	*tab);
 void	split_categ(t_listi **lst, int max_piv);
 void	add_infolst(t_listi **list, t_tab *tab);
-void	left_sorting(t_listi **la, t_listi **lb, int i_piv, int low_piv);
+void	sorting_lb(t_listi **la, t_listi **lb, int i_piv, int low_piv);
 void	print_listi(t_listi *la, t_listi *lb);
 void	init_sorting_lb(t_listi **la, t_listi **lb, int piv, int low_piv);
 void	init_sorting_la(t_listi **la, t_listi **lb, int piv, int low_piv);
@@ -71,7 +73,7 @@ void	check_and_pull_back_la(t_listi **la, t_listi **lb, \
 	int piv, int low_piv);
 void	re_index_la(t_listi **la, int low_piv);
 void	re_index_lb(t_listi **lst, int piv, int low_piv, int nb);
-void	right_sorting(t_listi **la, t_listi **lb, int i_piv, int low_piv);
+void	sorting_la(t_listi **la, t_listi **lb, int i_piv, int low_piv);
 void	final_checking1(char **tab_nb, t_tab *tab);
 void	final_checking2(char **tab_nb, t_tab *tab);
 void	sorting_pilot(t_listi **la, t_tab *tab);
