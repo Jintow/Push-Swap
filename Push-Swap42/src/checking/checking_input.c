@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   checking_input.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
+/*   By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/13 09:22:19 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/13 18:20:54 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/14 13:50:24 by jlitaudo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,12 +39,18 @@ int	characters_checking(char **tab)
 	int		i;
 	char	*nb;
 
+	if (size_tab((void **)tab) == 0 && !(ft_strlen(tab[0])))
+		return (0);
 	i = 0;
 	while (tab[i])
 	{
 		nb = tab[i];
 		if (*nb == '-')
+		{
 			nb++;
+			if (!(*nb))
+				return (0);
+		}
 		if (!ft_is_valid_format(nb, BASE_DEC))
 			return (0);
 		i++;

@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+         #
+#    By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/12/01 13:00:31 by jlitaudo          #+#    #+#              #
-#    Updated: 2022/12/13 20:23:46 by Teiki            ###   ########.fr        #
+#    Updated: 2022/12/14 11:39:33 by jlitaudo         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -59,8 +59,7 @@ LIST_CHECK	:=	checking_input.c\
 CHECK_DIR	:=	checking/
 CHECKING	:=	$(addprefix $(CHECK_DIR), $(LIST_CHECK))
 
-LIST_BONUS	:=	algo_sorting_bonus.c\
-				do_instruction.c\
+LIST_BONUS	:=	do_instruction.c\
 				double_action_bonus.c\
 				execute_command.c\
 				main_checker.c\
@@ -125,7 +124,7 @@ $(OBJ_DIR)%.o: $(SRC_DIR)%.c $(HEAD)
 
 $(NAME): 	 $(LIBX_DIR)$(LIBX) ${OBJ} $(HEAD)
 			@echo "$(_BOLD)$(_BLUE)compiling: $@$(_END)"
-			@${CC} -o ${NAME} ${OBJ} $(LIBX_DIR)${LIBX} $(LIBX_DIR)libmlx.a $(FlAG_LIB) #-fsanitize=address -g3
+			@${CC} -o ${NAME} ${OBJ} $(LIBX_DIR)${LIBX} $(FlAG_LIB) #-fsanitize=address -g3
 			@echo "$(_BOLD)$(_WHITE)$@ SUCCESSFULLY CREATED$(_END)"
 
 $(LIBX_DIR)$(LIBX) :
@@ -137,7 +136,7 @@ bonus:		checker
 
 checker:	$(LIBX_DIR)$(LIBX) $(OBJ_BONUS) $(HEAD)
 			@echo "$(_BOLD)$(_BLUE)compiling: $@$(_END)"
-			@${CC} -o ${NAME} ${OBJ} $(LIBX_DIR)${LIBX} $(LIBX_DIR)libmlx.a $(FlAG_LIB) #-fsanitize=address -g3
+			@${CC} -o checker ${OBJ_BONUS} $(LIBX_DIR)${LIBX} $(FlAG_LIB) #-fsanitize=address -g3
 			@echo "$(_BOLD)$(_WHITE)$@ SUCCESSFULLY CREATED$(_END)"
 
 norm:		$(NORM) $(SRC)

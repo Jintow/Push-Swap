@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   push_swap.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
+/*   By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/03 11:26:22 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/13 20:20:18 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/14 11:25:10 by jlitaudo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -77,6 +77,7 @@ void	add_infolst(t_listi **list, t_tab *tab);
 void	gate_away(t_listi **la, t_listi **lb);
 void	print_listi(t_listi *la, t_listi *lb);
 int		central_checking(char **tab_nb, t_tab *tab);
+int		overflowed_nb(char *nb, int sign);
 int		*make_tab(char **str_tab, size_t size);
 
 /* -------------- UTILS FUNCTIONs -----------------*/

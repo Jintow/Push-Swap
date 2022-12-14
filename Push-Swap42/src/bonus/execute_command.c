@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   execute_command.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
+/*   By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/13 19:41:03 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/13 19:47:43 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/14 11:38:08 by jlitaudo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,8 @@ void	execute_command(char *buffer, t_listi **la, t_listi **lb)
 	int		i;
 
 	cmd = ft_split(buffer, '\n');
+	if (!ft_is_inside('\n', buffer) || ft_strnstr(buffer, "\n\n", 1000000))
+		free_print_exit(la, lb, cmd, 0);
 	i = 0;
 	while (cmd[i])
 		if (!do_instruction(cmd[i++], la, lb))
@@ -49,4 +51,5 @@ void	free_print_exit(t_listi **la, t_listi **lb, char **cmd, int out)
 		write(1, "OK\n", 3);
 	else
 		write(1, "KO\n", 3);
+	exit (0);
 }
