@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_printf.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+        */
+/*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/11 17:32:57 by jlitaudo          #+#    #+#             */
-/*   Updated: 2022/12/05 08:57:18 by jlitaudo         ###   ########.fr       */
+/*   Updated: 2022/12/13 10:17:10 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,8 +17,6 @@
 # include <unistd.h>
 # include "libft.h"
 
-# define BASE_HEX_LOW "0123456789abcdef"
-# define BASE_HEX_CAP "0123456789ABCDEF"
 # define MIN_INT -2147483648
 
 int		ft_printf(const char *text, ...);
