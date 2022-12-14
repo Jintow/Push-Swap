@@ -6,7 +6,7 @@
 /*   By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/13 14:21:20 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/14 13:13:14 by jlitaudo         ###   ########.fr       */
+/*   Updated: 2022/12/14 13:57:50 by jlitaudo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,9 +22,7 @@ void	sorting_pilot(t_listi **la, t_tab *tab)
 	lb = NULL;
 	make_tab_piv(tab);
 	add_infolst(la, tab);
-	print_listi(*la, lb);
 	split_categ(la, tab->size_pivot);
-	print_listi(*la, lb);
 	i = tab->size_pivot;
 	while (i > 0)
 	{
