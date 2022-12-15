@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   sorting_pilot_bonus.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+        */
+/*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/13 14:21:20 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/14 10:11:52 by jlitaudo         ###   ########.fr       */
+/*   Updated: 2022/12/15 12:14:48 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,5 +25,10 @@ void	sorting_pilot_bonus(t_listi **la, t_tab *tab)
 	size = 0;
 	while (read(0, &buffer[size], 1))
 		size++;
+	if (buffer[ft_strlen(buffer) - 1] != '\n')
+	{
+		write(2, "Error\n", 6);
+		exit(0);
+	}
 	execute_command(buffer, la, &lb);
 }
