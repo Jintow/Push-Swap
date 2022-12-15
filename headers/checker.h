@@ -6,7 +6,7 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/03 11:26:22 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/13 20:07:54 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/15 12:06:52 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,6 @@
 
 # define CHECKER_H
 
-# include <stdio.h>
 # include "libft.h"
 # include "ft_printf.h"
 # include "push_swap.h"
