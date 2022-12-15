@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main_checker.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+        */
+/*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/13 17:56:26 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/14 09:32:09 by jlitaudo         ###   ########.fr       */
+/*   Updated: 2022/12/15 01:40:40 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,25 +18,25 @@ int	main(int argc, char **argv)
 	t_tab	tab;
 	t_listi	*la;
 	char	**tab_nb;
+	char	*value;
 
-	la = NULL;
 	if (argc == 1)
 		return (0);
+	la = NULL;
+	value = ft_strjoin("", "");
 	i = 0;
-	if (argc == 2)
+	while (argv[++i])
 	{
-		tab_nb = ft_split((argv[1]), ' ');
-		final_checking1(tab_nb, &tab);
-		while (tab_nb[i])
-			ft_lstadd_back_loc(&la, ft_lstnew_loc(ft_atoi(tab_nb[i++])));
-		free_tab(tab_nb);
+		value = ft_strjoin_free(value, argv[i]);
+		value = ft_strjoin_free(value, " ");
 	}
-	else
-	{
-		final_checking2(&argv[1], &tab);
-		while (argv[++i])
-			ft_lstadd_back_loc(&la, ft_lstnew_loc(ft_atoi(argv[i])));
-	}
+	tab_nb = ft_split(value, ' ');
+	free(value);
+	final_checking(tab_nb, &tab);
+	i = 0;
+	while (tab_nb[i])
+		ft_lstadd_back_loc(&la, ft_lstnew_loc(ft_atoi(tab_nb[i++])));
+	free_tab(tab_nb);
 	sorting_pilot_bonus(&la, &tab);
 	return (0);
 }

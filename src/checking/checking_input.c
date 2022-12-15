@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   checking_input.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+        */
+/*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/13 09:22:19 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/14 13:50:24 by jlitaudo         ###   ########.fr       */
+/*   Updated: 2022/12/15 01:34:15 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,20 +18,13 @@ int	no_duplicated_no_sorted_checking(t_tab *tab, int size);
 
 int	central_checking(char **tab_nb, t_tab *tab)
 {
-	int	dup_sort_check;
-
 	if (!characters_checking(tab_nb))
 		return (0);
 	if (!overflowing_checking(tab_nb))
 		return (0);
 	tab->size = size_tab((void **)tab_nb);
-	if (tab->size == 1)
-		return (-1);
 	tab->tab = make_tab(tab_nb, tab->size);
-	dup_sort_check = no_duplicated_no_sorted_checking(tab, tab->size);
-	if (dup_sort_check <= 0)
-		return (dup_sort_check);
-	return (1);
+	return (no_duplicated_no_sorted_checking(tab, tab->size));
 }
 
 int	characters_checking(char **tab)
@@ -113,8 +106,6 @@ int	no_duplicated_no_sorted_checking(t_tab *tab, int size)
 	{
 		if (tab_nb[i] > tab_nb[i + 1])
 			break ;
-		if (tab_nb[i] == tab_nb[i + 1])
-			return (0);
 		i++;
 	}
 	if (i == size -1)
@@ -125,7 +116,7 @@ int	no_duplicated_no_sorted_checking(t_tab *tab, int size)
 	while (i < size - 1)
 	{
 		if (tab_nb[i] == tab_nb[i + 1])
-			return (0);
+			return (-2);
 		i++;
 	}
 	return (1);

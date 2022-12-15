@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+         #
+#    By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/12/01 13:00:31 by jlitaudo          #+#    #+#              #
-#    Updated: 2022/12/14 11:39:33 by jlitaudo         ###   ########.fr        #
+#    Updated: 2022/12/15 01:18:14 by Teiki            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -115,7 +115,7 @@ _WHITE		:=	\x1b[37m
 # 		RULES			#
 #########################
  
-all:		${NAME} checker
+all:		lib ${NAME} checker
 
 $(OBJ_DIR)%.o: $(SRC_DIR)%.c $(HEAD)
 			@mkdir -p $(@D)
@@ -124,10 +124,10 @@ $(OBJ_DIR)%.o: $(SRC_DIR)%.c $(HEAD)
 
 $(NAME): 	 $(LIBX_DIR)$(LIBX) ${OBJ} $(HEAD)
 			@echo "$(_BOLD)$(_BLUE)compiling: $@$(_END)"
-			@${CC} -o ${NAME} ${OBJ} $(LIBX_DIR)${LIBX} $(FlAG_LIB) #-fsanitize=address -g3
+			@${CC} -o ${NAME} ${OBJ} $(LIBX_DIR)${LIBX} $(FlAG_LIB) -fsanitize=address -g3
 			@echo "$(_BOLD)$(_WHITE)$@ SUCCESSFULLY CREATED$(_END)"
 
-$(LIBX_DIR)$(LIBX) :
+lib:
 			@echo "$(_BOLD)$(_PURPLE) Compilation of $(LIBX) begin $(_END)"
 			@make -C $(LIBX_DIR)
 			@echo

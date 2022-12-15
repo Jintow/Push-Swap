@@ -6,7 +6,7 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/08 20:02:39 by jlitaudo          #+#    #+#             */
-/*   Updated: 2022/12/13 10:16:14 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/15 01:05:21 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,6 +51,7 @@ char	*ft_itoa(int nb);
 char	*ft_strchr(const char *str, int c);
 char	*ft_strrchr(const char *str, int c);
 char	*ft_strnstr(const char *str, const char *to_find, size_t len);
+char	*ft_strjoin_free(char *s1, char *s2);
 char	*ft_strjoin(char const *s1, char const *s2);
 char	*ft_strnjoin(char *s1, char *s2, size_t size);
 char	*ft_substr(char const *s, unsigned int start, size_t len);

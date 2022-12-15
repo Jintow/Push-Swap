@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   push_swap.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+        */
+/*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/03 11:26:22 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/14 11:25:10 by jlitaudo         ###   ########.fr       */
+/*   Updated: 2022/12/15 01:43:14 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -68,8 +68,7 @@ void	check_and_pull_back_la(t_listi **la, t_listi **lb, \
 
 /* -------------- INTIALIZATION FUNCTIONS -----------------*/
 
-void	final_checking1(char **tab_nb, t_tab *tab);
-void	final_checking2(char **tab_nb, t_tab *tab);
+void	final_checking(char **tab_nb, t_tab *tab);
 void	sort_merge(t_tab *tab);
 void	make_tab_piv(t_tab	*tab);
 void	split_categ(t_listi **lst, int max_piv);
