@@ -6,7 +6,7 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/15 00:54:40 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/15 01:04:48 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/15 12:01:15 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,18 @@ static char	*ft_free_str(char *str)
 	return (NULL);
 }
 
+static int	test_arg_null(char *s1, char *s2)
+{
+	if (!s1 && !s2)
+		return (0);
+	if (s2 && !(s2[0]))
+	{
+		write(2, "Error\n", 6);
+		exit(0);
+	}
+	return (1);
+}
+
 char	*ft_strjoin_free(char *s1, char *s2)
 {
 	int		i;
@@ -25,7 +37,7 @@ char	*ft_strjoin_free(char *s1, char *s2)
 	int		len2;
 	char	*str_conc;
 
-	if (!s1 && !s2)
+	if (!test_arg_null(s1, s2))
 		return (NULL);
 	len1 = 0;
 	len2 = 0;
