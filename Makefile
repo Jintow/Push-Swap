@@ -6,7 +6,7 @@
 #    By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/12/01 13:00:31 by jlitaudo          #+#    #+#              #
-#    Updated: 2022/12/15 01:18:14 by Teiki            ###   ########.fr        #
+#    Updated: 2022/12/15 15:34:56 by Teiki            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -35,7 +35,6 @@ LIST_SORT	:=	adding_information_to_list.c\
 				pivot_lb.c\
 				re_indexing.c\
 				sorting_pilot.c \
-				sorting_preparation.c\
 				split_categ_sorting.c\
 				split_categ.c\
 

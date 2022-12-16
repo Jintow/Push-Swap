@@ -6,7 +6,7 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/13 16:37:32 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/13 16:54:42 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/15 15:33:31 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,7 +43,7 @@ void	rot_push_swap_lb(t_listi **la, t_listi **lb, int low_piv)
 			rotate(la, 'a');
 	}
 	push(la, lb, 'a');
-	if ((*la)->nbr > (*la)->next->nbr && (*la)->nb_elem_categ <= 5)
+	if ((*la)->nbr > (*la)->next->nbr && (*la)->nb_elem_categ <= 4)
 	{
 		if ((*lb)->nbr < (*lb)->next->nbr)
 			double_swap(la, lb);

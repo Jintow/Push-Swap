@@ -6,7 +6,7 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/12 20:26:35 by jlitaudo          #+#    #+#             */
-/*   Updated: 2022/12/13 18:23:49 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/15 15:41:04 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@ void	check_and_pull_back_lb(t_listi **la, t_listi **lb, int piv, int low_piv)
 			push(la, lb, 'a');
 			re_index_lb(lb, piv, low_piv, 0);
 		}
-		else if ((*lb)->nbr < (*lb)->next->nbr && (*lb)->nb_elem_categ <= 4)
+		else if ((*lb)->nbr < (*lb)->next->nbr && (*lb)->nb_elem_categ <= 3)
 			swap(lb, 'b');
 	}
 }
@@ -51,7 +51,7 @@ void	check_and_pull_back_la(t_listi **la, t_listi **lb, int piv, int low_piv)
 			rev_rotate(la, 'a');
 		if ((*la)->nbr > (*la)->next->nbr && (*la)->nb_elem_categ <= 4)
 		{
-			if ((*lb)->nbr < (*lb)->next->nbr && (*lb)->nb_elem_categ <= 5)
+			if ((*lb)->nbr < (*lb)->next->nbr)
 				double_swap(la, lb);
 			else
 				swap(la, 'a');
