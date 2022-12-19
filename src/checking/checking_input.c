@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   checking_input.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
+/*   By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/13 09:22:19 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/15 01:34:15 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/19 15:16:41 by jlitaudo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -102,13 +102,13 @@ int	no_duplicated_no_sorted_checking(t_tab *tab, int size)
 
 	tab_nb = tab->tab;
 	i = 0;
-	while (i < size - 1)
+	while (i < size - 1 && tab->bonus == 0)
 	{
-		if (tab_nb[i] > tab_nb[i + 1])
+		if (tab_nb[i] >= tab_nb[i + 1])
 			break ;
 		i++;
 	}
-	if (i == size -1)
+	if (i == size - 1)
 		return (-1);
 	sort_merge(tab);
 	tab_nb = tab->tab;

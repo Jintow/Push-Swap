@@ -1,23 +1,17 @@
 import os
 import sys
 import random
-import time
+import subprocess
 
-# Errors must be output on the STDOUT
-
-# python3.9 push_swap.py
-#		'digit' for specify length of args ('-a' to see test args)
-#		'evaluating' for check all
-#		'leaks' for test leaks
-#		'all' test all combinaison of digit
-
-
-int_min = -10000
-int_max = 10000
-
+int_min = -2147483648
+int_max = 2147483647
 makefile_cmd = 'make'
 checker_path = 'checker_Mac'
-push_swap_path = 'push_swap'
+if not os.path.exists(checker_path):
+    checker_path = 'push_Swap-tester/' + checker_path
+push_swap_path = f'{os.path.split(os.path.dirname(__file__))[0]}/push_swap'
+os.popen(makefile_cmd).read()
+eval_pts = {100: {'pts': {700: 5, 900: 4, 1100: 3, 1300: 2, 1500: 1}, 'max': -1}, 500: {'pts': {5500: 5, 7000: 4, 8500: 3, 10000: 2, 11500: 1}, 'max': -1}}
 
 
 # General --------------------------------------------------------
@@ -31,7 +25,7 @@ def error(string_):
 
 
 def cmd_error(args):
-    res = cmd(args)
+    res = cmd(args, True)
     if res != "Error\n":
         error(f"With '{args}' we must have \"Error\", we have '{res}'")
     else:
@@ -53,17 +47,19 @@ def cmd_parsing(args):
 
 
 def cmd_leaks(args):
-    os.system(f'leaks -atExit -- ./{push_swap_path} {args}')
-    time.sleep(0.4)
+    if os.system(f'leaks -atExit -- {push_swap_path} {args}') > 0:
+        print(f'Leaks Error ! With \'{args}\'')
+        exit()
 
 
 # CMD ------------------------------------------------------------
-def cmd(args):
-    return os.popen(f'./{push_swap_path} {args}').read()
+def cmd(args, stderror=False):
+    proc = subprocess.Popen([push_swap_path, args], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    return proc.stderr.read().decode() if stderror else proc.stdout.read().decode()
 
 
 def cmd_check(args):
-    return os.popen(f'./{push_swap_path} {args} | ./{checker_path} {args}').read().removesuffix('\n')
+    return os.popen(f'{push_swap_path} {args} | ./{checker_path} {args}').read().removesuffix('\n')
 
 
 def cmd_count(args):
@@ -122,9 +118,6 @@ def cmd_middle(n):
 
 
 # CODE ---------------------------------------------------------------
-
-os.popen(makefile_cmd).read()
-eval_pts = {100: {'pts': {700: 5, 900: 4, 1100: 3, 1300: 2, 1500: 1}, 'max': -1}, 500: {'pts': {5500: 5, 7000: 4, 8500: 3, 10000: 2, 11500: 1}, 'max': -1}}
 
 if not os.path.exists(push_swap_path) or not os.path.exists(checker_path):
     print(f'Error: don\'t find {push_swap_path} or {checker_path}')

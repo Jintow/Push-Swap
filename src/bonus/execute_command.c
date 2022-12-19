@@ -6,7 +6,7 @@
 /*   By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/13 19:41:03 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/14 11:38:08 by jlitaudo         ###   ########.fr       */
+/*   Updated: 2022/12/19 17:33:28 by jlitaudo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,10 +21,11 @@ void	execute_command(char *buffer, t_listi **la, t_listi **lb)
 	int		i;
 
 	cmd = ft_split(buffer, '\n');
-	if (!ft_is_inside('\n', buffer) || ft_strnstr(buffer, "\n\n", 1000000))
+	if ((!ft_is_inside('\n', buffer) && ft_strlen(buffer) > 0) || \
+		ft_strnstr(buffer, "\n\n", 1000000) || ft_strlen(buffer) == 1)
 		free_print_exit(la, lb, cmd, 0);
 	i = 0;
-	while (cmd[i])
+	while (cmd[i] && ft_strlen(buffer) > 0)
 		if (!do_instruction(cmd[i++], la, lb))
 			free_print_exit(la, lb, cmd, 0);
 	temp = *la;
