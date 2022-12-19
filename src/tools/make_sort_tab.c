@@ -6,7 +6,7 @@
 /*   By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/05 15:02:18 by jlitaudo          #+#    #+#             */
-/*   Updated: 2022/12/09 10:37:08 by jlitaudo         ###   ########.fr       */
+/*   Updated: 2022/12/19 18:46:09 by jlitaudo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,11 @@ int	*make_tab(char **str_tab, size_t size)
 	size_t		i;
 
 	tab = malloc(sizeof(int) * (size));
+	if (!tab)
+	{
+		free_tab(str_tab);
+		exit(EXIT_FAILURE);
+	}
 	i = 0;
 	while (i < size)
 	{

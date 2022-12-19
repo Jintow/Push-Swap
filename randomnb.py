@@ -3,7 +3,7 @@ import string
 import re
 
 res = []
-length = 500
+length = 100
 
 for i in range(length):
     i = random.randint(-100000, 100000)
