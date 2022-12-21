@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   sorting_pilot.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+        */
+/*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/13 14:21:20 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/19 19:32:10 by jlitaudo         ###   ########.fr       */
+/*   Updated: 2022/12/21 14:06:48 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ void	sorting_pilot(t_listi **la, t_tab *tab)
 	t_listi	*lb;
 
 	lb = NULL;
-	make_tab_piv(tab);
+	make_tab_piv(tab, la);
 	add_infolst(la, tab);
 	split_categ(la, tab->size_pivot);
 	i = tab->size_pivot;

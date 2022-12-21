@@ -6,7 +6,7 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/03 11:26:22 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/21 13:26:56 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/21 14:07:47 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -72,7 +72,8 @@ void	check_and_pull_back_la(t_listi **la, t_listi **lb, \
 
 void	final_checking(char **tab_nb, t_tab *tab);
 void	sort_merge(t_tab *tab);
-void	make_tab_piv(t_tab	*tab);
+void	make_tab_piv(t_tab	*tab, t_listi **la);
+void	create_list(t_listi	**la, char **tab_nb);
 void	split_categ(t_listi **lst, int max_piv);
 void	add_infolst(t_listi **list, t_tab *tab);
 void	gate_away(t_listi **la, t_listi **lb);
@@ -80,6 +81,7 @@ void	print_listi(t_listi *la, t_listi *lb);
 int		central_checking(char **tab_nb, t_tab *tab);
 int		overflowed_nb(char *nb, int sign);
 int		*make_tab(char **str_tab, size_t size);
+char	**init_tab(char **argv);
 
 /* -------------- UTILS FUNCTIONs -----------------*/
 

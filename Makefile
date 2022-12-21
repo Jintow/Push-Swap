@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+         #
+#    By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/12/01 13:00:31 by jlitaudo          #+#    #+#              #
-#    Updated: 2022/12/19 13:59:17 by jlitaudo         ###   ########.fr        #
+#    Updated: 2022/12/21 13:54:17 by Teiki            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -43,7 +43,9 @@ SORTING		:=	$(addprefix $(SORT_DIR), $(LIST_SORT))
 
 LIST_TOOLS	:=	chain_list_functions.c\
 				chain_list_functions2.c\
+				create_lista.c\
 				display.c\
+				init_tab.c\
 				make_sort_tab.c\
 				make_tab_piv.c\
 				rotate.c\
