@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   checking_input_final.c                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+        */
+/*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/13 13:59:48 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/19 12:59:37 by jlitaudo         ###   ########.fr       */
+/*   Updated: 2022/12/21 13:39:33 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,6 +31,7 @@ void	final_checking(char **tab_nb, t_tab *tab)
 	}
 	else if (checking == 0)
 	{
+		free_tab(tab_nb);
 		write(2, "Error\n", 6);
 		exit (0);
 	}

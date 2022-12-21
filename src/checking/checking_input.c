@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   checking_input.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+        */
+/*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/13 09:22:19 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/19 15:16:41 by jlitaudo         ###   ########.fr       */
+/*   Updated: 2022/12/21 13:27:23 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,7 @@ int	central_checking(char **tab_nb, t_tab *tab)
 		return (0);
 	tab->size = size_tab((void **)tab_nb);
 	tab->tab = make_tab(tab_nb, tab->size);
+	tab->str_tab = tab_nb;
 	return (no_duplicated_no_sorted_checking(tab, tab->size));
 }
 

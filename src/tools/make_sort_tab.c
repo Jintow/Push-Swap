@@ -3,16 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   make_sort_tab.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jlitaudo <jlitaudo@student.42.fr>          +#+  +:+       +#+        */
+/*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/05 15:02:18 by jlitaudo          #+#    #+#             */
-/*   Updated: 2022/12/19 18:46:09 by jlitaudo         ###   ########.fr       */
+/*   Updated: 2022/12/21 13:32:56 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
 void	merge_tab(t_tab *tab_g, t_tab *tab_d, t_tab *tab_tot);
+void	exit_and_free(t_tab *tab, int *tab_temp);
 
 int	*make_tab(char **str_tab, size_t size)
 {
@@ -50,7 +51,11 @@ void	sort_merge(t_tab *tab)
 		sort_merge(&tab_g);
 		sort_merge(&tab_d);
 		tab_g.tab = ft_intdup(tab_g.tab, tab_g.size);
+		if (!tab_g.tab)
+			exit_and_free(tab, NULL);
 		tab_d.tab = ft_intdup(tab_d.tab, tab_d.size);
+		if (!tab_d.tab)
+			exit_and_free(tab, tab_g.tab);
 		merge_tab(&tab_g, &tab_d, tab);
 	}
 }
@@ -77,4 +82,13 @@ void	merge_tab(t_tab *tab_g, t_tab *tab_d, t_tab *tab_tot)
 		tab_tot->tab[k++] = tab_g->tab[i++];
 	free(tab_g->tab);
 	free(tab_d->tab);
+}
+
+void	exit_and_free(t_tab *tab, int *tab_temp)
+{
+	free(tab->tab);
+	free_tab(tab->str_tab);
+	if (tab_temp)
+		free(tab_temp);
+	exit (EXIT_FAILURE);
 }
