@@ -6,7 +6,7 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/13 09:22:19 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/21 13:27:23 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/22 12:53:19 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,15 @@
 int	characters_checking(char **tab);
 int	overflowing_checking(char **tab);
 int	no_duplicated_no_sorted_checking(t_tab *tab, int size);
+
+/*
+	Central checking function.
+	- Return (0) if there is non-digit char in the arguments
+		or an overflowed number.
+	- Return (-1) if arguments are already strictly sorted.
+	- Return (-2) if there is a duplicated number.
+	- Return (1) if everything is good.
+*/
 
 int	central_checking(char **tab_nb, t_tab *tab)
 {
@@ -27,6 +36,11 @@ int	central_checking(char **tab_nb, t_tab *tab)
 	tab->str_tab = tab_nb;
 	return (no_duplicated_no_sorted_checking(tab, tab->size));
 }
+
+/*
+	Function that check if there is only digits in input arguments,
+	except the first '-' sign for negative numbers.
+*/
 
 int	characters_checking(char **tab)
 {
@@ -67,6 +81,12 @@ int	overflowed_nb(char *nb, int sign)
 	return (0);
 }
 
+/*
+	Function that checks the potential overflowing input arguments.
+	First zeros are passed, len of the number is compared to the maximum 
+	integer len (10). 
+*/
+
 int	overflowing_checking(char **tab)
 {
 	int		i;
@@ -95,6 +115,12 @@ int	overflowing_checking(char **tab)
 	}
 	return (1);
 }
+
+/*
+	Function that looks first if arguments are strictly sorted.
+	If not it will then check if there is a duplicated numbered in the inputs
+	arguments using a sorted tab.
+*/
 
 int	no_duplicated_no_sorted_checking(t_tab *tab, int size)
 {

@@ -6,13 +6,19 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/12 20:26:35 by jlitaudo          #+#    #+#             */
-/*   Updated: 2022/12/15 15:41:04 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/22 15:05:27 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
 int	checking_last_piv(t_listi *lb, int low_piv);
+
+/*
+	Function that recalls all the elements of a sub-list at the top.
+	It checks in the same time if the recalled element car be directly
+	pushed into list-A. In this case, it calls the reindexing function.
+*/
 
 void	check_and_pull_back_lb(t_listi **la, t_listi **lb, int piv, int low_piv)
 {
@@ -35,6 +41,12 @@ void	check_and_pull_back_lb(t_listi **la, t_listi **lb, int piv, int low_piv)
 	}
 }
 
+/*
+	Function that recalls all the elements of a sub-list at the top.
+	It checks in the same time if the recalled element is directly
+	well placed in list-A. In this case, it calls the reindexing function.
+*/
+
 void	check_and_pull_back_la(t_listi **la, t_listi **lb, int piv, int low_piv)
 {
 	t_listi	*temp;
@@ -49,6 +61,7 @@ void	check_and_pull_back_la(t_listi **la, t_listi **lb, int piv, int low_piv)
 			double_rev_rotate(la, lb);
 		else
 			rev_rotate(la, 'a');
+		re_index_la(la, low_piv);
 		if ((*la)->nbr > (*la)->next->nbr && (*la)->nb_elem_categ <= 4)
 		{
 			if ((*lb)->nbr < (*lb)->next->nbr)
@@ -58,6 +71,11 @@ void	check_and_pull_back_la(t_listi **la, t_listi **lb, int piv, int low_piv)
 		}
 	}
 }
+
+/*
+	Function that prevent an infinite loop in the case of only one
+	sub-list remaining elements in list-B.
+*/
 
 int	checking_last_piv(t_listi *lb, int low_piv)
 {

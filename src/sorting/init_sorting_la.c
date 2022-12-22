@@ -6,7 +6,7 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/09 18:19:40 by jlitaudo          #+#    #+#             */
-/*   Updated: 2022/12/13 18:29:07 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/22 16:05:21 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,14 @@
 int		cond_swap_lb(t_listi **lb);
 void	sort_when_zero_second(t_listi **la, t_listi **lb, int piv, int low_piv);
 void	sort_when_zero_first(t_listi **la, t_listi **lb, int piv, int low_piv);
+
+/*
+	Function that check if the next number is alrealdy well placed
+	into list-A. In this case it will "reindex" the relative position
+	of each remaining element of the current sub-list.
+	Then if there 3 or less elements in the current sub-list the function will
+	sort them.
+*/
 
 void	init_sorting_la(t_listi **la, t_listi **lb, int piv, int low_piv)
 {
@@ -30,6 +38,7 @@ void	init_sorting_la(t_listi **la, t_listi **lb, int piv, int low_piv)
 			double_swap(la, lb);
 		else
 			swap(la, 'a');
+		re_index_la(la, low_piv);
 	}
 	else if (count == 3)
 		sort_when_zero_second(la, lb, piv, low_piv);
@@ -47,8 +56,6 @@ void	sort_when_zero_second(t_listi **la, t_listi **lb, int piv, int low_piv)
 			else
 				swap(la, 'a');
 		}
-		if (cond_swap_lb(lb))
-			swap(lb, 'b');
 		double_rev_rotate(la, lb);
 		if ((*la)->nbr > (*la)->next->nbr)
 		{
@@ -57,6 +64,7 @@ void	sort_when_zero_second(t_listi **la, t_listi **lb, int piv, int low_piv)
 				double_swap(la, lb);
 			else
 				swap(la, 'a');
+			(*la)->pos -= 1;
 		}
 		re_index_la(la, low_piv);
 	}

@@ -6,7 +6,7 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/12 20:16:55 by jlitaudo          #+#    #+#             */
-/*   Updated: 2022/12/13 18:34:35 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/22 15:57:33 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,12 @@
 void	if_categ_down_mod3(t_listi *temp, int max);
 void	if_categ_up_mod3(t_listi *temp, int max);
 void	if_categ_mod3(t_listi *temp, int max);
+
+/*
+	Function that splits a sub-list wheter it contains 3 elements or more.
+	The way to split depends on the number of element in the sub-list in order
+	to maintain an harmony between the splitted sub-lists.
+*/
 
 void	split_categ_sorting(t_listi **lst, int piv, int low_piv, int max)
 {

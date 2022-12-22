@@ -6,7 +6,7 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/03 11:26:22 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/21 14:07:47 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/22 14:34:50 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,20 +48,20 @@ typedef struct s_nb_elem
 
 /* ------------- SORTING FUNCTIONS -----------------*/
 
-void	pivot(t_listi **la, t_listi **lb, int i_piv);
-void	pivot2(t_listi **la, t_listi **lb, int i_piv);
+void	pivot(t_listi **la, t_listi **lb, int piv);
+void	pivot2(t_listi **la, t_listi **lb, int piv);
 void	pivot_la(t_listi **la, t_listi **lb, int piv, int low_piv);
 void	pivot_lb(t_listi **la, t_listi **lb, int piv, int low_piv);
 void	sorting_pilot(t_listi **la, t_tab *tab);
-void	sorting_la(t_listi **la, t_listi **lb, int i_piv, int low_piv);
-void	sorting_lb(t_listi **la, t_listi **lb, int i_piv, int low_piv);
+void	sorting_la(t_listi **la, t_listi **lb, int piv, int low_piv);
+void	sorting_lb(t_listi **la, t_listi **lb, int piv, int low_piv);
 void	init_sorting_lb(t_listi **la, t_listi **lb, int piv, int low_piv);
 void	init_sorting_la(t_listi **la, t_listi **lb, int piv, int low_piv);
 void	re_index_la(t_listi **la, int low_piv);
 void	re_index_lb(t_listi **lst, int piv, int low_piv, int nb);
 void	split_categ_sorting(t_listi **lst, int piv, int low_piv, int max);
 int		no_more_piv(t_listi	*lst, int piv);
-int		no_more_low_piv(t_listi	*lst, int i_piv, int low_piv);
+int		no_more_low_piv(t_listi	*lst, int piv, int low_piv);
 int		count_elem_in_categ(t_listi	**lst, int piv, int low_piv);
 void	check_and_pull_back_lb(t_listi **la, t_listi **lb, \
 	int piv, int low_piv);

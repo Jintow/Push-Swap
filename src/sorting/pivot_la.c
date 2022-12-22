@@ -6,7 +6,7 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/13 16:27:52 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/15 15:36:15 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/22 16:02:20 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,14 @@
 
 void	rot_push_swap_la(t_listi **la, t_listi **lb, int low_piv);
 void	rot_or_double_rot(t_listi **la, t_listi **lb, int low_piv);
+
+/*
+	Function that reproduces the pivot sorting in the previous function
+	sorting_pilot.
+	First sub-list to sort (low_piv - 1) is sent at the top of list-B.
+	Second sub-list to sort (low_piv) is sent at the bottom of list-A.
+	Third sub-list to sort (low_piv + 1) is sent at the bottom of list-B.
+*/
 
 void	pivot_la(t_listi **la, t_listi **lb, int piv, int low_piv)
 {

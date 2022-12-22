@@ -6,11 +6,16 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/21 13:50:33 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/21 13:51:28 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/22 12:58:56 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
+
+/*
+	Function that put all input arguments in one string.
+	Then it split it to create an array of string.
+*/
 
 char	**init_tab(char **argv)
 {

@@ -6,13 +6,17 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/08 15:14:32 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/13 18:28:39 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/22 14:07:17 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
 void	add_relative_position(t_listi *lst, t_tab *tab);
+
+/*
+	Function that add information to each element of the list.
+*/
 
 void	add_infolst(t_listi **list, t_tab *tab)
 {
@@ -25,6 +29,14 @@ void	add_infolst(t_listi **list, t_tab *tab)
 		lst = lst->next;
 	}
 }
+
+/*
+	Function that add the position of each number among its
+	sub list (list->piv information).
+	A sub-list correspond to all the number between two pivots number.
+	The pivot of each sub-list is then the highest number of this sub-list,
+	so the one with a position (index) of 0 in this sub-list;
+*/
 
 void	add_relative_position(t_listi *lst, t_tab *tab)
 {

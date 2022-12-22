@@ -6,7 +6,7 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/05 15:02:18 by jlitaudo          #+#    #+#             */
-/*   Updated: 2022/12/21 13:32:56 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/22 16:09:43 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,6 +34,10 @@ int	*make_tab(char **str_tab, size_t size)
 	}
 	return (tab);
 }
+
+/*
+	Function that make a sorted tab of the numbers with a fusion method.
+*/
 
 void	sort_merge(t_tab *tab)
 {

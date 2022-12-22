@@ -6,13 +6,19 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/13 14:21:20 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/21 14:06:48 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/22 14:23:36 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
 void	sort_two_or_three(t_listi **la, t_listi **lb);
+
+/*
+	Function that do the first sort of list-A elements.
+	Each elements go to list-B in a way depending of its
+	sub-list (list->piv & list->low_piv information); 
+*/
 
 void	sorting_pilot(t_listi **la, t_tab *tab)
 {
@@ -45,6 +51,10 @@ void	gate_away(t_listi **la, t_listi **lb)
 	ft_lstclear_loc(lb);
 	exit (0);
 }
+
+/*
+	Sorting of the remaining element (no more than 3) in list-A.
+*/
 
 void	sort_two_or_three(t_listi **la, t_listi **lb)
 {

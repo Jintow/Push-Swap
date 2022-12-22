@@ -6,13 +6,21 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/12 18:12:54 by jlitaudo          #+#    #+#             */
-/*   Updated: 2022/12/21 14:07:09 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/22 13:50:45 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
 void	init_malloc_tab(t_tab *tab, size_t size_pivot, t_listi **la);
+
+/*
+	Function that create an array of pivot of the given number list.
+	The sorted number list is cut by 2 until getting 3 or less number.
+	Pivots correspond to the mid number value of each cut list.
+	The position (index) of each of these pivots among the whole list
+	is saved in an other array (tab_pivot_ind).
+*/
 
 void	make_tab_piv(t_tab	*tab, t_listi **la)
 {
