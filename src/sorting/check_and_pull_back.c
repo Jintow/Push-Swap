@@ -6,7 +6,7 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/12 20:26:35 by jlitaudo          #+#    #+#             */
-/*   Updated: 2022/12/22 15:05:27 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/22 16:13:46 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ int	checking_last_piv(t_listi *lb, int low_piv);
 
 /*
 	Function that recalls all the elements of a sub-list at the top.
-	It checks in the same time if the recalled element car be directly
+	It checks in the same time if the recalled element can be directly
 	pushed into list-A. In this case, it calls the reindexing function.
 */
 

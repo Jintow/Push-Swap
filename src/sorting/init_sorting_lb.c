@@ -6,7 +6,7 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/12 20:05:18 by jlitaudo          #+#    #+#             */
-/*   Updated: 2022/12/22 15:27:47 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/22 16:14:04 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ void	sort_three_lb(t_listi **la, t_listi **lb);
 /*
 	Function that check if the next number can be directly pushed
 	into list-A. In this case it will "reindex" the relative position
-	of each remaining of the current sub-list.
+	of each remaining element of the current sub-list.
 	The process is called newly until the moment the next mumber is not
 	easily reachable or there is no more element of the current sub-list.
 */

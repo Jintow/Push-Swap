@@ -6,7 +6,7 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/08 23:55:36 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/22 16:05:53 by Teiki            ###   ########.fr       */
+/*   Updated: 2022/12/22 16:13:05 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@
 	elemets. 
 	They call each other to sort the splitted sub-lists until getting a sub-list
 	with 3 elements or less.
-	From the moment where no more elements of a sub-list exist they'll sort the
+	From the moment where no more elements of a sub-list exist, they'll sort the
 	next "low-piv" of the same "piv" sub-list.
 	If no more "low_piv" of a sub-list remains (when "low_piv" value outmod 1)
 	"sorting_lb" begins to sort the next "piv" sub-list.
