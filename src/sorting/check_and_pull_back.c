@@ -6,7 +6,7 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/12 20:26:35 by jlitaudo          #+#    #+#             */
-/*   Updated: 2022/12/22 16:13:46 by Teiki            ###   ########.fr       */
+/*   Updated: 2023/02/28 22:12:52 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,6 @@ int	checking_last_piv(t_listi *lb, int low_piv);
 	It checks in the same time if the recalled element can be directly
 	pushed into list-A. In this case, it calls the reindexing function.
 */
-
 void	check_and_pull_back_lb(t_listi **la, t_listi **lb, int piv, int low_piv)
 {
 	if (!(*lb) || !(*la))
@@ -46,7 +45,6 @@ void	check_and_pull_back_lb(t_listi **la, t_listi **lb, int piv, int low_piv)
 	It checks in the same time if the recalled element is directly
 	well placed in list-A. In this case, it calls the reindexing function.
 */
-
 void	check_and_pull_back_la(t_listi **la, t_listi **lb, int piv, int low_piv)
 {
 	t_listi	*temp;

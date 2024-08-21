@@ -6,7 +6,7 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/08 23:55:36 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/22 16:13:05 by Teiki            ###   ########.fr       */
+/*   Updated: 2023/02/28 22:11:27 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,6 @@
 	If no more "low_piv" of a sub-list remains (when "low_piv" value outmod 1)
 	"sorting_lb" begins to sort the next "piv" sub-list.
 */
-
 void	sorting_lb(t_listi **la, t_listi **lb, int piv, int low_piv)
 {
 	int	count;

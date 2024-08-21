@@ -6,7 +6,7 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/08 14:43:21 by Teiki             #+#    #+#             */
-/*   Updated: 2022/12/22 14:34:03 by Teiki            ###   ########.fr       */
+/*   Updated: 2024/08/20 15:29:16 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,6 +40,7 @@ void	pivot2(t_listi **la, t_listi **lb, int piv)
 			break ;
 	}
 	i += test_rev_rot(la, lb, piv);
+	(void)i;
 }
 
 int	test_rot_push2(t_listi **la, t_listi **lb, int piv)

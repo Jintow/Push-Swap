@@ -6,7 +6,7 @@
 /*   By: Teiki <Teiki@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/12 20:05:18 by jlitaudo          #+#    #+#             */
-/*   Updated: 2022/12/22 16:14:04 by Teiki            ###   ########.fr       */
+/*   Updated: 2024/08/20 15:22:43 by Teiki            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -83,9 +83,6 @@ void	sort_two_lb(t_listi **la, t_listi **lb, int piv, int low_piv)
 
 void	sort_three_lb(t_listi **la, t_listi **lb)
 {
-	t_listi	*temp;
-
-	temp = *lb;
 	rotate(lb, 'b');
 	if ((*la)->nbr > (*la)->next->nbr)
 		double_swap(la, lb);
